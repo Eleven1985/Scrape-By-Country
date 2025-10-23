@@ -1,4 +1,4 @@
-# 📊 提取结果 (最后更新: 2025-10-23 17:47:45 CST)
+# 📊 提取结果 (最后更新: 2025-10-23 17:49:17 CST)
 
 此文件是自动生成的。
 
@@ -7,7 +7,7 @@
 - **配置总数**: 1154
 - **有数据的协议数**: 4
 - **国家相关配置数**: 7
-- **有配置的国家数**: 4
+- **有配置的国家数**: 3
 
 ## ℹ️ 说明
 
@@ -30,8 +30,7 @@
 
 | 国家 | 相关配置数量 | 链接 |
 |---|---|---|
-| <img src="https://flagcdn.com/w20/jp.png" width="20" alt="Japan flag"> Japan | 1 | [`Japan.txt`](https://raw.githubusercontent.com/miladtahanian/V2RayScrapeByCountry/refs/heads/main/output_configs/countries/Japan.txt) |
-| <img src="https://flagcdn.com/w20/sg.png" width="20" alt="Singapore flag"> Singapore | 1 | [`Singapore.txt`](https://raw.githubusercontent.com/miladtahanian/V2RayScrapeByCountry/refs/heads/main/output_configs/countries/Singapore.txt) |
+| <img src="https://flagcdn.com/w20/jp.png" width="20" alt="Japan flag"> Japan | 2 | [`Japan.txt`](https://raw.githubusercontent.com/miladtahanian/V2RayScrapeByCountry/refs/heads/main/output_configs/countries/Japan.txt) |
 | <img src="https://flagcdn.com/w20/kr.png" width="20" alt="SouthKorea flag"> SouthKorea | 1 | [`SouthKorea.txt`](https://raw.githubusercontent.com/miladtahanian/V2RayScrapeByCountry/refs/heads/main/output_configs/countries/SouthKorea.txt) |
 | <img src="https://flagcdn.com/w20/us.png" width="20" alt="USA flag"> USA | 4 | [`USA.txt`](https://raw.githubusercontent.com/miladtahanian/V2RayScrapeByCountry/refs/heads/main/output_configs/countries/USA.txt) |
 
