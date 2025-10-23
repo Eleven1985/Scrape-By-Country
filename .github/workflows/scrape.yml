@@ -3,8 +3,7 @@ name: V2Ray Scraper
 on:
   workflow_dispatch:
   schedule:
-    - cron:"0 */12 * * *"  # Run every 8 hours
-
+    - cron:"0,15,30,45 * * * *"
 permissions:
   contents: write
 
