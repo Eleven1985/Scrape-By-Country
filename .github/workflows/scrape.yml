@@ -43,6 +43,6 @@ jobs:
             echo "No changes detected. Skipping commit."
           else
             echo "Changes detected. Committing and pushing..."
-            git commit -m "docs: Update README and config files [ $(date -u +'%Y-%m-%d %H:%M:%S') UTC]"
+            git commit -m "docs: Update README and config files [skip ci]"
             git push
           fi
