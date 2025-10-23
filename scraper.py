@@ -42,25 +42,30 @@ def is_non_english_text(text):
     """检查文本是否包含非英语字符（如波斯语、阿拉伯语等特殊字符）"""
     if not isinstance(text, str) or not text.strip():
         return False
-    # 定义常见非英语字符范围（波斯语、阿拉伯语等）
-    non_latin_ranges = [
+    
+    # 定义非拉丁字符范围，但排除常见的国家名称和代码可能使用的字符
+    # 我们需要更精确地识别真正需要过滤的字符
+    problematic_char_ranges = [
         ('\u0600', '\u06FF'),  # 阿拉伯语及波斯语
         ('\u0750', '\u077F'),  # 阿拉伯文补充
         ('\u08A0', '\u08FF'),  # 阿拉伯文扩展-A
-        ('\uFB50', '\uFDFF'),  # 阿拉伯文表现形式-A
-        ('\uFE70', '\uFEFF'),  # 阿拉伯文表现形式-B
-        ('\u1EE00', '\u1EEFF') # 阿拉伯文数学符号
     ]
     
-    # 检查是否包含非拉丁字符
+    # 检查是否包含问题字符
     for char in text:
-        # 如果字符在非拉丁字符范围内
-        for start, end in non_latin_ranges:
+        # 只检查真正可能导致问题的字符范围
+        for start, end in problematic_char_ranges:
             if start <= char <= end:
                 return True
-        # 检查其他特殊字符
-        if char in ['\u200C', '\u200D']:  # 零宽连接符
+    
+    # 只过滤零宽连接符等真正的问题字符
+    problematic_chars = ['\u200C', '\u200D']  # 零宽连接符
+    for char in text:
+        if char in problematic_chars:
             return True
+    
+    # 保留常见的国家名称字符，包括中文、日语、韩语等
+    # 这些字符对于国家识别很重要，不应该被过滤
     return False
 
 # --- Base64 Decoding Helper ---
@@ -114,7 +119,7 @@ def get_vmess_name(vmess_config):
         try:
             vmess_data = json.loads(decoded)
             # 尝试从不同字段获取名称
-            for name_field in ['ps', 'name', 'remarks']:
+            for name_field in ['ps', 'name', 'remarks', 'tag']:
                 if name_field in vmess_data and isinstance(vmess_data[name_field], str):
                     return vmess_data[name_field].strip()
         except Exception:
@@ -174,6 +179,104 @@ def get_ssr_name(ssr_config):
     except Exception:
         return None
 
+def get_trojan_name(trojan_config):
+    """
+    从Trojan配置中提取名称信息
+    参数:
+        trojan_config: Trojan配置字符串
+    返回:
+        提取的名称字符串或None
+    """
+    try:
+        # 确保输入是字符串
+        if not isinstance(trojan_config, str) or not trojan_config.startswith('trojan://'):
+            return None
+        
+        # Trojan URL 格式: trojan://password@hostname:port#name
+        # 检查是否有 # 后的名称部分
+        if '#' in trojan_config:
+            try:
+                name_part = trojan_config.split('#', 1)[1]
+                return unquote(name_part).strip()
+            except Exception:
+                pass
+        
+        # 尝试从URL路径或查询参数中提取名称
+        parts = trojan_config.split('?')
+        if len(parts) > 1:
+            try:
+                params = parse_qs(parts[1])
+                for name_key in ['name', 'remarks', 'ps']:
+                    if name_key in params:
+                        return unquote(params[name_key][0]).strip()
+            except Exception:
+                pass
+        
+        return None
+    except Exception:
+        return None
+
+def get_vless_name(vless_config):
+    """
+    从VLESS配置中提取名称信息
+    参数:
+        vless_config: VLESS配置字符串
+    返回:
+        提取的名称字符串或None
+    """
+    try:
+        # 确保输入是字符串
+        if not isinstance(vless_config, str) or not vless_config.startswith('vless://'):
+            return None
+        
+        # 检查是否有 # 后的名称部分
+        if '#' in vless_config:
+            try:
+                name_part = vless_config.split('#', 1)[1]
+                return unquote(name_part).strip()
+            except Exception:
+                pass
+        
+        # 尝试从URL查询参数中提取名称
+        parts = vless_config.split('?')
+        if len(parts) > 1:
+            try:
+                params = parse_qs(parts[1])
+                for name_key in ['name', 'remarks', 'ps']:
+                    if name_key in params:
+                        return unquote(params[name_key][0]).strip()
+            except Exception:
+                pass
+        
+        return None
+    except Exception:
+        return None
+
+def get_shadowsocks_name(ss_config):
+    """
+    从Shadowsocks配置中提取名称信息
+    参数:
+        ss_config: Shadowsocks配置字符串
+    返回:
+        提取的名称字符串或None
+    """
+    try:
+        # 确保输入是字符串
+        if not isinstance(ss_config, str) or not ss_config.startswith('ss://'):
+            return None
+        
+        # 检查是否有 # 后的名称部分
+        if '#' in ss_config:
+            try:
+                name_part = ss_config.split('#', 1)[1]
+                return unquote(name_part).strip()
+            except Exception:
+                pass
+        
+        return None
+    except Exception:
+        return None
+
 # --- New Filter Function ---
 def should_filter_config(config):
     """根据特定规则过滤无效或低质量的配置"""
@@ -184,13 +287,23 @@ def should_filter_config(config):
     if FILTERED_PHRASE in config.lower():
         return True
     
-    # 检查过度URL编码
+    # 放宽URL编码检查，减少误判
     percent25_count = config.count('%25')
-    if percent25_count >= MIN_PERCENT25_COUNT or '%2525' in config:
+    if percent25_count >= MIN_PERCENT25_COUNT * 2:  # 提高阈值以减少误判
         return True
     
-    # 检查配置长度
-    if len(config) >= MAX_CONFIG_LENGTH:
+    # 检查配置长度，适当放宽限制
+    if len(config) >= MAX_CONFIG_LENGTH * 2:  # 提高阈值以减少误判
+        return True
+    
+    # 基本的有效性检查：确保配置包含协议前缀
+    has_valid_protocol = False
+    for protocol_prefix in PROTOCOL_PREFIXES:
+        if protocol_prefix in config.lower():
+            has_valid_protocol = True
+            break
+    
+    if not has_valid_protocol:
         return True
     
     return False
@@ -322,7 +435,7 @@ def save_to_file(directory, category_name, items_set):
     return False, 0
 
 # --- 使用旗帜图像生成简单的README函数 ---
-def generate_simple_readme(protocol_counts, country_counts, all_keywords_data, github_repo_path="miladtahanian/V2RayScrapeByCountry", github_branch="main"):
+def generate_simple_readme(protocol_counts, country_counts, all_keywords_data, use_local_paths=True):
     """生成README.md文件，展示抓取结果统计信息"""
     # 确保输入参数是字典类型
     if not isinstance(protocol_counts, dict):
@@ -340,9 +453,16 @@ def generate_simple_readme(protocol_counts, country_counts, all_keywords_data, g
     countries_with_data = len(country_counts)
     protocols_with_data = len(protocol_counts)
 
-    # 构建子目录的URL路径
-    protocol_base_url = f"https://raw.githubusercontent.com/{github_repo_path}/refs/heads/{github_branch}/{OUTPUT_DIR}/{PROTOCOL_SUBDIR}"
-    country_base_url = f"https://raw.githubusercontent.com/{github_repo_path}/refs/heads/{github_branch}/{OUTPUT_DIR}/{COUNTRY_SUBDIR}"
+    # 构建子目录的路径
+    if use_local_paths:
+        protocol_base_url = f"{OUTPUT_DIR}/{PROTOCOL_SUBDIR}"
+        country_base_url = f"{OUTPUT_DIR}/{COUNTRY_SUBDIR}"
+    else:
+        # 保留GitHub远程路径支持作为备用
+        github_repo_path = "miladtahanian/V2RayScrapeByCountry"
+        github_branch = "main"
+        protocol_base_url = f"https://raw.githubusercontent.com/{github_repo_path}/refs/heads/{github_branch}/{OUTPUT_DIR}/{PROTOCOL_SUBDIR}"
+        country_base_url = f"https://raw.githubusercontent.com/{github_repo_path}/refs/heads/{github_branch}/{OUTPUT_DIR}/{COUNTRY_SUBDIR}"
 
     md_content = f"# 📊 提取结果 (最后更新: {timestamp})\n\n"
     md_content += "此文件是自动生成的。\n\n"
@@ -578,8 +698,13 @@ async def main():
                     name_to_check = get_ssr_name(config)
                 elif config.startswith('vmess://'):
                     name_to_check = get_vmess_name(config)
-                # 3. 可以扩展支持更多协议格式的名称提取
-                # 例如trojan, vless等
+                elif config.startswith('trojan://'):
+                    name_to_check = get_trojan_name(config)
+                elif config.startswith('vless://'):
+                    name_to_check = get_vless_name(config)
+                elif config.startswith('ss://'):
+                    name_to_check = get_shadowsocks_name(config)
+                # 其他协议的名称提取支持
 
             # 如果无法获取名称，跳过此配置
             if not name_to_check or not isinstance(name_to_check, str):
@@ -594,43 +719,73 @@ async def main():
                 if not isinstance(keywords_for_country_list, list):
                     continue
                     
-                # 准备此国家的文本关键词
+                # 准备此国家的文本关键词，保留所有有效的关键词
                 text_keywords_for_country = []
                 for kw in keywords_for_country_list:
-                    if isinstance(kw, str):
-                        # 过滤条件：不是非字母数字的短代码（可能是表情符号）
-                        if not ((1 <= len(kw) <= 7) and not kw.isalnum()):
-                            # 只添加非外语字符串，或与国家名相同的字符串
-                            if not is_non_english_text(kw) or kw.lower() == country_name_key.lower():
-                                if kw not in text_keywords_for_country:
-                                    text_keywords_for_country.append(kw)
+                    if isinstance(kw, str) and kw.strip():
+                        # 移除过度的过滤，只过滤掉空字符串和纯表情符号
+                        # 允许所有有效的国家关键词，包括非英语字符
+                        if len(kw.strip()) > 0:
+                            # 只添加唯一的关键词
+                            if kw not in text_keywords_for_country:
+                                text_keywords_for_country.append(kw)
                 
                 # 检查是否匹配任何关键词
                 match_found = False
                 current_name_lower = current_name_to_check_str.lower()
                 
+                # 添加调试日志
+                if processed_pages % 50 == 0:
+                    logging.debug(f"处理配置名称: '{current_name_to_check_str}' 长度: {len(current_name_to_check_str)}")
+                
                 for keyword in text_keywords_for_country:
                     if not isinstance(keyword, str):
                         continue
                         
+                    # 移除关键词前后空格
+                    keyword = keyword.strip()
+                    if not keyword:
+                        continue
+                        
                     # 对缩写使用单词边界匹配，对普通词使用包含匹配
                     is_abbr = (len(keyword) in [2, 3]) and keyword.isupper() and keyword.isalpha()
+                    keyword_lower = keyword.lower()
                     
                     if is_abbr:
-                        # 对于缩写，使用单词边界确保精确匹配
+                        # 对于缩写，使用更灵活的匹配策略
                         try:
+                            # 尝试精确匹配缩写
                             pattern = r'\b' + re.escape(keyword) + r'\b'
                             if re.search(pattern, current_name_to_check_str, re.IGNORECASE):
                                 match_found = True
+                                logging.debug(f"国家'{country_name_key}' 匹配缩写: '{keyword}'")
                                 break
+                            # 尝试另一种方式：在配置名称中查找国家代码，允许前后有非字母字符
+                            if keyword_lower in current_name_lower:
+                                # 检查是否是独立的国家代码，避免匹配到其他单词中包含的字母组合
+                                parts = re.split(r'[^a-zA-Z]', current_name_to_check_str.lower())
+                                if keyword_lower in parts:
+                                    match_found = True
+                                    logging.debug(f"国家'{country_name_key}' 匹配分割后缩写: '{keyword}'")
+                                    break
                         except Exception:
                             # 静默跳过正则匹配错误
                             pass
                     else:
-                        # 对于普通关键词，使用不区分大小写的包含检查
-                        if keyword.lower() in current_name_lower:
-                            match_found = True
-                            break
+                        # 对于普通关键词，使用更精确的匹配
+                        # 对于多语言关键词，使用更宽松的匹配策略
+                        if not is_non_english_text(keyword):
+                            # 英语关键词使用严格的包含检查
+                            if keyword_lower in current_name_lower:
+                                match_found = True
+                                logging.debug(f"国家'{country_name_key}' 匹配英语关键词: '{keyword}'")
+                                break
+                        else:
+                            # 非英语关键词使用直接比较
+                            if keyword in current_name_to_check_str or keyword_lower in current_name_lower:
+                                match_found = True
+                                logging.debug(f"国家'{country_name_key}' 匹配非英语关键词: '{keyword}'")
+                                break
                 
                 if match_found:
                     final_configs_by_country[country_name_key].add(config)
@@ -704,9 +859,7 @@ async def main():
     
     # 生成README文件
     try:
-        generate_simple_readme(protocol_counts, country_counts, categories_data,
-                               github_repo_path="miladtahanian/V2RayScrapeByCountry",
-                               github_branch="main")
+        generate_simple_readme(protocol_counts, country_counts, categories_data, use_local_paths=True)
     except Exception as e:
         logging.error(f"生成README文件时出错: {e}")
         # 继续执行，不中断程序
