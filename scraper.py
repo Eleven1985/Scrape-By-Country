@@ -12,9 +12,12 @@ import base64
 from urllib.parse import parse_qs, unquote
 
 # --- 配置常量 ---
-URLS_FILE = 'urls.txt'
-KEYWORDS_FILE = 'keywords.json' # 应包含国家的两字母代码
+CONFIG_DIR = 'config'  # 配置文件夹，用于存放输入文件
+URLS_FILE = os.path.join(CONFIG_DIR, 'urls.txt')
+KEYWORDS_FILE = os.path.join(CONFIG_DIR, 'keywords.json') # 应包含国家的两字母代码
 OUTPUT_DIR = 'output_configs'
+COUNTRY_SUBDIR = 'countries'  # 国家配置文件夹
+PROTOCOL_SUBDIR = 'protocols' # 协议配置文件夹
 README_FILE = 'README.md'
 REQUEST_TIMEOUT = 15
 CONCURRENT_REQUESTS = 10
@@ -36,17 +39,29 @@ PROTOCOL_PREFIXES = [p.lower() + "://" for p in PROTOCOL_CATEGORIES]
 
 # --- 检查非英语文本的辅助函数 ---
 def is_non_english_text(text):
-    """检查文本是否包含非英语字符（主要是波斯语等）"""
+    """检查文本是否包含非英语字符（如波斯语、阿拉伯语等特殊字符）"""
     if not isinstance(text, str) or not text.strip():
         return False
-    has_non_latin_char = False
-    has_latin_char = False
+    # 定义常见非英语字符范围（波斯语、阿拉伯语等）
+    non_latin_ranges = [
+        ('\u0600', '\u06FF'),  # 阿拉伯语及波斯语
+        ('\u0750', '\u077F'),  # 阿拉伯文补充
+        ('\u08A0', '\u08FF'),  # 阿拉伯文扩展-A
+        ('\uFB50', '\uFDFF'),  # 阿拉伯文表现形式-A
+        ('\uFE70', '\uFEFF'),  # 阿拉伯文表现形式-B
+        ('\u1EE00', '\u1EEFF') # 阿拉伯文数学符号
+    ]
+    
+    # 检查是否包含非拉丁字符
     for char in text:
-        if '\u0600' <= char <= '\u06FF' or char in ['\u200C', '\u200D']: # 非拉丁字符范围和零宽连接符
-            has_non_latin_char = True
-        elif 'a' <= char.lower() <= 'z':
-            has_latin_char = True
-    return has_non_latin_char and not has_latin_char
+        # 如果字符在非拉丁字符范围内
+        for start, end in non_latin_ranges:
+            if start <= char <= end:
+                return True
+        # 检查其他特殊字符
+        if char in ['\u200C', '\u200D']:  # 零宽连接符
+            return True
+    return False
 
 # --- Base64 Decoding Helper ---
 def decode_base64(data):
@@ -65,58 +80,99 @@ def decode_base64(data):
         return None
 
 # --- 协议名称提取辅助函数 ---
-def get_vmess_name(vmess_link):
-    """从Vmess链接中提取配置名称"""
-    if not vmess_link or not vmess_link.startswith("vmess://"):
-        return None
-        
+def get_vmess_name(vmess_config):
+    """
+    从VMess配置中提取名称信息
+    参数:
+        vmess_config: VMess配置字符串
+    返回:
+        提取的名称字符串或None
+    """
     try:
-        b64_part = vmess_link[8:]  # 移除"vmess://"前缀
-        decoded_str = decode_base64(b64_part)
-        
-        if decoded_str:
-            try:
-                vmess_json = json.loads(decoded_str)
-                # 尝试从不同可能的字段获取名称
-                return vmess_json.get('ps') or vmess_json.get('name') or vmess_json.get('remarks')
-            except json.JSONDecodeError:
-                logging.warning(f"Vmess链接解码后的内容不是有效的JSON: {vmess_link[:30]}...")
-    except Exception as e:
-        logging.debug(f"解析Vmess名称失败: {vmess_link[:30]}...: {e}")  # 使用debug级别减少日志噪音
-        
-    return None
-
-def get_ssr_name(ssr_link):
-    """从SSR链接中提取配置名称"""
-    if not ssr_link or not ssr_link.startswith("ssr://"):
-        return None
-        
-    try:
-        b64_part = ssr_link[6:]  # 移除"ssr://"前缀
-        decoded_str = decode_base64(b64_part)
-        
-        if not decoded_str:
+        # 确保输入是字符串
+        if not isinstance(vmess_config, str) or not vmess_config.startswith('vmess://'):
             return None
-            
-        # SSR链接格式: server:port:protocol:method:obfs:password/?params
-        parts = decoded_str.split('/?')
+        
+        # 移除前缀
+        encoded_part = vmess_config[8:]
+        
+        # 尝试解码
+        try:
+            # 添加必要的填充
+            padded = encoded_part + '=' * ((4 - len(encoded_part) % 4) % 4)
+            decoded = base64.b64decode(padded).decode('utf-8')
+        except Exception:
+            # 如果标准解码失败，尝试URL解码后再base64解码
+            try:
+                encoded_part = unquote(encoded_part)
+                padded = encoded_part + '=' * ((4 - len(encoded_part) % 4) % 4)
+                decoded = base64.b64decode(padded).decode('utf-8')
+            except Exception:
+                return None
+        
+        # 解析JSON并尝试获取名称
+        try:
+            vmess_data = json.loads(decoded)
+            # 尝试从不同字段获取名称
+            for name_field in ['ps', 'name', 'remarks']:
+                if name_field in vmess_data and isinstance(vmess_data[name_field], str):
+                    return vmess_data[name_field].strip()
+        except Exception:
+            return None
+        
+        return None
+    except Exception:
+        return None
+
+def get_ssr_name(ssr_config):
+    """
+    从SSR配置中提取名称信息
+    参数:
+        ssr_config: SSR配置字符串
+    返回:
+        提取的名称字符串或None
+    """
+    try:
+        # 确保输入是字符串
+        if not isinstance(ssr_config, str) or not ssr_config.startswith('ssr://'):
+            return None
+        
+        # 移除前缀
+        encoded_part = ssr_config[6:]
+        
+        # 尝试解码
+        try:
+            # 添加必要的填充
+            padded = encoded_part + '=' * ((4 - len(encoded_part) % 4) % 4)
+            decoded = base64.b64decode(padded).decode('utf-8')
+        except Exception:
+            # 如果标准解码失败，尝试URL解码后再base64解码
+            try:
+                encoded_part = unquote(encoded_part)
+                padded = encoded_part + '=' * ((4 - len(encoded_part) % 4) % 4)
+                decoded = base64.b64decode(padded).decode('utf-8')
+            except Exception:
+                return None
+        
+        # SSR格式: server:port:protocol:method:obfs:password_base64/?params
+        parts = decoded.split('/?')
         if len(parts) < 2:
             return None
             
-        params_str = parts[1]
-        try:
-            params = parse_qs(params_str)
-            if 'remarks' in params and params['remarks']:
-                remarks_b64 = params['remarks'][0]
-                # SSR的remarks参数本身也是base64编码的
-                return decode_base64(remarks_b64)
-        except Exception as e:
-            logging.debug(f"解析SSR参数失败: {e}")
-            
-    except Exception as e:
-        logging.debug(f"解析SSR名称失败: {ssr_link[:30]}...: {e}")  # 使用debug级别减少日志噪音
+        # 解析参数部分并获取remarks
+        params = parse_qs(parts[1])
+        if 'remarks' in params:
+            try:
+                remarks_encoded = params['remarks'][0]
+                # 解码remarks
+                padded_remarks = remarks_encoded + '=' * ((4 - len(remarks_encoded) % 4) % 4)
+                return base64.b64decode(padded_remarks).decode('utf-8', errors='ignore')
+            except Exception:
+                return None
         
-    return None
+        return None
+    except Exception:
+        return None
 
 # --- New Filter Function ---
 def should_filter_config(config):
@@ -268,6 +324,12 @@ def save_to_file(directory, category_name, items_set):
 # --- 使用旗帜图像生成简单的README函数 ---
 def generate_simple_readme(protocol_counts, country_counts, all_keywords_data, github_repo_path="miladtahanian/V2RayScrapeByCountry", github_branch="main"):
     """生成README.md文件，展示抓取结果统计信息"""
+    # 确保输入参数是字典类型
+    if not isinstance(protocol_counts, dict):
+        protocol_counts = {}
+    if not isinstance(country_counts, dict):
+        country_counts = {}
+    
     tz = pytz.timezone('Asia/Shanghai')
     now = datetime.now(tz)
     timestamp = now.strftime("%Y-%m-%d %H:%M:%S %Z")
@@ -278,7 +340,9 @@ def generate_simple_readme(protocol_counts, country_counts, all_keywords_data, g
     countries_with_data = len(country_counts)
     protocols_with_data = len(protocol_counts)
 
-    raw_github_base_url = f"https://raw.githubusercontent.com/{github_repo_path}/refs/heads/{github_branch}/{OUTPUT_DIR}"
+    # 构建子目录的URL路径
+    protocol_base_url = f"https://raw.githubusercontent.com/{github_repo_path}/refs/heads/{github_branch}/{OUTPUT_DIR}/{PROTOCOL_SUBDIR}"
+    country_base_url = f"https://raw.githubusercontent.com/{github_repo_path}/refs/heads/{github_branch}/{OUTPUT_DIR}/{COUNTRY_SUBDIR}"
 
     md_content = f"# 📊 提取结果 (最后更新: {timestamp})\n\n"
     md_content += "此文件是自动生成的。\n\n"
@@ -291,13 +355,14 @@ def generate_simple_readme(protocol_counts, country_counts, all_keywords_data, g
     md_content += "## ℹ️ 说明\n\n"
     md_content += "国家文件仅包含在**配置名称**中找到国家名称/旗帜的配置。配置名称首先从链接的`#`部分提取，如果不存在，则从内部名称(对于Vmess/SSR)提取。\n\n"
     md_content += "过度URL编码的配置(包含大量`%25`、过长或包含特定关键词的)已从结果中删除。\n\n"
+    md_content += "所有输出文件已按类别整理到不同目录中，便于查找和使用。\n\n"
 
     md_content += "## 📁 协议文件\n\n"
     if protocol_counts:
         md_content += "| 协议 | 总数 | 链接 |\n"
         md_content += "|---|---|---|\n"
         for category_name, count in sorted(protocol_counts.items()):
-            file_link = f"{raw_github_base_url}/{category_name}.txt"
+            file_link = f"{protocol_base_url}/{category_name}.txt"
             md_content += f"| {category_name} | {count} | [`{category_name}.txt`]({file_link}) |\n"
     else:
         md_content += "没有找到协议配置。\n"
@@ -309,57 +374,30 @@ def generate_simple_readme(protocol_counts, country_counts, all_keywords_data, g
         md_content += "|---|---|---|\n"
         for country_category_name, count in sorted(country_counts.items()):
             flag_image_markdown = "" # 用于保存旗帜图像HTML标签
-            foreign_name_str = "" # 外语名称
-            iso_code_original_case = "" # 用于保存来自JSON文件的原始大小写ISO代码
-
+            
+            # 查找国家的两字母ISO代码用于旗帜图像URL
             if country_category_name in all_keywords_data:
                 keywords_list = all_keywords_data[country_category_name]
                 if keywords_list and isinstance(keywords_list, list):
-                    # 1. 查找国家的两字母ISO代码用于旗帜图像URL
-                    iso_code_lowercase_for_url = ""
                     for item in keywords_list:
                         if isinstance(item, str) and len(item) == 2 and item.isupper() and item.isalpha():
                             iso_code_lowercase_for_url = item.lower()
-                            iso_code_original_case = item # 保存原始大小写的代码
+                            # 使用flagcdn.com，宽度为20像素
+                            flag_image_url = f"https://flagcdn.com/w20/{iso_code_lowercase_for_url}.png"
+                            flag_image_markdown = f'<img src="{flag_image_url}" width="20" alt="{country_category_name} flag">'
                             break 
-                    
-                    if iso_code_lowercase_for_url:
-                        # 使用flagcdn.com，宽度为20像素
-                        flag_image_url = f"https://flagcdn.com/w20/{iso_code_lowercase_for_url}.png"
-                        flag_image_markdown = f'<img src="{flag_image_url}" width="20" alt="{country_category_name} flag">'
-                    
-                    # 2. 提取外语名称
-                    for item in keywords_list:
-                        if isinstance(item, str):
-                            # 忽略ISO代码(用于旗帜的那个)
-                            if iso_code_original_case and item == iso_code_original_case:
-                                continue
-                            # 忽略国家的原始名称(JSON键)
-                            if item.lower() == country_category_name.lower() and not is_non_english_text(item):
-                                continue
-                            # 忽略其他未被选为ISO代码的大写两或三字母代码
-                            if len(item) in [2,3] and item.isupper() and item.isalpha() and item != iso_code_original_case:
-                                continue
-                            
-                            # 如果是非英语文本
-                            if is_non_english_text(item):
-                                foreign_name_str = item
-                                break 
-            
-            # 3. 为"国家"列构建最终文本
+
+            # 为"国家"列构建最终文本
             display_parts = []
             # 如果旗帜图像标签已创建
             if flag_image_markdown:
                 display_parts.append(flag_image_markdown)
             
             display_parts.append(country_category_name) # 原始名称 (键)
-
-            if foreign_name_str:
-                display_parts.append(f"({foreign_name_str})")
             
             country_display_text = " ".join(display_parts)
             
-            file_link = f"{raw_github_base_url}/{country_category_name}.txt"
+            file_link = f"{country_base_url}/{country_category_name}.txt"
             link_text = f"{country_category_name}.txt"
             md_content += f"| {country_display_text} | {count} | [`{link_text}`]({file_link}) |\n"
     else:
@@ -369,16 +407,29 @@ def generate_simple_readme(protocol_counts, country_counts, all_keywords_data, g
     try:
         with open(README_FILE, 'w', encoding='utf-8') as f:
             f.write(md_content)
-        logging.info(f"Successfully generated {README_FILE}")
+        logging.info(f"成功生成 {README_FILE}")
     except Exception as e:
-        logging.error(f"Failed to write {README_FILE}: {e}")
+        logging.error(f"写入 {README_FILE} 失败: {e}")
 
 # main函数和其他函数实现
 async def main():
     """主函数，协调整个抓取和处理流程"""
+    # 确保配置文件夹存在
+    try:
+        os.makedirs(CONFIG_DIR, exist_ok=True)
+    except Exception as e:
+        logging.error(f"创建配置文件夹 '{CONFIG_DIR}' 失败: {e}")
+    
     # 检查必要的输入文件是否存在
     if not os.path.exists(URLS_FILE) or not os.path.exists(KEYWORDS_FILE):
-        logging.critical("未找到输入文件。")
+        missing_files = []
+        if not os.path.exists(URLS_FILE):
+            missing_files.append(f"URLs文件: {URLS_FILE}")
+        if not os.path.exists(KEYWORDS_FILE):
+            missing_files.append(f"关键词文件: {KEYWORDS_FILE}")
+        
+        logging.critical(f"未找到输入文件:\n- {chr(10)}- ".join(missing_files))
+        logging.info(f"请确保这些文件已放在 {CONFIG_DIR} 文件夹中")
         return
 
     # 加载URL和关键词数据
@@ -545,18 +596,14 @@ async def main():
                     
                 # 准备此国家的文本关键词
                 text_keywords_for_country = []
-                try:
-                    for kw in keywords_for_country_list:
-                        if isinstance(kw, str):
-                            # 过滤条件：不是非字母数字的短代码（可能是表情符号）
-                            is_potential_emoji_or_short_code = (1 <= len(kw) <= 7) and not kw.isalnum()
-                            if not is_potential_emoji_or_short_code:
-                                # 只添加非外语字符串，或与国家名相同的字符串
-                                if not is_non_english_text(kw) or kw.lower() == country_name_key.lower():
-                                    if kw not in text_keywords_for_country:
-                                        text_keywords_for_country.append(kw)
-                except Exception as e:
-                    logging.debug(f"处理国家关键词时出错 {country_name_key}: {e}")
+                for kw in keywords_for_country_list:
+                    if isinstance(kw, str):
+                        # 过滤条件：不是非字母数字的短代码（可能是表情符号）
+                        if not ((1 <= len(kw) <= 7) and not kw.isalnum()):
+                            # 只添加非外语字符串，或与国家名相同的字符串
+                            if not is_non_english_text(kw) or kw.lower() == country_name_key.lower():
+                                if kw not in text_keywords_for_country:
+                                    text_keywords_for_country.append(kw)
                 
                 # 检查是否匹配任何关键词
                 match_found = False
@@ -576,10 +623,11 @@ async def main():
                             if re.search(pattern, current_name_to_check_str, re.IGNORECASE):
                                 match_found = True
                                 break
-                        except Exception as e:
-                            logging.debug(f"正则表达式匹配失败 {keyword}: {e}")
+                        except Exception:
+                            # 静默跳过正则匹配错误
+                            pass
                     else:
-                        # 对于普通关键词，使用不区分大小写的包含检查（已预先计算小写版本提高性能）
+                        # 对于普通关键词，使用不区分大小写的包含检查
                         if keyword.lower() in current_name_lower:
                             match_found = True
                             break
@@ -595,7 +643,15 @@ async def main():
     # 统计信息日志
     logging.info(f"成功处理 {processed_pages}/{len(fetched_pages)} 个页面，找到 {found_configs} 个有效配置，过滤掉 {filtered_out_configs} 个无效配置")
     
-    # 准备输出目录
+    # 确保删除任何可能的旧国家计数数据，重新基于集合大小计算
+    country_counts = {}
+    
+    # 国家计数将在保存文件时基于集合大小计算，此处删除重复代码
+    
+    # 准备输出目录结构
+    country_dir = os.path.join(OUTPUT_DIR, COUNTRY_SUBDIR)
+    protocol_dir = os.path.join(OUTPUT_DIR, PROTOCOL_SUBDIR)
+    
     if os.path.exists(OUTPUT_DIR):
         try:
             shutil.rmtree(OUTPUT_DIR)
@@ -611,34 +667,40 @@ async def main():
                 logging.error(f"重命名旧目录失败: {inner_e}")
                 # 继续执行，让os.makedirs处理可能的目录存在情况
     
-    # 确保输出目录存在
+    # 确保输出目录结构存在
     try:
-        os.makedirs(OUTPUT_DIR, exist_ok=True)
+        os.makedirs(country_dir, exist_ok=True)
+        os.makedirs(protocol_dir, exist_ok=True)
         logging.info(f"正在保存文件到目录: {OUTPUT_DIR}")
+        logging.info(f"国家配置将保存到: {country_dir}")
+        logging.info(f"协议配置将保存到: {protocol_dir}")
     except (PermissionError, OSError) as e:
-        logging.critical(f"无法创建输出目录 {OUTPUT_DIR}: {e}")
+        logging.critical(f"无法创建输出目录: {e}")
         return
 
     # 保存协议配置文件
     protocol_counts = {}
     for category, items in final_all_protocols.items():
         if items:  # 只保存非空集合
-            saved, count = save_to_file(OUTPUT_DIR, category, items)
+            saved, count = save_to_file(protocol_dir, category, items)
             if saved:
                 protocol_counts[category] = count
     
-    # 保存国家配置文件
+    # 保存国家配置文件并确保计数准确
     country_counts = {}
     countries_with_configs = 0
     total_country_configs = 0
     
     for category, items in final_configs_by_country.items():
         if items:  # 只保存非空集合
-            saved, count = save_to_file(OUTPUT_DIR, category, items)
+            # 确保使用集合的实际大小作为计数
+            actual_count = len(items)
+            saved, count = save_to_file(country_dir, category, items)
             if saved:
-                country_counts[category] = count
+                country_counts[category] = actual_count
                 countries_with_configs += 1
-                total_country_configs += count
+                total_country_configs += actual_count
+                logging.debug(f"已保存国家配置: {category}, 节点数量: {actual_count}")
     
     # 生成README文件
     try:
@@ -654,7 +716,9 @@ async def main():
     logging.info(f"找到并保存的协议配置: {sum(protocol_counts.values())}")
     logging.info(f"有配置的国家数量: {countries_with_configs}")
     logging.info(f"国家相关配置总数: {total_country_configs}")
-    logging.info(f"输出目录: {OUTPUT_DIR}")
+    logging.info(f"输出目录结构:")
+    logging.info(f"- 协议配置: {os.path.join(OUTPUT_DIR, PROTOCOL_SUBDIR)}")
+    logging.info(f"- 国家配置: {os.path.join(OUTPUT_DIR, COUNTRY_SUBDIR)}")
     logging.info(f"README文件已更新: {README_FILE}")
 
 if __name__ == "__main__":
