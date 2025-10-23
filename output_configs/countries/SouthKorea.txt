@@ -1,1 +1,1 @@
-ss://f61a4285-7264-4d07-9408-7b9ba1922c26@14.39.99.235:50000?encryption=none&security=tls&sni=gaosir.unfeeling.sbs&type=ws&host=gaosir.unfeeling.sbs&path=%2FX%40freecodes%2F%3Fed%3D2560#KR%E9%9F%A9%E5%9B%BD%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29
+vless://f61a4285-7264-4d07-9408-7b9ba1922c26@58.143.198.82:18097?encryption=none&security=tls&sni=gaosir.unfeeling.sbs&type=ws&host=gaosir.unfeeling.sbs&path=Telegram%40freecodes%2F%3Fed%3D2560#KR%E9%9F%A9%E5%9B%BD%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29
