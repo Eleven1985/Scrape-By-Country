@@ -790,10 +790,10 @@ async def main():
                 if match_found:
                     final_configs_by_country[country_name_key].add(config)
                     country_matched = True
-                    break  # 一个配置只关联到一个国家
+                    logging.debug(f"配置已关联到国家: {country_name_key}")
+                    # 移除这里的break，允许配置匹配多个国家
                 
-            if country_matched:
-                break
+            # 移除这里的break，确保每个配置都能被完全处理
 
     # 统计信息日志
     logging.info(f"成功处理 {processed_pages}/{len(fetched_pages)} 个页面，找到 {found_configs} 个有效配置，过滤掉 {filtered_out_configs} 个无效配置")
