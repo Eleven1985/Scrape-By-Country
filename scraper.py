@@ -36,11 +36,6 @@ PROTOCOL_CATEGORIES = [
 ]
 # 预编译协议前缀列表，提高性能
 PROTOCOL_PREFIXES = [p.lower() + "://" for p in PROTOCOL_CATEGORIES]
-# 额外的协议别名前缀
-ADDITIONAL_PROTOCOL_PREFIXES = {
-    "Hysteria2": ["hy2://"],
-    "WireGuard": ["wg://"]
-}
 
 # --- 检查非英语文本的辅助函数 ---
 def is_non_english_text(text):
@@ -278,159 +273,6 @@ def get_shadowsocks_name(ss_config):
             except Exception:
                 pass
         
-        # 尝试从URL查询参数中提取名称
-        parts = ss_config.split('?')
-        if len(parts) > 1:
-            try:
-                params = parse_qs(parts[1])
-                for name_key in ['name', 'remarks', 'ps']:
-                    if name_key in params:
-                        return unquote(params[name_key][0]).strip()
-            except Exception:
-                pass
-        
-        return None
-    except Exception:
-        return None
-
-def get_tuic_name(tuic_config):
-    """
-    从Tuic配置中提取名称信息
-    参数:
-        tuic_config: Tuic配置字符串
-    返回:
-        提取的名称字符串或None
-    """
-    try:
-        # 确保输入是字符串
-        if not isinstance(tuic_config, str) or not tuic_config.startswith('tuic://'):
-            return None
-        
-        # 检查是否有 # 后的名称部分
-        if '#' in tuic_config:
-            try:
-                name_part = tuic_config.split('#', 1)[1]
-                return unquote(name_part).strip()
-            except Exception:
-                pass
-        
-        # 尝试从URL查询参数中提取名称
-        parts = tuic_config.split('?')
-        if len(parts) > 1:
-            try:
-                params = parse_qs(parts[1])
-                for name_key in ['name', 'remarks', 'ps']:
-                    if name_key in params:
-                        return unquote(params[name_key][0]).strip()
-            except Exception:
-                pass
-        
-        return None
-    except Exception:
-        return None
-
-def get_hysteria2_name(hy2_config):
-    """
-    从Hysteria2配置中提取名称信息
-    参数:
-        hy2_config: Hysteria2配置字符串
-    返回:
-        提取的名称字符串或None
-    """
-    try:
-        # 确保输入是字符串
-        if not isinstance(hy2_config, str):
-            return None
-        
-        # 支持hy2://和hysteria2://前缀
-        config_lower = hy2_config.lower()
-        if not (config_lower.startswith('hy2://') or config_lower.startswith('hysteria2://')):
-            return None
-        
-        # 检查是否有 # 后的名称部分
-        if '#' in hy2_config:
-            try:
-                name_part = hy2_config.split('#', 1)[1]
-                return unquote(name_part).strip()
-            except Exception:
-                pass
-        
-        # 尝试从URL查询参数中提取名称
-        parts = hy2_config.split('?')
-        if len(parts) > 1:
-            try:
-                params = parse_qs(parts[1])
-                for name_key in ['name', 'remarks', 'ps', 'tag']:
-                    if name_key in params:
-                        return unquote(params[name_key][0]).strip()
-            except Exception:
-                pass
-        
-        return None
-    except Exception:
-        return None
-
-def get_wireguard_name(wg_config):
-    """
-    从WireGuard配置中提取名称信息
-    参数:
-        wg_config: WireGuard配置字符串
-    返回:
-        提取的名称字符串或None
-    """
-    try:
-        # 确保输入是字符串
-        if not isinstance(wg_config, str):
-            return None
-        
-        # 支持wireguard://和wg://前缀
-        config_lower = wg_config.lower()
-        if not (config_lower.startswith('wireguard://') or config_lower.startswith('wg://')):
-            return None
-        
-        # 检查是否有 # 后的名称部分
-        if '#' in wg_config:
-            try:
-                name_part = wg_config.split('#', 1)[1]
-                return unquote(name_part).strip()
-            except Exception:
-                pass
-        
-        # 尝试从URL查询参数中提取名称
-        parts = wg_config.split('?')
-        if len(parts) > 1:
-            try:
-                params = parse_qs(parts[1])
-                for name_key in ['name', 'remarks', 'ps', 'tag']:
-                    if name_key in params:
-                        return unquote(params[name_key][0]).strip()
-            except Exception:
-                pass
-        
-        # 对于base64编码的WireGuard配置，尝试解码查找名称
-        try:
-            prefix = 'wireguard://' if config_lower.startswith('wireguard://') else 'wg://'
-            encoded_part = wg_config[len(prefix):]
-            
-            # 尝试解码base64部分
-            decoded = decode_base64(encoded_part)
-            if decoded:
-                # 尝试从解码后的配置中查找名称相关信息
-                for line in decoded.split('\n'):
-                    if line.strip().lower().startswith('#'):
-                        # 注释行可能包含名称信息
-                        comment_text = line.strip()[1:].strip()
-                        if comment_text:
-                            return comment_text
-                    elif '=' in line:
-                        key, value = line.split('=', 1)
-                        key = key.strip().lower()
-                        value = value.strip().strip('"').strip("'")
-                        if key in ['name', 'remarks', 'ps', 'tag', 'description']:
-                            return value
-        except Exception:
-            pass
-        
         return None
     except Exception:
         return None
@@ -445,34 +287,21 @@ def should_filter_config(config):
     if FILTERED_PHRASE in config.lower():
         return True
     
-    # 进一步放宽URL编码检查，减少误判
+    # 放宽URL编码检查，减少误判
     percent25_count = config.count('%25')
-    if percent25_count >= MIN_PERCENT25_COUNT * 4:  # 再次提高阈值
+    if percent25_count >= MIN_PERCENT25_COUNT * 2:  # 提高阈值以减少误判
         return True
     
-    # 进一步放宽配置长度限制
-    if len(config) >= MAX_CONFIG_LENGTH * 3:  # 再次提高阈值
+    # 检查配置长度，适当放宽限制
+    if len(config) >= MAX_CONFIG_LENGTH * 2:  # 提高阈值以减少误判
         return True
     
-    # 增强的协议前缀检查
+    # 基本的有效性检查：确保配置包含协议前缀
     has_valid_protocol = False
-    config_lower = config.lower()
-    
-    # 检查标准协议前缀
     for protocol_prefix in PROTOCOL_PREFIXES:
-        if protocol_prefix in config_lower:
+        if protocol_prefix in config.lower():
             has_valid_protocol = True
             break
-    
-    # 如果没有匹配标准前缀，检查别名前缀
-    if not has_valid_protocol:
-        for protocol, aliases in ADDITIONAL_PROTOCOL_PREFIXES.items():
-            for alias in aliases:
-                if alias in config_lower:
-                    has_valid_protocol = True
-                    break
-            if has_valid_protocol:
-                break
     
     if not has_valid_protocol:
         return True
@@ -532,112 +361,13 @@ async def fetch_url(session, url):
     return url, None
 
 def find_matches(text, categories_data):
-    """根据正则表达式模式在文本中查找匹配项，优化内存使用并增强协议识别"""
+    """根据正则表达式模式在文本中查找匹配项，优化内存使用"""
     if not text or not isinstance(text, str):
         return {}
         
-    # 增强的协议模式定义
-    PROTOCOL_PATTERNS = {
-        "Vmess": [
-            r'vmess:\/\/[^ \n\r<"\']+',
-            r'vmess:\/\/[a-zA-Z0-9_\-\.\~]+(?:%[0-9a-fA-F]{2})*(?:[a-zA-Z0-9_\-\.\~\/\?\#\[\]\@\!\$\&\'\(\)\*\+\,\;\=\:]|%[0-9a-fA-F]{2})*'
-        ],
-        "Vless": [
-            r'vless:\/\/[^ \n\r<"\']+',
-            r'vless:\/\/[a-zA-Z0-9_\-\.\~]+(?:%[0-9a-fA-F]{2})*(?:[a-zA-Z0-9_\-\.\~\/\?\#\[\]\@\!\$\&\'\(\)\*\+\,\;\=\:]|%[0-9a-fA-F]{2})*'
-        ],
-        "Trojan": [
-            r'trojan:\/\/[^ \n\r<"\']+',
-            r'trojan:\/\/[a-zA-Z0-9_\-\.\~]+(?:%[0-9a-fA-F]{2})*(?:[a-zA-Z0-9_\-\.\~\/\?\#\[\]\@\!\$\&\'\(\)\*\+\,\;\=\:]|%[0-9a-fA-F]{2})*'
-        ],
-        "ShadowSocks": [
-            r'ss:\/\/[^ \n\r<"\']+',
-            r'ss:\/\/[a-zA-Z0-9_\-\.\~]+(?:%[0-9a-fA-F]{2})*(?:[a-zA-Z0-9_\-\.\~\/\?\#\[\]\@\!\$\&\'\(\)\*\+\,\;\=\:]|%[0-9a-fA-F]{2})*'
-        ],
-        "ShadowSocksR": [
-            r'ssr:\/\/[^ \n\r<"\']+',
-            r'ssr:\/\/[a-zA-Z0-9_\-\.\~]+(?:%[0-9a-fA-F]{2})*(?:[a-zA-Z0-9_\-\.\~\/\?\#\[\]\@\!\$\&\'\(\)\*\+\,\;\=\:]|%[0-9a-fA-F]{2})*'
-        ],
-        "Tuic": [
-            r'tuic:\/\/[^ \n\r<"\']+',
-            r'tuic:\/\/[a-zA-Z0-9_\-\.\~]+(?:%[0-9a-fA-F]{2})*(?:[a-zA-Z0-9_\-\.\~\/\?\#\[\]\@\!\$\&\'\(\)\*\+\,\;\=\:]|%[0-9a-fA-F]{2})*'
-        ],
-        "Hysteria2": [
-            r'hy2:\/\/[^ \n\r<"\']+',
-            r'hysteria2:\/\/[^ \n\r<"\']+',
-            r'hy2:\/\/[a-zA-Z0-9_\-\.\~]+(?:%[0-9a-fA-F]{2})*(?:[a-zA-Z0-9_\-\.\~\/\?\#\[\]\@\!\$\&\'\(\)\*\+\,\;\=\:]|%[0-9a-fA-F]{2})*',
-            r'hysteria2:\/\/[a-zA-Z0-9_\-\.\~]+(?:%[0-9a-fA-F]{2})*(?:[a-zA-Z0-9_\-\.\~\/\?\#\[\]\@\!\$\&\'\(\)\*\+\,\;\=\:]|%[0-9a-fA-F]{2})*'
-        ],
-        "WireGuard": [
-            r'wireguard:\/\/[^ \n\r<"\']+',
-            r'wg:\/\/[^ \n\r<"\']+',
-            r'wireguard:\/\/[a-zA-Z0-9_\-\.\~]+(?:%[0-9a-fA-F]{2})*(?:[a-zA-Z0-9_\-\.\~\/\?\#\[\]\@\!\$\&\'\(\)\*\+\,\;\=\:]|%[0-9a-fA-F]{2})*',
-            r'wg:\/\/[a-zA-Z0-9_\-\.\~]+(?:%[0-9a-fA-F]{2})*(?:[a-zA-Z0-9_\-\.\~\/\?\#\[\]\@\!\$\&\'\(\)\*\+\,\;\=\:]|%[0-9a-fA-F]{2})*'
-        ]
-    }
-    
     # 只初始化有模式的类别，节省内存
     matches = {}
     
-    # 增强的协议匹配策略：先使用直接前缀匹配，再使用正则表达式
-    # 1. 首先使用直接字符串搜索提取所有可能的协议链接
-    all_protocol_matches = {}
-    
-    # 收集所有协议前缀
-    all_prefixes = []
-    for protocol in PROTOCOL_CATEGORIES:
-        all_prefixes.append(protocol.lower() + "://")
-    
-    # 添加别名前缀
-    for protocol, aliases in ADDITIONAL_PROTOCOL_PREFIXES.items():
-        all_prefixes.extend(aliases)
-    
-    # 直接搜索所有协议前缀
-    for prefix in all_prefixes:
-        prefix_lower = prefix.lower()
-        text_lower = text.lower()
-        start_pos = 0
-        
-        while True:
-            pos = text_lower.find(prefix_lower, start_pos)
-            if pos == -1:
-                break
-            
-            # 找到前缀后，提取完整的URL直到遇到空白字符或结束符
-            end_pos = pos + len(prefix_lower)
-            while end_pos < len(text) and text[end_pos] not in [' ', '\n', '\r', '\t', '<', '"', "'"]:
-                end_pos += 1
-            
-            # 提取完整的配置字符串
-            full_config = text[pos:end_pos]
-            if full_config:
-                # 确定协议类别
-                protocol_category = None
-                if prefix_lower.startswith('vmess://'):
-                    protocol_category = "Vmess"
-                elif prefix_lower.startswith('vless://'):
-                    protocol_category = "Vless"
-                elif prefix_lower.startswith('trojan://'):
-                    protocol_category = "Trojan"
-                elif prefix_lower.startswith('ss://') and not prefix_lower.startswith('ssr://'):
-                    protocol_category = "ShadowSocks"
-                elif prefix_lower.startswith('ssr://'):
-                    protocol_category = "ShadowSocksR"
-                elif prefix_lower.startswith('tuic://'):
-                    protocol_category = "Tuic"
-                elif prefix_lower.startswith('hy2://') or prefix_lower.startswith('hysteria2://'):
-                    protocol_category = "Hysteria2"
-                elif prefix_lower.startswith('wireguard://') or prefix_lower.startswith('wg://'):
-                    protocol_category = "WireGuard"
-                
-                if protocol_category:
-                    if protocol_category not in all_protocol_matches:
-                        all_protocol_matches[protocol_category] = set()
-                    all_protocol_matches[protocol_category].add(full_config)
-            
-            start_pos = end_pos + 1
-    
-    # 2. 使用增强的正则表达式进行匹配
     for category, patterns in categories_data.items():
         # 只处理非空的模式列表
         if not patterns or not isinstance(patterns, list):
@@ -645,27 +375,6 @@ def find_matches(text, categories_data):
             
         category_matches = set()
         
-        # 如果已经有直接匹配的结果，先添加它们
-        if category in all_protocol_matches:
-            category_matches.update(all_protocol_matches[category])
-        
-        # 添加内置的协议模式
-        if category in PROTOCOL_PATTERNS:
-            for pattern_str in PROTOCOL_PATTERNS[category]:
-                try:
-                    pattern = re.compile(pattern_str, re.IGNORECASE | re.MULTILINE | re.DOTALL)
-                    found = pattern.findall(text)
-                    if found:
-                        for item in found:
-                            if item and isinstance(item, str):
-                                cleaned_item = item.strip()
-                                if cleaned_item:
-                                    category_matches.add(cleaned_item)
-                except re.error as e:
-                    logging.error(f"内置正则表达式错误 - 模式 '{pattern_str}' 在类别 '{category}': {e}")
-                    continue
-        
-        # 然后处理用户提供的模式
         for pattern_str in patterns:
             if not isinstance(pattern_str, str):
                 continue
@@ -686,6 +395,10 @@ def find_matches(text, categories_data):
                                 cleaned_item = item.strip()
                                 if cleaned_item:
                                     category_matches.add(cleaned_item)
+                                    # 如果匹配项数量过大，限制以避免内存问题
+                                    if len(category_matches) > 10000:
+                                        logging.warning(f"类别 {category} 的匹配项超过10000，可能会导致内存问题")
+                                        break
             except re.error as e:
                 logging.error(f"正则表达式错误 - 模式 '{pattern_str}' 在类别 '{category}': {e}")
                 continue
@@ -881,20 +594,10 @@ async def main():
         logging.critical(f"读取输入文件时出错: {e}")
         return
 
-    # 定义增强的协议模式
-    PROTOCOL_PATTERNS = {
-        "Vmess": [r'vmess://[^\s]+'],
-        "Vless": [r'vless://[^\s]+'],
-        "Trojan": [r'trojan://[^\s]+'],
-        "ShadowSocks": [r'ss://[^\s]+(?!r://)'],
-        "ShadowSocksR": [r'ssr://[^\s]+'],
-        "Tuic": [r'tuic://[^\s]+'],
-        "Hysteria2": [r'(?:hysteria2|hy2)://[^\s]+'],
-        "WireGuard": [r'(?:wireguard|wg)://[^\s]+']
+    # 分离协议模式和国家关键词
+    protocol_patterns_for_matching = {
+        cat: patterns for cat, patterns in categories_data.items() if cat in PROTOCOL_CATEGORIES
     }
-    
-    # 使用增强的协议模式进行匹配，仅从keywords.json中加载国家关键词
-    protocol_patterns_for_matching = PROTOCOL_PATTERNS
     country_keywords_for_naming = {
         cat: patterns for cat, patterns in categories_data.items() if cat not in PROTOCOL_CATEGORIES
     }
@@ -990,25 +693,18 @@ async def main():
                     logging.debug(f"从URL片段提取名称失败: {e}")
 
             # 2. 如果URL片段中没有名称，尝试从协议特定字段提取
-        if not name_to_check:
-            config_lower = config.lower()
-            if config_lower.startswith('ssr://'):
-                name_to_check = get_ssr_name(config)
-            elif config_lower.startswith('vmess://'):
-                name_to_check = get_vmess_name(config)
-            elif config_lower.startswith('trojan://'):
-                name_to_check = get_trojan_name(config)
-            elif config_lower.startswith('vless://'):
-                name_to_check = get_vless_name(config)
-            elif config_lower.startswith('ss://'):
-                name_to_check = get_shadowsocks_name(config)
-            elif config_lower.startswith('tuic://'):
-                name_to_check = get_tuic_name(config)
-            elif config_lower.startswith('hy2://') or config_lower.startswith('hysteria2://'):
-                name_to_check = get_hysteria2_name(config)
-            elif config_lower.startswith('wireguard://') or config_lower.startswith('wg://'):
-                name_to_check = get_wireguard_name(config)
-            # 所有协议都有名称提取支持了
+            if not name_to_check:
+                if config.startswith('ssr://'):
+                    name_to_check = get_ssr_name(config)
+                elif config.startswith('vmess://'):
+                    name_to_check = get_vmess_name(config)
+                elif config.startswith('trojan://'):
+                    name_to_check = get_trojan_name(config)
+                elif config.startswith('vless://'):
+                    name_to_check = get_vless_name(config)
+                elif config.startswith('ss://'):
+                    name_to_check = get_shadowsocks_name(config)
+                # 其他协议的名称提取支持
 
             # 如果无法获取名称，跳过此配置
             if not name_to_check or not isinstance(name_to_check, str):
