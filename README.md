@@ -1,4 +1,4 @@
-# 📊 提取结果 (最后更新: 2025-10-23 18:00:33 CST)
+# 📊 提取结果 (最后更新: 2025-10-23 18:06:53 CST)
 
 此文件是自动生成的。
 
@@ -29,9 +29,9 @@
 
 | 国家 | 相关配置数量 | 链接 |
 |---|---|---|
+| <img src="https://flagcdn.com/w20/ca.png" width="20" alt="Canada flag"> Canada | 1 | [`Canada.txt`](output_configs/countries/Canada.txt) |
+| <img src="https://flagcdn.com/w20/cn.png" width="20" alt="China flag"> China | 1 | [`China.txt`](output_configs/countries/China.txt) |
 | <img src="https://flagcdn.com/w20/jp.png" width="20" alt="Japan flag"> Japan | 1 | [`Japan.txt`](output_configs/countries/Japan.txt) |
-| <img src="https://flagcdn.com/w20/ru.png" width="20" alt="Russia flag"> Russia | 1 | [`Russia.txt`](output_configs/countries/Russia.txt) |
 | <img src="https://flagcdn.com/w20/sg.png" width="20" alt="Singapore flag"> Singapore | 1 | [`Singapore.txt`](output_configs/countries/Singapore.txt) |
-| <img src="https://flagcdn.com/w20/kr.png" width="20" alt="SouthKorea flag"> SouthKorea | 1 | [`SouthKorea.txt`](output_configs/countries/SouthKorea.txt) |
 | <img src="https://flagcdn.com/w20/us.png" width="20" alt="USA flag"> USA | 3 | [`USA.txt`](output_configs/countries/USA.txt) |
 
