@@ -12,30 +12,73 @@ import base64
 from urllib.parse import parse_qs, unquote
 
 # --- 配置常量 ---
-CONFIG_DIR = 'config'  # 配置文件夹，用于存放输入文件
+# 使用绝对路径以避免路径解析问题
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+CONFIG_DIR = os.path.join(BASE_DIR, 'config')  # 配置文件夹，用于存放输入文件
 URLS_FILE = os.path.join(CONFIG_DIR, 'urls.txt')
 KEYWORDS_FILE = os.path.join(CONFIG_DIR, 'keywords.json') # 应包含国家的两字母代码
-OUTPUT_DIR = 'output_configs'
+OUTPUT_DIR = os.path.join(BASE_DIR, 'output_configs')  # 使用绝对路径
 COUNTRY_SUBDIR = 'countries'  # 国家配置文件夹
 PROTOCOL_SUBDIR = 'protocols' # 协议配置文件夹
-README_FILE = 'README.md'
-REQUEST_TIMEOUT = 15
-CONCURRENT_REQUESTS = 10
-MAX_CONFIG_LENGTH = 1500
-MIN_PERCENT25_COUNT = 15
+README_FILE = os.path.join(BASE_DIR, 'README.md')  # 使用绝对路径
+
+# 运行时配置
+REQUEST_TIMEOUT = 15  # HTTP请求超时时间（秒）
+CONCURRENT_REQUESTS = 10  # 最大并发请求数
+MAX_CONFIG_LENGTH = 1500  # 配置最大长度
+MIN_PERCENT25_COUNT = 15  # 最小%25出现次数（用于检测过度URL编码）
 FILTERED_PHRASE = 'i_love_'  # 要过滤的特定短语
 
+# 性能优化设置
+MAX_PAGE_SIZE = 5 * 1024 * 1024  # 最大页面大小(5MB)，防止过大的页面消耗过多内存
+MAX_TOTAL_CONFIGS = 100000  # 最大总配置数量，防止内存溢出
+
 # --- Logging Setup ---
-logging.basicConfig(level=logging.INFO,
-                    format='%(asctime)s - %(levelname)s - %(message)s')
+# 创建日志目录
+LOG_DIR = os.path.join(BASE_DIR, 'logs')
+os.makedirs(LOG_DIR, exist_ok=True)
+
+# 生成带有时间戳的日志文件名
+log_filename = datetime.now().strftime("%Y%m%d_%H%M%S_scraper.log")
+log_file_path = os.path.join(LOG_DIR, log_filename)
+
+# 创建logger实例
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG)
+
+# 清除现有的处理器
+logger.handlers.clear()
+
+# 创建控制台处理器
+console_handler = logging.StreamHandler()
+console_handler.setLevel(logging.INFO)
+
+# 创建文件处理器
+file_handler = logging.FileHandler(log_file_path, encoding='utf-8')
+file_handler.setLevel(logging.DEBUG)  # 文件记录所有级别的日志
+
+# 设置格式器
+formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+console_handler.setFormatter(formatter)
+file_handler.setFormatter(formatter)
+
+# 添加处理器到logger
+logger.addHandler(console_handler)
+logger.addHandler(file_handler)
+
+# 覆盖默认的logging模块，使所有调用使用我们的logger
+logging = logger
 
 # --- 协议类别 ---
 PROTOCOL_CATEGORIES = [
     "Vmess", "Vless", "Trojan", "ShadowSocks", "ShadowSocksR",
     "Tuic", "Hysteria2", "WireGuard"
 ]
-# 预编译协议前缀列表，提高性能
-PROTOCOL_PREFIXES = [p.lower() + "://" for p in PROTOCOL_CATEGORIES]
+# 定义正确的协议前缀映射
+PROTOCOL_PREFIXES = [
+    "vmess://", "vless://", "trojan://", "ss://", "ssr://",
+    "tuic://", "hy2://", "wireguard://"
+]
 
 # --- 检查非英语文本的辅助函数 ---
 def is_non_english_text(text):
@@ -277,6 +320,114 @@ def get_shadowsocks_name(ss_config):
     except Exception:
         return None
 
+def get_tuic_name(tuic_config):
+    """
+    从Tuic配置中提取名称信息
+    参数:
+        tuic_config: Tuic配置字符串
+    返回:
+        提取的名称字符串或None
+    """
+    try:
+        # 确保输入是字符串
+        if not isinstance(tuic_config, str) or not tuic_config.startswith('tuic://'):
+            return None
+        
+        # 检查是否有 # 后的名称部分
+        if '#' in tuic_config:
+            try:
+                name_part = tuic_config.split('#', 1)[1]
+                return unquote(name_part).strip()
+            except Exception:
+                pass
+        
+        # 尝试从URL查询参数中提取名称
+        parts = tuic_config.split('?')
+        if len(parts) > 1:
+            try:
+                params = parse_qs(parts[1])
+                for name_key in ['name', 'remarks', 'ps']:
+                    if name_key in params:
+                        return unquote(params[name_key][0]).strip()
+            except Exception:
+                pass
+        
+        return None
+    except Exception:
+        return None
+
+def get_hysteria2_name(hy2_config):
+    """
+    从Hysteria2配置中提取名称信息
+    参数:
+        hy2_config: Hysteria2配置字符串
+    返回:
+        提取的名称字符串或None
+    """
+    try:
+        # 确保输入是字符串
+        if not isinstance(hy2_config, str) or not hy2_config.startswith('hy2://'):
+            return None
+        
+        # 检查是否有 # 后的名称部分
+        if '#' in hy2_config:
+            try:
+                name_part = hy2_config.split('#', 1)[1]
+                return unquote(name_part).strip()
+            except Exception:
+                pass
+        
+        # 尝试从URL查询参数中提取名称
+        parts = hy2_config.split('?')
+        if len(parts) > 1:
+            try:
+                params = parse_qs(parts[1])
+                for name_key in ['name', 'remarks', 'ps']:
+                    if name_key in params:
+                        return unquote(params[name_key][0]).strip()
+            except Exception:
+                pass
+        
+        return None
+    except Exception:
+        return None
+
+def get_wireguard_name(wg_config):
+    """
+    从WireGuard配置中提取名称信息
+    参数:
+        wg_config: WireGuard配置字符串
+    返回:
+        提取的名称字符串或None
+    """
+    try:
+        # 确保输入是字符串
+        if not isinstance(wg_config, str) or not wg_config.startswith('wireguard://'):
+            return None
+        
+        # 检查是否有 # 后的名称部分
+        if '#' in wg_config:
+            try:
+                name_part = wg_config.split('#', 1)[1]
+                return unquote(name_part).strip()
+            except Exception:
+                pass
+        
+        # 尝试从URL查询参数中提取名称
+        parts = wg_config.split('?')
+        if len(parts) > 1:
+            try:
+                params = parse_qs(parts[1])
+                for name_key in ['name', 'remarks', 'ps']:
+                    if name_key in params:
+                        return unquote(params[name_key][0]).strip()
+            except Exception:
+                pass
+        
+        return None
+    except Exception:
+        return None
+
 # --- New Filter Function ---
 def should_filter_config(config):
     """根据特定规则过滤无效或低质量的配置"""
@@ -285,25 +436,49 @@ def should_filter_config(config):
     
     # 检查是否包含过滤短语
     if FILTERED_PHRASE in config.lower():
+        logging.debug(f"配置因包含过滤短语 '{FILTERED_PHRASE}' 被过滤: {config[:100]}...")
         return True
     
-    # 放宽URL编码检查，减少误判
+    # 检查URL编码情况
     percent25_count = config.count('%25')
     if percent25_count >= MIN_PERCENT25_COUNT * 2:  # 提高阈值以减少误判
+        logging.debug(f"配置因过度URL编码 ({percent25_count}个%25) 被过滤: {config[:100]}...")
         return True
     
-    # 检查配置长度，适当放宽限制
+    # 检查配置长度
     if len(config) >= MAX_CONFIG_LENGTH * 2:  # 提高阈值以减少误判
+        logging.debug(f"配置因过长 ({len(config)}字符) 被过滤")
         return True
     
     # 基本的有效性检查：确保配置包含协议前缀
     has_valid_protocol = False
+    found_protocol = None
     for protocol_prefix in PROTOCOL_PREFIXES:
         if protocol_prefix in config.lower():
             has_valid_protocol = True
+            found_protocol = protocol_prefix
             break
     
     if not has_valid_protocol:
+        logging.debug(f"配置因缺少有效协议前缀被过滤: {config[:100]}...")
+        return True
+    
+    # 对不同协议进行基本格式验证
+    if found_protocol == 'vmess://' and not config[8:].strip():  # 确保有内容在协议前缀后
+        return True
+    elif found_protocol == 'vless://' and not config[8:].strip():
+        return True
+    elif found_protocol == 'trojan://' and '@' not in config:  # Trojan格式必须包含@
+        return True
+    elif found_protocol == 'ss://' and not config[5:].strip():
+        return True
+    elif found_protocol == 'ssr://' and not config[6:].strip():
+        return True
+    elif found_protocol == 'tuic://' and not config[7:].strip():
+        return True
+    elif found_protocol == 'hy2://' and not config[5:].strip():
+        return True
+    elif found_protocol == 'wireguard://' and not config[12:].strip():
         return True
     
     return False
@@ -311,8 +486,24 @@ def should_filter_config(config):
 async def fetch_url(session, url):
     """异步获取URL内容并提取文本"""
     try:
-        async with session.get(url, timeout=REQUEST_TIMEOUT) as response:
+        # 验证URL格式
+        if not url.startswith(('http://', 'https://')):
+            logging.warning(f"无效的URL格式: {url}")
+            return url, None
+            
+        # 使用头部模拟浏览器请求，避免被阻止
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+        }
+        
+        async with session.get(url, timeout=REQUEST_TIMEOUT, headers=headers) as response:
             response.raise_for_status()
+            
+            # 检查内容长度，避免过大的响应
+            content_length = response.headers.get('Content-Length')
+            if content_length and int(content_length) > MAX_PAGE_SIZE:
+                logging.warning(f"页面过大 (>{MAX_PAGE_SIZE/1024/1024:.1f}MB), 跳过: {url}")
+                return url, None
             
             # 尝试处理不同的内容类型
             content_type = response.headers.get('Content-Type', '')
@@ -332,6 +523,12 @@ async def fetch_url(session, url):
             else:
                 # 处理HTML或纯文本
                 html = await response.text()
+                
+                # 再次检查内容大小
+                if len(html) > MAX_PAGE_SIZE:
+                    logging.warning(f"页面内容过大 (>{MAX_PAGE_SIZE/1024/1024:.1f}MB), 跳过详细处理: {url}")
+                    return url, None
+                
                 soup = BeautifulSoup(html, 'html.parser')
                 
                 # 优先从代码相关标签提取内容
@@ -406,48 +603,81 @@ def save_to_file(directory, category_name, items_set):
         logging.debug(f"跳过空集合的保存: {category_name}")
         return False, 0
         
+    # 确保使用绝对路径
+    abs_directory = os.path.abspath(directory)
+    abs_file_path = os.path.join(abs_directory, f"{category_name}.txt")
+    count = len(items_set)
+    
+    # 添加日志，记录将保存的内容数量和目标位置
+    logging.debug(f"准备保存 {count} 项到: {abs_file_path}")
+    
+    # 记录将要保存的文件的绝对路径
+    logging.info(f"准备保存 {count} 项到: {abs_file_path}")
+    
     try:
         # 确保目录存在
-        os.makedirs(directory, exist_ok=True)
-        file_path = os.path.join(directory, f"{category_name}.txt")
-        count = len(items_set)
+        os.makedirs(abs_directory, exist_ok=True)
+        logging.debug(f"确认目录存在: {abs_directory}")
         
-        # 使用写入模式直接覆盖文件，这在大多数情况下已经足够
-        with open(file_path, 'w', encoding='utf-8', newline='') as f:
-            # 一次性写入排序后的项目列表
+        # 直接写入文件
+        with open(abs_file_path, 'w', encoding='utf-8', newline='') as f:
             for item in sorted(list(items_set)):
                 f.write(f"{item}\n")
         
-        # 简单验证文件是否成功写入
-        if os.path.exists(file_path) and os.path.getsize(file_path) > 0:
-            abs_file_path = os.path.abspath(file_path)
-            logging.debug(f"已成功保存 {count} 项到 {abs_file_path}")
-            return True, count
+        # 强制刷新文件系统缓存
+        import io
+        io.open(abs_file_path).close()
+        
+        # 验证文件是否成功写入
+        if os.path.exists(abs_file_path):
+            file_size = os.path.getsize(abs_file_path)
+            if file_size > 0:
+                logging.info(f"✓ 成功保存 {count} 项到 {abs_file_path} (大小: {file_size} 字节)")
+                return True, count
+            else:
+                logging.error(f"✗ 文件创建成功但为空: {abs_file_path}")
+                return False, 0
         else:
-            logging.error(f"文件创建失败或为空: {file_path}")
+            logging.error(f"✗ 文件不存在: {abs_file_path}")
+            
+            # 检查目录是否可写
+            if not os.access(abs_directory, os.W_OK):
+                logging.error(f"✗ 目录不可写: {abs_directory}")
+            else:
+                logging.debug(f"目录可写，但文件创建失败")
+            
             return False, 0
     except Exception as e:
-        # 合并所有异常处理，避免代码过于复杂
-        logging.error(f"保存文件时发生错误 {file_path}: {str(e)[:100]}...")
+        logging.error(f"✗ 保存文件时发生错误: {str(e)}")
         
-        # 只保留简单的备用方法
+        # 使用备用方法 - 写入到临时文件并立即检查
         try:
-            # 使用临时文件方法作为备用
-            temp_file = os.path.join(directory, f"temp_{category_name}.txt")
+            temp_file = os.path.join(abs_directory, f"temp_{category_name}.txt")
+            logging.info(f"尝试备用方法，写入临时文件: {temp_file}")
+            
             with open(temp_file, 'w', encoding='utf-8') as f:
-                for item in sorted(list(items_set)):
+                for item in sorted(list(items_set))[:10]:  # 只写入少量内容用于测试
                     f.write(f"{item}\n")
             
-            # 重命名临时文件到目标位置
-            target_file = os.path.join(directory, f"{category_name}.txt")
-            if os.path.exists(target_file):
-                os.remove(target_file)
-            os.rename(temp_file, target_file)
-            
-            logging.info(f"备用方法: 已保存 {count} 项到 {target_file}")
-            return True, count
-        except Exception:
-            # 备用方法也失败，返回错误
+            if os.path.exists(temp_file):
+                logging.info(f"备用方法测试成功，临时文件已创建")
+                # 现在写入完整内容
+                with open(temp_file, 'w', encoding='utf-8') as f:
+                    for item in sorted(list(items_set)):
+                        f.write(f"{item}\n")
+                
+                # 重命名到目标位置
+                if os.path.exists(abs_file_path):
+                    os.remove(abs_file_path)
+                os.rename(temp_file, abs_file_path)
+                
+                logging.info(f"✓ 备用方法: 已保存 {count} 项到 {abs_file_path}")
+                return True, count
+            else:
+                logging.error(f"✗ 备用方法失败: 临时文件未创建")
+                return False, 0
+        except Exception as backup_e:
+            logging.error(f"✗ 备用方法也失败: {str(backup_e)}")
             return False, 0
 
 # --- 使用旗帜图像生成简单的README函数 ---
@@ -471,14 +701,17 @@ def generate_simple_readme(protocol_counts, country_counts, all_keywords_data, u
 
     # 构建子目录的路径
     if use_local_paths:
-        protocol_base_url = f"{OUTPUT_DIR}/{PROTOCOL_SUBDIR}"
-        country_base_url = f"{OUTPUT_DIR}/{COUNTRY_SUBDIR}"
+        # 使用相对路径，避免README中的绝对路径问题
+        protocol_base_url = f"{PROTOCOL_SUBDIR}"
+        country_base_url = f"{COUNTRY_SUBDIR}"
+        logging.debug(f"README使用本地相对路径: protocols={protocol_base_url}, countries={country_base_url}")
     else:
         # 保留GitHub远程路径支持作为备用
         github_repo_path = "miladtahanian/V2RayScrapeByCountry"
         github_branch = "main"
         protocol_base_url = f"https://raw.githubusercontent.com/{github_repo_path}/refs/heads/{github_branch}/{OUTPUT_DIR}/{PROTOCOL_SUBDIR}"
         country_base_url = f"https://raw.githubusercontent.com/{github_repo_path}/refs/heads/{github_branch}/{OUTPUT_DIR}/{COUNTRY_SUBDIR}"
+        logging.debug(f"README使用GitHub路径: protocols={protocol_base_url}, countries={country_base_url}")
 
     md_content = f"# 📊 提取结果 (最后更新: {timestamp})\n\n"
     md_content += "此文件是自动生成的。\n\n"
@@ -490,7 +723,7 @@ def generate_simple_readme(protocol_counts, country_counts, all_keywords_data, u
     
     md_content += "## ℹ️ 说明\n\n"
     md_content += "国家文件仅包含在**配置名称**中找到国家名称/旗帜的配置。配置名称首先从链接的`#`部分提取，如果不存在，则从内部名称(对于Vmess/SSR)提取。\n\n"
-    md_content += "过度URL编码的配置(包含大量`%25`、过长或包含特定关键词的)已从结果中删除。\n\n"
+    md_content += "过度URL编码的配置(包含大量 %25 、过长或包含特定关键词的)已从结果中删除。\n\n"
     md_content += "所有输出文件已按类别整理到不同目录中，便于查找和使用。\n\n"
 
     md_content += "## 📁 协议文件\n\n"
@@ -529,7 +762,12 @@ def generate_simple_readme(protocol_counts, country_counts, all_keywords_data, u
             if flag_image_markdown:
                 display_parts.append(flag_image_markdown)
             
-            display_parts.append(country_category_name) # 原始名称 (键)
+            # 原始名称 (键)，为Canada添加中文标识
+            display_name = country_category_name
+            if country_category_name == "Canada":
+                display_name = "Canada（加拿大）"
+                
+            display_parts.append(display_name)
             
             country_display_text = " ".join(display_parts)
             
@@ -550,9 +788,11 @@ def generate_simple_readme(protocol_counts, country_counts, all_keywords_data, u
 # main函数和其他函数实现
 async def main():
     """主函数，协调整个抓取和处理流程"""
+    logging.info(f"日志文件已创建: {log_file_path}")
     # 确保配置文件夹存在
     try:
         os.makedirs(CONFIG_DIR, exist_ok=True)
+        logging.info(f"配置文件夹: {CONFIG_DIR}")
     except Exception as e:
         logging.error(f"创建配置文件夹 '{CONFIG_DIR}' 失败: {e}")
     
@@ -628,7 +868,11 @@ async def main():
     async def fetch_with_semaphore(session, url_to_fetch):
         """使用信号量限制并发的fetch_url"""
         async with sem:
-            return await fetch_url(session, url_to_fetch)
+            try:
+                return await fetch_url(session, url_to_fetch)
+            except Exception as e:
+                logging.error(f"URL获取任务异常: {url_to_fetch}, 错误: {e}")
+                return url_to_fetch, None
     
     # 创建HTTP会话并执行所有获取任务
     async with aiohttp.ClientSession() as session:
@@ -677,14 +921,27 @@ async def main():
         
         # 处理找到的协议配置
         page_filtered_count = 0
+        
+        # 检查总配置数是否超过限制，防止内存溢出
+        total_current_configs = sum(len(configs) for configs in final_all_protocols.values())
+        if total_current_configs >= MAX_TOTAL_CONFIGS:
+            logging.warning(f"已达到最大配置数限制 ({MAX_TOTAL_CONFIGS})，停止处理新配置")
+            break
+            
         for protocol_cat_name, configs_found in page_protocol_matches.items():
             if protocol_cat_name in PROTOCOL_CATEGORIES:
                 for config in configs_found:
+                    # 检查总配置数是否超过限制
+                    if sum(len(configs) for configs in final_all_protocols.values()) >= MAX_TOTAL_CONFIGS:
+                        break
+                        
                     if not should_filter_config(config):
                         all_page_configs_after_filter.add(config)
                         final_all_protocols[protocol_cat_name].add(config)
                     else:
                         page_filtered_count += 1
+            if sum(len(configs) for configs in final_all_protocols.values()) >= MAX_TOTAL_CONFIGS:
+                break
         
         found_configs += len(all_page_configs_after_filter)
         filtered_out_configs += page_filtered_count
@@ -720,10 +977,17 @@ async def main():
                     name_to_check = get_vless_name(config)
                 elif config.startswith('ss://'):
                     name_to_check = get_shadowsocks_name(config)
+                elif config.startswith('tuic://'):
+                    name_to_check = get_tuic_name(config)
+                elif config.startswith('hysteria2://') or config.startswith('hy2://'):
+                    name_to_check = get_hysteria2_name(config)
+                elif config.startswith('wireguard://') or config.startswith('wg://'):
+                    name_to_check = get_wireguard_name(config)
                 # 其他协议的名称提取支持
 
-            # 如果无法获取名称，跳过此配置
+            # 如果无法获取名称，记录并跳过此配置
             if not name_to_check or not isinstance(name_to_check, str):
+                logging.debug(f"无法从配置中提取有效名称，跳过: {config[:100]}...")
                 continue
                 
             current_name_to_check_str = name_to_check.strip()
@@ -776,8 +1040,12 @@ async def main():
                 
             # 移除这里的break，确保每个配置都能被完全处理
 
-    # 统计信息日志
-    logging.info(f"成功处理 {processed_pages}/{len(fetched_pages)} 个页面，找到 {found_configs} 个有效配置，过滤掉 {filtered_out_configs} 个无效配置")
+    # 详细统计信息日志，同时写入日志文件和控制台
+    logging.info(f"处理统计:")
+    logging.info(f"  - 成功处理页面: {processed_pages}/{len(fetched_pages)}")
+    logging.info(f"  - 找到有效配置: {found_configs}")
+    logging.info(f"  - 过滤无效配置: {filtered_out_configs}")
+    logging.info(f"  - 过滤率: {filtered_out_configs/(found_configs+filtered_out_configs)*100:.1f}%" if (found_configs+filtered_out_configs) > 0 else "  - 无配置找到")
     
 
     # 准备输出目录结构
@@ -795,9 +1063,50 @@ async def main():
     
     # 2. 创建必要的目录结构
     try:
-        os.makedirs(country_dir, exist_ok=True)
-        os.makedirs(protocol_dir, exist_ok=True)
-        logging.info(f"输出目录已准备就绪: {OUTPUT_DIR}")
+        # 使用绝对路径创建目录
+        abs_output_dir = os.path.abspath(OUTPUT_DIR)
+        abs_country_dir = os.path.abspath(country_dir)
+        abs_protocol_dir = os.path.abspath(protocol_dir)
+        
+        os.makedirs(abs_output_dir, exist_ok=True)
+        os.makedirs(abs_country_dir, exist_ok=True)
+        os.makedirs(abs_protocol_dir, exist_ok=True)
+        
+        # 验证目录是否创建成功并可写
+        for dir_path in [abs_output_dir, abs_country_dir, abs_protocol_dir]:
+            if os.path.exists(dir_path):
+                writable = os.access(dir_path, os.W_OK)
+                logging.info(f"目录检查: {dir_path} {'(可写)' if writable else '(不可写)'}")
+                if not writable:
+                    logging.error(f"目录不可写: {dir_path}")
+                    # 尝试修复权限问题
+                    try:
+                        # 仅在Windows系统尝试更改权限
+                        if os.name == 'nt':  # Windows系统
+                            logging.warning(f"Windows系统检测到目录不可写，尝试继续执行")
+                        else:  # Linux/Unix系统
+                            os.chmod(dir_path, 0o755)
+                            logging.warning(f"已尝试修改目录权限: {dir_path}")
+                    except Exception as perm_e:
+                        logging.error(f"修改目录权限失败: {perm_e}")
+            else:
+                logging.error(f"目录创建失败: {dir_path}")
+        
+        logging.info(f"输出目录已准备就绪: {abs_output_dir}")
+        
+        # 创建测试文件验证写入权限
+        test_file = os.path.join(abs_output_dir, "test_write.txt")
+        try:
+            with open(test_file, 'w') as f:
+                f.write("测试写入权限")
+            if os.path.exists(test_file):
+                logging.info(f"✓ 写入测试成功")
+                os.remove(test_file)  # 清理测试文件
+            else:
+                logging.error(f"✗ 写入测试失败: 文件未创建")
+        except Exception as write_test_e:
+            logging.error(f"✗ 写入测试失败: {str(write_test_e)}")
+            
     except (PermissionError, OSError) as e:
         logging.critical(f"无法创建输出目录: {e}")
         return
@@ -811,14 +1120,20 @@ async def main():
     # 预先过滤出非空协议类别
     non_empty_protocols = {cat: items for cat, items in final_all_protocols.items() if items}
     
-    for category, items in non_empty_protocols.items():
+    # 按协议类型排序，提高可预测性
+    for category, items in sorted(non_empty_protocols.items()):
         items_count = len(items)
-        logging.debug(f"保存协议 {category} 的 {items_count} 个配置")
+        logging.info(f"保存协议 {category}: {items_count} 个配置")
         
         saved, count = save_to_file(protocol_dir, category, items)
         if saved:
             protocol_counts[category] = count
             protocol_category_count += 1
+        else:
+            logging.error(f"保存协议 {category} 失败")
+        
+        # 内存优化：保存后清理大型集合
+        final_all_protocols[category].clear()
     
     total_protocol_configs = sum(protocol_counts.values())
     logging.info(f"协议配置保存完成: 成功 {protocol_category_count}/{len(non_empty_protocols)} 个类别, 总计 {total_protocol_configs} 项")
@@ -863,10 +1178,18 @@ async def main():
 if __name__ == "__main__":
     try:
         logging.info("=== V2Ray配置抓取工具开始运行 ===")
+        logging.info(f"当前工作目录: {os.getcwd()}")
+        logging.info(f"Python版本: {os.sys.version}")
         asyncio.run(main())
     except KeyboardInterrupt:
         logging.info("程序被用户中断")
     except Exception as e:
         logging.critical(f"程序执行出错: {e}")
+        import traceback
+        logging.debug(f"错误详细信息: {traceback.format_exc()}")
     finally:
         logging.info("=== 程序结束 ===")
+        # 确保所有日志都被写入文件
+        for handler in logging.handlers:
+            handler.flush()
+            handler.close()
