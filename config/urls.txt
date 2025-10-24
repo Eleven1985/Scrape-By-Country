@@ -7,4 +7,3 @@ https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/nodefree.txt
 https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/ndnode.txt
 https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/clashmeta.txt
 https://raw.githubusercontent.com/xiaoji235/airport-free/refs/heads/main/v2ray.txt
-https://goclash.topmarco.tech/sb
