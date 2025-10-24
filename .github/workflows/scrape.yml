@@ -62,7 +62,7 @@ jobs:
             echo "Changes detected. Committing and pushing..."
             # 使用日期时间生成更具体的提交信息
             TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
-            git commit -m "docs: Update configurations on $TIMESTAMP [skip ci]"
+            git commit -m "docs: Update configurations on $TIMESTAMP"
             git push
           fi
 
