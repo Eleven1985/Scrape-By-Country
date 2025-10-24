@@ -364,12 +364,10 @@ def find_matches(text, categories_data):
     """根据正则表达式模式在文本中查找匹配项，优化内存使用"""
     if not text or not isinstance(text, str):
         return {}
-        
-    # 只初始化有模式的类别，节省内存
+    
     matches = {}
     
     for category, patterns in categories_data.items():
-        # 只处理非空的模式列表
         if not patterns or not isinstance(patterns, list):
             continue
             
@@ -388,26 +386,19 @@ def find_matches(text, categories_data):
                     pattern = re.compile(pattern_str, re.IGNORECASE | re.MULTILINE | re.DOTALL)
                     found = pattern.findall(text)
                     
-                    if found:
-                        # 清理并去重匹配结果
-                        for item in found:
-                            if item and isinstance(item, str):
-                                cleaned_item = item.strip()
-                                if cleaned_item:
-                                    category_matches.add(cleaned_item)
-                                    # 如果匹配项数量过大，限制以避免内存问题
-                                    if len(category_matches) > 10000:
-                                        logging.warning(f"类别 {category} 的匹配项超过10000，可能会导致内存问题")
-                                        break
+                    for item in found:
+                        if item and isinstance(item, str):
+                            cleaned_item = item.strip()
+                            if cleaned_item:
+                                category_matches.add(cleaned_item)
             except re.error as e:
-                logging.error(f"正则表达式错误 - 模式 '{pattern_str}' 在类别 '{category}': {e}")
+                logging.error(f"正则表达式错误 - 模式在类别 '{category}': {e}")
                 continue
         
         if category_matches:
             matches[category] = category_matches
     
-    # 只返回非空的匹配结果
-    return {k: v for k, v in matches.items() if v}
+    return matches
 
 def save_to_file(directory, category_name, items_set):
     """将项目集合保存到指定目录的文本文件中"""
@@ -415,24 +406,49 @@ def save_to_file(directory, category_name, items_set):
         logging.debug(f"跳过空集合的保存: {category_name}")
         return False, 0
         
-    # 确保目录存在
     try:
+        # 确保目录存在
         os.makedirs(directory, exist_ok=True)
         file_path = os.path.join(directory, f"{category_name}.txt")
         count = len(items_set)
         
-        # 写入排序后的项目，每行一个
-        with open(file_path, 'w', encoding='utf-8') as f:
-            for item in sorted(list(items_set)): 
+        # 使用写入模式直接覆盖文件，这在大多数情况下已经足够
+        with open(file_path, 'w', encoding='utf-8', newline='') as f:
+            # 一次性写入排序后的项目列表
+            for item in sorted(list(items_set)):
                 f.write(f"{item}\n")
         
-        logging.info(f"已保存 {count} 项到 {file_path}")
-        return True, count
-    except IOError as e:
-        logging.error(f"写入文件失败 {file_path}: {e}")
+        # 简单验证文件是否成功写入
+        if os.path.exists(file_path) and os.path.getsize(file_path) > 0:
+            abs_file_path = os.path.abspath(file_path)
+            logging.debug(f"已成功保存 {count} 项到 {abs_file_path}")
+            return True, count
+        else:
+            logging.error(f"文件创建失败或为空: {file_path}")
+            return False, 0
     except Exception as e:
-        logging.error(f"保存文件时发生意外错误 {file_path}: {e}")
-    return False, 0
+        # 合并所有异常处理，避免代码过于复杂
+        logging.error(f"保存文件时发生错误 {file_path}: {str(e)[:100]}...")
+        
+        # 只保留简单的备用方法
+        try:
+            # 使用临时文件方法作为备用
+            temp_file = os.path.join(directory, f"temp_{category_name}.txt")
+            with open(temp_file, 'w', encoding='utf-8') as f:
+                for item in sorted(list(items_set)):
+                    f.write(f"{item}\n")
+            
+            # 重命名临时文件到目标位置
+            target_file = os.path.join(directory, f"{category_name}.txt")
+            if os.path.exists(target_file):
+                os.remove(target_file)
+            os.rename(temp_file, target_file)
+            
+            logging.info(f"备用方法: 已保存 {count} 项到 {target_file}")
+            return True, count
+        except Exception:
+            # 备用方法也失败，返回错误
+            return False, 0
 
 # --- 使用旗帜图像生成简单的README函数 ---
 def generate_simple_readme(protocol_counts, country_counts, all_keywords_data, use_local_paths=True):
@@ -719,73 +735,38 @@ async def main():
                 if not isinstance(keywords_for_country_list, list):
                     continue
                     
-                # 准备此国家的文本关键词，保留所有有效的关键词
+                # 准备此国家的文本关键词，过滤无效和重复的关键词
                 text_keywords_for_country = []
                 for kw in keywords_for_country_list:
                     if isinstance(kw, str) and kw.strip():
-                        # 移除过度的过滤，只过滤掉空字符串和纯表情符号
-                        # 允许所有有效的国家关键词，包括非英语字符
-                        if len(kw.strip()) > 0:
-                            # 只添加唯一的关键词
-                            if kw not in text_keywords_for_country:
-                                text_keywords_for_country.append(kw)
+                        if kw not in text_keywords_for_country:  # 避免重复关键词
+                            text_keywords_for_country.append(kw)
                 
                 # 检查是否匹配任何关键词
                 match_found = False
                 current_name_lower = current_name_to_check_str.lower()
                 
-                # 添加调试日志
-                if processed_pages % 50 == 0:
-                    logging.debug(f"处理配置名称: '{current_name_to_check_str}' 长度: {len(current_name_to_check_str)}")
-                
                 for keyword in text_keywords_for_country:
-                    if not isinstance(keyword, str):
+                    if not isinstance(keyword, str) or not keyword.strip():
                         continue
                         
-                    # 移除关键词前后空格
                     keyword = keyword.strip()
-                    if not keyword:
-                        continue
-                        
-                    # 对缩写使用单词边界匹配，对普通词使用包含匹配
-                    is_abbr = (len(keyword) in [2, 3]) and keyword.isupper() and keyword.isalpha()
                     keyword_lower = keyword.lower()
                     
-                    if is_abbr:
-                        # 对于缩写，使用更灵活的匹配策略
-                        try:
-                            # 尝试精确匹配缩写
-                            pattern = r'\b' + re.escape(keyword) + r'\b'
-                            if re.search(pattern, current_name_to_check_str, re.IGNORECASE):
+                    # 简单有效的匹配策略
+                    # 1. 对于缩写使用特殊处理
+                    if len(keyword) in [2, 3] and keyword.isupper() and keyword.isalpha():
+                        # 检查是否作为独立部分出现
+                        if keyword_lower in current_name_lower:
+                            parts = re.split(r'[^a-zA-Z]', current_name_lower)
+                            if keyword_lower in parts:
                                 match_found = True
-                                logging.debug(f"国家'{country_name_key}' 匹配缩写: '{keyword}'")
                                 break
-                            # 尝试另一种方式：在配置名称中查找国家代码，允许前后有非字母字符
-                            if keyword_lower in current_name_lower:
-                                # 检查是否是独立的国家代码，避免匹配到其他单词中包含的字母组合
-                                parts = re.split(r'[^a-zA-Z]', current_name_to_check_str.lower())
-                                if keyword_lower in parts:
-                                    match_found = True
-                                    logging.debug(f"国家'{country_name_key}' 匹配分割后缩写: '{keyword}'")
-                                    break
-                        except Exception:
-                            # 静默跳过正则匹配错误
-                            pass
-                    else:
-                        # 对于普通关键词，使用更精确的匹配
-                        # 对于多语言关键词，使用更宽松的匹配策略
-                        if not is_non_english_text(keyword):
-                            # 英语关键词使用严格的包含检查
-                            if keyword_lower in current_name_lower:
-                                match_found = True
-                                logging.debug(f"国家'{country_name_key}' 匹配英语关键词: '{keyword}'")
-                                break
-                        else:
-                            # 非英语关键词使用直接比较
-                            if keyword in current_name_to_check_str or keyword_lower in current_name_lower:
-                                match_found = True
-                                logging.debug(f"国家'{country_name_key}' 匹配非英语关键词: '{keyword}'")
-                                break
+                    # 2. 对于普通关键词使用简单的包含匹配
+                    elif (keyword_lower in current_name_lower or 
+                          keyword in current_name_to_check_str):
+                        match_found = True
+                        break
                 
                 if match_found:
                     final_configs_by_country[country_name_key].add(config)
@@ -798,64 +779,71 @@ async def main():
     # 统计信息日志
     logging.info(f"成功处理 {processed_pages}/{len(fetched_pages)} 个页面，找到 {found_configs} 个有效配置，过滤掉 {filtered_out_configs} 个无效配置")
     
-    # 确保删除任何可能的旧国家计数数据，重新基于集合大小计算
-    country_counts = {}
-    
-    # 国家计数将在保存文件时基于集合大小计算，此处删除重复代码
-    
+
     # 准备输出目录结构
     country_dir = os.path.join(OUTPUT_DIR, COUNTRY_SUBDIR)
     protocol_dir = os.path.join(OUTPUT_DIR, PROTOCOL_SUBDIR)
     
+    # 简洁的目录处理逻辑
+    # 1. 尝试删除旧目录（如果存在）
     if os.path.exists(OUTPUT_DIR):
         try:
             shutil.rmtree(OUTPUT_DIR)
-            logging.info(f"已删除旧的输出目录: {OUTPUT_DIR}")
-        except (PermissionError, OSError) as e:
-            logging.warning(f"无法删除旧输出目录: {e}，尝试使用新目录名")
-            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            backup_dir = f"{OUTPUT_DIR}_backup_{timestamp}"
-            try:
-                shutil.move(OUTPUT_DIR, backup_dir)
-                logging.info(f"已将旧目录重命名为: {backup_dir}")
-            except Exception as inner_e:
-                logging.error(f"重命名旧目录失败: {inner_e}")
-                # 继续执行，让os.makedirs处理可能的目录存在情况
+            logging.info(f"已删除旧输出目录")
+        except Exception as e:
+            logging.warning(f"无法删除旧输出目录，将在创建新目录时覆盖: {str(e)[:50]}...")
     
-    # 确保输出目录结构存在
+    # 2. 创建必要的目录结构
     try:
         os.makedirs(country_dir, exist_ok=True)
         os.makedirs(protocol_dir, exist_ok=True)
-        logging.info(f"正在保存文件到目录: {OUTPUT_DIR}")
-        logging.info(f"国家配置将保存到: {country_dir}")
-        logging.info(f"协议配置将保存到: {protocol_dir}")
+        logging.info(f"输出目录已准备就绪: {OUTPUT_DIR}")
     except (PermissionError, OSError) as e:
         logging.critical(f"无法创建输出目录: {e}")
         return
 
     # 保存协议配置文件
     protocol_counts = {}
-    for category, items in final_all_protocols.items():
-        if items:  # 只保存非空集合
-            saved, count = save_to_file(protocol_dir, category, items)
-            if saved:
-                protocol_counts[category] = count
+    protocol_category_count = 0
     
-    # 保存国家配置文件并确保计数准确
+    logging.info(f"开始保存协议配置文件")
+    
+    # 预先过滤出非空协议类别
+    non_empty_protocols = {cat: items for cat, items in final_all_protocols.items() if items}
+    
+    for category, items in non_empty_protocols.items():
+        items_count = len(items)
+        logging.debug(f"保存协议 {category} 的 {items_count} 个配置")
+        
+        saved, count = save_to_file(protocol_dir, category, items)
+        if saved:
+            protocol_counts[category] = count
+            protocol_category_count += 1
+    
+    total_protocol_configs = sum(protocol_counts.values())
+    logging.info(f"协议配置保存完成: 成功 {protocol_category_count}/{len(non_empty_protocols)} 个类别, 总计 {total_protocol_configs} 项")
+    
+    # 保存国家配置文件
     country_counts = {}
     countries_with_configs = 0
     total_country_configs = 0
     
-    for category, items in final_configs_by_country.items():
-        if items:  # 只保存非空集合
-            # 确保使用集合的实际大小作为计数
-            actual_count = len(items)
-            saved, count = save_to_file(country_dir, category, items)
-            if saved:
-                country_counts[category] = actual_count
-                countries_with_configs += 1
-                total_country_configs += actual_count
-                logging.debug(f"已保存国家配置: {category}, 节点数量: {actual_count}")
+    logging.info(f"开始保存国家配置文件")
+    
+    # 预先过滤出非空国家类别
+    non_empty_countries = {cat: items for cat, items in final_configs_by_country.items() if items}
+    
+    for category, items in non_empty_countries.items():
+        actual_count = len(items)
+        logging.debug(f"保存国家 {category} 的 {actual_count} 个配置")
+        
+        saved, count = save_to_file(country_dir, category, items)
+        if saved:
+            country_counts[category] = actual_count
+            countries_with_configs += 1
+            total_country_configs += actual_count
+    
+    logging.info(f"国家配置保存完成: 成功 {countries_with_configs}/{len(non_empty_countries)} 个国家, 总计 {total_country_configs} 项")
     
     # 生成README文件
     try:
@@ -866,13 +854,11 @@ async def main():
     
     # 输出完成信息
     logging.info(f"=== 抓取完成 ===")
-    logging.info(f"找到并保存的协议配置: {sum(protocol_counts.values())}")
+    logging.info(f"找到并保存的协议配置: {total_protocol_configs}")
     logging.info(f"有配置的国家数量: {countries_with_configs}")
     logging.info(f"国家相关配置总数: {total_country_configs}")
-    logging.info(f"输出目录结构:")
-    logging.info(f"- 协议配置: {os.path.join(OUTPUT_DIR, PROTOCOL_SUBDIR)}")
-    logging.info(f"- 国家配置: {os.path.join(OUTPUT_DIR, COUNTRY_SUBDIR)}")
-    logging.info(f"README文件已更新: {README_FILE}")
+    logging.info(f"输出目录: {OUTPUT_DIR}")
+    logging.info(f"README文件已更新")
 
 if __name__ == "__main__":
     try:
