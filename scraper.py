@@ -1662,6 +1662,8 @@ def safe_cleanup():
         logging.error(f"清理过程中发生未捕获的异常: {e}")
 
 if __name__ == "__main__":
+    # 确保time模块可用
+    import time
     start_time = time.time()
     
     try:
