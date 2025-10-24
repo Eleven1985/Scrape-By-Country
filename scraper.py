@@ -21,18 +21,20 @@ PROTOCOL_SUBDIR = 'protocols' # 协议配置文件夹
 README_FILE = 'README.md'
 REQUEST_TIMEOUT = 15
 CONCURRENT_REQUESTS = 10
-MAX_CONFIG_LENGTH = 1500
-MIN_PERCENT25_COUNT = 15
-FILTERED_PHRASE = 'i_love_'  # 要过滤的特定短语
+MAX_CONFIG_LENGTH = 5000  # 增加最大配置长度，允许更长的节点信息
+MIN_PERCENT25_COUNT = 50  # 增加URL编码阈值，减少误过滤
+FILTERED_PHRASE = 'i_love_'  # 要过滤的特定短语，保持不变
 
 # --- Logging Setup ---
 logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
-# --- 协议类别 ---
+# --- 协议类别 ---  
 PROTOCOL_CATEGORIES = [
     "Vmess", "Vless", "Trojan", "ShadowSocks", "ShadowSocksR",
-    "Tuic", "Hysteria2", "WireGuard"
+    "Tuic", "Hysteria2", "WireGuard", "Hysteria", "NaiveProxy", 
+    "SS", "SSROld", "SSRNew", "Shadowsocks2022", "TrojanGo",
+    "VmessGrpc", "VlessGrpc", "TrojanGrpc", "Hysteria1", "Snell"
 ]
 # 预编译协议前缀列表，提高性能
 PROTOCOL_PREFIXES = [p.lower() + "://" for p in PROTOCOL_CATEGORIES]
@@ -287,26 +289,34 @@ def should_filter_config(config):
     if FILTERED_PHRASE in config.lower():
         return True
     
-    # 放宽URL编码检查，减少误判
+    # 修复URL编码检查逻辑
     percent25_count = config.count('%25')
-    if percent25_count >= MIN_PERCENT25_COUNT * 2:  # 提高阈值以减少误判
+    if percent25_count >= MIN_PERCENT25_COUNT:
+        logging.debug(f"配置被过滤: URL编码过度 ({percent25_count} 个 %25)")
         return True
     
-    # 检查配置长度，适当放宽限制
-    if len(config) >= MAX_CONFIG_LENGTH * 2:  # 提高阈值以减少误判
+    # 使用更大的长度限制，减少误过滤
+    if len(config) >= MAX_CONFIG_LENGTH:
+        logging.debug(f"配置被过滤: 长度超过限制 ({len(config)} 字符)")
         return True
     
-    # 基本的有效性检查：确保配置包含协议前缀
-    has_valid_protocol = False
-    for protocol_prefix in PROTOCOL_PREFIXES:
-        if protocol_prefix in config.lower():
-            has_valid_protocol = True
-            break
+    # 使用更全面的协议关键词列表，确保新添加的协议类型也能被识别
+    common_protocol_keywords = ['vmess', 'vless', 'trojan', 'ss://', 'ssr://', 
+                               'tuic', 'hy2', 'wireguard', 'hysteria', 'snell',
+                               'ss2022', 'trojan-go', 'naiveproxy', 'shadowsocks2022',
+                               'hysteria1', 'vmessgrpc', 'vlessgrpc', 'trojangrpc']
     
-    if not has_valid_protocol:
-        return True
+    # 优化协议关键词检查逻辑，使用更高效的集合查找
+    config_lower = config.lower()
+    has_protocol_keyword = any(keyword in config_lower for keyword in common_protocol_keywords)
     
-    return False
+    # 如果没有找到协议关键词，但配置看起来像URL，也保留
+    if not has_protocol_keyword and ('://' in config):
+        has_protocol_keyword = True
+    
+    # 修复返回值与函数名的一致性问题
+    # should_filter_config 应该返回 True 表示需要过滤，False 表示保留
+    return not has_protocol_keyword
 
 async def fetch_url(session, url):
     """异步获取URL内容并提取文本"""
@@ -350,14 +360,15 @@ async def fetch_url(session, url):
                 if not text_content: 
                     text_content = soup.get_text(separator=' ', strip=True)
                     
-            logging.info(f"成功获取: {url}")
+            # 修复日志级别，使用debug而不是info，避免日志过于冗长
+            logging.debug(f"成功获取: {url}")
             return url, text_content
     except asyncio.TimeoutError:
-        logging.warning(f"Request timed out for {url}")
+        logging.warning(f"请求超时: {url}")
     except aiohttp.ClientError as e:
-        logging.warning(f"Client error fetching {url}: {e}")
+        logging.warning(f"客户端错误获取URL: {url} - {e}")
     except Exception as e:
-        logging.warning(f"Unexpected error fetching {url}: {e}")
+        logging.warning(f"获取URL时发生意外错误: {url} - {e}")
     return url, None
 
 def find_matches(text, categories_data):
@@ -384,8 +395,9 @@ def find_matches(text, categories_data):
                 is_protocol_pattern = any(proto_prefix in pattern_str.lower() for proto_prefix in PROTOCOL_PREFIXES)
                 
                 if category in PROTOCOL_CATEGORIES or is_protocol_pattern:
-                    # 优化正则表达式性能
-                    pattern = re.compile(pattern_str, re.IGNORECASE | re.MULTILINE | re.DOTALL)
+                    # 优化正则表达式性能，避免同时使用过多标志
+                    # 移除DOTALL标志以减少匹配范围，提高性能
+                    pattern = re.compile(pattern_str, re.IGNORECASE | re.MULTILINE)
                     found = pattern.findall(text)
                     
                     if found:
@@ -395,10 +407,12 @@ def find_matches(text, categories_data):
                                 cleaned_item = item.strip()
                                 if cleaned_item:
                                     category_matches.add(cleaned_item)
-                                    # 如果匹配项数量过大，限制以避免内存问题
+                                    # 如果匹配项数量过大，实际上限制数量以避免内存问题
                                     if len(category_matches) > 10000:
-                                        logging.warning(f"类别 {category} 的匹配项超过10000，可能会导致内存问题")
-                                        break
+                                        logging.warning(f"类别 {category} 的匹配项超过10000，已停止添加更多匹配项")
+                                        break  # 跳出item循环
+                        if len(category_matches) > 10000:
+                            break  # 跳出pattern循环
             except re.error as e:
                 logging.error(f"正则表达式错误 - 模式 '{pattern_str}' 在类别 '{category}': {e}")
                 continue
@@ -406,8 +420,8 @@ def find_matches(text, categories_data):
         if category_matches:
             matches[category] = category_matches
     
-    # 只返回非空的匹配结果
-    return {k: v for k, v in matches.items() if v}
+    # 直接返回匹配结果，不再进行额外过滤
+    return matches
 
 def save_to_file(directory, category_name, items_set):
     """将项目集合保存到指定目录的文本文件中"""
@@ -474,7 +488,6 @@ def generate_simple_readme(protocol_counts, country_counts, all_keywords_data, u
     
     md_content += "## ℹ️ 说明\n\n"
     md_content += "国家文件仅包含在**配置名称**中找到国家名称/旗帜的配置。配置名称首先从链接的`#`部分提取，如果不存在，则从内部名称(对于Vmess/SSR)提取。\n\n"
-    md_content += "过度URL编码的配置(包含大量`%25`、过长或包含特定关键词的)已从结果中删除。\n\n"
     md_content += "所有输出文件已按类别整理到不同目录中，便于查找和使用。\n\n"
 
     md_content += "## 📁 协议文件\n\n"
@@ -595,12 +608,24 @@ async def main():
         return
 
     # 分离协议模式和国家关键词
-    protocol_patterns_for_matching = {
-        cat: patterns for cat, patterns in categories_data.items() if cat in PROTOCOL_CATEGORIES
-    }
-    country_keywords_for_naming = {
-        cat: patterns for cat, patterns in categories_data.items() if cat not in PROTOCOL_CATEGORIES
-    }
+    # 确保所有PROTOCOL_CATEGORIES中的协议都能被识别，即使在keywords.json中没有定义
+    protocol_patterns_for_matching = {}
+    country_keywords_for_naming = {}
+    
+    for cat, patterns in categories_data.items():
+        if cat in PROTOCOL_CATEGORIES:
+            protocol_patterns_for_matching[cat] = patterns
+        else:
+            country_keywords_for_naming[cat] = patterns
+    
+    # 确保所有协议类别都有对应的模式
+    for protocol in PROTOCOL_CATEGORIES:
+        if protocol not in protocol_patterns_for_matching:
+            # 为没有模式的协议添加基本匹配模式
+            base_pattern = [f"{protocol.lower().replace('grpc', '')}://[^\n\r<\"']+"]
+            protocol_patterns_for_matching[protocol] = base_pattern
+            logging.debug(f"为协议 {protocol} 添加基本匹配模式")
+    
     country_category_names = list(country_keywords_for_naming.keys())
 
     logging.info(f"已加载 {len(urls)} 个URL和 "
@@ -641,8 +666,17 @@ async def main():
         logging.info(f"URL获取完成: 成功 {success_count}, 异常 {exception_count}, 总计 {len(filtered_pages)} 个页面待处理")
 
     # 初始化结果集合
-    final_configs_by_country = {cat: set() for cat in country_category_names}
-    final_all_protocols = {cat: set() for cat in PROTOCOL_CATEGORIES}
+    # 修复潜在的空集合引用问题
+    final_configs_by_country = {}
+    final_all_protocols = {}
+    
+    # 确保所有国家类别都有对应的集合
+    for cat in country_category_names:
+        final_configs_by_country[cat] = set()
+    
+    # 确保所有协议类别都有对应的集合
+    for cat in PROTOCOL_CATEGORIES:
+        final_all_protocols[cat] = set()
 
     logging.info("处理页面并关联配置名称...")
     
@@ -713,7 +747,6 @@ async def main():
             current_name_to_check_str = name_to_check.strip()
 
             # 遍历每个国家的关键词列表，寻找匹配
-            country_matched = False
             for country_name_key, keywords_for_country_list in country_keywords_for_naming.items():
                 # 只处理有效的关键词列表
                 if not isinstance(keywords_for_country_list, list):
@@ -723,12 +756,9 @@ async def main():
                 text_keywords_for_country = []
                 for kw in keywords_for_country_list:
                     if isinstance(kw, str) and kw.strip():
-                        # 移除过度的过滤，只过滤掉空字符串和纯表情符号
-                        # 允许所有有效的国家关键词，包括非英语字符
-                        if len(kw.strip()) > 0:
-                            # 只添加唯一的关键词
-                            if kw not in text_keywords_for_country:
-                                text_keywords_for_country.append(kw)
+                        # 只添加唯一的有效关键词
+                        if kw not in text_keywords_for_country:
+                            text_keywords_for_country.append(kw)
                 
                 # 检查是否匹配任何关键词
                 match_found = False
@@ -754,34 +784,32 @@ async def main():
                     if is_abbr:
                         # 对于缩写，使用更灵活的匹配策略
                         try:
-                            # 尝试精确匹配缩写
+                            # 改进缩写匹配逻辑，提高准确性
+                            # 检查是否为独立单词
                             pattern = r'\b' + re.escape(keyword) + r'\b'
                             if re.search(pattern, current_name_to_check_str, re.IGNORECASE):
                                 match_found = True
                                 logging.debug(f"国家'{country_name_key}' 匹配缩写: '{keyword}'")
                                 break
-                            # 尝试另一种方式：在配置名称中查找国家代码，允许前后有非字母字符
-                            if keyword_lower in current_name_lower:
-                                # 检查是否是独立的国家代码，避免匹配到其他单词中包含的字母组合
-                                parts = re.split(r'[^a-zA-Z]', current_name_to_check_str.lower())
-                                if keyword_lower in parts:
-                                    match_found = True
-                                    logging.debug(f"国家'{country_name_key}' 匹配分割后缩写: '{keyword}'")
-                                    break
-                        except Exception:
-                            # 静默跳过正则匹配错误
-                            pass
+                            # 检查是否为单独的国家代码部分
+                            parts = re.split(r'[^a-zA-Z]', current_name_to_check_str.lower())
+                            if keyword_lower in parts:
+                                match_found = True
+                                logging.debug(f"国家'{country_name_key}' 匹配分割后缩写: '{keyword}'")
+                                break
+                        except Exception as e:
+                            # 添加异常日志但继续执行
+                            logging.debug(f"正则匹配错误: {e}")
                     else:
-                        # 对于普通关键词，使用更精确的匹配
-                        # 对于多语言关键词，使用更宽松的匹配策略
+                        # 优化关键词匹配逻辑
                         if not is_non_english_text(keyword):
-                            # 英语关键词使用严格的包含检查
+                            # 英语关键词使用包含检查
                             if keyword_lower in current_name_lower:
                                 match_found = True
                                 logging.debug(f"国家'{country_name_key}' 匹配英语关键词: '{keyword}'")
                                 break
                         else:
-                            # 非英语关键词使用直接比较
+                            # 非英语关键词直接比较
                             if keyword in current_name_to_check_str or keyword_lower in current_name_lower:
                                 match_found = True
                                 logging.debug(f"国家'{country_name_key}' 匹配非英语关键词: '{keyword}'")
@@ -789,11 +817,8 @@ async def main():
                 
                 if match_found:
                     final_configs_by_country[country_name_key].add(config)
-                    country_matched = True
                     logging.debug(f"配置已关联到国家: {country_name_key}")
-                    # 移除这里的break，允许配置匹配多个国家
-                
-            # 移除这里的break，确保每个配置都能被完全处理
+                    # 继续循环，允许配置匹配多个国家
 
     # 统计信息日志
     logging.info(f"成功处理 {processed_pages}/{len(fetched_pages)} 个页面，找到 {found_configs} 个有效配置，过滤掉 {filtered_out_configs} 个无效配置")
