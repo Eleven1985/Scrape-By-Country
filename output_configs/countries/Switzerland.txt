@@ -1,2 +1,0 @@
-ss://0eaef00e-ffc4-46bd-8f32-07baefd73f70@IP.mirzabox.info:2096?allowInsecure=0&sni=IBIS.zuLAir.site.&type=ws&host=IBIS.zuLAir.site.&path=/security=tls#CH_speednode_0001
-vless://0eaef00e-ffc4-46bd-8f32-07baefd73f70@IP.mirzabox.info:2096?allowInsecure=0&sni=IBIS.zuLAir.site.&type=ws&host=IBIS.zuLAir.site.&path=/security=tls#CH_speednode_0001
