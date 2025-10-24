@@ -3,53 +3,46 @@ name: V2Ray Scraper
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */12 * * *"  # 每12小时执行一次
+    - cron: "0 */12 * * *"
 
 permissions:
   contents: write
 
 jobs:
-  scrape:
+  scrape-and-commit:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
 
     steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 1  # 只获取最新提交，减少资源消耗
+      - name: 📥 Check out repository
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
           cache: 'pip'
 
-      - run: |
+      - name: ⚙️ Install dependencies
+        run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install -r requirements.txt # <-- pytz هم نصب می‌شود
 
-      - run: python scraper.py
-        timeout-minutes: 20
+      - name: 🕸️ Run scraping script
+        run: python scraper.py
 
-      - run: |
-          if [ ! -d "output_configs" ] || [ -z "$(ls -A output_configs 2>/dev/null)" ]; then
-            echo "❌ No configuration files found!"
-            exit 1
-          fi
-
-      - run: |
+      - name: 🔧 Configure Git
+        run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add output_configs/ README.md
-          
-          if ! git diff --staged --quiet; then
-            TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
-            git commit -m "Update configurations on $TIMESTAMP [skip ci]"
-            git push
-          else
-            echo "No changes to commit"
-          fi
 
-      - if: failure()
-        uses: actions/github-script@v7
-        with:
-          script: core.error('Scraping workflow failed!')
+      - name: ⬆️ Commit and Push Changes
+        run: |
+          git add output_configs/ README.md #
+
+          if git diff --staged --quiet; then
+            echo "No changes detected. Skipping commit."
+          else
+            echo "Changes detected. Committing and pushing..."
+            git commit -m "docs: Update README and config files [skip ci]"
+            git push
+          fi
