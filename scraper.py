@@ -34,7 +34,7 @@ PROTOCOL_CATEGORIES = [
     "Vmess", "Vless", "Trojan", "ShadowSocks", "ShadowSocksR",
     "Tuic", "Hysteria2", "WireGuard", "Hysteria", "NaiveProxy", 
     "SS", "SSROld", "SSRNew", "Shadowsocks2022", "TrojanGo",
-    "VmessGrpc", "VlessGrpc", "TrojanGrpc", "Hysteria1", "Snell"
+    "Hysteria1", "Snell"
 ]
 # 预编译协议前缀列表，提高性能
 PROTOCOL_PREFIXES = [p.lower() + "://" for p in PROTOCOL_CATEGORIES]
@@ -304,7 +304,7 @@ def should_filter_config(config):
     common_protocol_keywords = ['vmess', 'vless', 'trojan', 'ss://', 'ssr://', 
                                'tuic', 'hy2', 'wireguard', 'hysteria', 'snell',
                                'ss2022', 'trojan-go', 'naiveproxy', 'shadowsocks2022',
-                               'hysteria1', 'vmessgrpc', 'vlessgrpc', 'trojangrpc']
+                               'hysteria1']
     
     # 优化协议关键词检查逻辑，使用更高效的集合查找
     config_lower = config.lower()
@@ -622,7 +622,7 @@ async def main():
     for protocol in PROTOCOL_CATEGORIES:
         if protocol not in protocol_patterns_for_matching:
             # 为没有模式的协议添加基本匹配模式
-            base_pattern = [f"{protocol.lower().replace('grpc', '')}://[^\n\r<\"']+"]
+            base_pattern = [f"{protocol.lower()}://[^\n\r<\"']+"]
             protocol_patterns_for_matching[protocol] = base_pattern
             logging.debug(f"为协议 {protocol} 添加基本匹配模式")
     
@@ -696,11 +696,17 @@ async def main():
         # 处理找到的协议配置
         page_filtered_count = 0
         for protocol_cat_name, configs_found in page_protocol_matches.items():
-            if protocol_cat_name in PROTOCOL_CATEGORIES:
+            # 检查是否是带有Grpc后缀的协议，如果是则归类到基础协议
+            base_protocol = protocol_cat_name
+            if protocol_cat_name.endswith('Grpc'):
+                base_protocol = protocol_cat_name[:-4]  # 移除Grpc后缀
+                
+            # 确保使用的是有效的协议类别
+            if base_protocol in PROTOCOL_CATEGORIES:
                 for config in configs_found:
                     if not should_filter_config(config):
                         all_page_configs_after_filter.add(config)
-                        final_all_protocols[protocol_cat_name].add(config)
+                        final_all_protocols[base_protocol].add(config)
                     else:
                         page_filtered_count += 1
         
