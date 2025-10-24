@@ -94,7 +94,7 @@ logging = logger
 PROTOCOL_CATEGORIES = [
     "Vmess", "Vless", "Trojan", "ShadowSocks", "ShadowSocksR",
     "WireGuard", "Tuic", "Hysteria2"
-] --- 检查非英语文本的辅助函数 ---
+] # --- 检查非英语文本的辅助函数 ---
 def is_non_english_text(text):
     """检查文本是否包含非英语字符（如波斯语、阿拉伯语等特殊字符）"""
     if not isinstance(text, str) or not text.strip():
