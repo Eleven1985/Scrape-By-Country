@@ -77,7 +77,7 @@ PROTOCOL_CATEGORIES = [
 # 定义正确的协议前缀映射
 PROTOCOL_PREFIXES = [
     "vmess://", "vless://", "trojan://", "ss://", "ssr://",
-    "tuic://", "hy2://", "wireguard://"
+    "tuic://", "hy2://", "hysteria2://", "wireguard://"
 ]
 
 # --- 检查非英语文本的辅助函数 ---
@@ -366,7 +366,7 @@ def get_hysteria2_name(hy2_config):
     """
     try:
         # 确保输入是字符串
-        if not isinstance(hy2_config, str) or not hy2_config.startswith('hy2://'):
+        if not isinstance(hy2_config, str) or not (hy2_config.startswith('hy2://') or hy2_config.startswith('hysteria2://')):
             return None
         
         # 检查是否有 # 后的名称部分
@@ -478,83 +478,101 @@ def should_filter_config(config):
         return True
     elif found_protocol == 'hy2://' and not config[5:].strip():
         return True
+    elif found_protocol == 'hysteria2://' and not config[12:].strip():
+        return True
     elif found_protocol == 'wireguard://' and not config[12:].strip():
         return True
     
     return False
 
-async def fetch_url(session, url):
-    """异步获取URL内容并提取文本"""
-    try:
-        # 验证URL格式
-        if not url.startswith(('http://', 'https://')):
-            logging.warning(f"无效的URL格式: {url}")
-            return url, None
-            
-        # 使用头部模拟浏览器请求，避免被阻止
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-        }
-        
-        async with session.get(url, timeout=REQUEST_TIMEOUT, headers=headers) as response:
-            response.raise_for_status()
-            
-            # 检查内容长度，避免过大的响应
-            content_length = response.headers.get('Content-Length')
-            if content_length and int(content_length) > MAX_PAGE_SIZE:
-                logging.warning(f"页面过大 (>{MAX_PAGE_SIZE/1024/1024:.1f}MB), 跳过: {url}")
-                return url, None
-            
-            # 尝试处理不同的内容类型
-            content_type = response.headers.get('Content-Type', '')
-            
-            # 如果是JSON内容，直接处理
-            if 'application/json' in content_type:
-                try:
-                    json_data = await response.json()
-                    # 将JSON转换为字符串以方便后续处理
-                    text_content = json.dumps(json_data, ensure_ascii=False)
-                    logging.debug(f"处理JSON内容: {url}")
-                except json.JSONDecodeError:
-                    # 如果无法解析为JSON，回退到文本处理
-                    html = await response.text()
-                    soup = BeautifulSoup(html, 'html.parser')
-                    text_content = soup.get_text(separator='\n', strip=True)
-            else:
-                # 处理HTML或纯文本
-                html = await response.text()
+async def fetch_url(session, url, max_retries=2):
+    """异步获取URL内容并提取文本，支持重试机制"""
+    # 验证URL格式
+    if not url.startswith(('http://', 'https://')):
+        logging.warning(f"无效的URL格式: {url}")
+        return url, None
+    
+    retry_count = 0
+    last_exception = None
+    
+    # 使用头部模拟浏览器请求，避免被阻止
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+    }
+    
+    while retry_count <= max_retries:
+        try:
+            async with session.get(url, timeout=REQUEST_TIMEOUT, headers=headers) as response:
+                response.raise_for_status()
                 
-                # 再次检查内容大小
-                if len(html) > MAX_PAGE_SIZE:
-                    logging.warning(f"页面内容过大 (>{MAX_PAGE_SIZE/1024/1024:.1f}MB), 跳过详细处理: {url}")
+                # 检查内容长度，避免过大的响应
+                content_length = response.headers.get('Content-Length')
+                if content_length and int(content_length) > MAX_PAGE_SIZE:
+                    logging.warning(f"页面过大 (>{MAX_PAGE_SIZE/1024/1024:.1f}MB), 跳过: {url}")
                     return url, None
                 
-                soup = BeautifulSoup(html, 'html.parser')
+                # 尝试处理不同的内容类型
+                content_type = response.headers.get('Content-Type', '')
                 
-                # 优先从代码相关标签提取内容
-                text_content = ""
-                code_elements = soup.find_all(['pre', 'code'])
-                if code_elements:
-                    for element in code_elements:
-                        text_content += element.get_text(separator='\n', strip=True) + "\n"
-                
-                # 如果没有足够的代码内容，再提取其他文本元素
-                if not text_content or len(text_content) < 100:
-                    for element in soup.find_all(['p', 'div', 'li', 'span', 'td']):
-                        text_content += element.get_text(separator='\n', strip=True) + "\n"
-                
-                # 最后的备用方案
-                if not text_content: 
-                    text_content = soup.get_text(separator=' ', strip=True)
+                # 如果是JSON内容，直接处理
+                if 'application/json' in content_type:
+                    try:
+                        json_data = await response.json()
+                        # 将JSON转换为字符串以方便后续处理
+                        text_content = json.dumps(json_data, ensure_ascii=False)
+                        logging.debug(f"处理JSON内容: {url}")
+                    except json.JSONDecodeError:
+                        # 如果无法解析为JSON，回退到文本处理
+                        html = await response.text()
+                        soup = BeautifulSoup(html, 'html.parser')
+                        text_content = soup.get_text(separator='\n', strip=True)
+                else:
+                    # 处理HTML或纯文本
+                    html = await response.text()
                     
-            logging.info(f"成功获取: {url}")
-            return url, text_content
-    except asyncio.TimeoutError:
-        logging.warning(f"Request timed out for {url}")
-    except aiohttp.ClientError as e:
-        logging.warning(f"Client error fetching {url}: {e}")
-    except Exception as e:
-        logging.warning(f"Unexpected error fetching {url}: {e}")
+                    # 再次检查内容大小
+                    if len(html) > MAX_PAGE_SIZE:
+                        logging.warning(f"页面内容过大 (>{MAX_PAGE_SIZE/1024/1024:.1f}MB), 跳过详细处理: {url}")
+                        return url, None
+                    
+                    soup = BeautifulSoup(html, 'html.parser')
+                    
+                    # 优先从代码相关标签提取内容
+                    text_content = ""
+                    code_elements = soup.find_all(['pre', 'code'])
+                    if code_elements:
+                        for element in code_elements:
+                            text_content += element.get_text(separator='\n', strip=True) + "\n"
+                    
+                    # 如果没有足够的代码内容，再提取其他文本元素
+                    if not text_content or len(text_content) < 100:
+                        for element in soup.find_all(['p', 'div', 'li', 'span', 'td']):
+                            text_content += element.get_text(separator='\n', strip=True) + "\n"
+                    
+                    # 最后的备用方案
+                    if not text_content: 
+                        text_content = soup.get_text(separator=' ', strip=True)
+                        
+                logging.info(f"成功获取: {url}")
+                return url, text_content
+        except asyncio.TimeoutError:
+            last_exception = "请求超时"
+            logging.warning(f"获取URL超时: {url}, 第{retry_count+1}次尝试")
+        except aiohttp.ClientError as e:
+            last_exception = f"客户端错误: {str(e)}"
+            logging.warning(f"获取URL客户端错误: {url}, 错误: {str(e)}, 第{retry_count+1}次尝试")
+        except Exception as e:
+            last_exception = f"未知错误: {str(e)}"
+            logging.warning(f"获取URL时出错: {url}, 错误: {str(e)}, 第{retry_count+1}次尝试")
+        
+        retry_count += 1
+        # 只有在还没达到最大重试次数时才延迟
+        if retry_count <= max_retries:
+            delay = min(2 ** retry_count, 10)  # 指数退避策略，最多等待10秒
+            logging.info(f"将在{delay}秒后重试获取URL: {url}")
+            await asyncio.sleep(delay)
+    
+    logging.error(f"在{max_retries+1}次尝试后获取URL失败: {url}, 最后错误: {last_exception}")
     return url, None
 
 def find_matches(text, categories_data):
@@ -723,7 +741,6 @@ def generate_simple_readme(protocol_counts, country_counts, all_keywords_data, u
     
     md_content += "## ℹ️ 说明\n\n"
     md_content += "国家文件仅包含在**配置名称**中找到国家名称/旗帜的配置。配置名称首先从链接的`#`部分提取，如果不存在，则从内部名称(对于Vmess/SSR)提取。\n\n"
-    md_content += "过度URL编码的配置(包含大量 %25 、过长或包含特定关键词的)已从结果中删除。\n\n"
     md_content += "所有输出文件已按类别整理到不同目录中，便于查找和使用。\n\n"
 
     md_content += "## 📁 协议文件\n\n"
@@ -762,10 +779,36 @@ def generate_simple_readme(protocol_counts, country_counts, all_keywords_data, u
             if flag_image_markdown:
                 display_parts.append(flag_image_markdown)
             
-            # 原始名称 (键)，为Canada添加中文标识
+            # 原始名称 (键)，为所有国家添加中文标识
             display_name = country_category_name
-            if country_category_name == "Canada":
-                display_name = "Canada（加拿大）"
+            
+            # 国家英文名到中文名的映射
+            country_chinese_names = {
+                "Canada": "Canada（加拿大）",
+                "China": "China（中国）",
+                "Finland": "Finland（芬兰）",
+                "France": "France（法国）",
+                "Germany": "Germany（德国）",
+                "Iran": "Iran（伊朗）",
+                "Ireland": "Ireland（爱尔兰）",
+                "Israel": "Israel（以色列）",
+                "Japan": "Japan（日本）",
+                "Luxembourg": "Luxembourg（卢森堡）",
+                "Poland": "Poland（波兰）",
+                "Portugal": "Portugal（葡萄牙）",
+                "Russia": "Russia（俄罗斯）",
+                "Singapore": "Singapore（新加坡）",
+                "SouthKorea": "SouthKorea（韩国）",
+                "Spain": "Spain（西班牙）",
+                "Switzerland": "Switzerland（瑞士）",
+                "Taiwan": "Taiwan（台湾）",
+                "UK": "UK（英国）",
+                "USA": "USA（美国）"
+            }
+            
+            # 查找对应的中文名称
+            if country_category_name in country_chinese_names:
+                display_name = country_chinese_names[country_category_name]
                 
             display_parts.append(display_name)
             
@@ -874,28 +917,54 @@ async def main():
                 logging.error(f"URL获取任务异常: {url_to_fetch}, 错误: {e}")
                 return url_to_fetch, None
     
-    # 创建HTTP会话并执行所有获取任务
+    # 添加URL去重
+    unique_urls = list(set(urls))
+    if len(unique_urls) < len(urls):
+        logging.info(f"去重前URL数量: {len(urls)}, 去重后: {len(unique_urls)}")
+        urls = unique_urls
+    
+    # 创建HTTP会话并批处理URL请求
     async with aiohttp.ClientSession() as session:
         logging.info(f"开始获取 {len(urls)} 个URLs (最大并发: {CONCURRENT_REQUESTS})...")
-        fetched_pages = await asyncio.gather(
-            *[fetch_with_semaphore(session, u) for u in urls],
-            return_exceptions=True  # 即使某些任务失败也继续执行
-        )
         
-        # 过滤出成功获取的页面并统计失败情况
+        # 批量处理URL，控制并发数量
+        batch_size = 10
+        filtered_pages = []
         success_count = 0
         exception_count = 0
-        filtered_pages = []
         
-        for result in fetched_pages:
-            if isinstance(result, tuple) and len(result) == 2 and isinstance(result[0], str) and result[1] is not None:
-                filtered_pages.append(result)
-                success_count += 1
-            elif isinstance(result, Exception):
-                exception_count += 1
-                logging.warning(f"URL获取任务异常: {type(result).__name__}: {result}")
-            else:
-                logging.debug(f"无效的URL获取结果: {type(result)}")
+        for i in range(0, len(urls), batch_size):
+            batch_urls = urls[i:i+batch_size]
+            batch_num = i//batch_size + 1
+            total_batches = (len(urls) + batch_size - 1) // batch_size
+            logging.info(f"处理URL批次 {batch_num}/{total_batches}, 包含 {len(batch_urls)} 个URL")
+            
+            # 异步获取本批次URL的内容
+            batch_results = await asyncio.gather(
+                *[fetch_with_semaphore(session, u) for u in batch_urls],
+                return_exceptions=True  # 即使某些任务失败也继续执行
+            )
+            
+            # 处理本批次结果
+            for j, result in enumerate(batch_results):
+                url = batch_urls[j]
+                if isinstance(result, tuple) and len(result) == 2 and isinstance(result[0], str) and result[1] is not None:
+                    filtered_pages.append(result)
+                    success_count += 1
+                    logging.debug(f"成功获取URL: {url}")
+                elif isinstance(result, Exception):
+                    exception_count += 1
+                    logging.warning(f"URL获取任务异常: {url}, {type(result).__name__}: {result}")
+                else:
+                    logging.debug(f"无效的URL获取结果: {url}, {type(result)}")
+            
+            # 记录批次进度
+            logging.info(f"批次 {batch_num}/{total_batches} 完成: 成功 {success_count}, 异常 {exception_count}, 累计有效页面 {len(filtered_pages)}")
+            
+            # 避免请求过于频繁，在批次之间添加小延迟
+            if i + batch_size < len(urls):
+                logging.debug(f"在批次之间添加1秒延迟")
+                await asyncio.sleep(1)
         
         fetched_pages = filtered_pages
         logging.info(f"URL获取完成: 成功 {success_count}, 异常 {exception_count}, 总计 {len(filtered_pages)} 个页面待处理")
@@ -951,6 +1020,12 @@ async def main():
             logging.info(f"处理进度: {processed_pages}/{len(fetched_pages)} 页面, " \
                       f"已找到 {found_configs} 配置, 已过滤 {filtered_out_configs} 配置")
 
+        # 使用集合进行配置去重
+        unique_configs = list(dict.fromkeys(all_page_configs_after_filter))
+        if len(unique_configs) < len(all_page_configs_after_filter):
+            logging.info(f"去重前配置数量: {len(all_page_configs_after_filter)}, 去重后: {len(unique_configs)}")
+            all_page_configs_after_filter = unique_configs
+        
         # 为每个配置关联国家信息
         for config in all_page_configs_after_filter:
             name_to_check = None
@@ -967,22 +1042,24 @@ async def main():
 
             # 2. 如果URL片段中没有名称，尝试从协议特定字段提取
             if not name_to_check:
-                if config.startswith('ssr://'):
-                    name_to_check = get_ssr_name(config)
-                elif config.startswith('vmess://'):
-                    name_to_check = get_vmess_name(config)
-                elif config.startswith('trojan://'):
-                    name_to_check = get_trojan_name(config)
-                elif config.startswith('vless://'):
-                    name_to_check = get_vless_name(config)
-                elif config.startswith('ss://'):
-                    name_to_check = get_shadowsocks_name(config)
-                elif config.startswith('tuic://'):
-                    name_to_check = get_tuic_name(config)
-                elif config.startswith('hysteria2://') or config.startswith('hy2://'):
-                    name_to_check = get_hysteria2_name(config)
-                elif config.startswith('wireguard://') or config.startswith('wg://'):
-                    name_to_check = get_wireguard_name(config)
+                # 使用字典映射协议类型到对应的名称提取函数，提高可维护性
+                protocol_handlers = {
+                    'ssr://': get_ssr_name,
+                    'vmess://': get_vmess_name,
+                    'trojan://': get_trojan_name,
+                    'vless://': get_vless_name,
+                    'ss://': get_shadowsocks_name,
+                    'tuic://': get_tuic_name,
+                    'hy2://': get_hysteria2_name,
+                    'hysteria2://': get_hysteria2_name,
+                    'wireguard://': get_wireguard_name,
+                    'wg://': get_wireguard_name
+                }
+                
+                for prefix, handler_func in protocol_handlers.items():
+                    if config.startswith(prefix):
+                        name_to_check = handler_func(config)
+                        break
                 # 其他协议的名称提取支持
 
             # 如果无法获取名称，记录并跳过此配置
@@ -1175,6 +1252,21 @@ async def main():
     logging.info(f"输出目录: {OUTPUT_DIR}")
     logging.info(f"README文件已更新")
 
+async def cleanup_tasks():
+    """清理所有正在运行的异步任务"""
+    tasks = asyncio.all_tasks()
+    current_task = asyncio.current_task()
+    tasks_to_cancel = [task for task in tasks if task != current_task and not task.done()]
+    
+    if tasks_to_cancel:
+        logging.info(f"清理 {len(tasks_to_cancel)} 个正在运行的异步任务")
+        for task in tasks_to_cancel:
+            task.cancel()
+        try:
+            await asyncio.gather(*tasks_to_cancel, return_exceptions=True)
+        except Exception:
+            pass
+
 if __name__ == "__main__":
     try:
         logging.info("=== V2Ray配置抓取工具开始运行 ===")
@@ -1183,13 +1275,39 @@ if __name__ == "__main__":
         asyncio.run(main())
     except KeyboardInterrupt:
         logging.info("程序被用户中断")
+    except asyncio.TimeoutError:
+        logging.error("程序执行超时")
+    except aiohttp.ClientError as e:
+        logging.error(f"HTTP客户端错误: {str(e)}")
+        import traceback
+        logging.debug(f"错误详细信息: {traceback.format_exc()}")
+    except ValueError as e:
+        logging.error(f"数据处理错误: {str(e)}")
+        import traceback
+        logging.debug(f"错误详细信息: {traceback.format_exc()}")
+    except FileNotFoundError as e:
+        logging.error(f"文件未找到: {str(e)}")
+    except IOError as e:
+        logging.error(f"IO错误: {str(e)}")
     except Exception as e:
         logging.critical(f"程序执行出错: {e}")
         import traceback
         logging.debug(f"错误详细信息: {traceback.format_exc()}")
     finally:
         logging.info("=== 程序结束 ===")
+        # 清理异步任务
+        try:
+            if asyncio.get_event_loop().is_running():
+                asyncio.create_task(cleanup_tasks())
+            else:
+                asyncio.run(cleanup_tasks())
+        except Exception as cleanup_e:
+            logging.warning(f"清理异步任务时出错: {cleanup_e}")
+        
         # 确保所有日志都被写入文件
         for handler in logging.handlers:
-            handler.flush()
-            handler.close()
+            try:
+                handler.flush()
+                handler.close()
+            except Exception as handler_e:
+                print(f"关闭日志处理器时出错: {handler_e}")  # 避免在日志关闭时再记录日志
