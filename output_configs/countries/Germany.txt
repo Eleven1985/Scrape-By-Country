@@ -1,2 +1,1 @@
 vless://dce1e7b5-60ab-4446-bb95-97e1234df5d6@141.11.164.233:11366?allowInsecure=0#DE_speednode_0004
-vless://turboo-server@sub.turboo-server.com.co:80?path=%2F&security=none&encryption=none&type=ws#%F0%9F%87%A9%F0%9F%87%AA_DE_%E5%BE%B7%E5%9B%BD
