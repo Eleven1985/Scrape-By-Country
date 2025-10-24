@@ -1,12 +1,12 @@
-# 📊 提取结果 (最后更新: 2025-10-24 11:59:23 CST)
+# 📊 提取结果 (最后更新: 2025-10-24 12:05:11 CST)
 
 此文件是自动生成的。
 
 ## 📋 统计概览
 
-- **配置总数**: 2642
-- **有数据的协议数**: 8
-- **国家相关配置数**: 1152
+- **配置总数**: 1961
+- **有数据的协议数**: 5
+- **国家相关配置数**: 1141
 - **有配置的国家数**: 25
 
 ## ℹ️ 说明
@@ -22,11 +22,8 @@
 | SS | 645 | [`SS.txt`](output_configs/protocols/SS.txt) |
 | ShadowSocks | 640 | [`ShadowSocks.txt`](output_configs/protocols/ShadowSocks.txt) |
 | Trojan | 58 | [`Trojan.txt`](output_configs/protocols/Trojan.txt) |
-| TrojanGrpc | 58 | [`TrojanGrpc.txt`](output_configs/protocols/TrojanGrpc.txt) |
 | Vless | 578 | [`Vless.txt`](output_configs/protocols/Vless.txt) |
-| VlessGrpc | 583 | [`VlessGrpc.txt`](output_configs/protocols/VlessGrpc.txt) |
 | Vmess | 40 | [`Vmess.txt`](output_configs/protocols/Vmess.txt) |
-| VmessGrpc | 40 | [`VmessGrpc.txt`](output_configs/protocols/VmessGrpc.txt) |
 
 ## 🌍 国家文件 (包含配置)
 
@@ -45,16 +42,16 @@
 | <img src="https://flagcdn.com/w20/nl.png" width="20" alt="Netherlands flag"> Netherlands | 4 | [`Netherlands.txt`](output_configs/countries/Netherlands.txt) |
 | <img src="https://flagcdn.com/w20/pl.png" width="20" alt="Poland flag"> Poland | 4 | [`Poland.txt`](output_configs/countries/Poland.txt) |
 | <img src="https://flagcdn.com/w20/pt.png" width="20" alt="Portugal flag"> Portugal | 2 | [`Portugal.txt`](output_configs/countries/Portugal.txt) |
-| <img src="https://flagcdn.com/w20/ru.png" width="20" alt="Russia flag"> Russia | 70 | [`Russia.txt`](output_configs/countries/Russia.txt) |
+| <img src="https://flagcdn.com/w20/ru.png" width="20" alt="Russia flag"> Russia | 65 | [`Russia.txt`](output_configs/countries/Russia.txt) |
 | <img src="https://flagcdn.com/w20/rs.png" width="20" alt="Serbia flag"> Serbia | 2 | [`Serbia.txt`](output_configs/countries/Serbia.txt) |
 | <img src="https://flagcdn.com/w20/sg.png" width="20" alt="Singapore flag"> Singapore | 26 | [`Singapore.txt`](output_configs/countries/Singapore.txt) |
-| <img src="https://flagcdn.com/w20/kr.png" width="20" alt="SouthKorea flag"> SouthKorea | 264 | [`SouthKorea.txt`](output_configs/countries/SouthKorea.txt) |
+| <img src="https://flagcdn.com/w20/kr.png" width="20" alt="SouthKorea flag"> SouthKorea | 262 | [`SouthKorea.txt`](output_configs/countries/SouthKorea.txt) |
 | <img src="https://flagcdn.com/w20/es.png" width="20" alt="Spain flag"> Spain | 2 | [`Spain.txt`](output_configs/countries/Spain.txt) |
 | <img src="https://flagcdn.com/w20/ch.png" width="20" alt="Switzerland flag"> Switzerland | 2 | [`Switzerland.txt`](output_configs/countries/Switzerland.txt) |
 | <img src="https://flagcdn.com/w20/tw.png" width="20" alt="Taiwan flag"> Taiwan | 15 | [`Taiwan.txt`](output_configs/countries/Taiwan.txt) |
 | <img src="https://flagcdn.com/w20/tg.png" width="20" alt="Togo flag"> Togo | 2 | [`Togo.txt`](output_configs/countries/Togo.txt) |
 | <img src="https://flagcdn.com/w20/gb.png" width="20" alt="UK flag"> UK | 5 | [`UK.txt`](output_configs/countries/UK.txt) |
-| <img src="https://flagcdn.com/w20/us.png" width="20" alt="USA flag"> USA | 522 | [`USA.txt`](output_configs/countries/USA.txt) |
+| <img src="https://flagcdn.com/w20/us.png" width="20" alt="USA flag"> USA | 518 | [`USA.txt`](output_configs/countries/USA.txt) |
 | <img src="https://flagcdn.com/w20/ua.png" width="20" alt="Ukraine flag"> Ukraine | 8 | [`Ukraine.txt`](output_configs/countries/Ukraine.txt) |
 | <img src="https://flagcdn.com/w20/vn.png" width="20" alt="Vietnam flag"> Vietnam | 2 | [`Vietnam.txt`](output_configs/countries/Vietnam.txt) |
 
