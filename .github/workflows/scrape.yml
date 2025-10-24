@@ -1,9 +1,9 @@
 name: V2Ray Scraper
 
 on:
-  workflow_dispatch:
+  workflow_dispatch:  # 允许手动触发
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 */12 * * *"  # 每12小时执行一次
 
 permissions:
   contents: write
@@ -11,10 +11,13 @@ permissions:
 jobs:
   scrape-and-commit:
     runs-on: ubuntu-latest
+    timeout-minutes: 30  # 设置工作流超时时间
 
     steps:
       - name: 📥 Check out repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # 获取完整历史记录
 
       - name: 🐍 Set up Python
         uses: actions/setup-python@v5
@@ -24,11 +27,25 @@ jobs:
 
       - name: ⚙️ Install dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt # <-- pytz هم نصب می‌شود
+          python -m pip install --upgrade pip setuptools wheel
+          pip install -r requirements.txt
 
       - name: 🕸️ Run scraping script
         run: python scraper.py
+        timeout-minutes: 20  # 设置脚本执行超时
+        continue-on-error: false  # 脚本失败时工作流停止
+
+      - name: 🔍 Verify results
+        run: |
+          echo "Checking if configuration files were generated..."
+          if [ -d "output_configs" ] && [ "$(ls -A output_configs)" ]; then
+            echo "✅ Configuration files exist"
+            echo "📊 Number of country files: $(ls -1 output_configs/countries/ 2>/dev/null | wc -l)"
+            echo "📊 Number of protocol files: $(ls -1 output_configs/protocols/ 2>/dev/null | wc -l)"
+          else
+            echo "❌ No configuration files found!"
+            exit 1
+          fi
 
       - name: 🔧 Configure Git
         run: |
@@ -37,12 +54,22 @@ jobs:
 
       - name: ⬆️ Commit and Push Changes
         run: |
-          git add output_configs/ README.md #
+          git add output_configs/ README.md
 
           if git diff --staged --quiet; then
             echo "No changes detected. Skipping commit."
           else
             echo "Changes detected. Committing and pushing..."
-            git commit -m "docs: Update README and config files [skip ci]"
+            # 使用日期时间生成更具体的提交信息
+            TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
+            git commit -m "docs: Update configurations on $TIMESTAMP [skip ci]"
             git push
           fi
+
+      - name: 📨 Send notification on failure
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            core.error('Scraping workflow failed!')
+            // 可以在这里添加其他通知逻辑，如发送邮件或Slack消息
