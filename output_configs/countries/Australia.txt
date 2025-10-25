@@ -1,0 +1,2 @@
+ss://3a4524bb-5d17-4c09-b523-6ab1e1a41d81@82.97.241.50:8443?allowInsecure=0&sni=ya.ru&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#AU_speednode_0001
+vless://3a4524bb-5d17-4c09-b523-6ab1e1a41d81@82.97.241.50:8443?allowInsecure=0&sni=ya.ru&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#AU_speednode_0001
