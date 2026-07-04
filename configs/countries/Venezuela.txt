@@ -1,4 +1,2 @@
 ss://7e6a38f4-7150-4eff-ae68-579852357ddb@13.40.188.81:443?security=none&encryption=none&headerType=none&type=tcp#%3E%3E%40shadowproxy66%3A%3AVE
-ss://a5ea9247-79f3-4655-aece-3fb51e1e669e@158.160.198.162:443?&security=reality&flow=xtls-rprx-vision&pbk=6QIHdF1dvSK8mDPOeWXvGIqJmZ2ySq5fyc7N15h1WFE&sid=34256b39b4ebb864&fp=edge&sni=rezerv11.yunus.guru&type=tcp&headerType=none&host=rezerv11.yunus.guru&path=%2F#%E5%A7%94%E5%86%85%E7%91%9E%E6%8B%89%20starcorenode.com
 vless://7e6a38f4-7150-4eff-ae68-579852357ddb@13.40.188.81:443?security=none&encryption=none&headerType=none&type=tcp#%3E%3E%40shadowproxy66%3A%3AVE
-vless://a5ea9247-79f3-4655-aece-3fb51e1e669e@158.160.198.162:443?&security=reality&flow=xtls-rprx-vision&pbk=6QIHdF1dvSK8mDPOeWXvGIqJmZ2ySq5fyc7N15h1WFE&sid=34256b39b4ebb864&fp=edge&sni=rezerv11.yunus.guru&type=tcp&headerType=none&host=rezerv11.yunus.guru&path=%2F#%E5%A7%94%E5%86%85%E7%91%9E%E6%8B%89%20starcorenode.com

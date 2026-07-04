@@ -1,4 +1,2 @@
 ss://ea057aa8-6c6f-44f4-d347-7a87e835c0dc@52.19.138.237:8443?encryption=none&security=tls&sni=us2.wxgqlfx.icu&type=ws&host=us2.wxgqlfx.icu&path=%2FTG%40wxgqlfx&fp=chrome&alpn=http%2F1.1#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-1
-trojan://t1k169n5zmvvwn96r9ft@146.70.90.195:57452?security=tls&sni=api-yandex.maps.ru&fp=chrome&insecure=1&allowInsecure=1&type=tcp&headerType=none#%E7%88%B1%E5%B0%94%E5%85%B0%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29
-trojan://t1k169n5zmvvwn96r9ft@146.70.90.195:57452?security=tls&sni=api-yandex.maps.ru&insecure=1&allowInsecure=1&type=tcp&headerType=none#%E7%88%B1%E5%B0%94%E5%85%B0%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29
 vless://ea057aa8-6c6f-44f4-d347-7a87e835c0dc@52.19.138.237:8443?encryption=none&security=tls&sni=us2.wxgqlfx.icu&type=ws&host=us2.wxgqlfx.icu&path=%2FTG%40wxgqlfx&fp=chrome&alpn=http%2F1.1#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-1
