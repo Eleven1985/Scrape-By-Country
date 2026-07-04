@@ -8,6 +8,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiSU9vaTVUdUltRzJLY2N4VjctamNBN0Nleit2dW4tY19
 ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@103.106.231.82:5600#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-61
 trojan://PI36027154@tight-possum.rooster465.autos:443?allowInsecure=1#%3E%3E%40v2nodes%3A%3AAU
 trojan://PI36027154@tight-possum.rooster465.autos:443?security=tls#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-62
+trojan://PI36027154@tight-possum.rooster465.autos:443?security=tls&sni=tight-possum.rooster465.autos&insecure=0&allowInsecure=0&type=tcp&headerType=none#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-63
 trojan://PI36027154@tight-possum.rooster465.autos:443?security=tls&sni=tight-possum.rooster465.autos&insecure=0&allowInsecure=0&type=tcp&headerType=none#AU%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9A%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29
 vless://65c56e1f-5c41-40bc-b0b5-9346772476ca@45.38.149.63:50001?type=tcp&headerType=none&security=reality&encryption=none&sni=s0.awsstatic.com&fp=firefox&pbk=Ce2lAEqTi8rzssWrJshYik13BgBYrO1VUxmrbDWdtSY&sid=fc4e3743&flow=xtls-rprx-vision#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-60
 vless://94bcd9a9-33a9-40e4-a6fd-05e30db5b457@20.70.160.45:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.cloudflare.com&fp=safari&pbk=140jRwI3SEyJezoVv7iFt2VEZOfDVu7CmPblFi2Q6ik&sid=5c333a77#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-50
