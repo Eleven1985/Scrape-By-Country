@@ -1,2 +1,2 @@
-tuic://2d1ad594-80a4-4bfb-87a6-038e39701f51:2d1ad594-80a4-4bfb-87a6-038e39701f51@sg2-8sb.6121999.dpdns.org:33738?alpn=h3&congestion_control=bbr&sni=sg2-8sb.6121999.dpdns.org&udp=true&udp_relay_mode=quic#%F0%9F%87%B8%F0%9F%87%ACSG_15%7C4.5MB%2Fs%2001
+tuic://2d1ad594-80a4-4bfb-87a6-038e39701f51:2d1ad594-80a4-4bfb-87a6-038e39701f51@sg2-8sb.6121999.dpdns.org:33738?alpn=h3&congestion_control=bbr&sni=sg2-8sb.6121999.dpdns.org&udp=true&udp_relay_mode=quic#%F0%9F%87%B8%F0%9F%87%ACSG_9%7C4.1MB%2Fs%2001
 tuic://80747420-96c4-4a2f-83e6-eea4e46beb09%3A80747420-96c4-4a2f-83e6-eea4e46beb09@drhystuichdfy.samanidempire.org:41053?sni=drhystuichdfy.samanidempire.org&alpn=h3&congestion_control=cubic#%F0%9F%87%B8%F0%9F%87%AA-hamedp71%20-%20TUIC
