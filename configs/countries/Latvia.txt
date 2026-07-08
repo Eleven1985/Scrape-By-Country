@@ -38,6 +38,7 @@ ss://e5bd3d75-06b3-490e-9651-930b1dc29cdb@45.145.163.115:39771/?type=tcp&encrypt
 ss://e977d854-33f3-4345-abee-bf3fa9a6d880@37.233.82.140:40478/?type=tcp&encryption=none&sni=yahoo.com&fp=chrome&security=reality&pbk=lcJ0LSh015XRfz5-7wB_hln3-bq5ZatFgPugSUCrdR0&sid=3c#%5BOpenRay%5D%20%F0%9F%87%B1%F0%9F%87%BB%20LV-16
 ss://ea057aa8-6c6f-44f4-d347-7a87e835c0dc@195.123.210.147:443?encryption=none&security=tls&sni=us2.wxgqlfx.icu&type=ws&host=us2.wxgqlfx.icu&path=%2FTG%40wxgqlfx&fp=chrome&alpn=http%2F1.1#%5BOpenRay%5D%20%F0%9F%87%B1%F0%9F%87%BB%20LV-1027
 ss://ea057aa8-6c6f-44f4-d347-7a87e835c0dc@195.123.210.147:443?type=ws&security=tls&fp=chrome&sni=us2.wxgqlfx.icu&path=/TG%40wxgqlfx&host=us2.wxgqlfx.icu#%5BOpenRay%5D%20%F0%9F%87%B1%F0%9F%87%BB%20LV-1028
+ss://eab915bc-d2df-73d1-47d0-6eb240497055@it.fifapes.monster:29148?security=&encryption=none&headerType=http&type=tcp#%3E%3E%40configV2rayNG%3A%3ALV
 vless://079c1b04-7ef9-4c49-8a7a-849a18ba7b9b@83.222.20.64:17910/?type=tcp&encryption=none&flow=&sni=yahoo.com&fp=chrome&security=reality&pbk=KUhrhiJBplVCVCrAKP2KjIA_asOgkkvEEAxUJVofjgc&sid=8c09fb78b12f#%5BOpenRay%5D%20%F0%9F%87%B1%F0%9F%87%BB%20LV-1031
 vless://27f2ae85-3e15-4a9a-9c71-49ee032e7b26@217.28.48.29:25752?encryption=none&security=none&sni=/&type=tcp&headerType=none#%5BOpenRay%5D%20%F0%9F%87%B1%F0%9F%87%BB%20LV-997
 vless://27f2ae85-3e15-4a9a-9c71-49ee032e7b26@217.28.48.29:25752?encryption=none&security=none&type=tcp#%3E%3E%40oneclickvpnkeys%3A%3ALV
@@ -78,3 +79,4 @@ vless://e5bd3d75-06b3-490e-9651-930b1dc29cdb@45.145.163.115:39771/?type=tcp&encr
 vless://e977d854-33f3-4345-abee-bf3fa9a6d880@37.233.82.140:40478/?type=tcp&encryption=none&sni=yahoo.com&fp=chrome&security=reality&pbk=lcJ0LSh015XRfz5-7wB_hln3-bq5ZatFgPugSUCrdR0&sid=3c#%5BOpenRay%5D%20%F0%9F%87%B1%F0%9F%87%BB%20LV-16
 vless://ea057aa8-6c6f-44f4-d347-7a87e835c0dc@195.123.210.147:443?encryption=none&security=tls&sni=us2.wxgqlfx.icu&type=ws&host=us2.wxgqlfx.icu&path=%2FTG%40wxgqlfx&fp=chrome&alpn=http%2F1.1#%5BOpenRay%5D%20%F0%9F%87%B1%F0%9F%87%BB%20LV-1027
 vless://ea057aa8-6c6f-44f4-d347-7a87e835c0dc@195.123.210.147:443?type=ws&security=tls&fp=chrome&sni=us2.wxgqlfx.icu&path=/TG%40wxgqlfx&host=us2.wxgqlfx.icu#%5BOpenRay%5D%20%F0%9F%87%B1%F0%9F%87%BB%20LV-1028
+vless://eab915bc-d2df-73d1-47d0-6eb240497055@it.fifapes.monster:29148?security=&encryption=none&headerType=http&type=tcp#%3E%3E%40configV2rayNG%3A%3ALV
