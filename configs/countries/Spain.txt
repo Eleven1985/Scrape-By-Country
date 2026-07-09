@@ -5,7 +5,6 @@ ss://626b07bd-81c4-4212-be7a-27442a579620@5.180.173.222:448?encryption=none&secu
 ss://626b07bd-81c4-4212-be7a-27442a579620@5.180.173.222:448?security=reality&encryption=none&pbk=y4_NnPQc2X8Bj97LpUL9r9xuK-R2pLwjd5cZbBw2HSo&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.googletagmanager.com&sid=15052edc8120b63d#%5BOpenRay%5D%20%F0%9F%87%AA%F0%9F%87%B8%20ES-225
 ss://63ff4bfa-0f1d-48e4-8314-e882b14e602c@217.76.158.214:36326?security=none&type=ws&path=%2Fjdiedjiedjijd#%5BOpenRay%5D%20%F0%9F%87%AA%F0%9F%87%B8%20ES-245
 ss://63ff4bfa-0f1d-48e4-8314-e882b14e602c@spain.unixzone.us:36326?&security=none&type=ws&headerType=&host=spain.unixzone.us&path=%2Fjdiedjiedjijd#%5BOpenRay%5D%20%F0%9F%87%AA%F0%9F%87%B8%20ES-247
-ss://63ff4bfa-0f1d-48e4-8314-e882b14e602c@spain.unixzone.us:36326?encryption=none&path=%2Fjdiedjiedjijd&security=none&type=ws#%3E%3E%40oneclickvpnkeys%3A%3AES
 ss://63ff4bfa-0f1d-48e4-8314-e882b14e602c@spain.unixzone.us:36326?encryption=none&security=none&type=ws&path=%2Fjdiedjiedjijd#%5BOpenRay%5D%20%F0%9F%87%AA%F0%9F%87%B8%20ES-246
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXU3lMNFhUd05zZHY@108.181.121.226:8388#%3E%3E%40configV2rayNG%3A%3AES
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxSXRHOFN1ZVlRY1BAMTQwLjE3NC4xODQuNTo4Mzg4#%5BOpenRay%5D%20%F0%9F%87%AA%F0%9F%87%B8%20ES-221
@@ -87,7 +86,6 @@ vless://626b07bd-81c4-4212-be7a-27442a579620@5.180.173.222:448?encryption=none&s
 vless://626b07bd-81c4-4212-be7a-27442a579620@5.180.173.222:448?security=reality&encryption=none&pbk=y4_NnPQc2X8Bj97LpUL9r9xuK-R2pLwjd5cZbBw2HSo&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.googletagmanager.com&sid=15052edc8120b63d#%5BOpenRay%5D%20%F0%9F%87%AA%F0%9F%87%B8%20ES-225
 vless://63ff4bfa-0f1d-48e4-8314-e882b14e602c@217.76.158.214:36326?security=none&type=ws&path=%2Fjdiedjiedjijd#%5BOpenRay%5D%20%F0%9F%87%AA%F0%9F%87%B8%20ES-245
 vless://63ff4bfa-0f1d-48e4-8314-e882b14e602c@spain.unixzone.us:36326?&security=none&type=ws&headerType=&host=spain.unixzone.us&path=%2Fjdiedjiedjijd#%5BOpenRay%5D%20%F0%9F%87%AA%F0%9F%87%B8%20ES-247
-vless://63ff4bfa-0f1d-48e4-8314-e882b14e602c@spain.unixzone.us:36326?encryption=none&path=%2Fjdiedjiedjijd&security=none&type=ws#%3E%3E%40oneclickvpnkeys%3A%3AES
 vless://63ff4bfa-0f1d-48e4-8314-e882b14e602c@spain.unixzone.us:36326?encryption=none&security=none&type=ws&path=%2Fjdiedjiedjijd#%5BOpenRay%5D%20%F0%9F%87%AA%F0%9F%87%B8%20ES-246
 vless://a2415a12-3f92-4636-9823-9828d3ceb818@206.251.49.44:443?&security=reality&pbk=rqtY-HQaeREXyphzsfaFjavFmn-IA66s01KZxDLdwiE&sid=a097e0&fp=chrome&sni=www.intel.com&type=tcp&headerType=none&path=%2F#%5BOpenRay%5D%20%F0%9F%87%AA%F0%9F%87%B8%20ES-249
 vless://b425a8eb-d1c2-4396-a42a-975e1f463cc1@free06.tunnely.ru:2096?encryption=none&type=grpc&serviceName=grpc&mode=gun&security=reality&sni=free06.tunnely.ru&fp=chrome&pbk=mChFHtaRmeuO2aDuDPqZvBFaCz6f34sVJIKuJcAR130&sid=2e40144ddc07e8e1#%5BOpenRay%5D%20%F0%9F%87%AA%F0%9F%87%B8%20ES-248
