@@ -4,6 +4,7 @@ ss://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@143.110.247.61:2053?fp=chrome&host=vpn
 ss://249b3d88-f54d-482c-a42c-232f7aad3f7e@138.252.100.85:32351?path=%2F&security=&encryption=none&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B3%20IN-199
 ss://24d16a10-5919-486e-9651-a0983ede2060@138.252.100.85:32351?encryption=none&host=&path=%2F&security=none&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B3%20IN-217
 ss://24d16a10-5919-486e-9651-a0983ede2060@138.252.100.85:33659?security=none&type=ws&path=%2F#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B3%20IN-220
+ss://3693c9e8-70de-46d5-89bf-856ae12ee852@turboindian.iranfreemarz.com:7007?security=reality&encryption=none&pbk=7wBuF3nDHbcxPy3nr9Rmf6vDLB-gu7XQZqVvkiPlnh0&headerType=none&fp=qq&type=tcp&sni=yahoo.com#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B3%20IN-222
 ss://5cae7714-9c61-4c5c-876e-c45a1cb13be4@138.252.100.85:32351?encryption=none&host=&path=%2F&security=none&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B3%20IN-215
 ss://5cae7714-9c61-4c5c-876e-c45a1cb13be4@138.252.100.85:33659?encryption=none&host=&path=%2F&security=none&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B3%20IN-214
 ss://5e8e9c07-8785-46f0-b783-efe874589b05@india2.clearorbitllc.com:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=india2.clearorbitllc.com&fp=chrome&pbk=x4izG3bGdBtEw3bArBaEI4ItTLfKgnEcTct4GjvTUUQ&sid=157c0871&spx=%2F&type=tcp&headerType=none#https%3A%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AE%F0%9F%87%B3-NewDelhi-1414ms-NETRANEX%20TECHNOLOGIES%20%28INDIA%29%20PRIVATE%20LIMITED
@@ -26,8 +27,8 @@ ss://df724c8a-5c5a-4859-974e-6e911b14955c@45.89.106.99:40443?security=reality&en
 ss://df724c8a-5c5a-4859-974e-6e911b14955c@metrics.netraidly.ru:40443?type=tcp&headerType=none&security=reality&flow=xtls-rprx-vision&pbk=-sirwzF9HjIp1PVRK-z-2Ux39ufs6_W1cBw1cFoHXHc&fp=qq&sni=deepl.com&sid=a852&spx=%2F#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B3%20IN-183
 ss://e314349a-7e56-4a3e-9318-eda62b5d6bd3@138.252.100.85:32351?encryption=none&security=none&type=ws&path=%2F#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B3%20IN-211
 ss://e314349a-7e56-4a3e-9318-eda62b5d6bd3@138.252.100.85:33659?encryption=none&security=none&type=ws&path=/#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B3%20IN-216
-trojan://521314@103.83.87.133:443?security=tls&sni=tjplay.lxdxo.kdns.fr&insecure=0&allowInsecure=0&type=ws&host=tjplay.lxdxo.kdns.fr&path=%2F#IN%E5%8D%B0%E5%BA%A6%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29
 trojan://6t9jkb3u7x2ir1yp@138.252.100.85:19643?host=&path=%2F&security=none&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B3%20IN-212
+trojan://ef73ca2cf3d9cd0f04c8f448da8125c6@106.75.160.27:39001?security=tls&sni=www.yrtok.com&insecure=1&allowInsecure=1&type=tcp&headerType=none#IN%E5%8D%B0%E5%BA%A6%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29
 trojan://lbwut8t2uajbktuf@138.252.100.85:19643?host=&path=%2F&security=none&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B3%20IN-208
 trojan://scq6ijdslc23rwea@138.252.100.85:19643?host=&path=%2F&security=none&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B3%20IN-209
 trojan://t3cmheqzfgmittar@138.252.100.85:19643?host=&path=%2F&security=none&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B3%20IN-204
@@ -37,6 +38,7 @@ vless://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@143.110.247.61:2053?fp=chrome&host=
 vless://249b3d88-f54d-482c-a42c-232f7aad3f7e@138.252.100.85:32351?path=%2F&security=&encryption=none&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B3%20IN-199
 vless://24d16a10-5919-486e-9651-a0983ede2060@138.252.100.85:32351?encryption=none&host=&path=%2F&security=none&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B3%20IN-217
 vless://24d16a10-5919-486e-9651-a0983ede2060@138.252.100.85:33659?security=none&type=ws&path=%2F#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B3%20IN-220
+vless://3693c9e8-70de-46d5-89bf-856ae12ee852@turboindian.iranfreemarz.com:7007?security=reality&encryption=none&pbk=7wBuF3nDHbcxPy3nr9Rmf6vDLB-gu7XQZqVvkiPlnh0&headerType=none&fp=qq&type=tcp&sni=yahoo.com#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B3%20IN-222
 vless://5cae7714-9c61-4c5c-876e-c45a1cb13be4@138.252.100.85:32351?encryption=none&host=&path=%2F&security=none&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B3%20IN-215
 vless://5cae7714-9c61-4c5c-876e-c45a1cb13be4@138.252.100.85:33659?encryption=none&host=&path=%2F&security=none&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B3%20IN-214
 vless://5e8e9c07-8785-46f0-b783-efe874589b05@india2.clearorbitllc.com:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=india2.clearorbitllc.com&fp=chrome&pbk=x4izG3bGdBtEw3bArBaEI4ItTLfKgnEcTct4GjvTUUQ&sid=157c0871&spx=%2F&type=tcp&headerType=none#https%3A%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AE%F0%9F%87%B3-NewDelhi-1414ms-NETRANEX%20TECHNOLOGIES%20%28INDIA%29%20PRIVATE%20LIMITED
