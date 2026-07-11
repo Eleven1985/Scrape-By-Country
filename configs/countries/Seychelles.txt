@@ -13,6 +13,7 @@ ss://b5271d9d-1bdf-416b-8ae9-4e55b77fea4a@45.130.125.198:80?mode=auto&path=%2F76
 ss://c35050ce-01ab-45a9-91b8-54cec637d0a8@45.130.125.229:443?encryption=none&security=tls&type=ws&host=octopusss5.info&path=%2Fudfyfws&sni=octopusss5.info#%F0%9F%87%B8%F0%9F%87%A8%20SC%20451ms
 ss://c35050ce-01ab-45a9-91b8-54cec637d0a8@45.130.125.229:443?encryption=none&security=tls&type=ws&host=octopusss5.info&path=%2Fudfyfws&sni=octopusss5.info#%F0%9F%87%B8%F0%9F%87%A8%20SC%20488ms
 ss://c35050ce-01ab-45a9-91b8-54cec637d0a8@45.130.125.229:443?encryption=none&security=tls&type=ws&host=octopusss5.info&path=%2Fudfyfws&sni=octopusss5.info#%F0%9F%87%B8%F0%9F%87%A8%20SC%20688ms
+ss://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@45.130.125.209:80?path=%2Fhttp&security=none&encryption=none&host=de.vpnbase.net&type=ws#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-60
 trojan://humanity@45.130.125.158:443?security=tls&sni=www.ignitelimit.com&type=ws&path=%2Fassignment&host=www.ignitelimit.com#%F0%9F%87%B8%F0%9F%87%A8%20SC%201783ms
 trojan://humanity@45.130.125.158:443?security=tls&sni=www.ignitelimit.com&type=ws&path=%2Fassignment&host=www.ignitelimit.com#%F0%9F%87%B8%F0%9F%87%A8%20SC%205921ms
 vless://48daa5a5-5bca-4e01-9143-c42f1247b8a2@45.130.125.113:80?encryption=none&security=none&sni=zeus-panel-s3hlzp.zeus-t8jrk2.workers.dev&type=ws&host=zeus-panel-s3hlzp.zeus-t8jrk2.workers.dev&path=/In_Panel_Rayeghan_Ast_Va_Gheyre_Ghabele_Foroosh#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-54
@@ -30,3 +31,4 @@ vless://b5271d9d-1bdf-416b-8ae9-4e55b77fea4a@45.130.125.198:80?mode=auto&path=%2
 vless://c35050ce-01ab-45a9-91b8-54cec637d0a8@45.130.125.229:443?encryption=none&security=tls&type=ws&host=octopusss5.info&path=%2Fudfyfws&sni=octopusss5.info#%F0%9F%87%B8%F0%9F%87%A8%20SC%20451ms
 vless://c35050ce-01ab-45a9-91b8-54cec637d0a8@45.130.125.229:443?encryption=none&security=tls&type=ws&host=octopusss5.info&path=%2Fudfyfws&sni=octopusss5.info#%F0%9F%87%B8%F0%9F%87%A8%20SC%20488ms
 vless://c35050ce-01ab-45a9-91b8-54cec637d0a8@45.130.125.229:443?encryption=none&security=tls&type=ws&host=octopusss5.info&path=%2Fudfyfws&sni=octopusss5.info#%F0%9F%87%B8%F0%9F%87%A8%20SC%20688ms
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@45.130.125.209:80?path=%2Fhttp&security=none&encryption=none&host=de.vpnbase.net&type=ws#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-60
