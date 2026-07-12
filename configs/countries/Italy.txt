@@ -17,6 +17,8 @@ ss://367ff772-a8f4-4895-8e99-3702a868f0c6@31.77.201.77:443?encryption=none&fp=ch
 ss://367ff772-a8f4-4895-8e99-3702a868f0c6@osit1.ghast.sbs:443?encryption=none&security=tls&serviceName=grpc-api&sni=osit1.ghast.sbs&type=grpc#%3E%3E%40oneclickvpnkeys%3A%3AIT
 ss://3b940e86-7b0d-40da-acf1-12d334e41023@151.101.240.11:80/?type=ws&encryption=none&flow=&host=Fastapi.Org&path=%2F&ed=2560&eh=Sec-WebSocket-Protocol#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-589
 ss://3b940e86-7b0d-40da-acf1-12d334e41023@199.232.140.11:80/?type=ws&encryption=none&flow=&host=Fastapi.Org&path=%2F&ed=2560&eh=Sec-WebSocket-Protocol#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-590
+ss://54cefe48-36d6-4dd6-9e73-a823a40a93db@132.243.212.14:605?type=grpc&security=reality&fp=edge&pbk=Ux2M6x46mIcoAoP2oCA8qEQnqc1O5cpa5zYRIdCNdnw&sni=www.kayak.com&mode=gun#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-604
+ss://54cefe48-36d6-4dd6-9e73-a823a40a93db@132.243.212.32:605?type=grpc&security=reality&fp=chrome&pbk=Ux2M6x46mIcoAoP2oCA8qEQnqc1O5cpa5zYRIdCNdnw&sid=7a3f9e2b1c8d4f6a&sni=www.kayak.com&mode=gun#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-603
 ss://6ba2eac6-0ec9-44ca-a42b-a8e23aafb530@204.216.216.23:1114?security=reality&encryption=none&pbk=WfkCF0eEuIoO0MyJsKOddU89QrTzCZ4y2dzCJbH99CQ&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=79a1e14b#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-58
 ss://6eb831ea-8829-457b-a5d1-52f640a97486@116.204.164.5:7443?encryption=none&type=ws&host=jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev&path=%2F%40Marisa_kristi&security=tls&fp=chrome&sni=jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-591
 ss://70e8dd88-3e0c-4c08-a92a-a9e96aa4271e@it.eorqen.ir:2053?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&mode=gun&security=reality&encryption=none&pbk=r44-29dhInxzD-1JIMYuQMrbhieWsLm00BEHXn-6ggg&fp=chrome&type=grpc&serviceName=xyz&sni=play.google.com&sid=6ba85179e30d4fc2#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-580
@@ -24,6 +26,7 @@ ss://70e8dd88-3e0c-4c08-a92a-a9e96aa4271e@it.uarlixo.ir:2050?Telegram=@GozargahA
 ss://8a73c043-1896-4c1e-a5b6-e11e112e60ca@57.131.19.38:13238?type=tcp&encryption=none&security=reality&pbk=G4M0-8v7Vt2JyYGVZGW2CmsMwh3ABA_pZ272Nc5OMkA&fp=chrome&sni=play.google.com&sid=57b1396d1a6bbe9c&spx=/naranv2ray#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-579
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.164.117:8880?mode=gun&security=none&encryption=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-174
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.164.117:8880?security=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-102
+ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.164.219:8880?mode=gun&encryption=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-601
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.164.43:8880?mode=gun&security=&encryption=none&authority=v2rayNplus--v2rayNplus--v2rayNplus&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-596
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.164.43:8880?mode=gun&security=none&encryption=none&authority=BIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-236
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.164.43:8880?mode=gun&security=none&encryption=none&authority=BIA_TELEGRAM%40vpnserverrr_vpnserverrr_vpnserverrr_vpnserverrr_vpnserverrr&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-246
@@ -35,6 +38,7 @@ ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.165.172:8880?encryption=none&t
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.165.172:8880?mode=gun&security=none&encryption=none&authority=BIA_TELEGRAM%40vpnserverrr_vpnserverrr_vpnserverrr_vpnserverrr&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-504
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.165.172:8880?mode=gun&security=none&encryption=none&authority=BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-495
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.165.172:8880?security=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-170
+ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.165.237:8880?mode=gun&encryption=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-602
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.166.129:8880/?type=grpc&encryption=none&flow=#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-332
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.166.129:8880?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&mode=gun&security=none&encryption=none&authority=v2rayNplus--v2rayNplus--v2rayNplus&type=grpc&sni=sca30.mysilipdir.com#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-586
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.166.129:8880?encryption=none&type=grpc&mode=gun#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-378
@@ -44,6 +48,8 @@ ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.167.228:8880?security=none&typ
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.167.6:8880?encryption=none&type=grpc&mode=gun#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-576
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.167.6:8880?mode=gun&security=none&encryption=none&authority=v2rayNplus--v2rayNplus--v2rayNplus&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-563
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.167.6:8880?security=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-545
+ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo13.fordnsdirect.shop:8880?mode=gun&encryption=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-599
+ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo17.fordnsdirect.shop:8880?mode=gun&encryption=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-600
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo27.fordnsdirect.shop:8880?mode=gun&security=none&encryption=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-594
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo27.fordnsdirect.shop:8880?type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-595
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca12.speedmeter.shop:8880?type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-343
@@ -112,6 +118,8 @@ vless://367ff772-a8f4-4895-8e99-3702a868f0c6@31.77.201.77:443?encryption=none&fp
 vless://367ff772-a8f4-4895-8e99-3702a868f0c6@osit1.ghast.sbs:443?encryption=none&security=tls&serviceName=grpc-api&sni=osit1.ghast.sbs&type=grpc#%3E%3E%40oneclickvpnkeys%3A%3AIT
 vless://3b940e86-7b0d-40da-acf1-12d334e41023@151.101.240.11:80/?type=ws&encryption=none&flow=&host=Fastapi.Org&path=%2F&ed=2560&eh=Sec-WebSocket-Protocol#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-589
 vless://3b940e86-7b0d-40da-acf1-12d334e41023@199.232.140.11:80/?type=ws&encryption=none&flow=&host=Fastapi.Org&path=%2F&ed=2560&eh=Sec-WebSocket-Protocol#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-590
+vless://54cefe48-36d6-4dd6-9e73-a823a40a93db@132.243.212.14:605?type=grpc&security=reality&fp=edge&pbk=Ux2M6x46mIcoAoP2oCA8qEQnqc1O5cpa5zYRIdCNdnw&sni=www.kayak.com&mode=gun#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-604
+vless://54cefe48-36d6-4dd6-9e73-a823a40a93db@132.243.212.32:605?type=grpc&security=reality&fp=chrome&pbk=Ux2M6x46mIcoAoP2oCA8qEQnqc1O5cpa5zYRIdCNdnw&sid=7a3f9e2b1c8d4f6a&sni=www.kayak.com&mode=gun#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-603
 vless://6ba2eac6-0ec9-44ca-a42b-a8e23aafb530@204.216.216.23:1114?security=reality&encryption=none&pbk=WfkCF0eEuIoO0MyJsKOddU89QrTzCZ4y2dzCJbH99CQ&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=79a1e14b#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-58
 vless://6eb831ea-8829-457b-a5d1-52f640a97486@116.204.164.5:7443?encryption=none&type=ws&host=jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev&path=%2F%40Marisa_kristi&security=tls&fp=chrome&sni=jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-591
 vless://70e8dd88-3e0c-4c08-a92a-a9e96aa4271e@it.eorqen.ir:2053?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&mode=gun&security=reality&encryption=none&pbk=r44-29dhInxzD-1JIMYuQMrbhieWsLm00BEHXn-6ggg&fp=chrome&type=grpc&serviceName=xyz&sni=play.google.com&sid=6ba85179e30d4fc2#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-580
@@ -119,6 +127,7 @@ vless://70e8dd88-3e0c-4c08-a92a-a9e96aa4271e@it.uarlixo.ir:2050?Telegram=@Gozarg
 vless://8a73c043-1896-4c1e-a5b6-e11e112e60ca@57.131.19.38:13238?type=tcp&encryption=none&security=reality&pbk=G4M0-8v7Vt2JyYGVZGW2CmsMwh3ABA_pZ272Nc5OMkA&fp=chrome&sni=play.google.com&sid=57b1396d1a6bbe9c&spx=/naranv2ray#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-579
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.164.117:8880?mode=gun&security=none&encryption=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-174
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.164.117:8880?security=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-102
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.164.219:8880?mode=gun&encryption=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-601
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.164.43:8880?mode=gun&security=&encryption=none&authority=v2rayNplus--v2rayNplus--v2rayNplus&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-596
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.164.43:8880?mode=gun&security=none&encryption=none&authority=BIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-236
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.164.43:8880?mode=gun&security=none&encryption=none&authority=BIA_TELEGRAM%40vpnserverrr_vpnserverrr_vpnserverrr_vpnserverrr_vpnserverrr&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-246
@@ -130,6 +139,7 @@ vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.165.172:8880?encryption=non
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.165.172:8880?mode=gun&security=none&encryption=none&authority=BIA_TELEGRAM%40vpnserverrr_vpnserverrr_vpnserverrr_vpnserverrr&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-504
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.165.172:8880?mode=gun&security=none&encryption=none&authority=BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-495
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.165.172:8880?security=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-170
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.165.237:8880?mode=gun&encryption=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-602
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.166.129:8880/?type=grpc&encryption=none&flow=#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-332
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.166.129:8880?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&mode=gun&security=none&encryption=none&authority=v2rayNplus--v2rayNplus--v2rayNplus&type=grpc&sni=sca30.mysilipdir.com#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-586
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.166.129:8880?encryption=none&type=grpc&mode=gun#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-378
@@ -139,6 +149,8 @@ vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.167.228:8880?security=none&
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.167.6:8880?encryption=none&type=grpc&mode=gun#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-576
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.167.6:8880?mode=gun&security=none&encryption=none&authority=v2rayNplus--v2rayNplus--v2rayNplus&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-563
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.167.6:8880?security=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-545
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo13.fordnsdirect.shop:8880?mode=gun&encryption=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-599
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo17.fordnsdirect.shop:8880?mode=gun&encryption=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-600
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo27.fordnsdirect.shop:8880?mode=gun&security=none&encryption=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-594
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo27.fordnsdirect.shop:8880?type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-595
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca12.speedmeter.shop:8880?type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-343
@@ -188,3 +200,4 @@ vless://fc85cf23-75e6-4b91-b468-8adc9407047b@116.204.164.60:7443?mode=multi&secu
 vmess://eyJ2IjoiMiIsInBzIjoiW09wZW5SYXldIPCfh67wn4e5IElULTMxNiIsImFkZCI6IjU3LjEzMS4zMi4xOTEiLCJwb3J0IjoiODQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiI4NDhhZjMzYy04MWYyLTQwYzktOTNiMi00NjgxZDA1NjkzNmIiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL3ZtZXNzLyIsImhvc3QiOiJPVi1JdGFseTEuMDl2cG4uY29tIiwidGxzIjoidGxzIn0=
 vmess://eyJ2IjoiMiIsInBzIjoiW09wZW5SYXldIPCfh67wn4e5IElULTc0IiwiYWRkIjoiNTcuMTMxLjMyLjE5MSIsInBvcnQiOjg0NDMsImlkIjoiODQ4YWYzM2MtODFmMi00MGM5LTkzYjItNDY4MWQwNTY5MzZiIiwibmV0Ijoid3MiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiJPVi1JdGFseTEuMDl2cG4uY29tIiwicGF0aCI6Ii92bWVzcy8iLCJ0bHMiOiJ0bHMiLCJzbmkiOiI1Ny4xMzEuMzIuMTkxIn0=
 vmess://eyJ2IjoiMiIsInBzIjoiW09wZW5SYXldIPCfh67wn4e5IElULTcwIiwiYWRkIjoiNTcuMTMxLjMyLjE5MSIsInBvcnQiOjg0NDMsImlkIjoiODQ4YWYzM2MtODFmMi00MGM5LTkzYjItNDY4MWQwNTY5MzZiIiwiYWlkIjowLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiJPVi1JdGFseTEuMDl2cG4uY29tIiwicGF0aCI6Ii92bWVzcy8iLCJ0bHMiOiJ0bHMiLCJzbmkiOiJPVi1JdGFseTEuMDl2cG4uY29tIn0=
+vmess://eyJhZGQiOiI1Ny4xMzEuMzIuMTkxIiwicG9ydCI6Ijg0NDMiLCJpZCI6Ijg0OGFmMzNjLTgxZjItNDBjOS05M2IyLTQ2ODFkMDU2OTM2YiIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ2IjoiMiIsInBzIjoiW09wZW5SYXldIPCfh67wn4e5IElULTU5OCIsImhvc3QiOiJPVi1JdGFseTEuMDl2cG4uY29tIiwicGF0aCI6Ii92bWVzcy8iLCJ0bHMiOiJ0cnVlIiwic25pIjoiIiwidHlwZSI6Im5vbmUiLCJzZXJ2ZXJQb3J0IjowLCJuYXRpb24iOiIifQ==
