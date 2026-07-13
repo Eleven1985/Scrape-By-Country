@@ -34,8 +34,6 @@ ss://df724c8a-5c5a-4859-974e-6e911b14955c@metrics.netraidly.ru:40443?type=tcp&he
 ss://e314349a-7e56-4a3e-9318-eda62b5d6bd3@138.252.100.85:32351?encryption=none&security=none&type=ws&path=%2F#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B3%20IN-211
 ss://e314349a-7e56-4a3e-9318-eda62b5d6bd3@138.252.100.85:33659?encryption=none&security=none&type=ws&path=/#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B3%20IN-216
 trojan://6t9jkb3u7x2ir1yp@138.252.100.85:19643?host=&path=%2F&security=none&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B3%20IN-212
-trojan://ef73ca2cf3d9cd0f04c8f448da8125c6@106.75.160.27:39001?security=tls&sni=www.yrtok.com&insecure=1&allowInsecure=1&type=tcp&headerType=none#%E5%8D%B0%E5%BA%A6%28yudou789.top%20%E7%8E%89%E8%B1%86%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9%29
-trojan://ef73ca2cf3d9cd0f04c8f448da8125c6@106.75.160.27:39001?security=tls&sni=www.yrtok.com&insecure=1&allowInsecure=1&type=tcp&headerType=none#IN%E5%8D%B0%E5%BA%A6%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29
 trojan://lbwut8t2uajbktuf@138.252.100.85:19643?host=&path=%2F&security=none&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B3%20IN-208
 trojan://scq6ijdslc23rwea@138.252.100.85:19643?host=&path=%2F&security=none&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B3%20IN-209
 trojan://t3cmheqzfgmittar@138.252.100.85:19643?host=&path=%2F&security=none&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B3%20IN-204
