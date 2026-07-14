@@ -10,6 +10,7 @@ ss://626b07bd-81c4-4212-be7a-27442a579620@5.180.173.222:448?encryption=none&secu
 ss://63ff4bfa-0f1d-48e4-8314-e882b14e602c@217.76.158.214:36326?security=none&type=ws&path=%2Fjdiedjiedjijd#%5BOpenRay%5D%20%F0%9F%87%AA%F0%9F%87%B8%20ES-245
 ss://63ff4bfa-0f1d-48e4-8314-e882b14e602c@spain.unixzone.us:36326?&security=none&type=ws&headerType=&host=spain.unixzone.us&path=%2Fjdiedjiedjijd#%5BOpenRay%5D%20%F0%9F%87%AA%F0%9F%87%B8%20ES-247
 ss://63ff4bfa-0f1d-48e4-8314-e882b14e602c@spain.unixzone.us:36326?encryption=none&security=none&type=ws&path=%2Fjdiedjiedjijd#%5BOpenRay%5D%20%F0%9F%87%AA%F0%9F%87%B8%20ES-246
+ss://8f0560ec-ba22-4431-a6a7-318dc59d5233@2.27.26.51:443?type=grpc&headerType=none&security=reality&encryption=none&sni=draftnest-rrew.ru&fp=firefox&pbk=CxMPFpwhcR9Ocp-Xy_1J08mo-atdHKUf58WLOy_XlgM&sid=5e3ab3ab228625&serviceName=nexusGrpc#%5BOpenRay%5D%20%F0%9F%87%AA%F0%9F%87%B8%20ES-322
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXU3lMNFhUd05zZHY@108.181.121.226:8388#%3E%3E%40configV2rayNG%3A%3AES
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxSXRHOFN1ZVlRY1BAMTQwLjE3NC4xODQuNTo4Mzg4#%5BOpenRay%5D%20%F0%9F%87%AA%F0%9F%87%B8%20ES-221
 ss://a2415a12-3f92-4636-9823-9828d3ceb818@206.251.49.44:443?&security=reality&pbk=rqtY-HQaeREXyphzsfaFjavFmn-IA66s01KZxDLdwiE&sid=a097e0&fp=chrome&sni=www.intel.com&type=tcp&headerType=none&path=%2F#%5BOpenRay%5D%20%F0%9F%87%AA%F0%9F%87%B8%20ES-249
@@ -93,6 +94,7 @@ vless://626b07bd-81c4-4212-be7a-27442a579620@5.180.173.222:448?encryption=none&s
 vless://63ff4bfa-0f1d-48e4-8314-e882b14e602c@217.76.158.214:36326?security=none&type=ws&path=%2Fjdiedjiedjijd#%5BOpenRay%5D%20%F0%9F%87%AA%F0%9F%87%B8%20ES-245
 vless://63ff4bfa-0f1d-48e4-8314-e882b14e602c@spain.unixzone.us:36326?&security=none&type=ws&headerType=&host=spain.unixzone.us&path=%2Fjdiedjiedjijd#%5BOpenRay%5D%20%F0%9F%87%AA%F0%9F%87%B8%20ES-247
 vless://63ff4bfa-0f1d-48e4-8314-e882b14e602c@spain.unixzone.us:36326?encryption=none&security=none&type=ws&path=%2Fjdiedjiedjijd#%5BOpenRay%5D%20%F0%9F%87%AA%F0%9F%87%B8%20ES-246
+vless://8f0560ec-ba22-4431-a6a7-318dc59d5233@2.27.26.51:443?type=grpc&headerType=none&security=reality&encryption=none&sni=draftnest-rrew.ru&fp=firefox&pbk=CxMPFpwhcR9Ocp-Xy_1J08mo-atdHKUf58WLOy_XlgM&sid=5e3ab3ab228625&serviceName=nexusGrpc#%5BOpenRay%5D%20%F0%9F%87%AA%F0%9F%87%B8%20ES-322
 vless://a2415a12-3f92-4636-9823-9828d3ceb818@206.251.49.44:443?&security=reality&pbk=rqtY-HQaeREXyphzsfaFjavFmn-IA66s01KZxDLdwiE&sid=a097e0&fp=chrome&sni=www.intel.com&type=tcp&headerType=none&path=%2F#%5BOpenRay%5D%20%F0%9F%87%AA%F0%9F%87%B8%20ES-249
 vless://c963ea66-7107-4351-8ded-f54a2658bb84@199.232.33.8:80?mode=packet-up&security=none&encryption=none&host=foxfox.global.ssl.fastly.net.&type=xhttp#%5BOpenRay%5D%20%F0%9F%87%AA%F0%9F%87%B8%20ES-255
 vless://d342d11e-d424-4583-b36e-524ab1f0afa4@185.18.250.138:80?encryption=none&security=none&sni=a.ssll.gay&type=ws&host=a.ssll.gay&path=TG%40juzibaipiao-juzi#%5BOpenRay%5D%20%F0%9F%87%AA%F0%9F%87%B8%20ES-256
