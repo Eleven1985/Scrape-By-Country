@@ -10,6 +10,7 @@ ss://0baed386-770e-4e17-a6ca-24349e60903f@116.204.164.17:7443?path=%2F%40Marisa_
 ss://1c87aa46-693f-4070-8809-53c1124cc99c@3.seysisi.ir:443?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&fp=chrome&spx=%2F&type=tcp&security=reality&pbk=uavwmT5NFqZs45yG4eV0x_Id0Qmr7oU8CjZCyiU6LSs&encryption=none&headerType=none&sni=play.google.com&sid=3df2abe8c93418a6#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-597
 ss://1e280316-0408-47c4-b058-05b8f1f17f02@57.131.32.191:80?security=none&type=ws&path=%2Fvless%2F#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-67
 ss://1e280316-0408-47c4-b058-05b8f1f17f02@57.131.32.191:80?security=none&type=ws&path=/vless/&host=OV-Italy1.09vpn.com#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-151
+ss://1e280316-0408-47c4-b058-05b8f1f17f02@57.131.32.191:80?type=ws&encryption=none&path=%2Fvless%2F&host=OV-Italy1.09vpn.com&fp=chrome&alpn=http%2F1.1&headerType=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-620
 ss://1e280316-0408-47c4-b058-05b8f1f17f02@OV-Italy1.09vpn.com:80?path=/vless/&security=none&encryption=none&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-64
 ss://1e280316-0408-47c4-b058-05b8f1f17f02@ov-italy1.09vpn.com:80?&security=none&type=ws&headerType=&host=ov-italy1.09vpn.com&path=%2Fvless%2F#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-389
 ss://1e280316-0408-47c4-b058-05b8f1f17f02@ov-italy1.09vpn.com:80?type=ws&path=%2Fvless%2F&host=OV-Italy1.09vpn.com#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-90
@@ -52,6 +53,7 @@ ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo13.fordnsdirect.shop:8880?encry
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo13.fordnsdirect.shop:8880?mode=gun&encryption=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-599
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo17.fordnsdirect.shop:8880?encryption=none&security=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-605
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo17.fordnsdirect.shop:8880?mode=gun&encryption=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-600
+ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo21.fordnsdirect.shop:8880?type=grpc&headerType=none&security=none&encryption=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-619
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo27.fordnsdirect.shop:8880?mode=gun&security=none&encryption=none&authority=v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-612
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo27.fordnsdirect.shop:8880?mode=gun&security=none&encryption=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-594
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo27.fordnsdirect.shop:8880?type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-595
@@ -110,6 +112,7 @@ vless://0baed386-770e-4e17-a6ca-24349e60903f@116.204.164.17:7443?path=%2F%40Mari
 vless://1c87aa46-693f-4070-8809-53c1124cc99c@3.seysisi.ir:443?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&fp=chrome&spx=%2F&type=tcp&security=reality&pbk=uavwmT5NFqZs45yG4eV0x_Id0Qmr7oU8CjZCyiU6LSs&encryption=none&headerType=none&sni=play.google.com&sid=3df2abe8c93418a6#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-597
 vless://1e280316-0408-47c4-b058-05b8f1f17f02@57.131.32.191:80?security=none&type=ws&path=%2Fvless%2F#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-67
 vless://1e280316-0408-47c4-b058-05b8f1f17f02@57.131.32.191:80?security=none&type=ws&path=/vless/&host=OV-Italy1.09vpn.com#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-151
+vless://1e280316-0408-47c4-b058-05b8f1f17f02@57.131.32.191:80?type=ws&encryption=none&path=%2Fvless%2F&host=OV-Italy1.09vpn.com&fp=chrome&alpn=http%2F1.1&headerType=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-620
 vless://1e280316-0408-47c4-b058-05b8f1f17f02@OV-Italy1.09vpn.com:80?path=/vless/&security=none&encryption=none&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-64
 vless://1e280316-0408-47c4-b058-05b8f1f17f02@ov-italy1.09vpn.com:80?&security=none&type=ws&headerType=&host=ov-italy1.09vpn.com&path=%2Fvless%2F#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-389
 vless://1e280316-0408-47c4-b058-05b8f1f17f02@ov-italy1.09vpn.com:80?type=ws&path=%2Fvless%2F&host=OV-Italy1.09vpn.com#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-90
@@ -152,6 +155,7 @@ vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo13.fordnsdirect.shop:8880?en
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo13.fordnsdirect.shop:8880?mode=gun&encryption=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-599
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo17.fordnsdirect.shop:8880?encryption=none&security=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-605
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo17.fordnsdirect.shop:8880?mode=gun&encryption=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-600
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo21.fordnsdirect.shop:8880?type=grpc&headerType=none&security=none&encryption=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-619
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo27.fordnsdirect.shop:8880?mode=gun&security=none&encryption=none&authority=v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-612
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo27.fordnsdirect.shop:8880?mode=gun&security=none&encryption=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-594
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo27.fordnsdirect.shop:8880?type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-595

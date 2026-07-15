@@ -11,7 +11,9 @@ ss://c35050ce-01ab-45a9-91b8-54cec637d0a8@45.130.125.229:443?encryption=none&sec
 ss://c35050ce-01ab-45a9-91b8-54cec637d0a8@45.130.125.229:443?encryption=none&security=tls&type=ws&host=octopusss5.info&path=%2Fudfyfws&sni=octopusss5.info#%F0%9F%87%B8%F0%9F%87%A8%20SC%20688ms
 ss://d8ea2e7d-4e17-451e-aaed-4077d29863c1@CloudFlare2.hajimamadcloud.com.tr:443?security=tls&type=ws&headerType=&path=%2F&host=&sni=snapp.iraniantim.ir&fp=#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-63
 ss://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@45.130.125.207:80?path=%2Fhttp&security=none&encryption=none&host=de.vpnbase.net&type=ws#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-61
+ss://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@45.130.125.207:80?type=ws&encryption=none&path=%2Fhttp&host=de.vpnbase.net&fp=chrome&alpn=http%2F1.1&headerType=none#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-69
 ss://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@45.130.125.209:80?path=%2Fhttp&security=none&encryption=none&host=de.vpnbase.net&type=ws#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-60
+ss://e2c5f1a9-b3d4-4e78-9f2a-1c3d4e5f6a7b@45.130.125.114:80?encryption=none&type=ws&host=new-scale08-cdn.sabzi.name.ng.&path=/&packetEncoding=xudp#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-68
 ss://ee9b0614-50ec-41b6-951b-e1d5d755fa4b@glob.thisiswe.uno:2053?security=tls&encryption=none&host=cd11.thisiswe.uno&fp=chrome&type=ws#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-62
 ss://fb49cbe4-2307-4784-b6d0-b714d058725a@jush.sukario.ir:443?type=ws&security=tls&sni=mesh3.mashadiebod.org&fp=firefox&path=%2Fmashdi&host=mesh3.mashadiebod.org#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-65
 trojan://humanity@45.130.125.158:443?security=tls&sni=www.ignitelimit.com&type=ws&path=%2Fassignment&host=www.ignitelimit.com#%F0%9F%87%B8%F0%9F%87%A8%20SC%201783ms
@@ -29,6 +31,8 @@ vless://c35050ce-01ab-45a9-91b8-54cec637d0a8@45.130.125.229:443?encryption=none&
 vless://c35050ce-01ab-45a9-91b8-54cec637d0a8@45.130.125.229:443?encryption=none&security=tls&type=ws&host=octopusss5.info&path=%2Fudfyfws&sni=octopusss5.info#%F0%9F%87%B8%F0%9F%87%A8%20SC%20688ms
 vless://d8ea2e7d-4e17-451e-aaed-4077d29863c1@CloudFlare2.hajimamadcloud.com.tr:443?security=tls&type=ws&headerType=&path=%2F&host=&sni=snapp.iraniantim.ir&fp=#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-63
 vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@45.130.125.207:80?path=%2Fhttp&security=none&encryption=none&host=de.vpnbase.net&type=ws#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-61
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@45.130.125.207:80?type=ws&encryption=none&path=%2Fhttp&host=de.vpnbase.net&fp=chrome&alpn=http%2F1.1&headerType=none#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-69
 vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@45.130.125.209:80?path=%2Fhttp&security=none&encryption=none&host=de.vpnbase.net&type=ws#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-60
+vless://e2c5f1a9-b3d4-4e78-9f2a-1c3d4e5f6a7b@45.130.125.114:80?encryption=none&type=ws&host=new-scale08-cdn.sabzi.name.ng.&path=/&packetEncoding=xudp#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-68
 vless://ee9b0614-50ec-41b6-951b-e1d5d755fa4b@glob.thisiswe.uno:2053?security=tls&encryption=none&host=cd11.thisiswe.uno&fp=chrome&type=ws#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-62
 vless://fb49cbe4-2307-4784-b6d0-b714d058725a@jush.sukario.ir:443?type=ws&security=tls&sni=mesh3.mashadiebod.org&fp=firefox&path=%2Fmashdi&host=mesh3.mashadiebod.org#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-65

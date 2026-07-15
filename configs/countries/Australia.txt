@@ -3,6 +3,7 @@ ss://218fd696-e3a2-4c33-b397-a5f13a82969e@ru41.theabvp.org:443?security=reality&
 ss://3b940e86-7b0d-40da-acf1-12d334e41023@151.101.28.11:80?type=ws&host=Fastapi.Org&path=%2F#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-70
 ss://3b940e86-7b0d-40da-acf1-12d334e41023@199.232.136.11:80/?type=ws&encryption=none&flow=&host=Fastapi.Org&path=%2F&ed=2560&eh=Sec-WebSocket-Protocol#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-68
 ss://3b940e86-7b0d-40da-acf1-12d334e41023@199.232.48.11:80/?type=ws&encryption=none&flow=&host=Fastapi.Org&path=%2F&ed=2560&eh=Sec-WebSocket-Protocol#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-69
+ss://53fa8faf-ba4b-4322-9c69-a3e5b1555049@103.169.142.20:8880?path=%2F%3Fed%3D2560&security=none&encryption=none&host=reedfree8mahsang2.redorg.ir&type=ws#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-79
 ss://60813de7-15e4-4d05-95a1-567c3f2f213b@iP.mEloV2raY.shOp:443?type=ws&path=%2Fmelov2ray&security=none#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-76
 ss://65c56e1f-5c41-40bc-b0b5-9346772476ca@45.38.149.63:50001?type=tcp&headerType=none&security=reality&encryption=none&sni=s0.awsstatic.com&fp=firefox&pbk=Ce2lAEqTi8rzssWrJshYik13BgBYrO1VUxmrbDWdtSY&sid=fc4e3743&flow=xtls-rprx-vision#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-60
 ss://7f21c3b5-91d2-492f-803d-5112fe648f21@iP.mEloV2raY.shOp:443?type=ws&path=%2Fmelov2ray&security=none#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-74
@@ -29,6 +30,7 @@ vless://218fd696-e3a2-4c33-b397-a5f13a82969e@ru41.theabvp.org:443?security=reali
 vless://3b940e86-7b0d-40da-acf1-12d334e41023@151.101.28.11:80?type=ws&host=Fastapi.Org&path=%2F#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-70
 vless://3b940e86-7b0d-40da-acf1-12d334e41023@199.232.136.11:80/?type=ws&encryption=none&flow=&host=Fastapi.Org&path=%2F&ed=2560&eh=Sec-WebSocket-Protocol#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-68
 vless://3b940e86-7b0d-40da-acf1-12d334e41023@199.232.48.11:80/?type=ws&encryption=none&flow=&host=Fastapi.Org&path=%2F&ed=2560&eh=Sec-WebSocket-Protocol#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-69
+vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@103.169.142.20:8880?path=%2F%3Fed%3D2560&security=none&encryption=none&host=reedfree8mahsang2.redorg.ir&type=ws#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-79
 vless://60813de7-15e4-4d05-95a1-567c3f2f213b@iP.mEloV2raY.shOp:443?type=ws&path=%2Fmelov2ray&security=none#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-76
 vless://65c56e1f-5c41-40bc-b0b5-9346772476ca@45.38.149.63:50001?type=tcp&headerType=none&security=reality&encryption=none&sni=s0.awsstatic.com&fp=firefox&pbk=Ce2lAEqTi8rzssWrJshYik13BgBYrO1VUxmrbDWdtSY&sid=fc4e3743&flow=xtls-rprx-vision#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-60
 vless://7f21c3b5-91d2-492f-803d-5112fe648f21@iP.mEloV2raY.shOp:443?type=ws&path=%2Fmelov2ray&security=none#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-74
