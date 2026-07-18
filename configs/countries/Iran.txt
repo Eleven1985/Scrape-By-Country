@@ -10,6 +10,7 @@ ss://16ad976d-b5df-4b4e-87b6-87cc64ac0a8b@31.77.201.85:443?flow=xtls-rprx-vision
 ss://1cd5fa1a-fae9-45a3-a4b8-2bc636ec0952@185.143.234.200:80?encryption=none&type=xhttp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-427
 ss://1eb75d06-34b5-48af-8564-90e9ca0a3e04@31.56.89.31:37825?encryption=mlkem768x25519plus.native.0rtt.sGrv3mIk61axsKIAJkxsh-2TAnalzVWQw70HsKAlQSU&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-304
 ss://2a245a20-1f31-4cf6-bc26-8f0929c9a64f@iranserver.com:80?security=none&sni=join-to.unlimiteddev.community&fp=chrome&type=ws&path=/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed%3D8880&host=join-to.unlimiteddev.Community.&encryption=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-421
+ss://3a735ab4-aadc-41d7-ab2d-4eb113f5b48c@178.239.151.198:2012?security=none&encryption=none&headerType=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-492
 ss://3c527fb1-35ba-4a80-969f-7b6ad6c35efd@193.134.101.181:8080?path=%2F&security=none&encryption=none&host=play.google.com&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-294
 ss://464045bb-0b22-4bcd-a6a8-e27057ed2b9b@185.97.116.42:34828?encryption=none&security=none&type=tcp#%F0%9F%87%AE%F0%9F%87%B7%20IR%201338ms
 ss://464045bb-0b22-4bcd-a6a8-e27057ed2b9b@185.97.116.42:34828?encryption=none&security=none&type=tcp#%F0%9F%87%AE%F0%9F%87%B7%20IR%202292ms
@@ -24,7 +25,6 @@ ss://621c3631-ed9b-453a-b486-4068212bf483@185.143.233.233:2082?path=%2F&security
 ss://6b7cc59c-deb1-41b7-8758-c582c00c1fe3@185.143.233.200:2095?encryption=none&security=none&type=ws&host=Tu5.pokerpings.com&path=/#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-476
 ss://6b7cc59c-deb1-41b7-8758-c582c00c1fe3@185.143.234.200:2095?encryption=none&security=none&type=ws&host=Tu5.pokerpings.com&path=/#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-478
 ss://6b7cc59c-deb1-41b7-8758-c582c00c1fe3@185.143.235.200:2095?encryption=none&security=none&type=ws&host=Tu5.pokerpings.com&path=/#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-477
-ss://6fdfdb73-51b0-4a14-89a5-c9355a0e0397@raff-vpn-kz-server1.ru:443?security=reality&encryption=none&pbk=vCxfuNNmogA1DlPkjvmKb7_hSgXqe4MboPfi2s1JZG0&host=v2rayNplus--v2rayNplus--v2rayNplus&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=google.com&sid=b318242471ba4f5b#%40hi_proxy_iran
 ss://72ad4918-47cb-4ccc-ab21-e52b869547a0@herfeh-honarmand.com:80?encryption=none&security=none&type=ws&host=pamchall.com.&path=%2FMosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2%3Fed%3D2560#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-329
 ss://7311bac5-eee4-4a9f-be0f-4307df1e237a@185.143.234.235:80?path=%2F&security=none&encryption=none&host=io.binping.lol&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-338
 ss://739b8e9b-f1da-449a-8bfe-bf7b102b7751@iran.zanbor.de:443?encryption=none&security=reality&sni=bitcommand.com&fp=firefox&pbk=arLM5x4jH1TT05yUjirGNCSDK9pSscqHQWg3rqdKA3Y&sid=b1459712&spx=%2F&type=tcp&headerType=none#%E2%99%A5%20IRAN%20%28ZANBOR%29
@@ -44,8 +44,8 @@ ss://9a11a034-5c17-4595-9145-317007b42e77@v.pvnetwork.ir:8880?security=none&encr
 ss://9aef9fc7-f901-4234-d8f5-f5980fb664d2@94.183.149.168:8880?path=%2F&security=none&encryption=none&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-394
 ss://9ef6db89-3cad-4c66-b38c-315730b5c336@185.143.234.122:80?path=%2F&security=none&encryption=none&host=amm2.avenflow.ir&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-377
 ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206UzVSQ0k2Z0o2U1VPY2RuTnBjRWdSMVVWemlkKzhPOC8rRGNlVVNIRG5Gcz06aWZmZ2RQU1I4Zzc1dDQ5bjN4Q2I5K09HMldHSlRqVWhvaHBQb0hOVDU5OD0@94.101.184.47:2052#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-488
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowdTQ3eEp2cDJfcEdiQTVjMTNBU0hLODdEeER3azV6bQ==@coco1.farajet.net:1010#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-491
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRU5oeXFaVm5vRVN1aGU5TGRyT0EvLzJMVmh6Ymo0RnMwZWVraHppZHA4PQ@185.213.195.33:2052?type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-455
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsZ2hYM3JjRzdicVNROEw2@128.251.12.23:443#%40hi_proxy_iran
 ss://a1750ade-801f-4e3e-a5d2-de825771205d@151.80.147.30:443?security=reality&encryption=none&pbk=Ij3Iz1jqht6zLOy9uI0iusTy4n1oIr7gpgTwRTtA8kY&host=v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=speedtest.net&sid=42b395462da31c0e#%40hi_proxy_iran
 ss://a3b1d134-e3d8-45ab-9996-a3800be0fcdc@185.143.234.235:8080/?type=ws&encryption=none&host=vip.az99x.info&path=%2F#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-403
 ss://a3b1d134-e3d8-45ab-9996-a3800be0fcdc@185.143.234.235:8080/?type=ws&encryption=none&host=vip.az99x.info&path=%2F#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-430
@@ -83,7 +83,6 @@ ss://d4717199-db4a-434c-b53b-d4d8e339ed1a@zula.ir:80?type=ws&host=kubs.st1lol.ir
 ss://d5d36002-2c49-4a16-9cb2-8e240156dfd1@185.143.232.201:80?encryption=none&type=ws&path=%2F&host=down.speedtell.ir#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-457
 ss://d6cec167-58b4-49a7-bad9-214e6fecfb27@iranserver.com:80?security=none&sni=join-to.unlimiteddev.community&fp=chrome&type=ws&path=/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed%3D8880&host=join-to.unlimiteddev.Community.&encryption=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-384
 ss://d9307ab3-1ed0-4b6d-bfd0-e104c7ccc25a@sv2.azparadox.ir:8880?encryption=none&security=none&sni=azsv2.ir5ive.ir&type=ws&host=azsv2.ir5ive.ir&path=%2F#IR%E4%BC%8A%E6%9C%97%E4%B8%A8yoyapai.com
-ss://dc7940e0-6bff-45e3-853d-4007561803c3@185.155.97.58:45176?security=reality&encryption=none&pbk=A1Qf_rMG4KDfLzfCK-M5R9qW_0uThfeSosQnv6LBL1M&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.googletagmanager.com&sid=8433cb66b6c3ab6d#%40hi_proxy_iran
 ss://dc9b85ff-a632-4349-974a-6548e3f0beed@31.56.89.31:37825?encryption=mlkem768x25519plus.native.0rtt.sGrv3mIk61axsKIAJkxsh-2TAnalzVWQw70HsKAlQSU&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-301
 ss://de8f907c-53cc-40da-b9eb-87775b31258e@185.143.233.222:8080?security=none&allowInsecure=0&encryption=none&type=ws&host=free.tradepal.ir&path=%2F#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-413
 ss://e044297a-304f-40a9-a9fb-d17b744fa781@178.104.225.122:44444?security=reality&encryption=none&pbk=79ji8OAmCVQTKcJmvf-iqZypOSKwuTD_sbatB4RHXXM&host=play.google.coM.&headerType=none&fp=chrome&type=tcp&sni=yahoo.com.&sid=f37329647c9a1886#%40hi_proxy_iran
@@ -91,6 +90,7 @@ ss://e1376c90-2fe1-4b90-bcbb-3ce7b099a2b4@zula.ir:80?path=%2FTelegram-Channel%3D
 ss://e1a928be-e289-4aef-b92e-4106fabdf42f@zula.ir:80?path=%2F%3Fed%3D2048&security=none&encryption=none&host=mahi.kosnanatfilterchi.eu.org&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-341
 ss://e3c0b438-a4e7-4a38-8316-7512f6044eb3@78.109.198.25:80?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-472
 ss://e48cf70b-a9a5-4855-9330-e8649a11882e@193.134.100.23:12596?security=none&encryption=none&headerType=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-296
+ss://ef21f8f2-a132-4e3a-adc1-20c632c4783d@germany2.benjaminclouds.ir:6000?encryption=none&security=none&type=tcp&headerType=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-490
 ss://f01de3e1-150c-4c32-bf87-717ba37a2472@185.143.234.200:80?path=%2F&security=none&encryption=none&host=tr.newdesigne.ir&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-404
 ss://f46f44d8-0ebf-45de-8640-69a96a4c94ad@zula.ir:80?path=%2Fvless&security=none&encryption=none&host=De2.vless.site.&type=ws&sni=de2.vless.site#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-390
 ss://f526e941-52ac-4d28-ba49-5ba2fc0a984b@zula.ir:80?path=%2Fvless&security=none&encryption=none&host=uk2-vless.sshmax.xyz&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-380
@@ -109,6 +109,7 @@ vless://16ad976d-b5df-4b4e-87b6-87cc64ac0a8b@31.77.201.85:443?flow=xtls-rprx-vis
 vless://1cd5fa1a-fae9-45a3-a4b8-2bc636ec0952@185.143.234.200:80?encryption=none&type=xhttp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-427
 vless://1eb75d06-34b5-48af-8564-90e9ca0a3e04@31.56.89.31:37825?encryption=mlkem768x25519plus.native.0rtt.sGrv3mIk61axsKIAJkxsh-2TAnalzVWQw70HsKAlQSU&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-304
 vless://2a245a20-1f31-4cf6-bc26-8f0929c9a64f@iranserver.com:80?security=none&sni=join-to.unlimiteddev.community&fp=chrome&type=ws&path=/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed%3D8880&host=join-to.unlimiteddev.Community.&encryption=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-421
+vless://3a735ab4-aadc-41d7-ab2d-4eb113f5b48c@178.239.151.198:2012?security=none&encryption=none&headerType=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-492
 vless://3c527fb1-35ba-4a80-969f-7b6ad6c35efd@193.134.101.181:8080?path=%2F&security=none&encryption=none&host=play.google.com&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-294
 vless://464045bb-0b22-4bcd-a6a8-e27057ed2b9b@185.97.116.42:34828?encryption=none&security=none&type=tcp#%F0%9F%87%AE%F0%9F%87%B7%20IR%201338ms
 vless://464045bb-0b22-4bcd-a6a8-e27057ed2b9b@185.97.116.42:34828?encryption=none&security=none&type=tcp#%F0%9F%87%AE%F0%9F%87%B7%20IR%202292ms
@@ -123,7 +124,6 @@ vless://621c3631-ed9b-453a-b486-4068212bf483@185.143.233.233:2082?path=%2F&secur
 vless://6b7cc59c-deb1-41b7-8758-c582c00c1fe3@185.143.233.200:2095?encryption=none&security=none&type=ws&host=Tu5.pokerpings.com&path=/#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-476
 vless://6b7cc59c-deb1-41b7-8758-c582c00c1fe3@185.143.234.200:2095?encryption=none&security=none&type=ws&host=Tu5.pokerpings.com&path=/#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-478
 vless://6b7cc59c-deb1-41b7-8758-c582c00c1fe3@185.143.235.200:2095?encryption=none&security=none&type=ws&host=Tu5.pokerpings.com&path=/#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-477
-vless://6fdfdb73-51b0-4a14-89a5-c9355a0e0397@raff-vpn-kz-server1.ru:443?security=reality&encryption=none&pbk=vCxfuNNmogA1DlPkjvmKb7_hSgXqe4MboPfi2s1JZG0&host=v2rayNplus--v2rayNplus--v2rayNplus&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=google.com&sid=b318242471ba4f5b#%40hi_proxy_iran
 vless://72ad4918-47cb-4ccc-ab21-e52b869547a0@herfeh-honarmand.com:80?encryption=none&security=none&type=ws&host=pamchall.com.&path=%2FMosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2%3Fed%3D2560#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-329
 vless://7311bac5-eee4-4a9f-be0f-4307df1e237a@185.143.234.235:80?path=%2F&security=none&encryption=none&host=io.binping.lol&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-338
 vless://739b8e9b-f1da-449a-8bfe-bf7b102b7751@iran.zanbor.de:443?encryption=none&security=reality&sni=bitcommand.com&fp=firefox&pbk=arLM5x4jH1TT05yUjirGNCSDK9pSscqHQWg3rqdKA3Y&sid=b1459712&spx=%2F&type=tcp&headerType=none#%E2%99%A5%20IRAN%20%28ZANBOR%29
@@ -179,7 +179,6 @@ vless://d4717199-db4a-434c-b53b-d4d8e339ed1a@zula.ir:80?type=ws&host=kubs.st1lol
 vless://d5d36002-2c49-4a16-9cb2-8e240156dfd1@185.143.232.201:80?encryption=none&type=ws&path=%2F&host=down.speedtell.ir#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-457
 vless://d6cec167-58b4-49a7-bad9-214e6fecfb27@iranserver.com:80?security=none&sni=join-to.unlimiteddev.community&fp=chrome&type=ws&path=/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed%3D8880&host=join-to.unlimiteddev.Community.&encryption=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-384
 vless://d9307ab3-1ed0-4b6d-bfd0-e104c7ccc25a@sv2.azparadox.ir:8880?encryption=none&security=none&sni=azsv2.ir5ive.ir&type=ws&host=azsv2.ir5ive.ir&path=%2F#IR%E4%BC%8A%E6%9C%97%E4%B8%A8yoyapai.com
-vless://dc7940e0-6bff-45e3-853d-4007561803c3@185.155.97.58:45176?security=reality&encryption=none&pbk=A1Qf_rMG4KDfLzfCK-M5R9qW_0uThfeSosQnv6LBL1M&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.googletagmanager.com&sid=8433cb66b6c3ab6d#%40hi_proxy_iran
 vless://dc9b85ff-a632-4349-974a-6548e3f0beed@31.56.89.31:37825?encryption=mlkem768x25519plus.native.0rtt.sGrv3mIk61axsKIAJkxsh-2TAnalzVWQw70HsKAlQSU&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-301
 vless://de8f907c-53cc-40da-b9eb-87775b31258e@185.143.233.222:8080?security=none&allowInsecure=0&encryption=none&type=ws&host=free.tradepal.ir&path=%2F#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-413
 vless://e044297a-304f-40a9-a9fb-d17b744fa781@178.104.225.122:44444?security=reality&encryption=none&pbk=79ji8OAmCVQTKcJmvf-iqZypOSKwuTD_sbatB4RHXXM&host=play.google.coM.&headerType=none&fp=chrome&type=tcp&sni=yahoo.com.&sid=f37329647c9a1886#%40hi_proxy_iran
@@ -187,6 +186,7 @@ vless://e1376c90-2fe1-4b90-bcbb-3ce7b099a2b4@zula.ir:80?path=%2FTelegram-Channel
 vless://e1a928be-e289-4aef-b92e-4106fabdf42f@zula.ir:80?path=%2F%3Fed%3D2048&security=none&encryption=none&host=mahi.kosnanatfilterchi.eu.org&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-341
 vless://e3c0b438-a4e7-4a38-8316-7512f6044eb3@78.109.198.25:80?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-472
 vless://e48cf70b-a9a5-4855-9330-e8649a11882e@193.134.100.23:12596?security=none&encryption=none&headerType=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-296
+vless://ef21f8f2-a132-4e3a-adc1-20c632c4783d@germany2.benjaminclouds.ir:6000?encryption=none&security=none&type=tcp&headerType=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-490
 vless://f01de3e1-150c-4c32-bf87-717ba37a2472@185.143.234.200:80?path=%2F&security=none&encryption=none&host=tr.newdesigne.ir&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-404
 vless://f46f44d8-0ebf-45de-8640-69a96a4c94ad@zula.ir:80?path=%2Fvless&security=none&encryption=none&host=De2.vless.site.&type=ws&sni=de2.vless.site#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-390
 vless://f526e941-52ac-4d28-ba49-5ba2fc0a984b@zula.ir:80?path=%2Fvless&security=none&encryption=none&host=uk2-vless.sshmax.xyz&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-380
