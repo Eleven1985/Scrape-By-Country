@@ -21,8 +21,8 @@ hysteria2://642dc0b9-6481-4d84-ad60-3586e870f263@xg.xn--mes13n8pi8x2b.shop:21494
 hysteria2://6c077487-06af-4fb1-9e46-d485d98f0a31@45.88.43.116:52454?insecure=1&sni=www.bing.com#%F0%9F%87%AF%F0%9F%87%B5JP_176%7C7.2MB%2Fs%7CK001-260618%2001
 hysteria2://71cada65-d23e-418c-88e4-a06188d14689@swe-one.quiet-rogue.site:443?sni=swe-one.quiet-rogue.site#%F0%9F%87%AC%F0%9F%87%A7GB_44%7C3.5MB%2Fs%7CV004-260618%2001
 hysteria2://80747420-96c4-4a2f-83e6-eea4e46beb09@drhystuichdfy.samanidempire.org:20335?sni=drhystuichdfy.samanidempire.org&alpn=h3&obfs=salamander&obfs-password=U1wBrYQyFm&insecure=0#%F0%9F%87%B8%F0%9F%87%AA-hamedp71%20-%20Hysteria2
-hysteria2://87qety_hERGP8Y9_jqier3gw_nA8Q34_B2@45.155.103.217:8443/?sni=kamil-power-machine.roxa.org#%3E%3E%40oneclickvpnkeys%3A%3AFR
 hysteria2://87qety_hERGP8Y9_jqier3gw_nA8Q34_B2@45.155.103.217:8443?sni=kamil-power-machine.roxa.org#%F0%9F%87%AB%F0%9F%87%B7FR_184%7C3.9MB%2Fs%7CK001-260618%2001
+hysteria2://8bc63720-5ec8-45b5-b6a6-9a21ffb490e8@fl02.auragg.org:8443/?sni=fl02.auragg.org#%3E%3E%40oneclickvpnkeys%3A%3AFI
 hysteria2://8bc63720-5ec8-45b5-b6a6-9a21ffb490e8@fl02.auragg.org:8443?insecure=1&sni=fl02.auragg.org#%F0%9F%87%B7%F0%9F%87%BARU_11%7C3.5MB%2Fs%7CP002-260618%2001
 hysteria2://8bc63720-5ec8-45b5-b6a6-9a21ffb490e8@pl02.auragg.org:443?insecure=1&sni=pl02.auragg.org#%F0%9F%87%B5%F0%9F%87%B1PL_53%7C3.6MB%2Fs%7CP002-260618%2001
 hysteria2://Apt1923_N9x234gn_Nal5Nx3j_s@81.27.102.215:8443?insecure=1&sni=grape-power-pl.ddnsguru.com#%F0%9F%87%AB%F0%9F%87%AEFI_29%7C4.0MB%2Fs%7CP002-260618%2001
@@ -52,6 +52,7 @@ hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@vpn-tw-002.fastervpn.world:443?sni=vpn-tw-0
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@vpn-us-003.fastervpn.world:443?insecure=1&sni=vpn-us-003.fastervpn.world#%F0%9F%87%BA%F0%9F%87%B8US_747%7C9.5MB%2Fs%7CK001-260618%2001
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@vpn-us-004.fastervpn.world:443?insecure=1&sni=vpn-us-004.fastervpn.world#%E2%9D%93Other_2%7C2.5MB%2Fs%7CR002-260618%2001
 hysteria2://H7mP2xY9kJ4nQ9wR5tF6vB3z@vpn-kr-002.fastervpn.world:443?insecure=1&sni=vpn-kr-002.fastervpn.world#%F0%9F%87%B0%F0%9F%87%B7KR_34%7C4.0MB%2Fs%7CP001-260618%2001
+hysteria2://IoFmkhjUlE@91.107.152.188:31999?security=tls&obfs=salamander&obfs-password=t-me-V2RayyNGvpn&insecure=1&pinSHA256=52c567daa2ae092d33e0f2b49729505bb43760622ac7915581bc78c668ee9b8e&sni=www.amd.com#%E2%AD%95T.Me%3Dirconfiig%F0%9F%87%A9%F0%9F%87%AA`
 hysteria2://KJX4HQHodA@91.107.174.32:25810?insecure=1&obfs=salamander&obfs-password=T-ME-V2RayyNGvpn&sni=www.amd.com&pinSHA256=acc6131ab42c77173ab179a5ac5707ececd64387bfd8b34c531278b561485d27#%F0%9F%87%A9%F0%9F%87%AADE_163%7C3.4MB%2Fs%7CB007-260618%2001
 hysteria2://LzMWgm6LaNWCm11bFTbynDPq2TqQj03t@5.255.102.165:443?insecure=1#%F0%9F%87%B3%F0%9F%87%B1NL_159%7C3.6MB%2Fs%7CA001-260618%2001
 hysteria2://LzMWgm6LaNWCm11bFTbynDPq2TqQj03t@5.255.102.165:443?insecure=1&sni=www.microsoft.com#%F0%9F%87%B3%F0%9F%87%B1NL_140%7C3.5MB%2Fs%7CA001-260618%2001
@@ -61,6 +62,7 @@ hysteria2://Ov_98eqvJ9N8SE3_Bxhr238e_Ntz2_Sxc47_J2@185.126.236.152:8443?insecure
 hysteria2://QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s@hy2-new.aspidnet.xyz:443?insecure=1&obfs=salamander&obfs-password=c1b4086fea89914496c7e10967a419216566&sni=hy2-new.aspidnet.xyz#%F0%9F%87%B7%F0%9F%87%B4RO_70%7C3.5MB%2Fs%7CS001-260618%2001
 hysteria2://Qre45Hk3Yh@140.233.177.48:33884?insecure=1&obfs=salamander&obfs-password=t-me-V2RayyNGvpn&sni=www.oracle.com&pinSHA256=8a93949bea6dc943bc3af58adc667972de05482d30e9c41fc32959700c0db029#%F0%9F%87%BA%F0%9F%87%B8US_1291%7C4.3MB%2Fs%7CB007-260618%2001
 hysteria2://UUoAsk2eM4@91.107.174.32:25810?insecure=1&obfs=salamander&obfs-password=T-ME-V2RayyNGvpn&sni=www.amd.com&pinSHA256=acc6131ab42c77173ab179a5ac5707ececd64387bfd8b34c531278b561485d27#%F0%9F%87%A9%F0%9F%87%AADE_172%7C3.4MB%2Fs%7CB007-260618%2001
+hysteria2://VpxzokH9V4@91.107.174.32:25810?sni=www.amd.com&insecure=1&allowInsecure=1&obfs=salamander&obfs-password=T-ME-V2RayyNGvpn&pinSHA256=acc6131ab42c77173ab179a5ac5707ececd64387bfd8b34c531278b561485d27#%40Surfboardv2ray```
 hysteria2://Yet-Another-Public-Config-1@206.71.158.37:35000?sni=YAPC-1.afshin.ir&obfs=salamander&obfs-password=Yet-Another-Public-Config-1&insecure=1#%F0%9F%87%B3%F0%9F%87%B1%20Netherlands%20-%20Amsterdam%20%F0%9F%8C%8D%20HY2-UDP-TLS%204%E2%83%A3
 hysteria2://Yet-Another-Public-Config-1@206.71.158.37:35200?sni=YAPC-1.afshin.ir&obfs=salamander&obfs-password=Yet-Another-Public-Config-1&insecure=1#%F0%9F%87%B3%F0%9F%87%B1%20Netherlands%20-%20Amsterdam%20%F0%9F%8C%8D%20HY2-UDP-TLS%204%E2%83%A3
 hysteria2://Yet-Another-Public-Config-1@206.71.158.37:36300?sni=YAPC-1.afshin.ir&obfs=salamander&obfs-password=Yet-Another-Public-Config-1&insecure=1#%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40PlanB_net%20%7C%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%85%D8%A7%20%F0%9F%86%94
