@@ -2,7 +2,6 @@ ss://3b940e86-7b0d-40da-acf1-12d334e41023@199.232.24.11:80/?type=ws&encryption=n
 ss://5c5a466e-f2e0-4211-8963-742afac24948@107.172.145.153:443?allow_insecure=0&fp=chrome&host=netmelivip.dpdns.org&path=%2Fxiron&security=tls&sni=netmelivip.dpdns.org&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-6
 ss://5c5a466e-f2e0-4211-8963-742afac24948@34.240.243.226:443?allow_insecure=0&fp=chrome&host=netmelivip.dpdns.org&path=%2Fxiron&security=tls&sni=netmelivip.dpdns.org&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-7
 ss://Parsashonam-337@199.232.24.2:80?mode=auto&path=%2FParsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam&security=none&encryption=none&host=Free-V2ray-Bot-Parsashonam3.global.ssl.fastly.net&type=xhttp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-2
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5ZzVGTUtpQlM3THcxb29X@52.236.93.73:443#%3E%3E%40configV2rayNG%3A%3AIE
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWcjA2clVfdjF2RlBZZVhxOXpic0FB@84.247.48.78:1080#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-10
 ss://c04bf2df-2b7f-44da-a893-3792d3910fd8@ire01.myxasecure.space:443?security=reality&flow=xtls-rprx-vision&type=raw&sni=ire01.myxasecure.space&fp=qq&pbk=OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw&sid=d67ec5a8fc40ebea#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-9
 ss://c9399d16-a0ae-451a-d069-39280bc363f4@52.19.138.237:8443?&security=tls&fp=chrome&sni=us2.wxgqlfx.icu&type=ws&headerType=&host=us2.wxgqlfx.icu&path=%2FTG%40wxgqlfx#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-3
@@ -21,6 +20,12 @@ trojan://OD90375861@52.212.156.233:443?fp=chrome&sni=wired-tick.rooster465.autos
 trojan://OD90375861@fit-calf.rooster465.autos:443#%3E%3E%40oneclickvpnkeys%3A%3AIE
 trojan://OD90375861@wired-tick.rooster465.autos:443#%3E%3E%40oneclickvpnkeys%3A%3AIE
 trojan://OD90375861@wired-tick.rooster465.autos:443?security=tls#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-16
+trojan://ON38567014@endless-crappie.rooster465.autos:443?allowInsecure=1&insecure=1&type=tcp&security=tls&sni=endless-crappie.rooster465.autos&fp=chrome#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-17
+trojan://ON38567014@fit-calf.rooster465.autos:443?allowInsecure=1&insecure=1&type=tcp&security=tls&sni=fit-calf.rooster465.autos&fp=chrome#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-18
+trojan://ON38567014@vast-turkey.rooster465.autos:443?allowInsecure=1&insecure=1&type=tcp&security=tls&sni=vast-turkey.rooster465.autos&fp=chrome#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-19
+trojan://ON38567014@witty-stallion.rooster465.autos:443?allowInsecure=1&insecure=1&type=tcp&security=tls&sni=witty-stallion.rooster465.autos&fp=chrome#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-20
+trojan://PD07395842@above-rabbit.rooster465.autos:443?fp=chrome#%3E%3E%40oneclickvpnkeys%3A%3AIE
+trojan://PD07395842@endless-crappie.rooster465.autos:443?fp=chrome#%3E%3E%40oneclickvpnkeys%3A%3AIE
 trojan://XG59623478@3.249.67.252:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=singular-lark.rooster465.autos#%3E%3E%40outline_vpn%3A%3AIE
 trojan://XG59623478@improved-anteater.rooster465.autos:443?security=tls#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-4
 trojan://XG59623478@singular-lark.rooster465.autos:443#%3E%3E%40oneclickvpnkeys%3A%3AIE

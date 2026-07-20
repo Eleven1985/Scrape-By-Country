@@ -47,6 +47,7 @@ ss://eab915bc-d2df-73d1-47d0-6eb240497055@46.8.238.102:2090?alpn=http/1.1&encryp
 ss://eab915bc-d2df-73d1-47d0-6eb240497055@46.8.238.180:2090?#%5BOpenRay%5D%20%F0%9F%87%B1%F0%9F%87%BB%20LV-1073
 ss://eab915bc-d2df-73d1-47d0-6eb240497055@46.8.238.180:2090?encryption=none&host=fn.fifapes.monster&headerType=none&fp=chrome&type=tcp#%5BOpenRay%5D%20%F0%9F%87%B1%F0%9F%87%BB%20LV-1070
 ss://eab915bc-d2df-73d1-47d0-6eb240497055@46.8.70.189:2090?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%B1%F0%9F%87%BB%20LV-1078
+ss://ec0503bb-a55e-455d-be57-409e1d7260a6@pro-it.emrata.top:443?type=tcp&security=reality&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I&fp=chrome&sni=pro-it.emrata.top#%5BOpenRay%5D%20%F0%9F%87%B1%F0%9F%87%BB%20LV-1085
 ss://f2e9df1b-e0ba-4b37-a301-6aab8662c926@77.73.238.191:16622?encryption=none&security=reality&sni=yahoo.com&pbk=E5N_ckakvqgTOjiQ6Rmuwz1fchiT1-J3tH4cbzcH_GQ&sid=1c01d60ea915&type=tcp&headerType=none#%5BOpenRay%5D%20%F0%9F%87%B1%F0%9F%87%BB%20LV-1081
 ss://f8da6c82-1695-4c1e-88d5-33a6f6fbfd52@85.159.228.16:443?security=reality&encryption=none&pbk=NxLR5vkPo5g7kf0GPCM__aUtkHyP86TOTNOibyzQ4z4&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.speedtest.net&sid=df9b20090157c53b#%5BOpenRay%5D%20%F0%9F%87%B1%F0%9F%87%BB%20LV-1046
 vless://29fa091f-65db-44fd-b388-22dc76dd4b97@185.22.173.67:443/?type=ws&encryption=none&flow=&packetEncoding=xudp&host=2.fognet.ru&path=%2Ffog&security=tls&sni=2.fognet.ru#%5BOpenRay%5D%20%F0%9F%87%B1%F0%9F%87%BB%20LV-1083
@@ -98,5 +99,6 @@ vless://eab915bc-d2df-73d1-47d0-6eb240497055@46.8.238.102:2090?alpn=http/1.1&enc
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@46.8.238.180:2090?#%5BOpenRay%5D%20%F0%9F%87%B1%F0%9F%87%BB%20LV-1073
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@46.8.238.180:2090?encryption=none&host=fn.fifapes.monster&headerType=none&fp=chrome&type=tcp#%5BOpenRay%5D%20%F0%9F%87%B1%F0%9F%87%BB%20LV-1070
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@46.8.70.189:2090?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%B1%F0%9F%87%BB%20LV-1078
+vless://ec0503bb-a55e-455d-be57-409e1d7260a6@pro-it.emrata.top:443?type=tcp&security=reality&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I&fp=chrome&sni=pro-it.emrata.top#%5BOpenRay%5D%20%F0%9F%87%B1%F0%9F%87%BB%20LV-1085
 vless://f2e9df1b-e0ba-4b37-a301-6aab8662c926@77.73.238.191:16622?encryption=none&security=reality&sni=yahoo.com&pbk=E5N_ckakvqgTOjiQ6Rmuwz1fchiT1-J3tH4cbzcH_GQ&sid=1c01d60ea915&type=tcp&headerType=none#%5BOpenRay%5D%20%F0%9F%87%B1%F0%9F%87%BB%20LV-1081
 vless://f8da6c82-1695-4c1e-88d5-33a6f6fbfd52@85.159.228.16:443?security=reality&encryption=none&pbk=NxLR5vkPo5g7kf0GPCM__aUtkHyP86TOTNOibyzQ4z4&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.speedtest.net&sid=df9b20090157c53b#%5BOpenRay%5D%20%F0%9F%87%B1%F0%9F%87%BB%20LV-1046
