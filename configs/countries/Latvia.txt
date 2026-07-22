@@ -60,6 +60,7 @@ ss://eab915bc-d2df-73d1-47d0-6eb240497055@46.8.70.189:2090?encryption=none&secur
 ss://eab915bc-d2df-73d1-47d0-6eb240497055@5.144.179.127:2090?security=none&encryption=none&headerType=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%B1%F0%9F%87%BB%20LV-1092
 ss://eab915bc-d2df-73d1-47d0-6eb240497055@5.178.96.19:2090?security=none&encryption=none&headerType=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%B1%F0%9F%87%BB%20LV-1097
 ss://eab915bc-d2df-73d1-47d0-6eb240497055@95.182.115.13:2090?security=none&type=tcp&host=%2F%3F&headerType=http#%5BOpenRay%5D%20%F0%9F%87%B1%F0%9F%87%BB%20LV-1096
+ss://eab915bc-d2df-73d1-47d0-6eb240497055@fn.fifapes.monster:2090?sni=%2F%3F#%5BOpenRay%5D%20%F0%9F%87%B1%F0%9F%87%BB%20LV-1099
 ss://ec0503bb-a55e-455d-be57-409e1d7260a6@pro-it.emrata.top:443?type=tcp&security=reality&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I&fp=chrome&sni=pro-it.emrata.top#%5BOpenRay%5D%20%F0%9F%87%B1%F0%9F%87%BB%20LV-1085
 ss://f2e9df1b-e0ba-4b37-a301-6aab8662c926@77.73.238.191:16622?encryption=none&security=reality&sni=yahoo.com&pbk=E5N_ckakvqgTOjiQ6Rmuwz1fchiT1-J3tH4cbzcH_GQ&sid=1c01d60ea915&type=tcp&headerType=none#%5BOpenRay%5D%20%F0%9F%87%B1%F0%9F%87%BB%20LV-1081
 ss://f8da6c82-1695-4c1e-88d5-33a6f6fbfd52@85.159.228.16:443?security=reality&encryption=none&pbk=NxLR5vkPo5g7kf0GPCM__aUtkHyP86TOTNOibyzQ4z4&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.speedtest.net&sid=df9b20090157c53b#%5BOpenRay%5D%20%F0%9F%87%B1%F0%9F%87%BB%20LV-1046
@@ -125,6 +126,7 @@ vless://eab915bc-d2df-73d1-47d0-6eb240497055@46.8.70.189:2090?encryption=none&se
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@5.144.179.127:2090?security=none&encryption=none&headerType=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%B1%F0%9F%87%BB%20LV-1092
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@5.178.96.19:2090?security=none&encryption=none&headerType=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%B1%F0%9F%87%BB%20LV-1097
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@95.182.115.13:2090?security=none&type=tcp&host=%2F%3F&headerType=http#%5BOpenRay%5D%20%F0%9F%87%B1%F0%9F%87%BB%20LV-1096
+vless://eab915bc-d2df-73d1-47d0-6eb240497055@fn.fifapes.monster:2090?sni=%2F%3F#%5BOpenRay%5D%20%F0%9F%87%B1%F0%9F%87%BB%20LV-1099
 vless://ec0503bb-a55e-455d-be57-409e1d7260a6@pro-it.emrata.top:443?type=tcp&security=reality&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I&fp=chrome&sni=pro-it.emrata.top#%5BOpenRay%5D%20%F0%9F%87%B1%F0%9F%87%BB%20LV-1085
 vless://f2e9df1b-e0ba-4b37-a301-6aab8662c926@77.73.238.191:16622?encryption=none&security=reality&sni=yahoo.com&pbk=E5N_ckakvqgTOjiQ6Rmuwz1fchiT1-J3tH4cbzcH_GQ&sid=1c01d60ea915&type=tcp&headerType=none#%5BOpenRay%5D%20%F0%9F%87%B1%F0%9F%87%BB%20LV-1081
 vless://f8da6c82-1695-4c1e-88d5-33a6f6fbfd52@85.159.228.16:443?security=reality&encryption=none&pbk=NxLR5vkPo5g7kf0GPCM__aUtkHyP86TOTNOibyzQ4z4&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.speedtest.net&sid=df9b20090157c53b#%5BOpenRay%5D%20%F0%9F%87%B1%F0%9F%87%BB%20LV-1046
