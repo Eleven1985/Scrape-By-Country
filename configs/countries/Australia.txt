@@ -1,4 +1,3 @@
-hysteria2://b42d90fa667942aebc734d60@161.33.231.22:30000?sni=vpn7.rnmcnm.com&insecure=0&allowInsecure=0#AU%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9A%28mibei77.com%20%E7%B1%B3%E8%B4%9D%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29
 ss://17a1ffce-0cf5-b29b-ba3c-2f2300000001@123.51.23.113:443?path=/NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN&security=tls&encryption=none&insecure=0&host=netlivpn1048.shshh.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=netlivpn1048.shshh.workers.dev#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-64
 ss://218fd696-e3a2-4c33-b397-a5f13a82969e@ru41.theabvp.org:443?security=reality&encryption=none&pbk=YlTuZAJgyqZ6gmKKTbtR0TZvFsXeozca_bs0tqIXtys&headerType=none&fp=firefox&type=tcp&sni=sun6-20.userapi.com&sid=920d0959#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-72
 ss://2d1470a0-fa48-4d3b-8378-b827b744ac00@82.23.146.98:443?mode=multi&security=reality&encryption=none&type=tcp&flow=xtls-rprx-vision&pbk=o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8&sid=85&sni=www.tesla.com&servername=www.tesla.com&spx=%2F&fp=safari#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-80
@@ -25,6 +24,7 @@ trojan://FC60532879@welcome-labrador.rooster465.autos:443?security=tls&sni=welco
 trojan://IQ68037294@eternal-frog.rooster465.autos:443?security=tls&sni=eternal-frog.rooster465.autos#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-92
 trojan://JA96378052@evident-gnat.rooster465.autos:443?allowInsecure=1#%3E%3E%40v2nodes%3A%3AAU
 trojan://JA96378052@evident-gnat.rooster465.autos:443?security=tls#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-93
+trojan://JA96378052@evident-gnat.rooster465.autos:443?security=tls&sni=evident-gnat.rooster465.autos&path=/#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-95
 trojan://KV63147582@selected-bison.rooster465.autos:443?allowInsecure=0&sni=selected-bison.rooster465.autos#%3E%3E%40v2nodes%3A%3AAU
 trojan://KV63147582@selected-bison.rooster465.autos:443?security=tls&sni=selected-bison.rooster465.autos#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-81
 trojan://KV63147582@selected-bison.rooster465.autos:443?security=tls&sni=selected-bison.rooster465.autos#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-89
