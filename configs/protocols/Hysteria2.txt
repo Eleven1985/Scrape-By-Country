@@ -3,7 +3,6 @@ hysteria2://042a1881-44e4-4781-bd40-bf75164faf4f@nland1.noesissite.ru:443/?sni=n
 hysteria2://2c833c5d-cbcc-4afb-89ba-d17dc39db6f0@75.127.13.83:47974?sni=www.bing.com&insecure=1#%3E%3E%40oneclickvpnkeys%3A%3AUS
 hysteria2://37afff84-34bd-4db6-b24a-7d73d2ed48ce@107.173.127.166:25000?sni=www.apple.com&insecure=1#yandex-99
 hysteria2://37afff84-34bd-4db6-b24a-7d73d2ed48ce@198.23.130.211:25000?sni=api.push.apple.com&insecure=1#yandex-100
-hysteria2://4z2oldt85p494bgb@assets.gateway-stream.com:52061?sni=assets.gateway-stream.com&insecure=0&allowInsecure=0&obfs=salamander&obfs-password=fd3olglr2bmimgje
 hysteria2://642dc0b9-6481-4d84-ad60-3586e870f263@agt.xn--mes13n8pi8x2b.shop:21440?insecure=0&mport=21001-21999#%E9%98%BF%E6%A0%B9%E5%BB%B71
 hysteria2://642dc0b9-6481-4d84-ad60-3586e870f263@agt.xn--mes13n8pi8x2b.shop:21654?insecure=0&mport=21001-21999#%E9%98%BF%E6%A0%B9%E5%BB%B72
 hysteria2://642dc0b9-6481-4d84-ad60-3586e870f263@mg.xn--mes13n8pi8x2b.shop:21349?insecure=0&mport=21001-21999#%E7%BE%8E%E5%9B%BD1
@@ -16,7 +15,6 @@ hysteria2://642dc0b9-6481-4d84-ad60-3586e870f263@tw.xn--mes13n8pi8x2b.shop:21828
 hysteria2://642dc0b9-6481-4d84-ad60-3586e870f263@tw.xn--mes13n8pi8x2b.shop:21860?insecure=0&mport=21001-21999#%E5%8F%B0%E6%B9%BE2
 hysteria2://642dc0b9-6481-4d84-ad60-3586e870f263@xg.xn--mes13n8pi8x2b.shop:21072?insecure=0&mport=21001-21999#%E9%A6%99%E6%B8%AF1
 hysteria2://642dc0b9-6481-4d84-ad60-3586e870f263@xg.xn--mes13n8pi8x2b.shop:21494?insecure=0&mport=21001-21999#%E9%A6%99%E6%B8%AF2
-hysteria2://68b4b16e-2759-47a4-8a69-33118edf5ce6@ger.leontunel.ru:443?security=tls&insecure=0&sni=ger.leontunel.ru#Channel%20%3A%20%40Daily_Configs
 hysteria2://7_Bz834J98n238cNbx7cjLAw_Nux28c_kIO1Hq86Vr@151.247.219.191:8443/?sni=hopp-queen.roxa.org#%3E%3E%40oneclickvpnkeys%3A%3AGB
 hysteria2://80747420-96c4-4a2f-83e6-eea4e46beb09@drhystuichdfy.samanidempire.org:20335?sni=drhystuichdfy.samanidempire.org&alpn=h3&obfs=salamander&obfs-password=U1wBrYQyFm&insecure=0#%F0%9F%87%B8%F0%9F%87%AA-hamedp71%20-%20Hysteria2
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@103.115.109.49:443?sni=https%3A%2F%2Ft.me%2Foneclickvpnkeys&insecure=1&allowInsecure=1#%40one_shop_official

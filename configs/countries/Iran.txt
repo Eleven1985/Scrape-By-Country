@@ -35,7 +35,6 @@ ss://739b8e9b-f1da-449a-8bfe-bf7b102b7751@iran.zanbor.de:443?encryption=none&sec
 ss://76d0da4f-7d3b-4be1-9a81-de1adaa8af59@zula.ir:80?path=%2F%40custom_config%3Fed%3D2048&security=none&encryption=none&host=mihanyas.ir.www.zula.ir.xn--4all.king4usd.shop.&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-395
 ss://7b912ab8-1f11-46fa-abe7-6d4bc1e45e61@188.209.153.97:36926?encryption=none&security=tls&sni=188.209.153.97&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=188.209.153.97&path=%2Ffreebox#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-493
 ss://7e38ce31-f444-42d8-903d-d4d5d8e7ae2c@iranserver.com:80?security=none&sni=join-to.unlimiteddev.community&fp=chrome&type=ws&path=/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed%3D8880&host=join-to.unlimiteddev.Community.&encryption=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-356
-ss://7e544a9d-7667-413b-bbb0-b3bb1aac6d77@cf.levikogjgfdd.ir:443?path=%2Frsedgws&security=tls&encryption=none&insecure=0&host=shegeftihaaa.net&fp=chrome&type=ws&allowInsecure=0&sni=shegeftihaaa.net#%40hi_proxy_iran
 ss://7f55b425-a623-439b-bbd5-0b1778162054@iranserver.com:80?path=%40V2ray_God%3DTelegram%2F%3Fed%3D2048&security=none&encryption=none&host=Free1V2rayGod.xn--oor7hj4iyes9ldmi6b99k5zcm7ge8wfuhdo4cd8m61eqretu4en5hcvkerw.site.&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-367
 ss://84c17b99-0c79-48cc-82b8-3b6914801921@193.84.255.99:9000?type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-303
 ss://84c17b99-0c79-48cc-82b8-3b6914801921@dlc-srv1.treenix-ping.com:9000?&packet-encoding=xudp&type=tcp&headerType=none&host=dlc-srv1.treenix-ping.com&path=%2F#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-302
@@ -57,6 +56,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0S1JMKzNWRXNtbzZ1S05EMXB3UTZtK2JhVmRPZ1MzR1o
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowdTQ3eEp2cDJfcEdiQTVjMTNBU0hLODdEeER3azV6bQ==@coco1.farajet.net:1010#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-491
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRU5oeXFaVm5vRVN1aGU5TGRyT0EvLzJMVmh6Ymo0RnMwZWVraHppZHA4PQ@185.213.195.33:2052?type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-455
 ss://YWVzLTI1Ni1nY206TmpCallUZ3pObUV3TmpjMk1EUXlOREU1T0RZME1UWmpaRGxrWldKaQ@95.38.166.233:11104#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-496
+ss://a00a4a9f-4ee7-458e-9485-4047d250c296@sir.m2love2.top:9090?security=reality&encryption=none&pbk=VPD--NqsJ9fyU-xAGks-zUk-cPQjO66EMpovwLLsjm4&headerType=none&fp=chrome&spx=%2FprAu2jsmcuHJMGW&type=tcp&sni=www.cloudflare.com&sid=8a881d1f3005#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-513
 ss://a3b1d134-e3d8-45ab-9996-a3800be0fcdc@185.143.234.235:8080/?type=ws&encryption=none&host=vip.az99x.info&path=%2F#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-403
 ss://a3b1d134-e3d8-45ab-9996-a3800be0fcdc@185.143.234.235:8080/?type=ws&encryption=none&host=vip.az99x.info&path=%2F#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-430
 ss://a630a4c4-9472-4b9e-9a8f-f1e1fe8c26c2@185.143.233.120:80?security=none&type=ws&path=/#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-370
@@ -113,7 +113,6 @@ ss://fa75fd99-1ae6-4cb2-86a6-a41fb65ab4c4@5.10.249.14:29988?path=%2F&security=no
 ss://fae062df-b57c-4575-bb75-cff9859b2f04@zula.ir:80?path=%2F%40custom_config%3Fed%3D2048&security=none&encryption=none&host=162884125.ir.www.zula.ir.xn--4all.king4usd.shop.&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-412
 ss://fb290991-bbd5-4c7f-b5fc-b0bb344bf6e1@5.160.252.55:443?encryption=none&security=tls&sni=irtes.chakkalx.de&fp=chrome&alpn=http%2F1.1&insecure=0&allowInsecure=0&type=ws&path=%2Fdashaq#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-509
 ss://v2Ray_OffiCiaL@Zula.ir:80?path=%2F&security=none&encryption=none&host=V2ray_official.%E5%88%9B%E4%BC%98%E8%88%8D.org.&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-343
-trojan://humanity@104.17.111.8:443?path=%2Fassignment&security=tls&insecure=0&host=www.ignitelimit.com&fp=chrome&type=ws&allowInsecure=0&sni=www.ignitelimit.com#%40hi_proxy_iran
 vless://06e5f9c4-c04d-48b9-8fd2-571811e2996d@abr185.onlyusers.org:3389?encryption=mlkem768x25519plus.native.0rtt.Fon5z21v69c7yAKx95iWpOcHwjnHtU4KcfpdPon3YxQ&security=tls&fp=chrome&alpn=h2,http/1.1&insecure=0&allowInsecure=0&type=tcp&headerType=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-510
 vless://09355316-dcae-4830-bb49-54bd09cc0332@94.184.4.157:2020?security=&encryption=none&headerType=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-498
 vless://0d543aed-4e30-4553-b5ac-211419bb0961@185.128.139.11:18244?security=none&encryption=none&host=%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMB…#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-507
@@ -151,7 +150,6 @@ vless://739b8e9b-f1da-449a-8bfe-bf7b102b7751@iran.zanbor.de:443?encryption=none&
 vless://76d0da4f-7d3b-4be1-9a81-de1adaa8af59@zula.ir:80?path=%2F%40custom_config%3Fed%3D2048&security=none&encryption=none&host=mihanyas.ir.www.zula.ir.xn--4all.king4usd.shop.&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-395
 vless://7b912ab8-1f11-46fa-abe7-6d4bc1e45e61@188.209.153.97:36926?encryption=none&security=tls&sni=188.209.153.97&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=188.209.153.97&path=%2Ffreebox#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-493
 vless://7e38ce31-f444-42d8-903d-d4d5d8e7ae2c@iranserver.com:80?security=none&sni=join-to.unlimiteddev.community&fp=chrome&type=ws&path=/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed%3D8880&host=join-to.unlimiteddev.Community.&encryption=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-356
-vless://7e544a9d-7667-413b-bbb0-b3bb1aac6d77@cf.levikogjgfdd.ir:443?path=%2Frsedgws&security=tls&encryption=none&insecure=0&host=shegeftihaaa.net&fp=chrome&type=ws&allowInsecure=0&sni=shegeftihaaa.net#%40hi_proxy_iran
 vless://7f55b425-a623-439b-bbd5-0b1778162054@iranserver.com:80?path=%40V2ray_God%3DTelegram%2F%3Fed%3D2048&security=none&encryption=none&host=Free1V2rayGod.xn--oor7hj4iyes9ldmi6b99k5zcm7ge8wfuhdo4cd8m61eqretu4en5hcvkerw.site.&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-367
 vless://84c17b99-0c79-48cc-82b8-3b6914801921@193.84.255.99:9000?type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-303
 vless://84c17b99-0c79-48cc-82b8-3b6914801921@dlc-srv1.treenix-ping.com:9000?&packet-encoding=xudp&type=tcp&headerType=none&host=dlc-srv1.treenix-ping.com&path=%2F#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-302
@@ -168,6 +166,7 @@ vless://9a11a034-5c17-4595-9145-317007b42e77@v.pvnetwork.ir:8880?security=none&e
 vless://9aef9fc7-f901-4234-d8f5-f5980fb664d2@94.183.149.168:8880?path=%2F&security=none&encryption=none&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-394
 vless://9ef6db89-3cad-4c66-b38c-315730b5c336@185.143.234.122:80?path=%2F&security=none&encryption=none&host=amm2.avenflow.ir&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-377
 vless://NamedZadim@193.93.169.242:53655?path=%2F&security=none&encryption=none&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-511
+vless://a00a4a9f-4ee7-458e-9485-4047d250c296@sir.m2love2.top:9090?security=reality&encryption=none&pbk=VPD--NqsJ9fyU-xAGks-zUk-cPQjO66EMpovwLLsjm4&headerType=none&fp=chrome&spx=%2FprAu2jsmcuHJMGW&type=tcp&sni=www.cloudflare.com&sid=8a881d1f3005#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-513
 vless://a3b1d134-e3d8-45ab-9996-a3800be0fcdc@185.143.234.235:8080/?type=ws&encryption=none&host=vip.az99x.info&path=%2F#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-403
 vless://a3b1d134-e3d8-45ab-9996-a3800be0fcdc@185.143.234.235:8080/?type=ws&encryption=none&host=vip.az99x.info&path=%2F#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-430
 vless://a630a4c4-9472-4b9e-9a8f-f1e1fe8c26c2@185.143.233.120:80?security=none&type=ws&path=/#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-370

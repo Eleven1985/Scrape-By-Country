@@ -22,6 +22,7 @@ trojan://521314@161.33.76.218:8443?host=tjplay.lxdxo.kdns.fr&path=%2F&security=t
 trojan://FC60532879@welcome-labrador.rooster465.autos:443?security=tls&path=%2f#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-94
 trojan://FC60532879@welcome-labrador.rooster465.autos:443?security=tls&sni=welcome-labrador.rooster465.autos#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-91
 trojan://IQ68037294@eternal-frog.rooster465.autos:443?security=tls&sni=eternal-frog.rooster465.autos#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-92
+trojan://IQ68037294@eternal-frog.rooster465.autos:443?security=tls&sni=eternal-frog.rooster465.autos#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-96
 trojan://JA96378052@evident-gnat.rooster465.autos:443?allowInsecure=1#%3E%3E%40v2nodes%3A%3AAU
 trojan://JA96378052@evident-gnat.rooster465.autos:443?security=tls#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-93
 trojan://JA96378052@evident-gnat.rooster465.autos:443?security=tls&sni=evident-gnat.rooster465.autos&path=/#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-95
