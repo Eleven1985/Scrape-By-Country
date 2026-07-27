@@ -166,6 +166,7 @@ ss://b90064cf-3f61-4f37-b549-a72100a8c9db@31.76.113.160:445?type=tcp&security=re
 ss://baee03b5-7d49-4d7a-a8ae-3f25a8119edb@samanirani.remotewire.net:40375?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-703
 ss://be5dca55-dffa-42a4-aace-7867b600a848@samanirani.remotewire.net:40375?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-704
 ss://be7e2bc9-6fa0-421e-8d6c-c03144ab02a0@samanirani.remotewire.net:40375?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-705
+ss://c01c2da7-6977-4b53-a493-cda17fa61b4f@5.231.80.219:443?type=grpc&security=reality&sni=file.ax&fp=chrome&pbk=ayE6OYhZPTadQ_3Q00PcvN99n7SfvmFU5yffGQVxMG0&sid=2387a1e00eca0913#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-708
 ss://c04bf2df-2b7f-44da-a893-3792d3910fd8@it01.myxasecure.space:443?security=reality&flow=xtls-rprx-vision&type=raw&sni=it01.myxasecure.space&fp=qq&pbk=OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw&sid=d67ec5a8fc40ebea#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-678
 ss://c9b314e9-47f1-4d4d-be52-30b538777b14@116.204.164.27:7443?encryption=none&type=ws&host=ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev&path=%2F%40Marisa_kristi&security=tls&fp=chrome&sni=ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-659
 ss://d0a0ba17-b77e-4180-8fee-39464ecde965@samanirani.remotewire.net:40375?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-706
@@ -352,6 +353,7 @@ vless://b90064cf-3f61-4f37-b549-a72100a8c9db@31.76.113.160:445?type=tcp&security
 vless://baee03b5-7d49-4d7a-a8ae-3f25a8119edb@samanirani.remotewire.net:40375?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-703
 vless://be5dca55-dffa-42a4-aace-7867b600a848@samanirani.remotewire.net:40375?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-704
 vless://be7e2bc9-6fa0-421e-8d6c-c03144ab02a0@samanirani.remotewire.net:40375?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-705
+vless://c01c2da7-6977-4b53-a493-cda17fa61b4f@5.231.80.219:443?type=grpc&security=reality&sni=file.ax&fp=chrome&pbk=ayE6OYhZPTadQ_3Q00PcvN99n7SfvmFU5yffGQVxMG0&sid=2387a1e00eca0913#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-708
 vless://c04bf2df-2b7f-44da-a893-3792d3910fd8@it01.myxasecure.space:443?security=reality&flow=xtls-rprx-vision&type=raw&sni=it01.myxasecure.space&fp=qq&pbk=OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw&sid=d67ec5a8fc40ebea#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-678
 vless://c9b314e9-47f1-4d4d-be52-30b538777b14@116.204.164.27:7443?encryption=none&type=ws&host=ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev&path=%2F%40Marisa_kristi&security=tls&fp=chrome&sni=ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-659
 vless://d0a0ba17-b77e-4180-8fee-39464ecde965@samanirani.remotewire.net:40375?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-706
