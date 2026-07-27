@@ -11,7 +11,6 @@ ss://7f21c3b5-91d2-492f-803d-5112fe648f21@iP.mEloV2raY.shOp:443?type=ws&path=%2F
 ss://8f4211ee-290c-4d66-a269-ccf08e3eef3a@fin.melov2ray.shop:443?type=grpc&serviceName=@melov2ray&security=tls&fp=random&alpn=h2%2Chttp%2F1.1%2Ch3&sni=FIn.Melov2ray.Shop#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-73
 ss://94a89a19-ed7d-4223-bcff-d8f96d22fd14@fin.melov2ray.shop:443?encryption=none&security=tls&sni=fin.melov2ray.shop&alpn=http%2F1.1%2Ch2&fp=chrome&type=grpc&serviceName=@melov2ray&mode=gun#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-75
 ss://94bcd9a9-33a9-40e4-a6fd-05e30db5b457@20.70.160.45:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.cloudflare.com&fp=safari&pbk=140jRwI3SEyJezoVv7iFt2VEZOfDVu7CmPblFi2Q6ik&sid=5c333a77#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-50
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUV0c3SjFLUjVLc1BhVjVxWkkrcmlldWVLeHhhZlpTcENI@45.77.232.213:15675#%3E%3E%40oneclickvpnkeys%3A%3AAU
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUV0c3SjFLUjVLc1BhVjVxWkkrcmlldWVLeHhhZlpTcENIQDQ1Ljc3LjIzMi4yMTM6MTU2NzU=#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-49
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiSU9vaTVUdUltRzJLY2N4VjctamNBN0Nleit2dW4tY19F@104.156.233.234:27116#%3E%3E%40oneclickvpnkeys%3A%3AAU
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiSU9vaTVUdUltRzJLY2N4VjctamNBN0Nleit2dW4tY19F@104.156.233.234:27116#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-48
@@ -29,6 +28,7 @@ trojan://JA96378052@evident-gnat.rooster465.autos:443?security=tls&sni=evident-g
 trojan://KV63147582@selected-bison.rooster465.autos:443?allowInsecure=0&sni=selected-bison.rooster465.autos#%3E%3E%40v2nodes%3A%3AAU
 trojan://KV63147582@selected-bison.rooster465.autos:443?security=tls&sni=selected-bison.rooster465.autos#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-81
 trojan://KV63147582@selected-bison.rooster465.autos:443?security=tls&sni=selected-bison.rooster465.autos#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-89
+trojan://NQ26071394@87.121.33.201:443?sni=chief-antelope.rooster465.autos#%3E%3E%40oneclickvpnkeys%3A%3AAU
 trojan://OD90375861@82.117.225.123:443?allowInsecure=1&sni=big-bonefish.rooster465.autos#%3E%3E%40oneclickvpnkeys%3A%3AAU
 trojan://OD90375861@big-bonefish.rooster465.autos:443?allowInsecure=1&sni=big-bonefish.rooster465.autos#%3E%3E%40v2nodes%3A%3AAU
 trojan://ON38567014@chief-antelope.rooster465.autos:443?allowInsecure=1&insecure=1&type=tcp&security=tls&sni=chief-antelope.rooster465.autos&fp=chrome#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-85
