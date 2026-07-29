@@ -55,6 +55,7 @@ ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206UzVSQ0k2Z0o2U1VPY2RuTnBjRWdSMVVWemlkKzhPOC8
 ss://NamedZadim@193.93.169.242:53655?path=%2F&security=none&encryption=none&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-511
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0S1JMKzNWRXNtbzZ1S05EMXB3UTZtK2JhVmRPZ1MzR1oxMW8vd1dLRGJBPQ==@e1.cover20.ir:51570#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-512
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowdTQ3eEp2cDJfcEdiQTVjMTNBU0hLODdEeER3azV6bQ==@coco1.farajet.net:1010#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-491
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpPVmxIRU1MeDNaQmp6bmovUko2cDhqQUljTGRSeXpvalBNcUlqUEkyMTVVPQ==@n3.cover20.ir:55129#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-524
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSb0drdk1tUXVvOHZKais5MnVGMmNMUFc5Zm1ORXZsNmFsTDBNeUxnZUkwPUA5MS4xODYuMTkzLjQ2OjU2OTg1#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-521
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRU5oeXFaVm5vRVN1aGU5TGRyT0EvLzJMVmh6Ymo0RnMwZWVraHppZHA4PQ@185.213.195.33:2052?type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-455
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoN2JXY0N0VFZYdVptZ2RLTGRLSjJ4ZmRVUldDNHc5Tg==@coco1.farajet.net:1010#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-514
@@ -107,6 +108,7 @@ ss://e48cf70b-a9a5-4855-9330-e8649a11882e@193.134.100.23:12596?security=none&enc
 ss://ef21f8f2-a132-4e3a-adc1-20c632c4783d@31.14.123.90:6000?encryption=none&security=none&type=tcp&headerType=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-499
 ss://ef21f8f2-a132-4e3a-adc1-20c632c4783d@germany2.benjaminclouds.ir:6000?encryption=none&security=none&type=tcp&headerType=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-490
 ss://f01de3e1-150c-4c32-bf87-717ba37a2472@185.143.234.200:80?path=%2F&security=none&encryption=none&host=tr.newdesigne.ir&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-404
+ss://f1278ace-6eb9-47b1-b23f-06237fa38b20@ipp.immahan.ir:47897?security=tls&type=ws&headerType=&path=/ws&host=viip6.tu5pars.ir&sni=viip6.tu5pars.ir&fp=chrome&alpn=h3,h2,http/1.1#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-523
 ss://f46f44d8-0ebf-45de-8640-69a96a4c94ad@zula.ir:80?path=%2Fvless&security=none&encryption=none&host=De2.vless.site.&type=ws&sni=de2.vless.site#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-390
 ss://f526e941-52ac-4d28-ba49-5ba2fc0a984b@zula.ir:80?path=%2Fvless&security=none&encryption=none&host=uk2-vless.sshmax.xyz&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-380
 ss://f6f5e3c0-63d7-4a6b-aec0-01630b84deae@185.143.235.253:2082?path=%2Fbalepingbot&security=none&encryption=none&host=sr3.baleping.ir&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-458
@@ -216,6 +218,7 @@ vless://e48cf70b-a9a5-4855-9330-e8649a11882e@193.134.100.23:12596?security=none&
 vless://ef21f8f2-a132-4e3a-adc1-20c632c4783d@31.14.123.90:6000?encryption=none&security=none&type=tcp&headerType=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-499
 vless://ef21f8f2-a132-4e3a-adc1-20c632c4783d@germany2.benjaminclouds.ir:6000?encryption=none&security=none&type=tcp&headerType=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-490
 vless://f01de3e1-150c-4c32-bf87-717ba37a2472@185.143.234.200:80?path=%2F&security=none&encryption=none&host=tr.newdesigne.ir&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-404
+vless://f1278ace-6eb9-47b1-b23f-06237fa38b20@ipp.immahan.ir:47897?security=tls&type=ws&headerType=&path=/ws&host=viip6.tu5pars.ir&sni=viip6.tu5pars.ir&fp=chrome&alpn=h3,h2,http/1.1#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-523
 vless://f46f44d8-0ebf-45de-8640-69a96a4c94ad@zula.ir:80?path=%2Fvless&security=none&encryption=none&host=De2.vless.site.&type=ws&sni=de2.vless.site#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-390
 vless://f526e941-52ac-4d28-ba49-5ba2fc0a984b@zula.ir:80?path=%2Fvless&security=none&encryption=none&host=uk2-vless.sshmax.xyz&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-380
 vless://f6f5e3c0-63d7-4a6b-aec0-01630b84deae@185.143.235.253:2082?path=%2Fbalepingbot&security=none&encryption=none&host=sr3.baleping.ir&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-458
