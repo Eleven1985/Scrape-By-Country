@@ -20,7 +20,6 @@ ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@103.106.231.82:5600#%5BOpenRay%5D%20%F
 ss://bc9ff680-e526-48e8-a818-d111b0425591@hamrah.kanal-tel-nufilter.store:443?sni=www.speedtest.net&sid=d77fdb611c4c&security=reality&headerType=none&encryption=none&fp=chrome&alpn=h2&type=tcp&pbk=W5jAswnd_wfiaDerY2yy3zIyNUbWoks2-tmkAFOE7VA&flow=xtls-rprx-vision#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-77
 ss://e45e1c74-937c-4dc7-b1fd-3305c64ac1cc@de.melov2ray.shop:443?path=%2Fmelov2ray&security=tls&encryption=none&alpn=h2,http/1.1&fp=chrome&type=ws&sni=De.Melov2ray.Shop#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-78
 trojan://521314@161.33.76.218:8443?host=tjplay.lxdxo.kdns.fr&path=%2F&security=tls&sni=tjplay.lxdxo.kdns.fr&type=ws#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-65
-trojan://521314@161.33.76.218:8443?host=tjplay.lxdxo.kdns.fr&path=%2F&sni=tjplay.lxdxo.kdns.fr&type=ws#%3E%3E%40oneclickvpnkeys%3A%3AAU
 trojan://FC60532879@fleet-hawk.rooster465.autos:443?security=tls&sni=fleet-hawk.rooster465.autos#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-97
 trojan://FC60532879@welcome-labrador.rooster465.autos:443?security=tls&path=%2f#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-94
 trojan://FC60532879@welcome-labrador.rooster465.autos:443?security=tls&sni=welcome-labrador.rooster465.autos#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-91

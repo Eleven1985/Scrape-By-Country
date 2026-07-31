@@ -1,5 +1,7 @@
 hysteria2://642dc0b9-6481-4d84-ad60-3586e870f263@trq.xn--mes13n8pi8x2b.shop:21112?insecure=0&mport=21001-21999#%E5%9C%9F%E8%80%B3%E5%85%B61
 hysteria2://642dc0b9-6481-4d84-ad60-3586e870f263@trq.xn--mes13n8pi8x2b.shop:21910?insecure=0&mport=21001-21999#%E5%9C%9F%E8%80%B3%E5%85%B62
+hysteria2://67a1454f-5a95-4e30-9723-1ffcbe7e97f9@taga5.api3-max.ru:443/?sni=taga5.api3-max.ru#%3E%3E%40oneclickvpnkeys%3A%3ATR
+hysteria2://67a1454f-5a95-4e30-9723-1ffcbe7e97f9@taga9.api3-max.ru:443/?sni=taga9.api3-max.ru#%3E%3E%40oneclickvpnkeys%3A%3ATR
 ss://01bd15c8-835f-4210-a730-770a0fa505f6@pro-tr.emrata.top:443?type=tcp&security=reality&pbk=da5UVhoC5QOCDm84AxB-RRxf0z2nySZ3lOemgqizLS4&fp=firefox&sni=pro-tr.emrata.top&flow=xtls-rprx-vision#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%B7%20TR-1196
 ss://03a8e966-a884-4eec-b433-c9c0b91c53a2@media1.hexogate.net:443?security=reality&encryption=none&pbk=MMe0uBnEJrn2lbaXx92GrNxIbQ7Cv9ICH53k3lRgHzg&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=play.google.com&sid=c83a7fdba5f630f8#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%B7%20TR-1224
 ss://05bb2fce-8fdd-4f03-8e4b-967da5ee3785@alman.ribot1.ir:443?encryption=none&security=reality&type=tcp&headerType=none&sni=www.google.com&fp=chrome&pbk=VuyYaqsAVTmgCmC18RjTQ20zbRgsm_WhdUO5VmdJY30&sid=7d60185f0e8935a5#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%B7%20TR-1249
