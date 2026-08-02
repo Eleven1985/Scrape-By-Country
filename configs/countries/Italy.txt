@@ -36,6 +36,7 @@ ss://32404bf4-fdba-4c77-b6be-e29b8ed54808@116.204.164.5:7443?path=%2F%40Marisa_k
 ss://329aa1be-ee6d-4d92-a8ef-c2ddac7583b1@116.204.164.30:7443?encryption=none&security=tls&sni=ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev&fp=chrome&insecure=0&allowInsecure=0&ech=cloudflare-ech.com%2Bhttps%3A%2F%2Fdns.alidns.com%2Fdns-query&type=ws&host=ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev&path=%2F%40Marisa_kristi#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-719
 ss://33509502-dd58-46bf-b574-985ca9a53964@116.204.164.60:7443?path=%2F%40Marisa_kristi&security=tls&encryption=none&host=8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev&fp=chrome&type=ws&sni=8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev&ech=cloudflare-ech.com+https://dns.alidns.com/dns-query#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-616
 ss://38009450-dc6a-4953-8eaf-4805e76b75d2@samanirani.remotewire.net:40375?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-694
+ss://3ad1d277-5715-4ca1-84db-5baea72f822d@31.77.154.67:443?type=tcp&security=tls&encryption=none&fp=firefox&sni=it1-akn.astralweb.tech#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-761
 ss://3ad1d277-5715-4ca1-84db-5baea72f822d@it1-akn.astralweb.tech:443?type=tcp&security=tls&sni=it1-akn.astralweb.tech&fp=firefox#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-746
 ss://3b940e86-7b0d-40da-acf1-12d334e41023@151.101.240.11:80/?type=ws&encryption=none&flow=&host=Fastapi.Org&path=%2F&ed=2560&eh=Sec-WebSocket-Protocol#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-589
 ss://3b940e86-7b0d-40da-acf1-12d334e41023@199.232.140.11:80/?type=ws&encryption=none&flow=&host=Fastapi.Org&path=%2F&ed=2560&eh=Sec-WebSocket-Protocol#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-590
@@ -112,6 +113,7 @@ ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.166.87:8880?security=none&type
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.167.22:8880?security=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-665
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.167.252:8880?encryption=none&security=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-685
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.167.6:8880?encryption=none&type=grpc&mode=gun#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-576
+ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.167.6:8880?mode=gun&security=none&encryption=none&authority=JOIN_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-758
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.167.6:8880?mode=gun&security=none&encryption=none&authority=v2rayNplus--v2rayNplus--v2rayNplus&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-563
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.167.6:8880?security=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-545
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.167.97:8880?mode=gun&security=none&encryption=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-671
@@ -142,6 +144,7 @@ ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo33.fordnsdirect.shop:8880?type=
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo35.fordnsdirect.shop:8880?type=grpc&encryption=none&headerType=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-729
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo36.fordnsdirect.shop:8880?security=&encryption=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-721
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo37.fordnsdirect.shop:8880?type=grpc&encryption=none&headerType=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-717
+ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca10.directdnsai.shop:8880?security=&encryption=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-759
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca12.speedmeter.shop:8880?type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-343
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca19.speedmeter.shop:8880?type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-297
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca21.exodnsdir.xyz:8880?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&encryption=none&type=grpc&authority=v2rayNplus--v2rayNplus--v2rayNplus#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-749
@@ -190,6 +193,7 @@ ss://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?security=none&enc
 ss://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?security=none&encryption=none&host=%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-255
 ss://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?security=none&type=tcp&fp=chrome#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-59
 ss://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?type=tcp&security=none&encryption=none&sni=/#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-381
+ss://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?type=tcp&security=none&encryption=none&sni=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-760
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWcjA2clVfdjF2RlBZZVhxOXpic0FB@91.193.5.112:1080#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-643
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@91.193.5.112:1080#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-712
 ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhHQDE4NS4yMTMuMjAuMTEwOjcwMDE=#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-77
@@ -271,6 +275,7 @@ vless://32404bf4-fdba-4c77-b6be-e29b8ed54808@116.204.164.5:7443?path=%2F%40Maris
 vless://329aa1be-ee6d-4d92-a8ef-c2ddac7583b1@116.204.164.30:7443?encryption=none&security=tls&sni=ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev&fp=chrome&insecure=0&allowInsecure=0&ech=cloudflare-ech.com%2Bhttps%3A%2F%2Fdns.alidns.com%2Fdns-query&type=ws&host=ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev&path=%2F%40Marisa_kristi#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-719
 vless://33509502-dd58-46bf-b574-985ca9a53964@116.204.164.60:7443?path=%2F%40Marisa_kristi&security=tls&encryption=none&host=8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev&fp=chrome&type=ws&sni=8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev&ech=cloudflare-ech.com+https://dns.alidns.com/dns-query#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-616
 vless://38009450-dc6a-4953-8eaf-4805e76b75d2@samanirani.remotewire.net:40375?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-694
+vless://3ad1d277-5715-4ca1-84db-5baea72f822d@31.77.154.67:443?type=tcp&security=tls&encryption=none&fp=firefox&sni=it1-akn.astralweb.tech#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-761
 vless://3ad1d277-5715-4ca1-84db-5baea72f822d@it1-akn.astralweb.tech:443?type=tcp&security=tls&sni=it1-akn.astralweb.tech&fp=firefox#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-746
 vless://3b940e86-7b0d-40da-acf1-12d334e41023@151.101.240.11:80/?type=ws&encryption=none&flow=&host=Fastapi.Org&path=%2F&ed=2560&eh=Sec-WebSocket-Protocol#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-589
 vless://3b940e86-7b0d-40da-acf1-12d334e41023@199.232.140.11:80/?type=ws&encryption=none&flow=&host=Fastapi.Org&path=%2F&ed=2560&eh=Sec-WebSocket-Protocol#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-590
@@ -347,6 +352,7 @@ vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.166.87:8880?security=none&t
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.167.22:8880?security=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-665
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.167.252:8880?encryption=none&security=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-685
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.167.6:8880?encryption=none&type=grpc&mode=gun#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-576
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.167.6:8880?mode=gun&security=none&encryption=none&authority=JOIN_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-758
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.167.6:8880?mode=gun&security=none&encryption=none&authority=v2rayNplus--v2rayNplus--v2rayNplus&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-563
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.167.6:8880?security=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-545
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.167.97:8880?mode=gun&security=none&encryption=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-671
@@ -377,6 +383,7 @@ vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo33.fordnsdirect.shop:8880?ty
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo35.fordnsdirect.shop:8880?type=grpc&encryption=none&headerType=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-729
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo36.fordnsdirect.shop:8880?security=&encryption=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-721
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo37.fordnsdirect.shop:8880?type=grpc&encryption=none&headerType=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-717
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca10.directdnsai.shop:8880?security=&encryption=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-759
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca12.speedmeter.shop:8880?type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-343
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca19.speedmeter.shop:8880?type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-297
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca21.exodnsdir.xyz:8880?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&encryption=none&type=grpc&authority=v2rayNplus--v2rayNplus--v2rayNplus#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-749
@@ -425,6 +432,7 @@ vless://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?security=none&
 vless://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?security=none&encryption=none&host=%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-255
 vless://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?security=none&type=tcp&fp=chrome#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-59
 vless://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?type=tcp&security=none&encryption=none&sni=/#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-381
+vless://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?type=tcp&security=none&encryption=none&sni=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-760
 vless://a1368205-7481-4228-bf24-00f24ad7b267@104.105.64.121:50327/?type=tcp&encryption=mlkem768x25519plus.native.0rtt.z26m5q7KIaYsLQKcYn-2zCDFNFgFbZQRAH9h680euh8&security=reality&pbk=JW1dY-aGVyM0KlwrVBF1YX0HuCmm-MASUCj2vsniHg4&fp=chrome&sni=www.icloud.com&sid=b1de9b77b14b9d85&spx=%2F#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-732
 vless://a5bea439-6176-4b5d-a891-bd31fc3530c9@taoccqyacf7e.dop66.com:5039?security=reality&encryption=none&pbk=fv-InxuZSzLlHc83OANs4U2windIUSwPilOpJkMgtW0&headerType=none&fp=chrome&type=tcp&sni=www.yahoo.com&sid=2e8424a2696cb606#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-745
 vless://a7b0a504-c64e-42fb-b27b-22faeb40e816@samanirani.remotewire.net:40375?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-701
