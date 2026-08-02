@@ -1,3 +1,4 @@
+ss://19668b6f-e215-41e6-8102-b8d29fb5b8ae@18.172.202.92:80?&sni=duatoup3wk8q2.cloudfront.net&type=ws&headerType=none&host=duatoup3wk8q2.cloudfront.net&path=%2Ffnet50#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-52
 ss://3b940e86-7b0d-40da-acf1-12d334e41023@199.232.164.11:80/?type=ws&encryption=none&flow=&host=Fastapi.Org&path=%2F&ed=2560&eh=Sec-WebSocket-Protocol#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-42
 ss://3c52e091-6714-4915-949f-2149fe69951b@103.86.49.57:80?host=aIs.SpEeDtEsT.nEt&path=%2Fws&security=none&type=ws#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-43
 ss://3c52e091-6714-4915-949f-2149fe69951b@V2rAy.SiMsPeEdUp.CoM:80?path=%2Fws&security=&encryption=none&host=aIs.SpEeDtEsT.nEt&type=ws#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-34
@@ -12,6 +13,7 @@ ss://ec5d6408-23f6-4a78-ad39-7237ff366469@38.54.33.177:28722#%5BOpenRay%5D%20%F0
 ss://f55ce6cc-3f6b-40fc-9e3b-abe26db17009@143.14.11.236:80?encryption=none&security=none&type=ws&host=d2e1v87ko56lyw.cloudfront.net%3Aassets.opensignal.com&path=%2F#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-46
 ss://f55ce6cc-3f6b-40fc-9e3b-abe26db17009@18.239.134.69:80?&type=ws&headerType=none&host=d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com&path=%2F#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-44
 ss://f55ce6cc-3f6b-40fc-9e3b-abe26db17009@18.239.134.69:80?security=none&type=ws&path=/&host=d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com&packetEncoding=xudp&sni=18.239.134.69#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-47
+vless://19668b6f-e215-41e6-8102-b8d29fb5b8ae@18.172.202.92:80?&sni=duatoup3wk8q2.cloudfront.net&type=ws&headerType=none&host=duatoup3wk8q2.cloudfront.net&path=%2Ffnet50#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-52
 vless://3b940e86-7b0d-40da-acf1-12d334e41023@199.232.164.11:80/?type=ws&encryption=none&flow=&host=Fastapi.Org&path=%2F&ed=2560&eh=Sec-WebSocket-Protocol#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-42
 vless://3c52e091-6714-4915-949f-2149fe69951b@103.86.49.57:80?host=aIs.SpEeDtEsT.nEt&path=%2Fws&security=none&type=ws#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-43
 vless://3c52e091-6714-4915-949f-2149fe69951b@V2rAy.SiMsPeEdUp.CoM:80?path=%2Fws&security=&encryption=none&host=aIs.SpEeDtEsT.nEt&type=ws#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-34
