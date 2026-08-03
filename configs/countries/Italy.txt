@@ -17,6 +17,7 @@ ss://0b0e9802-3a94-4cb0-83e3-293b94a1ee2e@5.249.146.98:443?fp=chrome&host=cloudf
 ss://0baed386-770e-4e17-a6ca-24349e60903f@116.204.164.17:7443?path=%2F%40Marisa_kristi&security=tls&encryption=none&host=8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev&fp=chrome&type=ws&sni=8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev&ech=cloudflare-ech.com+https://dns.alidns.com/dns-query#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-614
 ss://0f2765c2-1845-4545-987e-337c7cfb4e52@116.204.164.5:7443?encryption=none&security=tls&sni=c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev&fp=chrome&insecure=0&allowInsecure=0&ech=cloudflare-ech.com%2Bhttps%3A%2F%2Fdns.alidns.com%2Fdns-query&type=ws&host=c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev&path=%2F%40Marisa_kristi#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-720
 ss://12b93a00-5565-47e7-ac1f-eac69ed5057b@iwatCHeDacHAngEiNyou.itSnoTFair.ir:1008?security=reality&alpn=h2&encryption=none&pbk=KR_f-E_pR8kfCW3Su1tjR3FWRtpcYAn_ajfKjiPZAAQ&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=play.google.com&sid=ec8926fc13a19d95#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-667
+ss://1a6d2f60-6c75-470b-891a-457b13d70a8e@italy.relvuno.ir:6500?security=reality&type=tcp&headerType=&path=&host=&sni=play.google.com&fp=qq&pbk=lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo&sid=#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-769
 ss://1c87aa46-693f-4070-8809-53c1124cc99c@3.seysisi.ir:443?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&fp=chrome&spx=%2F&type=tcp&security=reality&pbk=uavwmT5NFqZs45yG4eV0x_Id0Qmr7oU8CjZCyiU6LSs&encryption=none&headerType=none&sni=play.google.com&sid=3df2abe8c93418a6#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-597
 ss://1e280316-0408-47c4-b058-05b8f1f17f02@57.131.32.191:80?alpn=http%2F1.1&fp=chrome&host=ov-italy1.09vpn.com&path=%2Fvless%2F&security=none&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-743
 ss://1e280316-0408-47c4-b058-05b8f1f17f02@57.131.32.191:80?security=none&type=ws&path=%2Fvless%2F#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-67
@@ -110,6 +111,7 @@ ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.166.5:8880?security=none&type=
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.166.69:8880?mode=gun&security=none&encryption=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-677
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.166.69:8880?security=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-663
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.166.87:8880?security=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-664
+ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.167.17:8880?type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-767
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.167.22:8880?security=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-665
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.167.252:8880?encryption=none&security=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-685
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.167.6:8880?encryption=none&type=grpc&mode=gun#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-576
@@ -185,8 +187,11 @@ ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca36.directdnsai.shop:8880?mode=gun&s
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca36.directdnsai.shop:8880?mode=gun&security=none&encryption=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-548
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca36.directdnsai.shop:8880?type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-520
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca38.speedmeter.shop:8880?encryption=none&security=none&sni=&type=grpc&alpn=&host=&path=#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-351
+ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca38.speedmeter.shop:8880?encryption=none&security=none&sni=sca38.speedmeter.shop&alpn=&type=grpc&host=sca38.speedmeter.shop#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-768
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca38.speedmeter.shop:8880?mode=gun&security=none&encryption=none&authority=BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-550
+ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca39.speedmeter.shop:8880?&security=none&type=grpc&serviceName=&mode=gun#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-770
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca39.speedmeter.shop:8880?encryption=none&security=none&sni=sca39.speedmeter.shop&alpn=&type=grpc&host=sca39.speedmeter.shop#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-481
+ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca39.speedmeter.shop:8880?encryption=none&type=grpc&security=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-766
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca8.directdnsai.shop:8880?mode=gun&security=none&encryption=none&authority=BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-736
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca8.directdnsai.shop:8880?security=&encryption=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-680
 ss://8dd3f783-aa97-420b-8aaa-d8a6c9679dad@116.204.164.30:7443?path=%2F%40Marisa_kristi&security=tls&encryption=none&insecure=0&host=c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-686
@@ -260,6 +265,7 @@ vless://0b0e9802-3a94-4cb0-83e3-293b94a1ee2e@5.249.146.98:443?fp=chrome&host=clo
 vless://0baed386-770e-4e17-a6ca-24349e60903f@116.204.164.17:7443?path=%2F%40Marisa_kristi&security=tls&encryption=none&host=8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev&fp=chrome&type=ws&sni=8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev&ech=cloudflare-ech.com+https://dns.alidns.com/dns-query#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-614
 vless://0f2765c2-1845-4545-987e-337c7cfb4e52@116.204.164.5:7443?encryption=none&security=tls&sni=c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev&fp=chrome&insecure=0&allowInsecure=0&ech=cloudflare-ech.com%2Bhttps%3A%2F%2Fdns.alidns.com%2Fdns-query&type=ws&host=c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev&path=%2F%40Marisa_kristi#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-720
 vless://12b93a00-5565-47e7-ac1f-eac69ed5057b@iwatCHeDacHAngEiNyou.itSnoTFair.ir:1008?security=reality&alpn=h2&encryption=none&pbk=KR_f-E_pR8kfCW3Su1tjR3FWRtpcYAn_ajfKjiPZAAQ&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=play.google.com&sid=ec8926fc13a19d95#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-667
+vless://1a6d2f60-6c75-470b-891a-457b13d70a8e@italy.relvuno.ir:6500?security=reality&type=tcp&headerType=&path=&host=&sni=play.google.com&fp=qq&pbk=lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo&sid=#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-769
 vless://1c87aa46-693f-4070-8809-53c1124cc99c@3.seysisi.ir:443?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&fp=chrome&spx=%2F&type=tcp&security=reality&pbk=uavwmT5NFqZs45yG4eV0x_Id0Qmr7oU8CjZCyiU6LSs&encryption=none&headerType=none&sni=play.google.com&sid=3df2abe8c93418a6#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-597
 vless://1e280316-0408-47c4-b058-05b8f1f17f02@57.131.32.191:80?alpn=http%2F1.1&fp=chrome&host=ov-italy1.09vpn.com&path=%2Fvless%2F&security=none&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-743
 vless://1e280316-0408-47c4-b058-05b8f1f17f02@57.131.32.191:80?security=none&type=ws&path=%2Fvless%2F#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-67
@@ -353,6 +359,7 @@ vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.166.5:8880?security=none&ty
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.166.69:8880?mode=gun&security=none&encryption=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-677
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.166.69:8880?security=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-663
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.166.87:8880?security=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-664
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.167.17:8880?type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-767
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.167.22:8880?security=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-665
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.167.252:8880?encryption=none&security=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-685
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.167.6:8880?encryption=none&type=grpc&mode=gun#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-576
@@ -428,8 +435,11 @@ vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca36.directdnsai.shop:8880?mode=gu
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca36.directdnsai.shop:8880?mode=gun&security=none&encryption=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-548
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca36.directdnsai.shop:8880?type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-520
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca38.speedmeter.shop:8880?encryption=none&security=none&sni=&type=grpc&alpn=&host=&path=#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-351
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca38.speedmeter.shop:8880?encryption=none&security=none&sni=sca38.speedmeter.shop&alpn=&type=grpc&host=sca38.speedmeter.shop#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-768
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca38.speedmeter.shop:8880?mode=gun&security=none&encryption=none&authority=BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-550
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca39.speedmeter.shop:8880?&security=none&type=grpc&serviceName=&mode=gun#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-770
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca39.speedmeter.shop:8880?encryption=none&security=none&sni=sca39.speedmeter.shop&alpn=&type=grpc&host=sca39.speedmeter.shop#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-481
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca39.speedmeter.shop:8880?encryption=none&type=grpc&security=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-766
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca8.directdnsai.shop:8880?mode=gun&security=none&encryption=none&authority=BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-736
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca8.directdnsai.shop:8880?security=&encryption=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-680
 vless://8dd3f783-aa97-420b-8aaa-d8a6c9679dad@116.204.164.30:7443?path=%2F%40Marisa_kristi&security=tls&encryption=none&insecure=0&host=c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-686
