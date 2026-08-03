@@ -201,6 +201,7 @@ ss://9e23aaba-5bf2-4810-8369-c9bf2a9979f9@72.146.184.66:443?encryption=none&flow
 ss://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?security=none&encryption=none&host=%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-452
 ss://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?security=none&encryption=none&host=%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-255
 ss://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?security=none&type=tcp&fp=chrome#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-59
+ss://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?security=none&type=tcp&sni=%2F%3Fbia_telegram%40marambashi_marambashi_marambashi_marambashi#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-771
 ss://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?type=tcp&security=none&encryption=none&sni=/#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-381
 ss://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?type=tcp&security=none&encryption=none&sni=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-760
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWcjA2clVfdjF2RlBZZVhxOXpic0FB@91.193.5.112:1080#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-643
@@ -449,6 +450,7 @@ vless://9e23aaba-5bf2-4810-8369-c9bf2a9979f9@72.146.184.66:443?encryption=none&f
 vless://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?security=none&encryption=none&host=%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-452
 vless://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?security=none&encryption=none&host=%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-255
 vless://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?security=none&type=tcp&fp=chrome#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-59
+vless://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?security=none&type=tcp&sni=%2F%3Fbia_telegram%40marambashi_marambashi_marambashi_marambashi#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-771
 vless://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?type=tcp&security=none&encryption=none&sni=/#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-381
 vless://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?type=tcp&security=none&encryption=none&sni=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-760
 vless://a1368205-7481-4228-bf24-00f24ad7b267@104.105.64.121:50327/?type=tcp&encryption=mlkem768x25519plus.native.0rtt.z26m5q7KIaYsLQKcYn-2zCDFNFgFbZQRAH9h680euh8&security=reality&pbk=JW1dY-aGVyM0KlwrVBF1YX0HuCmm-MASUCj2vsniHg4&fp=chrome&sni=www.icloud.com&sid=b1de9b77b14b9d85&spx=%2F#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-732
