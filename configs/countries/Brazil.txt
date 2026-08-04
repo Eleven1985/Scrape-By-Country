@@ -28,7 +28,10 @@ ss://831f56ff-d117-4a72-bb2b-a5e44eab6fbf@pro-ru-bridge.emrata.top:443?&security
 ss://8a22fde8-e72e-4ce2-96f6-285aeffe66a2@201.51.7.202:443?encryption=none&type=raw&security=reality&fp=firefox&sni=rutube.ru&pbk=JaP4bhvIMW-l7T0_RkLra59DeBYI6W9XemKa8MyRPSY&sid=6c6082a2223c1d03#%5BOpenRay%5D%20%F0%9F%87%A7%F0%9F%87%B7%20BR-166
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZamxpWW1GbE56Vm1NbUU0Wm1Ka1lqQXhOelEyTldVeU56WmxOamhrWkdVPQ@163.176.225.9:59319#%5BOpenRay%5D%20%F0%9F%87%A7%F0%9F%87%B7%20BR-192
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZamxpWW1GbE56Vm1NbUU0Wm1Ka1lqQXhOelEyTldVeU56WmxOamhrWkdVPQ@163.176.57.58:59319#%5BOpenRay%5D%20%F0%9F%87%A7%F0%9F%87%B7%20BR-190
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZamxpWW1GbE56Vm1NbUU0Wm1Ka1lqQXhOelEyTldVeU56WmxOamhrWkdVPUAxMzcuMTMxLjE1MS4yNDA6NTkzMTk=#%5BOpenRay%5D%20%F0%9F%87%A7%F0%9F%87%B7%20BR-196
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZamxpWW1GbE56Vm1NbUU0Wm1Ka1lqQXhOelEyTldVeU56WmxOamhrWkdVPUAxNDAuMjM4LjE5MS4yNDY6NTkzMTk=#%5BOpenRay%5D%20%F0%9F%87%A7%F0%9F%87%B7%20BR-194
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZamxpWW1GbE56Vm1NbUU0Wm1Ka1lqQXhOelEyTldVeU56WmxOamhrWkdVPUAxNjguNzUuMTA4LjIyNDo1OTMxOQ==#%5BOpenRay%5D%20%F0%9F%87%A7%F0%9F%87%B7%20BR-195
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpuZnFYS2hFbXZIZE9VVnFGeU5MbnZ4QGNyZWF0aXZlYm94bmwyLnphbml0eS5uZXQ6NTIyOA==#%5BOpenRay%5D%20%F0%9F%87%A7%F0%9F%87%B7%20BR-197
 ss://ad2d0f18-7c2b-43b5-aeb3-dbfa6f501962@199.232.13.59:80?path=%2F%3Fed%3D2048&security=none&encryption=none&host=JoinBede-ELiV2.Ray.io&type=ws#%5BOpenRay%5D%20%F0%9F%87%A7%F0%9F%87%B7%20BR-159
 ss://b67fa9f6-e7e5-4689-bcf9-9c933578552c@vip1.grman---1.loriq.site:1443?encryption=none&security=reality&type=tcp&headerType=none&flow=xtls-rprx-vision&sni=play.google.com&fp=chrome&pbk=LWCVgdNXR8wqFvQQnXI-W48c9dqpodXAlOKUkyPNr0w&sid=ab602b391c60cfa9#%5BOpenRay%5D%20%F0%9F%87%A7%F0%9F%87%B7%20BR-178
 ss://b67fa9f6-e7e5-4689-bcf9-9c933578552c@vip1.grman---1.loriq.site:2443?encryption=none&security=reality&type=tcp&headerType=none&sni=www.chatgpt.com&fp=chrome&pbk=VVxGqmPY2XdfREWG2WmcxDkMqBjdClRj0MtbBQ0YPmY&sid=02dbfd55f95abe59#%5BOpenRay%5D%20%F0%9F%87%A7%F0%9F%87%B7%20BR-180
