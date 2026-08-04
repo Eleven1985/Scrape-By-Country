@@ -26,6 +26,7 @@ ss://7fed5bf9-a1de-41a0-ab89-694265c4895f@199.232.13.32:80?path=%2FChannel-ELiV2
 ss://7fed5bf9-a1de-41a0-ab89-694265c4895f@199.232.13.32:80?path=%2FChannel-ELiV2RAY---ELiV2RAY%3Fed%3D2048&host=Channel-ELiV2RAY--ELiV2RAY.nET&type=ws#%5BOpenRay%5D%20%F0%9F%87%A7%F0%9F%87%B7%20BR-163
 ss://831f56ff-d117-4a72-bb2b-a5e44eab6fbf@pro-ru-bridge.emrata.top:443?&security=reality&flow=xtls-rprx-vision&pbk=F8tqvcuJUSVbxv_i9ZsVOef3EPwULzzDqgvmj3vWNlA&fp=firefox&sni=pro-ru-bridge.emrata.top&type=tcp&headerType=none&host=pro-ru-bridge.emrata.top&path=%2F#%5BOpenRay%5D%20%F0%9F%87%A7%F0%9F%87%B7%20BR-182
 ss://8a22fde8-e72e-4ce2-96f6-285aeffe66a2@201.51.7.202:443?encryption=none&type=raw&security=reality&fp=firefox&sni=rutube.ru&pbk=JaP4bhvIMW-l7T0_RkLra59DeBYI6W9XemKa8MyRPSY&sid=6c6082a2223c1d03#%5BOpenRay%5D%20%F0%9F%87%A7%F0%9F%87%B7%20BR-166
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZamxpWW1GbE56Vm1NbUU0Wm1Ka1lqQXhOelEyTldVeU56WmxOamhrWkdVPQ==@137.131.161.3:59319#%5BOpenRay%5D%20%F0%9F%87%A7%F0%9F%87%B7%20BR-198
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZamxpWW1GbE56Vm1NbUU0Wm1Ka1lqQXhOelEyTldVeU56WmxOamhrWkdVPQ@163.176.225.9:59319#%5BOpenRay%5D%20%F0%9F%87%A7%F0%9F%87%B7%20BR-192
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZamxpWW1GbE56Vm1NbUU0Wm1Ka1lqQXhOelEyTldVeU56WmxOamhrWkdVPQ@163.176.57.58:59319#%5BOpenRay%5D%20%F0%9F%87%A7%F0%9F%87%B7%20BR-190
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZamxpWW1GbE56Vm1NbUU0Wm1Ka1lqQXhOelEyTldVeU56WmxOamhrWkdVPUAxMzcuMTMxLjE1MS4yNDA6NTkzMTk=#%5BOpenRay%5D%20%F0%9F%87%A7%F0%9F%87%B7%20BR-196
