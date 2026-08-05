@@ -96,6 +96,7 @@ ss://c90fdc71-d7ac-4b66-8c0c-2be2a7b4ae0c@45.95.233.185:19168?mode=multi&securit
 ss://c90fdc71-d7ac-4b66-8c0c-2be2a7b4ae0c@45.95.233.185:19168?security=reality&type=grpc&mode=gun&serviceName=api&packetEncoding=xudp&sni=apple.com&fp=chrome&sid=baeaf515feed2c64&pbk=j9-PqbvTxOh3VZ_Sz696WKpEEFvft1CzUzzIvGCJn0w&encryption=none#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-3858
 ss://d1e816db-0dc6-4b44-8037-c59700028214@147.45.68.7:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=p75u2ya5aYdDimDoKybVDDAOA8vBThGDNGNv8yZuMmU&sid=29d96e0b2e782b7b&sni=api-maps.yandex.ru#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4054
 ss://d361072e-9e0e-4e2d-8ec7-2a4189b5b23a@172.64.155.209:2053?path=%2FJ5aLQOY1R9ONWYCM&security=tls&encryption=none&insecure=0&host=ov.iran-servers.shop&fp=chrome&type=ws&allowInsecure=0&sni=ov.iran-servers.shop#%3E%3E%40outline_vpn%3A%3AFR
+ss://dbe85a41-4f66-4874-89b2-580c7896951c@45.154.96.171:20513?&security=reality&pbk=212gywiV-fDnF_ZC-Gbr-i_1PvnHCPmTo5LaagSABgA&sid=285db1978fd0d8c1&fp=qq&sni=fl.havray2025.ir&type=tcp&headerType=none&host=fl.havray2025.ir&path=%2F#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4094
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@13.36.140.106:22223?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4081
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@13.36.140.106:22224?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4082
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@13.36.150.100:22222?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4048
@@ -145,10 +146,13 @@ ss://e4514801-0d5a-42ba-869f-39bd605aef9e@15.237.147.218:22224?encryption=none&s
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@15.237.234.170:22222?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4055
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@15.237.234.170:22223?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4056
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@15.237.234.170:22224?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4057
+ss://e4514801-0d5a-42ba-869f-39bd605aef9e@35.181.21.112:22222?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4096
+ss://e4514801-0d5a-42ba-869f-39bd605aef9e@35.181.21.112:22224?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4097
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@51.45.54.70:22222?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-3981
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@51.45.54.70:22223?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-3984
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@51.45.54.70:22224?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-3983
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@fr1.levikogjgfdd.ir:22222?security=none&encryption=none&host=Telegram-Leviko_v2ray&headerType=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4025
+ss://e8b1500b-e9e8-5492-8312-f4eadf7d0767@nasnet-162191099-direct.mbghalibaf.com:443?alpn=h2&encryption=none&flow=xtls-rprx-vision&fp=chrome&security=tls&sni=nasnet-162191099-direct.mbghalibaf.com&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4095
 ss://eb77be10-9d9e-527b-a78d-8caaf58992d6@45.13.119.219:8888/?type=tcp&encryption=none&flow=#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-3102
 ss://ecfb4271-790e-4011-9364-6e168ed8a82a@76.164.202.210:448?security=reality&sni=www.samsung.com&type=tcp&fp=chrome&pbk=i34zHKfyydOveuaYnjEU4ocu662Wagkf7fIbj9qiQRA&sid=9e96f30390d6be81#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4076
 ss://ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2@51.38.44.17:443?fp=chrome&host=sni.ehb.cc.cd&path=%2Fproxyip%3DProxyIP.CMLiussss.net%3Fuuid%3Def6c9625-62de-4b9d-b7e2-0d4a9f67a9b2&security=tls&sni=sni.ehb.cc.cd&type=ws#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4041
@@ -294,6 +298,7 @@ vless://c90fdc71-d7ac-4b66-8c0c-2be2a7b4ae0c@45.95.233.185:19168?mode=multi&secu
 vless://c90fdc71-d7ac-4b66-8c0c-2be2a7b4ae0c@45.95.233.185:19168?security=reality&type=grpc&mode=gun&serviceName=api&packetEncoding=xudp&sni=apple.com&fp=chrome&sid=baeaf515feed2c64&pbk=j9-PqbvTxOh3VZ_Sz696WKpEEFvft1CzUzzIvGCJn0w&encryption=none#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-3858
 vless://d1e816db-0dc6-4b44-8037-c59700028214@147.45.68.7:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=p75u2ya5aYdDimDoKybVDDAOA8vBThGDNGNv8yZuMmU&sid=29d96e0b2e782b7b&sni=api-maps.yandex.ru#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4054
 vless://d361072e-9e0e-4e2d-8ec7-2a4189b5b23a@172.64.155.209:2053?path=%2FJ5aLQOY1R9ONWYCM&security=tls&encryption=none&insecure=0&host=ov.iran-servers.shop&fp=chrome&type=ws&allowInsecure=0&sni=ov.iran-servers.shop#%3E%3E%40outline_vpn%3A%3AFR
+vless://dbe85a41-4f66-4874-89b2-580c7896951c@45.154.96.171:20513?&security=reality&pbk=212gywiV-fDnF_ZC-Gbr-i_1PvnHCPmTo5LaagSABgA&sid=285db1978fd0d8c1&fp=qq&sni=fl.havray2025.ir&type=tcp&headerType=none&host=fl.havray2025.ir&path=%2F#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4094
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@13.36.140.106:22223?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4081
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@13.36.140.106:22224?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4082
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@13.36.150.100:22222?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4048
@@ -343,10 +348,13 @@ vless://e4514801-0d5a-42ba-869f-39bd605aef9e@15.237.147.218:22224?encryption=non
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@15.237.234.170:22222?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4055
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@15.237.234.170:22223?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4056
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@15.237.234.170:22224?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4057
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@35.181.21.112:22222?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4096
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@35.181.21.112:22224?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4097
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@51.45.54.70:22222?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-3981
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@51.45.54.70:22223?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-3984
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@51.45.54.70:22224?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-3983
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@fr1.levikogjgfdd.ir:22222?security=none&encryption=none&host=Telegram-Leviko_v2ray&headerType=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4025
+vless://e8b1500b-e9e8-5492-8312-f4eadf7d0767@nasnet-162191099-direct.mbghalibaf.com:443?alpn=h2&encryption=none&flow=xtls-rprx-vision&fp=chrome&security=tls&sni=nasnet-162191099-direct.mbghalibaf.com&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4095
 vless://eb77be10-9d9e-527b-a78d-8caaf58992d6@45.13.119.219:8888/?type=tcp&encryption=none&flow=#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-3102
 vless://ecfb4271-790e-4011-9364-6e168ed8a82a@76.164.202.210:448?security=reality&sni=www.samsung.com&type=tcp&fp=chrome&pbk=i34zHKfyydOveuaYnjEU4ocu662Wagkf7fIbj9qiQRA&sid=9e96f30390d6be81#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4076
 vless://ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2@51.38.44.17:443?fp=chrome&host=sni.ehb.cc.cd&path=%2Fproxyip%3DProxyIP.CMLiussss.net%3Fuuid%3Def6c9625-62de-4b9d-b7e2-0d4a9f67a9b2&security=tls&sni=sni.ehb.cc.cd&type=ws#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4041
