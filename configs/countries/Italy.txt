@@ -1,3 +1,4 @@
+hysteria2://71cada65-d23e-418c-88e4-a06188d14689@it-one.quiet-rogue.site:443/?sni=it-one.quiet-rogue.site#%3E%3E%40oneclickvpnkeys%3A%3AIT
 ss://00274dd7-7cee-420d-9942-b24d047611a7@116.204.164.27:7443?path=%2F%40Marisa_kristi&security=tls&encryption=none&host=8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev&fp=chrome&type=ws&sni=8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev&ech=cloudflare-ech.com+https://dns.alidns.com/dns-query#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-617
 ss://049e56d8-0ba0-49e3-b764-ee04122b9f00@57.131.32.191:80?encryption=none&type=ws&path=/vless/#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-65
 ss://049e56d8-0ba0-49e3-b764-ee04122b9f00@57.131.32.191:80?security=none&type=ws&host=OV-Italy1.09vpn.com&path=%2Fvless%2F#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-136
@@ -19,6 +20,7 @@ ss://12b93a00-5565-47e7-ac1f-eac69ed5057b@iwatCHeDacHAngEiNyou.itSnoTFair.ir:100
 ss://1a6d2f60-6c75-470b-891a-457b13d70a8e@57.131.18.86:6500?security=reality&sni=play.google.com&type=tcp&fp=qq&pbk=lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-773
 ss://1a6d2f60-6c75-470b-891a-457b13d70a8e@italy.relvuno.ir:6500?security=reality&type=tcp&headerType=&path=&host=&sni=play.google.com&fp=qq&pbk=lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo&sid=#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-769
 ss://1e280316-0408-47c4-b058-05b8f1f17f02@57.131.32.191:80?alpn=http%2F1.1&fp=chrome&host=ov-italy1.09vpn.com&path=%2Fvless%2F&security=none&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-743
+ss://1e280316-0408-47c4-b058-05b8f1f17f02@57.131.32.191:80?encryption=none&security=none&type=ws&host=ov-italy1.09vpn.com&path=%2Fvless%2F#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-793
 ss://1e280316-0408-47c4-b058-05b8f1f17f02@57.131.32.191:80?security=none&type=ws&path=%2Fvless%2F#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-67
 ss://1e280316-0408-47c4-b058-05b8f1f17f02@57.131.32.191:80?security=none&type=ws&path=/vless/&host=OV-Italy1.09vpn.com#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-151
 ss://1e280316-0408-47c4-b058-05b8f1f17f02@57.131.32.191:80?security=none&type=ws&path=/vless/&host=ov-italy1.09vpn.com&sni=OV-Italy1.09vpn.com&encryption=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-756
@@ -67,6 +69,7 @@ ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.164.117:8880?mode=gun&security
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.164.117:8880?mode=gun&security=none&encryption=none&authority=BIA_TELEGRAM@TGRVPN_MARAMBASHI&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-741
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.164.117:8880?mode=gun&security=none&encryption=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-174
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.164.117:8880?security=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-102
+ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.164.123:8880?encryption=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-792
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.164.219:8880?mode=gun&encryption=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-601
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.164.219:8880?security=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-606
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.164.220:8880?security=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-621
@@ -199,7 +202,7 @@ ss://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?type=tcp&security
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWcjA2clVfdjF2RlBZZVhxOXpic0FB@91.193.5.112:1080#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-643
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@91.193.5.112:1080#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-712
 ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhHQDE4NS4yMTMuMjAuMTEwOjcwMDE=#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-77
-ss://YWVzLTI1Ni1nY206ZDFmYTJmNGI5OGEzOGJjOA@62.76.234.75:10901#%3E%3E%40configV2rayNG%3A%3AIT
+ss://YWVzLTI1Ni1nY206ZDFmYTJmNGI5OGEzOGJjOA==@62.76.234.75:10901#%3E%3E%40v2nodes%3A%3AIT
 ss://a1368205-7481-4228-bf24-00f24ad7b267@104.105.64.121:50327/?type=tcp&encryption=mlkem768x25519plus.native.0rtt.z26m5q7KIaYsLQKcYn-2zCDFNFgFbZQRAH9h680euh8&security=reality&pbk=JW1dY-aGVyM0KlwrVBF1YX0HuCmm-MASUCj2vsniHg4&fp=chrome&sni=www.icloud.com&sid=b1de9b77b14b9d85&spx=%2F#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-732
 ss://a5bea439-6176-4b5d-a891-bd31fc3530c9@taoccqyacf7e.dop66.com:5039?security=reality&encryption=none&pbk=fv-InxuZSzLlHc83OANs4U2windIUSwPilOpJkMgtW0&headerType=none&fp=chrome&type=tcp&sni=www.yahoo.com&sid=2e8424a2696cb606#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-745
 ss://a7b0a504-c64e-42fb-b27b-22faeb40e816@samanirani.remotewire.net:40375?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-701
@@ -258,6 +261,7 @@ vless://12b93a00-5565-47e7-ac1f-eac69ed5057b@iwatCHeDacHAngEiNyou.itSnoTFair.ir:
 vless://1a6d2f60-6c75-470b-891a-457b13d70a8e@57.131.18.86:6500?security=reality&sni=play.google.com&type=tcp&fp=qq&pbk=lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-773
 vless://1a6d2f60-6c75-470b-891a-457b13d70a8e@italy.relvuno.ir:6500?security=reality&type=tcp&headerType=&path=&host=&sni=play.google.com&fp=qq&pbk=lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo&sid=#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-769
 vless://1e280316-0408-47c4-b058-05b8f1f17f02@57.131.32.191:80?alpn=http%2F1.1&fp=chrome&host=ov-italy1.09vpn.com&path=%2Fvless%2F&security=none&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-743
+vless://1e280316-0408-47c4-b058-05b8f1f17f02@57.131.32.191:80?encryption=none&security=none&type=ws&host=ov-italy1.09vpn.com&path=%2Fvless%2F#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-793
 vless://1e280316-0408-47c4-b058-05b8f1f17f02@57.131.32.191:80?security=none&type=ws&path=%2Fvless%2F#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-67
 vless://1e280316-0408-47c4-b058-05b8f1f17f02@57.131.32.191:80?security=none&type=ws&path=/vless/&host=OV-Italy1.09vpn.com#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-151
 vless://1e280316-0408-47c4-b058-05b8f1f17f02@57.131.32.191:80?security=none&type=ws&path=/vless/&host=ov-italy1.09vpn.com&sni=OV-Italy1.09vpn.com&encryption=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-756
@@ -306,6 +310,7 @@ vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.164.117:8880?mode=gun&secur
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.164.117:8880?mode=gun&security=none&encryption=none&authority=BIA_TELEGRAM@TGRVPN_MARAMBASHI&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-741
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.164.117:8880?mode=gun&security=none&encryption=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-174
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.164.117:8880?security=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-102
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.164.123:8880?encryption=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-792
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.164.219:8880?mode=gun&encryption=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-601
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.164.219:8880?security=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-606
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.164.220:8880?security=none&type=grpc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-621

@@ -1,3 +1,4 @@
+hy2://6fe3a600-4bcf-4040-81eb-ccd29231db2b@155.117.19.221:30001/?insecure=1#%3E%3E%40oneclickvpnkeys%3A%3AUS
 hy2://H7mP2xY9kJ4nQ8wR5tF6vB3z@103.115.109.49:443/?insecure=1&sni=https%3A%2F%2Ft.me%2Foneclickvpnkeys#%3E%3E%40oneclickvpnkeys%3A%3ATW
 hysteria2://1hOIVDVBG2hdKtJwOV2aUEFTDaFArCSH9-HrcOnps8yqQZeq@83.243.86.80:443/?sni=prodfr.h2corp.org#%3E%3E%40oneclickvpnkeys%3A%3AFR
 hysteria2://1hOIVDVBG2hdKtJwOV2aUEFTDaFArCSH9-HrcOnps8yqQZeq@prodfr.h2corp.org:443/?sni=prodfr.h2corp.org#%3E%3E%40oneclickvpnkeys%3A%3AFR
@@ -18,19 +19,21 @@ hysteria2://642dc0b9-6481-4d84-ad60-3586e870f263@tw.xn--mes13n8pi8x2b.shop:21828
 hysteria2://642dc0b9-6481-4d84-ad60-3586e870f263@tw.xn--mes13n8pi8x2b.shop:21860?insecure=0&mport=21001-21999#%E5%8F%B0%E6%B9%BE2
 hysteria2://642dc0b9-6481-4d84-ad60-3586e870f263@xg.xn--mes13n8pi8x2b.shop:21072?insecure=0&mport=21001-21999#%E9%A6%99%E6%B8%AF1
 hysteria2://642dc0b9-6481-4d84-ad60-3586e870f263@xg.xn--mes13n8pi8x2b.shop:21494?insecure=0&mport=21001-21999#%E9%A6%99%E6%B8%AF2
-hysteria2://67a1454f-5a95-4e30-9723-1ffcbe7e97f9@143.246.136.159:443/?sni=taga2.api3-max.ru#%3E%3E%40oneclickvpnkeys%3A%3ATR
-hysteria2://67a1454f-5a95-4e30-9723-1ffcbe7e97f9@taga2.api3-max.ru:443/?sni=taga2.api3-max.ru#%3E%3E%40oneclickvpnkeys%3A%3ATR
 hysteria2://68b4b16e-2759-47a4-8a69-33118edf5ce6@150.241.124.145:443/?sni=ger.leontunel.ru#%3E%3E%40oneclickvpnkeys%3A%3ADE
 hysteria2://71cada65-d23e-418c-88e4-a06188d14689@87.121.105.108:443/?sni=swe-one.quiet-rogue.site#%3E%3E%40oneclickvpnkeys%3A%3ASE
 hysteria2://71cada65-d23e-418c-88e4-a06188d14689@fi-one.quiet-rogue.site:443/?sni=fi-one.quiet-rogue.site#%3E%3E%40oneclickvpnkeys%3A%3AFI
+hysteria2://71cada65-d23e-418c-88e4-a06188d14689@it-one.quiet-rogue.site:443/?sni=it-one.quiet-rogue.site#%3E%3E%40oneclickvpnkeys%3A%3AIT
 hysteria2://71cada65-d23e-418c-88e4-a06188d14689@swe-one.quiet-rogue.site:443/?sni=swe-one.quiet-rogue.site#%3E%3E%40oneclickvpnkeys%3A%3ASE
 hysteria2://76713d07-5a6b-49c2-abd8-bc450a2fa7fc@138.124.68.188:443/?sni=usa1.spectrumproxy.shop#%3E%3E%40oneclickvpnkeys%3A%3AUS
-hysteria2://76kyzc055ahiyfzy@assets.gateway-stream.com:52008?security=tls&obfs=salamander&obfs-password=93lc6r07zfx4crct&insecure=0&sni=assets.gateway-stream.com
-hysteria2://76kyzc055ahiyfzy@assets.gateway-stream.com:52024?security=tls&obfs=salamander&obfs-password=t72hzzenktxmrvgu&insecure=0&sni=assets.gateway-stream.com
+hysteria2://76713d07-5a6b-49c2-abd8-bc450a2fa7fc@usa1.spectrumproxy.shop:443/?sni=usa1.spectrumproxy.shop#%3E%3E%40oneclickvpnkeys%3A%3AUS
 hysteria2://80747420-96c4-4a2f-83e6-eea4e46beb09@drhystuichdfy.samanidempire.org:20335?sni=drhystuichdfy.samanidempire.org&alpn=h3&obfs=salamander&obfs-password=U1wBrYQyFm&insecure=0#%F0%9F%87%B8%F0%9F%87%AA-hamedp71%20-%20Hysteria2
 hysteria2://9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z@76.164.202.213:8443/?sni=mercedes-grape.yyuyy.com#%3E%3E%40oneclickvpnkeys%3A%3ADE
 hysteria2://9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z@76.164.202.214:8443/?sni=mercedes-grape.yyuyy.com#%3E%3E%40oneclickvpnkeys%3A%3ADE
+hysteria2://9d3356a0-c07e-43cc-b30e-450bd50521b8@flkf3.mangshe.xyz:2056/?insecure=1&sni=flkf3.mangshe.xyz#%3E%3E%40oneclickvpnkeys%3A%3ADE
+hysteria2://9d3356a0-c07e-43cc-b30e-450bd50521b8@xby.mangshe.xyz:2056/?insecure=1&sni=mg2.mangshe.xyz#%3E%3E%40oneclickvpnkeys%3A%3AES
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@15.237.197.139:443/?insecure=1&sni=vpn-fr-002.fastervpn.world#%3E%3E%40oneclickvpnkeys%3A%3AFR
+hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@15.237.219.57:443/?insecure=1&sni=https%3A%2F%2Ft.me%2Fclashv8%F0%9F%87%A8%F0%9F%87%B3#%3E%3E%40oneclickvpnkeys%3A%3AFR
+hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@35.181.52.234:443/?insecure=1&sni=vpn-fr-002.fastervpn.world#%3E%3E%40oneclickvpnkeys%3A%3AFR
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@35.183.85.24:443/?insecure=1&sni=vpn-ca-002.fastervpn.world#%3E%3E%40oneclickvpnkeys%3A%3ACA
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@51.44.213.137:443/?insecure=1&sni=vpn-fr-002.fastervpn.world#%3E%3E%40oneclickvpnkeys%3A%3AFR
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@99.79.62.65:443/?insecure=1&sni=vpn-ca-002.fastervpn.world#%3E%3E%40oneclickvpnkeys%3A%3ACA
@@ -42,7 +45,6 @@ hysteria2://Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0@93.114.194.117:8443/?sni=grap
 hysteria2://Krab9Hyst2_Rk7pQ2xL@de2.vpn.legendaah.xyz:36723/?insecure=1&sni=www.cloudflare.com#%3E%3E%40oneclickvpnkeys%3A%3ADE
 hysteria2://LzMWgm6LaNWCm11bFTbynDPq2TqQj03t@5.255.102.165:443/?insecure=1&sni=5.255.102.165#%3E%3E%40oneclickvpnkeys%3A%3ANL
 hysteria2://TelegramVPNjey@179.61.251.253:37003?security=tls&obfs=salamander&obfs-password=83v9muumcyikh5ch&insecure=0&sni=de.jey.cc.cd
-hysteria2://TelegramVPNjey@179.61.251.253:37003?sni=de.jey.cc.cd&insecure=0&allowInsecure=0&obfs=salamander&obfs-password=83v9muumcyikh5ch
 hysteria2://Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo@144.31.107.101:25447/?sni=devideo.h2corp.org#%3E%3E%40oneclickvpnkeys%3A%3ADE
 hysteria2://Yet-Another-Public-Config-1@206.71.158.37:35000?sni=YAPC-1.afshin.ir&obfs=salamander&obfs-password=Yet-Another-Public-Config-1&insecure=1#%F0%9F%87%B3%F0%9F%87%B1%20Netherlands%20-%20Amsterdam%20%F0%9F%8C%8D%20HY2-UDP-TLS%204%E2%83%A3
 hysteria2://Yet-Another-Public-Config-1@206.71.158.37:35200?sni=YAPC-1.afshin.ir&obfs=salamander&obfs-password=Yet-Another-Public-Config-1&insecure=1#%F0%9F%87%B3%F0%9F%87%B1%20Netherlands%20-%20Amsterdam%20%F0%9F%8C%8D%20HY2-UDP-TLS%204%E2%83%A3
@@ -71,6 +73,7 @@ hysteria2://e72b54df-3c45-4856-bcf9-bf3e1bf6ff5e@134.195.101.191:443?sni=www.app
 hysteria2://ew9_M93_6a31Qd45_hUX3984F_jNZ83x_Nz1l_f@94.20.88.13:8443/?sni=azer-tea-grape.bumbleshrimp.com#%3E%3E%40oneclickvpnkeys%3A%3AAZ
 hysteria2://h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT@185.79.138.71:8443/?sni=hopp-legend-se.roxa.org#%3E%3E%40oneclickvpnkeys%3A%3AFI
 hysteria2://mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj@91.196.32.163:443/?insecure=1&sni=germany3.h2corp.local#%3E%3E%40oneclickvpnkeys%3A%3ADE
+hysteria2://p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR@130.49.161.70:443?security=tls&obfs=salamander&obfs-password=rG07s3COMIEvdnQipRyWzx_H_2xygNC3&insecure=0&sni=hy2.aspidnet.xyz
 hysteria2://qIg7TMxfJvx6t27er0c9P0osebAAPu2PYlB_aoWelV5kVVQ2@fr2.h2corp.org:443/#%3E%3E%40oneclickvpnkeys%3A%3AFR
 hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@13.229.106.122:443/?insecure=1&sni=vpn-sg-001.fastervpn.world#%3E%3E%40oneclickvpnkeys%3A%3ASG
 hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@13.229.110.73:443/?insecure=1&sni=vpn-sg-001.fastervpn.world#%3E%3E%40oneclickvpnkeys%3A%3ASG
