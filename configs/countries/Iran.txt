@@ -40,6 +40,7 @@ ss://6a55cbf2-cd1d-40dc-ab4c-143e18e73b74@185.126.14.200:51033?type=grpc&encrypt
 ss://6b7cc59c-deb1-41b7-8758-c582c00c1fe3@185.143.233.200:2095?encryption=none&security=none&type=ws&host=Tu5.pokerpings.com&path=/#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-476
 ss://6b7cc59c-deb1-41b7-8758-c582c00c1fe3@185.143.234.200:2095?encryption=none&security=none&type=ws&host=Tu5.pokerpings.com&path=/#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-478
 ss://6b7cc59c-deb1-41b7-8758-c582c00c1fe3@185.143.235.200:2095?encryption=none&security=none&type=ws&host=Tu5.pokerpings.com&path=/#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-477
+ss://6d50f4d6-ce1c-401b-bb4c-0cb54c0bb071@vip.nekeodjdbdji.fanzeka.ir:61885?security=reality&encryption=none&pbk=zhx1Hs2m5-qHm6S6FqKJVBbAkoEtU5Xzh7d9S1unfBI&headerType=none&fp=chrome&type=tcp&sni=skyroom.online&sid=64b02fb5e0ccd03b#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-561
 ss://72ad4918-47cb-4ccc-ab21-e52b869547a0@herfeh-honarmand.com:80?encryption=none&security=none&type=ws&host=pamchall.com.&path=%2FMosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2%3Fed%3D2560#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-329
 ss://7311bac5-eee4-4a9f-be0f-4307df1e237a@185.143.234.235:80?path=%2F&security=none&encryption=none&host=io.binping.lol&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-338
 ss://739b8e9b-f1da-449a-8bfe-bf7b102b7751@iran.zanbor.de:443?encryption=none&security=reality&sni=bitcommand.com&fp=firefox&pbk=arLM5x4jH1TT05yUjirGNCSDK9pSscqHQWg3rqdKA3Y&sid=b1459712&spx=%2F&type=tcp&headerType=none#%E2%99%A5%20IRAN%20%28ZANBOR%29
@@ -75,6 +76,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpEWDE4NFlrS3REczQxYW9LRFFMVG1NelVFbzIrdWZkR1d
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpPVmxIRU1MeDNaQmp6bmovUko2cDhqQUljTGRSeXpvalBNcUlqUEkyMTVVPQ==@n3.cover20.ir:55129#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-524
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSb0drdk1tUXVvOHZKais5MnVGMmNMUFc5Zm1ORXZsNmFsTDBNeUxnZUkwPQ==@91.186.193.50:56985?type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-530
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSb0drdk1tUXVvOHZKais5MnVGMmNMUFc5Zm1ORXZsNmFsTDBNeUxnZUkwPUA5MS4xODYuMTkzLjQ2OjU2OTg1#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-521
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSclVRODRqQ1BxTFg2ZVNVcFMxeGZCSzlyQk5uS0ZUYg==@vip7.zarins.ir:8088#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-562
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRU5oeXFaVm5vRVN1aGU5TGRyT0EvLzJMVmh6Ymo0RnMwZWVraHppZHA4PQ@185.213.195.33:2052?type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-455
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoN2JXY0N0VFZYdVptZ2RLTGRLSjJ4ZmRVUldDNHc5Tg==@coco1.farajet.net:1010#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-514
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoN2JXY0N0VFZYdVptZ2RLTGRLSjJ4ZmRVUldDNHc5Tg==@coco2.farajet.net:2020#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-515
@@ -187,6 +189,7 @@ vless://6a55cbf2-cd1d-40dc-ab4c-143e18e73b74@185.126.14.200:51033?type=grpc&encr
 vless://6b7cc59c-deb1-41b7-8758-c582c00c1fe3@185.143.233.200:2095?encryption=none&security=none&type=ws&host=Tu5.pokerpings.com&path=/#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-476
 vless://6b7cc59c-deb1-41b7-8758-c582c00c1fe3@185.143.234.200:2095?encryption=none&security=none&type=ws&host=Tu5.pokerpings.com&path=/#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-478
 vless://6b7cc59c-deb1-41b7-8758-c582c00c1fe3@185.143.235.200:2095?encryption=none&security=none&type=ws&host=Tu5.pokerpings.com&path=/#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-477
+vless://6d50f4d6-ce1c-401b-bb4c-0cb54c0bb071@vip.nekeodjdbdji.fanzeka.ir:61885?security=reality&encryption=none&pbk=zhx1Hs2m5-qHm6S6FqKJVBbAkoEtU5Xzh7d9S1unfBI&headerType=none&fp=chrome&type=tcp&sni=skyroom.online&sid=64b02fb5e0ccd03b#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-561
 vless://72ad4918-47cb-4ccc-ab21-e52b869547a0@herfeh-honarmand.com:80?encryption=none&security=none&type=ws&host=pamchall.com.&path=%2FMosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2%3Fed%3D2560#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-329
 vless://7311bac5-eee4-4a9f-be0f-4307df1e237a@185.143.234.235:80?path=%2F&security=none&encryption=none&host=io.binping.lol&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-338
 vless://739b8e9b-f1da-449a-8bfe-bf7b102b7751@iran.zanbor.de:443?encryption=none&security=reality&sni=bitcommand.com&fp=firefox&pbk=arLM5x4jH1TT05yUjirGNCSDK9pSscqHQWg3rqdKA3Y&sid=b1459712&spx=%2F&type=tcp&headerType=none#%E2%99%A5%20IRAN%20%28ZANBOR%29

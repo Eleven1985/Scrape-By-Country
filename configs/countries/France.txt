@@ -61,6 +61,7 @@ ss://8787dd0a-095a-414e-804f-a7d16a1ae166@45.95.233.214:8443?type=tcp&security=t
 ss://8787dd0a-095a-414e-804f-a7d16a1ae166@45.95.233.221:8443?type=tcp&security=tls&encryption=none&flow=xtls-rprx-vision&fp=firefox&sni=frx1.braidx.tech#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4068
 ss://907958b1-0a01-428a-a0aa-7c921e40627f@fr-cdg-1.blook.network:443?type=tcp&headerType=none&security=reality&encryption=none&sni=fr-cdg-1.blook.network&fp=chrome&pbk=CL5aeP6smcd4ie9upZlYVEvuHDwLAt46BOIfHOjkMis&sid=cae7fcef&spx=%2F&flow=xtls-rprx-vision#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4007
 ss://9f0baff8-bdee-4de9-9515-bcc4932b41fa@194.76.154.31:40443?&security=reality&pbk=MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ&sid=a8ae&fp=firefox&sni=deepl.com&type=tcp&headerType=none&host=deepl.com&path=%2F#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-3734
+ss://9f0baff8-bdee-4de9-9515-bcc4932b41fa@194.76.154.31:40443?fp=qq&host=leviko_v2ray&pbk=MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ&security=reality&sid=a8ae&sni=deepl.com&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4102
 ss://9f0baff8-bdee-4de9-9515-bcc4932b41fa@194.76.154.31:40443?security=reality&sni=deepl.com&type=tcp&host=Leviko_v2ray&fp=qq&pbk=MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ&sid=a8ae#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-3842
 ss://9f0baff8-bdee-4de9-9515-bcc4932b41fa@194.76.154.31:40443?security=reality&sni=deepl.com&type=tcp&host=telegram-Leviko-v2ray&fp=qq&pbk=MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ&sid=a8ae#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-3904
 ss://9f0baff8-bdee-4de9-9515-bcc4932b41fa@fr1.levikogjgfdd.ir:40443?encryption=none&type=tcp&security=reality&headerType=none&sni=deepl.com&fp=qq&insecure=1&allowInsecure=1&pbk=MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ&sid=a8ae#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-3982
@@ -147,6 +148,7 @@ ss://e4514801-0d5a-42ba-869f-39bd605aef9e@15.237.147.218:22224?encryption=none&s
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@15.237.234.170:22222?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4055
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@15.237.234.170:22223?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4056
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@15.237.234.170:22224?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4057
+ss://e4514801-0d5a-42ba-869f-39bd605aef9e@35.181.162.215:22223?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4103
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@35.181.21.112:22222?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4096
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@35.181.21.112:22224?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4097
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@51.45.54.70:22222?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-3981
@@ -269,6 +271,7 @@ vless://8787dd0a-095a-414e-804f-a7d16a1ae166@45.95.233.214:8443?type=tcp&securit
 vless://8787dd0a-095a-414e-804f-a7d16a1ae166@45.95.233.221:8443?type=tcp&security=tls&encryption=none&flow=xtls-rprx-vision&fp=firefox&sni=frx1.braidx.tech#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4068
 vless://907958b1-0a01-428a-a0aa-7c921e40627f@fr-cdg-1.blook.network:443?type=tcp&headerType=none&security=reality&encryption=none&sni=fr-cdg-1.blook.network&fp=chrome&pbk=CL5aeP6smcd4ie9upZlYVEvuHDwLAt46BOIfHOjkMis&sid=cae7fcef&spx=%2F&flow=xtls-rprx-vision#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4007
 vless://9f0baff8-bdee-4de9-9515-bcc4932b41fa@194.76.154.31:40443?&security=reality&pbk=MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ&sid=a8ae&fp=firefox&sni=deepl.com&type=tcp&headerType=none&host=deepl.com&path=%2F#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-3734
+vless://9f0baff8-bdee-4de9-9515-bcc4932b41fa@194.76.154.31:40443?fp=qq&host=leviko_v2ray&pbk=MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ&security=reality&sid=a8ae&sni=deepl.com&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4102
 vless://9f0baff8-bdee-4de9-9515-bcc4932b41fa@194.76.154.31:40443?security=reality&sni=deepl.com&type=tcp&host=Leviko_v2ray&fp=qq&pbk=MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ&sid=a8ae#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-3842
 vless://9f0baff8-bdee-4de9-9515-bcc4932b41fa@194.76.154.31:40443?security=reality&sni=deepl.com&type=tcp&host=telegram-Leviko-v2ray&fp=qq&pbk=MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ&sid=a8ae#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-3904
 vless://9f0baff8-bdee-4de9-9515-bcc4932b41fa@fr1.levikogjgfdd.ir:40443?encryption=none&type=tcp&security=reality&headerType=none&sni=deepl.com&fp=qq&insecure=1&allowInsecure=1&pbk=MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ&sid=a8ae#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-3982
@@ -353,6 +356,7 @@ vless://e4514801-0d5a-42ba-869f-39bd605aef9e@15.237.147.218:22224?encryption=non
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@15.237.234.170:22222?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4055
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@15.237.234.170:22223?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4056
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@15.237.234.170:22224?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4057
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@35.181.162.215:22223?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4103
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@35.181.21.112:22222?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4096
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@35.181.21.112:22224?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4097
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@51.45.54.70:22222?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-3981
