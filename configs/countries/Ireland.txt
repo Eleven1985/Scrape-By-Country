@@ -7,9 +7,12 @@ ss://6e35e494-c95d-4c40-9787-f21698ad5360@188.211.233.228:443?&security=reality&
 ss://817c009c-bfaa-47b4-b5b8-2930f83568ca@188.211.233.228:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=QQZQVGy8uV4JSgPJ6a8jA56bptsSifntKDJjhSvOl2I&sid=197e9c7abe&sni=musicboss.eu#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-34
 ss://817c009c-bfaa-47b4-b5b8-2930f83568ca@188.211.233.229:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=QQZQVGy8uV4JSgPJ6a8jA56bptsSifntKDJjhSvOl2I&sid=197e9c7abe&sni=musicboss.eu#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-33
 ss://Parsashonam-337@199.232.24.2:80?mode=auto&path=%2FParsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam&security=none&encryption=none&host=Free-V2ray-Bot-Parsashonam3.global.ssl.fastly.net&type=xhttp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-2
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2dG0wa21iZG56UzFYb0xD@20.223.129.129:443#%3E%3E%40configV2rayNG%3A%3AIE
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0RGEwWnBtNGNBWWtvYzly@20.223.129.129:443#%3E%3E%40configV2rayNG%3A%3AIE
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCTlh0ZTI3ekJ5dU52VHNR@20.223.129.129:443#%3E%3E%40configV2rayNG%3A%3AIE
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTTmtoWXg5U1Q1cFVmMW9n@20.223.129.129:443#%3E%3E%40configV2rayNG%3A%3AIE
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWcjA2clVfdjF2RlBZZVhxOXpic0FB@84.247.48.78:1080#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-10
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@84.247.48.78:1080#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-31
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiWDI5N0FzMzFiUU1Sc0xQ@20.123.9.48:443#%3E%3E%40prrofile_purple%3A%3AIE
 ss://ac5313ae-803b-4104-a047-94c97ecb621e@85.159.229.77:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=lHCkAu_DOVFtE-iL2JGrPt44QeTCFijXuRfuGaSni3Q&security=reality&sid=9e4eced6e98ed4d4&sni=ie.orpheous.ru&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-30
 ss://ac5313ae-803b-4104-a047-94c97ecb621e@ie.orpheous.ru:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=lHCkAu_DOVFtE-iL2JGrPt44QeTCFijXuRfuGaSni3Q&sid=9e4eced6e98ed4d4&sni=ie.orpheous.ru#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-29
 ss://c04bf2df-2b7f-44da-a893-3792d3910fd8@ai.tunnelpoint.space:443?type=tcp&headerType=none&security=reality&encryption=none&sni=ai.tunnelpoint.space&fp=qq&pbk=aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o&sid=fdda9806fe5d8584&flow=xtls-rprx-vision#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-35
@@ -24,6 +27,7 @@ trojan://IQ68037294@moving-wren.rooster465.autos:443?type=raw&headerType=none&se
 trojan://ND91608427@54.170.212.206:443?fp=chrome&sni=skilled-lioness.rooster465.autos#%3E%3E%40oneclickvpnkeys%3A%3AIE
 trojan://ND91608427@skilled-lioness.rooster465.autos:443#%3E%3E%40oneclickvpnkeys%3A%3AIE
 trojan://ND91608427@skilled-lioness.rooster465.autos:443?security=tls&sni=skilled-lioness.rooster465.autos#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-38
+trojan://ND91608427@willing-beagle.rooster465.autos:443?allowInsecure=1#%3E%3E%40oneclickvpnkeys%3A%3AIE
 trojan://ND91608427@willing-beagle.rooster465.autos:443?type=tcp&security=tls&sni=willing-beagle.rooster465.autos&allowInsecure=1#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-39
 trojan://NQ26071394@correct-starfish.rooster465.autos:443?type=raw&headerType=none&security=tls&sni=correct-starfish.rooster465.autos#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-14
 trojan://NQ26071394@fun-labrador.rooster465.autos:443?security=tls&sni=fun-labrador.rooster465.autos&fp=chrome&insecure=0&allowInsecure=0&type=tcp&headerType=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-11
@@ -37,6 +41,10 @@ trojan://ON38567014@endless-crappie.rooster465.autos:443?allowInsecure=1&insecur
 trojan://ON38567014@fit-calf.rooster465.autos:443?allowInsecure=1&insecure=1&type=tcp&security=tls&sni=fit-calf.rooster465.autos&fp=chrome#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-18
 trojan://ON38567014@vast-turkey.rooster465.autos:443?allowInsecure=1&insecure=1&type=tcp&security=tls&sni=vast-turkey.rooster465.autos&fp=chrome#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-19
 trojan://ON38567014@witty-stallion.rooster465.autos:443?allowInsecure=1&insecure=1&type=tcp&security=tls&sni=witty-stallion.rooster465.autos&fp=chrome#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-20
+trojan://UO36402987@34.251.228.118:443?fp=chrome&sni=definite-ladybird.rooster465.autos#%3E%3E%40oneclickvpnkeys%3A%3AIE
+trojan://UO36402987@54.216.124.178:443?fp=chrome&sni=warm-bass.rooster465.autos#%3E%3E%40oneclickvpnkeys%3A%3AIE
+trojan://UO36402987@definite-ladybird.rooster465.autos:443#%3E%3E%40oneclickvpnkeys%3A%3AIE
+trojan://UO36402987@definite-ladybird.rooster465.autos:443?security=tls&sni=definite-ladybird.rooster465.autos#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-40
 trojan://UO36402987@warm-bass.rooster465.autos:443#%3E%3E%40oneclickvpnkeys%3A%3AIE
 trojan://WG39087154@grateful-unicorn.rooster465.autos:443?type=raw&headerType=none&security=tls&sni=grateful-unicorn.rooster465.autos#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-27
 trojan://XG59623478@improved-anteater.rooster465.autos:443?security=tls#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-4
