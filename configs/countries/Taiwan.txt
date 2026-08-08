@@ -1,4 +1,5 @@
 hy2://H7mP2xY9kJ4nQ8wR5tF6vB3z@103.115.109.49:443/?insecure=1&sni=https%3A%2F%2Ft.me%2Foneclickvpnkeys#%3E%3E%40oneclickvpnkeys%3A%3ATW
+hy2://H7mP2xY9kJ4nQ8wR5tF6vB3z@vpn-tw-002.fastervpn.world:443/?insecure=1&sni=127.0.0.1#%3E%3E%40oneclickvpnkeys%3A%3ATW
 hysteria2://642dc0b9-6481-4d84-ad60-3586e870f263@tw.xn--mes13n8pi8x2b.shop:21828?insecure=0&mport=21001-21999#%E5%8F%B0%E6%B9%BE1
 hysteria2://642dc0b9-6481-4d84-ad60-3586e870f263@tw.xn--mes13n8pi8x2b.shop:21860?insecure=0&mport=21001-21999#%E5%8F%B0%E6%B9%BE2
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@vpn-tw-002.fastervpn.world:443/?insecure=1&sni=vpn-tw-002.fastervpn.world#%3E%3E%40oneclickvpnkeys%3A%3ATW
@@ -8,9 +9,7 @@ ss://26524cce-d514-4014-a426-365fb266a14d@82.152.91.210:443?encryption=none&secu
 ss://26524cce-d514-4014-a426-365fb266a14d@82.152.91.210:443?encryption=none&security=tls&sni=wgl.cdn-c.gfw.qzz.io&fp=firefox&insecure=1&allowInsecure=1&type=ws&host=wgl.cdn-c.gfw.qzz.io&path=%2Fdanfeng-jh5qzt-fk3fns-mqcd-34e34dzl%3Fed%3D2560#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%BC%20TW-637
 ss://431fe973-a43a-4fac-bf83-2a772e0d0625@60.249.101.13:10000?&type=tcp&headerType=none&path=%2F#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%BC%20TW-661
 ss://431fe973-a43a-4fac-bf83-2a772e0d0625@60.249.101.14:10000#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%BC%20TW-664
-ss://431fe973-a43a-4fac-bf83-2a772e0d0625@60.249.101.14:10000?encryption=none&security=none&type=tcp#%3E%3E%40oneclickvpnkeys%3A%3ATW
 ss://431fe973-a43a-4fac-bf83-2a772e0d0625@60.249.101.14:10000?security=none&encryption=none&host=%2F%3FJOIN_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%BC%20TW-689
-ss://431fe973-a43a-4fac-bf83-2a772e0d0625@60.249.101.16:10000?encryption=none&security=none&type=tcp#%3E%3E%40oneclickvpnkeys%3A%3ATW
 ss://431fe973-a43a-4fac-bf83-2a772e0d0625@60.249.101.16:10000?type=tcp&headerType=none&security=none&encryption=none#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%BC%20TW-670
 ss://431fe973-a43a-4fac-bf83-2a772e0d0625@60.249.101.17:10000#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%BC%20TW-688
 ss://4dadf31a-4fab-4084-b24f-b2213352ef3a@tw.lshan.eu.org:21299?fp=chrome&pbk=S-g0oP36DShii1uPOnZDSEhp_wQghX6h68PgMivOmD4&security=reality&sni=www.icloud.com#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%BC%20TW-676
@@ -46,6 +45,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiMWFlMGZjZS05MzQwLTRmMmUtODgyZC1mZGIyMjE4ZTJ
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiMWFlMGZjZS05MzQwLTRmMmUtODgyZC1mZGIyMjE4ZTJlMmI=@61.231.49.125:50099#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%BC%20TW-672
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiMWFlMGZjZS05MzQwLTRmMmUtODgyZC1mZGIyMjE4ZTJlMmI=@R3MRCG001287H3P.cybervena.com:50099#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%BC%20TW-642
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiMWFlMGZjZS05MzQwLTRmMmUtODgyZC1mZGIyMjE4ZTJlMmI=@R3MRCG00129437X.cybervena.com:50099#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%BC%20TW-660
+ss://a2f6da81-64bd-4b86-b806-5658e161b7e4@103.227.225.198:32355?security=none&encryption=none&headerType=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%BC%20TW-690
 ss://b8ca2900-3ed7-4b58-970e-060d0a6cbf99@35.187.156.27:443?&security=reality&pbk=HsoG0C19O-NY_EcFpK0ybZv9lFol0MjDJLzjDzWAGXs&sid=d79d3dc3816c329d&fp=chrome&sni=www.cloudflare.com&type=tcp&headerType=none&host=www.cloudflare.com&path=%2F#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%BC%20TW-687
 ss://caec0d8d-ab2f-4247-b97d-7fb1a34ab195@61.221.84.107:10000?type=tcp#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%BC%20TW-640
 ss://cf39fab0-bb85-42cb-9945-2ad69d78e575@45.207.158.136:8443?path=%2FGOrbEh&security=tls&encryption=none&insecure=0&host=rubifen.adaspoloandco.com&fp=chrome&type=ws&allowInsecure=0&sni=rubifen.adaspoloandco.com#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%BC%20TW-673
@@ -67,9 +67,7 @@ vless://26524cce-d514-4014-a426-365fb266a14d@82.152.91.210:443?encryption=none&s
 vless://26524cce-d514-4014-a426-365fb266a14d@82.152.91.210:443?encryption=none&security=tls&sni=wgl.cdn-c.gfw.qzz.io&fp=firefox&insecure=1&allowInsecure=1&type=ws&host=wgl.cdn-c.gfw.qzz.io&path=%2Fdanfeng-jh5qzt-fk3fns-mqcd-34e34dzl%3Fed%3D2560#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%BC%20TW-637
 vless://431fe973-a43a-4fac-bf83-2a772e0d0625@60.249.101.13:10000?&type=tcp&headerType=none&path=%2F#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%BC%20TW-661
 vless://431fe973-a43a-4fac-bf83-2a772e0d0625@60.249.101.14:10000#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%BC%20TW-664
-vless://431fe973-a43a-4fac-bf83-2a772e0d0625@60.249.101.14:10000?encryption=none&security=none&type=tcp#%3E%3E%40oneclickvpnkeys%3A%3ATW
 vless://431fe973-a43a-4fac-bf83-2a772e0d0625@60.249.101.14:10000?security=none&encryption=none&host=%2F%3FJOIN_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%BC%20TW-689
-vless://431fe973-a43a-4fac-bf83-2a772e0d0625@60.249.101.16:10000?encryption=none&security=none&type=tcp#%3E%3E%40oneclickvpnkeys%3A%3ATW
 vless://431fe973-a43a-4fac-bf83-2a772e0d0625@60.249.101.16:10000?type=tcp&headerType=none&security=none&encryption=none#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%BC%20TW-670
 vless://431fe973-a43a-4fac-bf83-2a772e0d0625@60.249.101.17:10000#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%BC%20TW-688
 vless://4dadf31a-4fab-4084-b24f-b2213352ef3a@tw.lshan.eu.org:21299?fp=chrome&pbk=S-g0oP36DShii1uPOnZDSEhp_wQghX6h68PgMivOmD4&security=reality&sni=www.icloud.com#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%BC%20TW-676
@@ -80,6 +78,7 @@ vless://52faee73-e0fe-4661-992d-67259257170f@uk-gthost-01.com:8443?type=tcp&head
 vless://6249321c-4457-4166-b040-3276f3b9c9b5@82.115.8.121:53437?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&path=/&security=none&encryption=none&host=lion-game.ir&type=ws#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%BC%20TW-662
 vless://65c56e1f-5c41-40bc-b0b5-9346772476ca@tw.x-m-m.ccwu.cc:36100?flow=xtls-rprx-vision&fp=edge&pbk=aclGz7LqHBqXqp-0HjIZSYJA6nqfz6NpeGLKvvIjomg&security=reality&sid=7c4ff34913e6ad&sni=s0.awsstatic.com#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%BC%20TW-665
 vless://69693208-38c1-4e15-8f93-36ac80d69840@61.221.84.106:10000?security=none&allowInsecure=1&flow=&type=tcp&fp=&pbk=&sid=&sni=&serviceName=&path=&host=#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%BC%20TW-630
+vless://a2f6da81-64bd-4b86-b806-5658e161b7e4@103.227.225.198:32355?security=none&encryption=none&headerType=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%BC%20TW-690
 vless://b8ca2900-3ed7-4b58-970e-060d0a6cbf99@35.187.156.27:443?&security=reality&pbk=HsoG0C19O-NY_EcFpK0ybZv9lFol0MjDJLzjDzWAGXs&sid=d79d3dc3816c329d&fp=chrome&sni=www.cloudflare.com&type=tcp&headerType=none&host=www.cloudflare.com&path=%2F#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%BC%20TW-687
 vless://caec0d8d-ab2f-4247-b97d-7fb1a34ab195@61.221.84.107:10000?type=tcp#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%BC%20TW-640
 vless://cf39fab0-bb85-42cb-9945-2ad69d78e575@45.207.158.136:8443?path=%2FGOrbEh&security=tls&encryption=none&insecure=0&host=rubifen.adaspoloandco.com&fp=chrome&type=ws&allowInsecure=0&sni=rubifen.adaspoloandco.com#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%BC%20TW-673

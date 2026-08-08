@@ -4,6 +4,7 @@ ss://049e56d8-0ba0-49e3-b764-ee04122b9f00@57.131.32.191:80?encryption=none&type=
 ss://049e56d8-0ba0-49e3-b764-ee04122b9f00@57.131.32.191:80?security=none&type=ws&host=OV-Italy1.09vpn.com&path=%2Fvless%2F#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-136
 ss://049e56d8-0ba0-49e3-b764-ee04122b9f00@57.131.32.191:80?type=ws&encryption=none&path=%2Fvless%2F&host=OV-Italy1.09vpn.com&fp=chrome&alpn=http%2F1.1&headerType=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-673
 ss://049e56d8-0ba0-49e3-b764-ee04122b9f00@OV-Italy1.09vpn.com:80?path=/vless/&security=&encryption=none&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-63
+ss://049e56d8-0ba0-49e3-b764-ee04122b9f00@ov-italy1.09vpn.com:80?security=none&type=ws&path=%2Fvless%2F&host=ov-italy1.09vpn.com&packetEncoding=xudp&sni=ov-italy1.09vpn.com#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-800
 ss://049e56d8-0ba0-49e3-b764-ee04122b9f00@ov-italy1.09vpn.com:80?type=ws&path=%2Fvless%2F&host=OV-Italy1.09vpn.com#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-108
 ss://049e56d8-0ba0-49e3-b764-ee04122b9f00@ov-italy1.09vpn.com:80?type=ws&path=%2Fvless%2F&host=ov-italy1.09vpn.com#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-107
 ss://06d44c57-8e1a-41f4-b9c4-65d35869e078@log-delivery.cloud:443?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&encryption=none&flow=xtls-rprx-vision&security=reality&sni=&pbk=2p4JMqpDtRw7qmmNZUg8JZ4rbq5Nvm7Xpv_Pw2r5myA&sid=26a4015385ec5527&type=tcp&headerType=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-754
@@ -153,8 +154,7 @@ ss://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?security=none&typ
 ss://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?type=tcp&security=none&encryption=none&sni=/#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-381
 ss://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?type=tcp&security=none&encryption=none&sni=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-760
 ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhHQDE4NS4yMTMuMjAuMTEwOjcwMDE=#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-77
-ss://YWVzLTI1Ni1nY206ZDFmYTJmNGI5OGEzOGJjOA%3D%3D@it2.levikogjgfdd.ir:10901#%3E%3E%40v2rayng_fast%3A%3AIT
-ss://YWVzLTI1Ni1nY206ZDFmYTJmNGI5OGEzOGJjOA==@62.76.234.75:10901#%3E%3E%40v2nodes%3A%3AIT
+ss://YWVzLTI1Ni1nY206ZDFmYTJmNGI5OGEzOGJjOA@194.87.47.152:10901#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-799
 ss://a1368205-7481-4228-bf24-00f24ad7b267@104.105.64.121:50327/?type=tcp&encryption=mlkem768x25519plus.native.0rtt.z26m5q7KIaYsLQKcYn-2zCDFNFgFbZQRAH9h680euh8&security=reality&pbk=JW1dY-aGVyM0KlwrVBF1YX0HuCmm-MASUCj2vsniHg4&fp=chrome&sni=www.icloud.com&sid=b1de9b77b14b9d85&spx=%2F#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-732
 ss://a5bea439-6176-4b5d-a891-bd31fc3530c9@taoccqyacf7e.dop66.com:5039?security=reality&encryption=none&pbk=fv-InxuZSzLlHc83OANs4U2windIUSwPilOpJkMgtW0&headerType=none&fp=chrome&type=tcp&sni=www.yahoo.com&sid=2e8424a2696cb606#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-745
 ss://b303691b-d577-4465-93c8-dd6a33dc8c85@116.204.164.5:7443?encryption=none&security=tls&sni=bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev&type=ws&host=bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev&path=/@Marisa_kristi&packetEncoding=xudp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-628
@@ -177,6 +177,7 @@ vless://049e56d8-0ba0-49e3-b764-ee04122b9f00@57.131.32.191:80?encryption=none&ty
 vless://049e56d8-0ba0-49e3-b764-ee04122b9f00@57.131.32.191:80?security=none&type=ws&host=OV-Italy1.09vpn.com&path=%2Fvless%2F#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-136
 vless://049e56d8-0ba0-49e3-b764-ee04122b9f00@57.131.32.191:80?type=ws&encryption=none&path=%2Fvless%2F&host=OV-Italy1.09vpn.com&fp=chrome&alpn=http%2F1.1&headerType=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-673
 vless://049e56d8-0ba0-49e3-b764-ee04122b9f00@OV-Italy1.09vpn.com:80?path=/vless/&security=&encryption=none&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-63
+vless://049e56d8-0ba0-49e3-b764-ee04122b9f00@ov-italy1.09vpn.com:80?security=none&type=ws&path=%2Fvless%2F&host=ov-italy1.09vpn.com&packetEncoding=xudp&sni=ov-italy1.09vpn.com#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-800
 vless://049e56d8-0ba0-49e3-b764-ee04122b9f00@ov-italy1.09vpn.com:80?type=ws&path=%2Fvless%2F&host=OV-Italy1.09vpn.com#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-108
 vless://049e56d8-0ba0-49e3-b764-ee04122b9f00@ov-italy1.09vpn.com:80?type=ws&path=%2Fvless%2F&host=ov-italy1.09vpn.com#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-107
 vless://06d44c57-8e1a-41f4-b9c4-65d35869e078@log-delivery.cloud:443?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&encryption=none&flow=xtls-rprx-vision&security=reality&sni=&pbk=2p4JMqpDtRw7qmmNZUg8JZ4rbq5Nvm7Xpv_Pw2r5myA&sid=26a4015385ec5527&type=tcp&headerType=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-754

@@ -1,3 +1,5 @@
+ss://16ab4d4a-fd81-4535-9b7b-346677226ce8@165.101.64.218:8443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=DU06BFOa3xeqOPxjAxQMi00LvvJ5i1qnjFBJGFv03Q4&security=reality&sid=591076636be970d0&sni=th.cryptoofarm.com&type=tcp#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-59
+ss://16ab4d4a-fd81-4535-9b7b-346677226ce8@th.cryptoofarm.com:8443?flow=xtls-rprx-vision&fp=firefox&pbk=DU06BFOa3xeqOPxjAxQMi00LvvJ5i1qnjFBJGFv03Q4&security=reality&sid=591076636be970d0&sni=th.cryptoofarm.com#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-57
 ss://19668b6f-e215-41e6-8102-b8d29fb5b8ae@18.172.202.92:80?&sni=duatoup3wk8q2.cloudfront.net&type=ws&headerType=none&host=duatoup3wk8q2.cloudfront.net&path=%2Ffnet50#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-52
 ss://3b940e86-7b0d-40da-acf1-12d334e41023@199.232.164.11:80/?type=ws&encryption=none&flow=&host=Fastapi.Org&path=%2F&ed=2560&eh=Sec-WebSocket-Protocol#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-42
 ss://3c52e091-6714-4915-949f-2149fe69951b@103.86.49.57:80?host=aIs.SpEeDtEsT.nEt&path=%2Fws&security=none&type=ws#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-43
@@ -9,6 +11,7 @@ ss://82fdc77c-5def-4930-89a6-afb5cc609d4b@154.83.2.55:8880?path=VPNPROXY?ed=8080
 ss://89c3b66f-c849-4602-a5a8-84b6f06af478@157.85.105.179:80?&type=ws&headerType=none&host=d2pwbkmfr5lxa4.cloudfront.net&path=%2F#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-49
 ss://89c3b66f-c849-4602-a5a8-84b6f06af478@157.85.105.179:80?allowInsecure=1&sni=d2pwbkmfr5lxa4.cloudfront.net&type=ws&host=d2pwbkmfr5lxa4.cloudfront.net&path=/#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-50
 ss://b93efa30-e2c5-401c-9ec7-22e30266cc60@157.85.102.28:1083?security=&encryption=none&headerType=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-55
+ss://de27291c-15a9-4256-9ba7-ad517569877e@18.239.134.69:80/?type=ws&encryption=none&flow=&host=d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com&path=/#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-58
 ss://e4f229c9-bd67-45d4-873b-b85a43a2be54@165.154.247.187:2053?encryption=none&security=reality&sni=www.amazon.com&fp=chrome&pbk=TdKxVjGKYJt4GU5cEXvsOplgYwji6ac7ryCUBBwr-kw&sid=e3b9f430320df1&spx=%2F926d66b01e29824&type=tcp&headerType=none#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-45
 ss://ec5d6408-23f6-4a78-ad39-7237ff366469@38.54.33.177:28722#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-37
 ss://f55ce6cc-3f6b-40fc-9e3b-abe26db17009@143.14.11.236:80?encryption=none&security=none&type=ws&host=d2e1v87ko56lyw.cloudfront.net%3Aassets.opensignal.com&path=%2F#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-46
@@ -17,6 +20,8 @@ ss://f55ce6cc-3f6b-40fc-9e3b-abe26db17009@18.239.134.69:80?security=none&type=ws
 ss://ff0c1cde-6f94-4bf1-9774-ab25c6b4977d@157.85.97.238:80/?type=ws&encryption=none&flow=&host=d7iwyzy9wpvuu.cloudfront.net&path=/knl8#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-53
 trojan://Rm6JhT-Rz8H6Mjy3dtSglA@157.85.102.28:1084?security=none&headerType=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-54
 trojan://Rm6JhT-Rz8H6Mjy3dtSglA@157.85.102.28:1084?security=none&type=raw&sni=157.85.102.28#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-56
+vless://16ab4d4a-fd81-4535-9b7b-346677226ce8@165.101.64.218:8443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=DU06BFOa3xeqOPxjAxQMi00LvvJ5i1qnjFBJGFv03Q4&security=reality&sid=591076636be970d0&sni=th.cryptoofarm.com&type=tcp#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-59
+vless://16ab4d4a-fd81-4535-9b7b-346677226ce8@th.cryptoofarm.com:8443?flow=xtls-rprx-vision&fp=firefox&pbk=DU06BFOa3xeqOPxjAxQMi00LvvJ5i1qnjFBJGFv03Q4&security=reality&sid=591076636be970d0&sni=th.cryptoofarm.com#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-57
 vless://19668b6f-e215-41e6-8102-b8d29fb5b8ae@18.172.202.92:80?&sni=duatoup3wk8q2.cloudfront.net&type=ws&headerType=none&host=duatoup3wk8q2.cloudfront.net&path=%2Ffnet50#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-52
 vless://3b940e86-7b0d-40da-acf1-12d334e41023@199.232.164.11:80/?type=ws&encryption=none&flow=&host=Fastapi.Org&path=%2F&ed=2560&eh=Sec-WebSocket-Protocol#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-42
 vless://3c52e091-6714-4915-949f-2149fe69951b@103.86.49.57:80?host=aIs.SpEeDtEsT.nEt&path=%2Fws&security=none&type=ws#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-43
@@ -28,6 +33,7 @@ vless://82fdc77c-5def-4930-89a6-afb5cc609d4b@154.83.2.55:8880?path=VPNPROXY?ed=8
 vless://89c3b66f-c849-4602-a5a8-84b6f06af478@157.85.105.179:80?&type=ws&headerType=none&host=d2pwbkmfr5lxa4.cloudfront.net&path=%2F#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-49
 vless://89c3b66f-c849-4602-a5a8-84b6f06af478@157.85.105.179:80?allowInsecure=1&sni=d2pwbkmfr5lxa4.cloudfront.net&type=ws&host=d2pwbkmfr5lxa4.cloudfront.net&path=/#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-50
 vless://b93efa30-e2c5-401c-9ec7-22e30266cc60@157.85.102.28:1083?security=&encryption=none&headerType=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-55
+vless://de27291c-15a9-4256-9ba7-ad517569877e@18.239.134.69:80/?type=ws&encryption=none&flow=&host=d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com&path=/#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-58
 vless://e4f229c9-bd67-45d4-873b-b85a43a2be54@165.154.247.187:2053?encryption=none&security=reality&sni=www.amazon.com&fp=chrome&pbk=TdKxVjGKYJt4GU5cEXvsOplgYwji6ac7ryCUBBwr-kw&sid=e3b9f430320df1&spx=%2F926d66b01e29824&type=tcp&headerType=none#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-45
 vless://ec5d6408-23f6-4a78-ad39-7237ff366469@38.54.33.177:28722#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-37
 vless://f55ce6cc-3f6b-40fc-9e3b-abe26db17009@143.14.11.236:80?encryption=none&security=none&type=ws&host=d2e1v87ko56lyw.cloudfront.net%3Aassets.opensignal.com&path=%2F#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-46
