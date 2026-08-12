@@ -2,13 +2,11 @@ hy2://6fe3a600-4bcf-4040-81eb-ccd29231db2b@155.117.19.221:30001/?insecure=1#%3E%
 hy2://H7mP2xY9kJ4nQ8wR5tF6vB3z@103.115.109.49:443/?insecure=1&sni=https%3A%2F%2Ft.me%2Foneclickvpnkeys#%3E%3E%40oneclickvpnkeys%3A%3ATW
 hy2://H7mP2xY9kJ4nQ8wR5tF6vB3z@202.146.222.29:443/?insecure=1&sni=202.146.222.29#%3E%3E%40oneclickvpnkeys%3A%3AHK
 hy2://H7mP2xY9kJ4nQ8wR5tF6vB3z@vpn-tw-002.fastervpn.world:443/?insecure=1&sni=127.0.0.1#%3E%3E%40oneclickvpnkeys%3A%3ATW
-hy2://github.com%2FAlvin9999-newpac%2Ffanqiang@62.210.7.139:60111?insecure=1&sni=t.me&type=tcp&allowInsecure=1&upmbps=10&downmbps=50
-hy2://qQe1z5kU8kN6SlKnDt9Ru3Qp@44.251.47.95:443?insecure=1&sni=css.rbxcdn.com&type=tcp&allowInsecure=1&upmbps=10&downmbps=50
-hy2://qQe1z5kU8kN6SlKnDt9Ru3Qp@47.129.9.33:443?insecure=1&sni=vk.com&type=tcp&allowInsecure=1&upmbps=10&downmbps=50
 hysteria2://042a1881-44e4-4781-bd40-bf75164faf4f@nl1.noesissite.ru:443/?insecure=1&sni=nl1.noesissite.ru#%3E%3E%40oneclickvpnkeys%3A%3ANL
 hysteria2://2c833c5d-cbcc-4afb-89ba-d17dc39db6f0@75.127.13.83:47974?sni=www.bing.com&insecure=1#%3E%3E%40oneclickvpnkeys%3A%3AUS
 hysteria2://37afff84-34bd-4db6-b24a-7d73d2ed48ce@107.173.127.166:25000?sni=www.apple.com&insecure=1#yandex-99
 hysteria2://37afff84-34bd-4db6-b24a-7d73d2ed48ce@198.23.130.211:25000?sni=api.push.apple.com&insecure=1#yandex-100
+hysteria2://4ff4adfb8e7a4bae9c959c54fa5af52f@assets.gateway-stream.com:52052?security=tls&obfs=salamander&obfs-password=gfy85fok75ipi28z&insecure=0&sni=assets.gateway-stream.com
 hysteria2://5d02517f-63d5-3e9f-b467-1bcf4d4e25d3@[2400:e920:0:a::52]:443?sni=u695099uc7e5bec1s783.csgfw.top&alpn=h3&mport=30000-32000&hopinterval=30s#%E6%9C%AA%E7%9F%A5%20HY2-1382%20%7C%20free-nodes
 hysteria2://5d02517f-63d5-3e9f-b467-1bcf4d4e25d3@s785.sspcccdn.xyz:443?sni=u695099uc7e5bec1s783.csgfw.top&alpn=h3&mport=30000-32000&hopinterval=30s#%E6%9C%AA%E7%9F%A5%20HY2-1350%20%7C%20free-nodes
 hysteria2://642dc0b9-6481-4d84-ad60-3586e870f263@agt.xn--mes13n8pi8x2b.shop:21440?insecure=0&mport=21001-21999#%E9%98%BF%E6%A0%B9%E5%BB%B71
