@@ -126,6 +126,7 @@ ss://c77fea1b-8ddd-48bb-bb97-0ec6f9f736c9@iranserver.com:80?security=none&sni=jo
 ss://cc4a3804-f8df-4942-bbe9-6dba868b662c@free.soundfiy.ir:4554?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=v-ydSy2Eb-YyiWYd3WyFoJc4Bjs9QPGRTsVac6SyO14&security=reality&sid=a9b8&sni=yahoo.com&spx=%2F69cab5b57e397df&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-568
 ss://ced3f588-d14f-4363-8171-33d8f0087606@185.126.14.200:11980?type=ws&encryption=none&path=/&host=&security=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-539
 ss://d0b4e190-2ab7-41db-866a-f1b36d6e87c5@185.126.202.181:2095?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-487
+ss://d0eca1e1-c4ec-43dc-a6e9-25e5d29d9fe5@193.39.9.240:1300?encryption=none&fp=chrome&pbk=NFsIgOxjsTyqP45-UF_42xOsQH6u6vZSJ90JQYDtuSo&security=reality&sid=15629d&sni=www.intel.com&spx=%2F66Q11ymQVGjJQY0&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-584
 ss://d33f60de-4e8b-49b4-89d6-1ea95ce55393@iranserver.com:80?path=%2Fvless&security=none&encryption=none&host=be2-vless.sshmax.xyz&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-313
 ss://d342d11e-d424-4583-b36e-524ab1f0afa4@zula.ir:80?path=ShadowProxy66%2F%3Fed%3D2560&security=none&encryption=none&host=a.xn--i-sx6a60i.us.kg.&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-400
 ss://d342d11e-d424-4583-b36e-524ab1f0afa4@zula.ir:80?path=ShadowProxy66%2F%3Fed%3D2560&security=none&encryption=none&host=a.xn--i-sx6a60i.us.kg.&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-420
@@ -272,6 +273,7 @@ vless://c77fea1b-8ddd-48bb-bb97-0ec6f9f736c9@iranserver.com:80?security=none&sni
 vless://cc4a3804-f8df-4942-bbe9-6dba868b662c@free.soundfiy.ir:4554?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=v-ydSy2Eb-YyiWYd3WyFoJc4Bjs9QPGRTsVac6SyO14&security=reality&sid=a9b8&sni=yahoo.com&spx=%2F69cab5b57e397df&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-568
 vless://ced3f588-d14f-4363-8171-33d8f0087606@185.126.14.200:11980?type=ws&encryption=none&path=/&host=&security=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-539
 vless://d0b4e190-2ab7-41db-866a-f1b36d6e87c5@185.126.202.181:2095?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-487
+vless://d0eca1e1-c4ec-43dc-a6e9-25e5d29d9fe5@193.39.9.240:1300?encryption=none&fp=chrome&pbk=NFsIgOxjsTyqP45-UF_42xOsQH6u6vZSJ90JQYDtuSo&security=reality&sid=15629d&sni=www.intel.com&spx=%2F66Q11ymQVGjJQY0&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-584
 vless://d33f60de-4e8b-49b4-89d6-1ea95ce55393@iranserver.com:80?path=%2Fvless&security=none&encryption=none&host=be2-vless.sshmax.xyz&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-313
 vless://d342d11e-d424-4583-b36e-524ab1f0afa4@zula.ir:80?path=ShadowProxy66%2F%3Fed%3D2560&security=none&encryption=none&host=a.xn--i-sx6a60i.us.kg.&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-400
 vless://d342d11e-d424-4583-b36e-524ab1f0afa4@zula.ir:80?path=ShadowProxy66%2F%3Fed%3D2560&security=none&encryption=none&host=a.xn--i-sx6a60i.us.kg.&type=ws#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B7%20IR-420
