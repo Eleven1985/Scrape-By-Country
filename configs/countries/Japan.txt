@@ -39,6 +39,7 @@ ss://904f8ffa-4652-4076-8f2f-e586807840ec@172.111.146.64:80?encryption=none&type
 ss://9194bade-099b-4723-9f19-606edb5aeab8@64.176.55.120:443?&security=reality&flow=xtls-rprx-vision&pbk=-Xqm17XFjFPUHutSnpMNOlrqlT1pJfKuHT003dU3aks&sid=06&fp=chrome&sni=shop-us-en.amd.com&type=tcp&headerType=none&host=shop-us-en.amd.com&path=%2F#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4004
 ss://9bb81a28-00d0-4dcc-bf81-369721d208c9@207.56.229.202:28194?flow=xtls-rprx-vision&fp=chrome&pbk=n2anijZfw3LrcKiltBET1nLOv0lVrxxvh_pSC5eu6U4&security=reality&sid=493b786f&sni=apple.com#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4075
 ss://9c7501fb-4e23-44d8-9a9e-973807ae4f35@203.137.165.164:57554?encryption=none&security=tls&sni=wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev&path=%2F%40Marisa_kristi#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4014
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg@54.249.145.184:8316#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4161
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLkAzNS43Ny4xODguMTUxOjgzMTk=#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4078
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptYTZ6YzRKb0xSSkE@176.97.73.215:8388#%3E%3E%40configV2rayNG%3A%3AJP
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptYTZ6YzRKb0xSSkE@176.97.73.215:8388#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4077
@@ -66,8 +67,10 @@ ss://fae482df-d9f1-491f-9f9e-1ee522d4560c@or-jp01.ziyoufly.xyz:55555?security=re
 ss://fb4c1c39-2204-43bb-853c-f8579a77feb4@203.137.165.164:57554?fp=chrome&host=mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev&path=%2F%40Marisa_kristi&security=tls&sni=mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev&type=ws#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4153
 trojan://253bc477d4e43c209f2d427272968280@36.156.102.84:1806?allowInsecure=0&sni=www.nintendogames.net#%F0%9F%87%AF%F0%9F%87%B5%20%E6%97%A5%E6%9C%AC2%7C%40stairnode
 trojan://253bc477d4e43c209f2d427272968280@36.156.102.84:3160?allowInsecure=0&sni=www.nintendogames.net#%F0%9F%87%AF%F0%9F%87%B5%20%E6%97%A5%E6%9C%AC3%7C%40stairnode
+trojan://7d8e6db4-96cc-4710-afc0-619edde2d7a1@160.16.110.77:55682?security=tls&sni=t11.qifei.app&path=/#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4158
 trojan://7d8e6db4-96cc-4710-afc0-619edde2d7a1@t11.qifei.app:55682/?type=tcp&security=tls&allowInsecure=1#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4069
 trojan://7d8e6db4-96cc-4710-afc0-619edde2d7a1@t11.qifei.app:55682?allowInsecure=1&sni=t11.qifei.app#%3E%3E%40v2nodes%3A%3AJP
+trojan://7d8e6db4-96cc-4710-afc0-619edde2d7a1@t11.qifei.app:55682?security=tls&insecure=0&host=v2rayNplus--v2rayNplus--v2rayNplus&headerType=none&type=tcp&allowInsecure=0&sni=t11.qifei.app#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4159
 trojan://868ecdaf6aed618ec98cf78585672b2b@13.231.134.78:4937?allowInsecure=0&sni=www.nintendogames.net#%F0%9F%87%AF%F0%9F%87%B5%20%E6%97%A5%E6%9C%AC2%7C%40stairnode
 trojan://868ecdaf6aed618ec98cf78585672b2b@43.207.115.26:9201?allowInsecure=0&sni=www.nintendogames.net#%F0%9F%87%AF%F0%9F%87%B5%20%E6%97%A5%E6%9C%AC3%7C%40stairnode
 trojan://AE62539071@awaited-lark.rooster465.autos:443?security=tls#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4104
@@ -140,6 +143,7 @@ trojan://AE62539071@whole-perch.rooster465.autos:443?security=tls#%5BOpenRay%5D%
 trojan://AE62539071@wise-longhorn.rooster465.autos:443?security=tls#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4108
 trojan://AE62539071@wise-longhorn.rooster465.autos:443?type=tcp&security=tls&sni=wise-longhorn.rooster465.autos&fp=chrome#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4085
 trojan://BxceQaOe@52.194.222.108:3022?allowInsecure=1&sni=t.me%252Fripaojiedian#%F0%9F%87%AF%F0%9F%87%B5%20%E6%97%A5%E6%9C%AC%7C%40stairnode
+trojan://FH72359861@square-tortoise.rooster465.autos:443?security=tls#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4160
 trojan://ND91608427@adjusted-labrador.rooster465.autos:443?security=tls&sni=adjusted-labrador.rooster465.autos#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-3986
 trojan://ND91608427@better-molly.rooster465.autos:443?security=tls#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-3982
 trojan://ND91608427@better-molly.rooster465.autos:443?security=tls&sni=better-molly.rooster465.autos&path=/#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4002
@@ -164,6 +168,7 @@ trojan://ND91608427@thankful-mustang.rooster465.autos:443?security=tls&sni=thank
 trojan://ND91608427@thankful-mustang.rooster465.autos:443?security=tls&sni=thankful-mustang.rooster465.autos#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4146
 trojan://ND91608427@tough-robin.rooster465.autos:443?security=tls&sni=tough-robin.rooster465.autos#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-3989
 trojan://ND91608427@upright-impala.rooster465.autos:443?allowInsecure=1&sni=upright-impala.rooster465.autos#%3E%3E%40v2nodes%3A%3AJP
+trojan://ND91608427@upright-impala.rooster465.autos:443?security=tls&sni=upright-impala.rooster465.autos#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4157
 vless://03f3932c-5680-44f6-84f1-447d86971aeb@151.241.129.98:7219?&security=tls&fp=chrome&sni=9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev&type=ws&headerType=none&host=9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev&path=%2F%40Marisa_kristi#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4019
 vless://0490617a-818b-40e4-b517-8e09bfd4f30b@aws-jp01.ziyoufly.xyz:55555?&security=reality&flow=xtls-rprx-vision&pbk=1XQ60qYOfBZJpcilNV9Fu7OSpuO5_6-zrNZIYhB_YU4&sid=af317506&fp=chrome&sni=www.yahoo.co.jp&type=tcp&headerType=none&host=www.yahoo.co.jp&path=%2F#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4062
 vless://0490617a-818b-40e4-b517-8e09bfd4f30b@or-jp02.ziyoufly.xyz:55555?&security=reality&flow=xtls-rprx-vision&pbk=1XQ60qYOfBZJpcilNV9Fu7OSpuO5_6-zrNZIYhB_YU4&sid=af317506&fp=chrome&sni=www.sony.jp&type=tcp&headerType=none&host=www.sony.jp&path=%2F#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4063
@@ -251,3 +256,4 @@ vmess://eyJhZGQiOiIxNjguMTM4LjQzLjc1IiwiYWlkIjowLCJob3N0IjoianAwMS5hMGEueHl6Iiwi
 vmess://eyJhZGQiOiIxNjguMTM4LjQzLjc1IiwiYWlkIjowLCJob3N0Ijoibm9uZSIsImlkIjoiMTFjMzYyN2YtMzFlOC00Njk1LWRmYmQtMzQwNzZlMmYxZjVkIiwibmV0Ijoid3MiLCJwYXRoIjoiL2NjdHYxMy5tM3U4IiwicG9ydCI6IjgwIiwicHMiOiJbT3BlblJheV0g8J+Hr/Cfh7UgSlAtMzg5NiIsInNuaSI6Im5vbmUiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=
 vmess://eyJhZGQiOiIxNzIuMTExLjE0Ni42NCIsImFpZCI6MCwiaG9zdCI6IiIsImlkIjoiMDViOGM3ODMtN2Y1OS00N2Y5LTk5MjMtMDZhNDY1Njc5ZjZhIiwibmV0Ijoid3MiLCJwYXRoIjoiL3ZtZXNzLyIsInBvcnQiOjgwLCJwcyI6IltPcGVuUmF5XSDwn4ev8J+HtSBKUC0yMTk4IiwidGxzIjoiIiwidHlwZSI6ImF1dG8iLCJzZWN1cml0eSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiIifQ==
 vmess://eyJhZGQiOiIyMDcuNTYuMjI5LjIwMiIsImFpZCI6MCwiaG9zdCI6Ind3dy5iaW5nLmNvbSIsImlkIjoiOWJiODFhMjgtMDBkMC00ZGNjLWJmODEtMzY5NzIxZDIwOGM5IiwibmV0Ijoid3MiLCJwYXRoIjoiOWJiODFhMjgtMDBkMC00ZGNjLWJmODEtMzY5NzIxZDIwOGM5LXZtIiwicG9ydCI6MjA1MiwicHMiOiJbT3BlblJheV0g8J+Hr/Cfh7UgSlAtNDA3NiIsInNlY3VyaXR5IjoiYXV0byJ9
+vmess://eyJhZGQiOiIyMDcuNTYuMjI5LjIwMiIsImFpZCI6MCwiaWQiOiI5YmI4MWEyOC0wMGQwLTRkY2MtYmY4MS0zNjk3MjFkMjA4YzkiLCJuZXQiOiJ3cyIsInBhdGgiOiI5YmI4MWEyOC0wMGQwLTRkY2MtYmY4MS0zNjk3MjFkMjA4Yzktdm0iLCJwb3J0IjoyMDUyLCJwcyI6Ilx1ZDgzY1x1ZGRlZlx1ZDgzY1x1ZGRmNVtvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtSlAiLCJzY3kiOiJhdXRvIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9
