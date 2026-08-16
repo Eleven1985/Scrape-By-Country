@@ -30,6 +30,8 @@ ss://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@45.130.125.209:80?path=%2Fhttp&securit
 ss://e2c5f1a9-b3d4-4e78-9f2a-1c3d4e5f6a7b@45.130.125.114:80?encryption=none&type=ws&host=new-scale08-cdn.sabzi.name.ng.&path=/&packetEncoding=xudp#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-68
 ss://e2c5f1a9-b3d4-4e78-9f2a-1c3d4e5f6a7b@45.130.125.114:80?path=%2F&security=none&encryption=none&host=new-scale46-cdn.sabzi.name.ng.&type=ws#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-78
 ss://e2c5f1a9-b3d4-4e78-9f2a-1c3d4e5f6a7b@45.130.125.114:80?type=ws&security=none&path=%2F&host=free-hzr27-cdn.sabzi.name.ng.#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-74
+ss://e3a625d4-5adb-463d-bbff-bbe06b8e2c5c@200.165.228.51:2200?encryption=none&type=ws&security=none&path=%2Fv1&host=rzd.ru#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-88
+ss://e3a625d4-5adb-463d-bbff-bbe06b8e2c5c@200.165.228.51:4100?encryption=none&type=ws&security=none&path=%2Fv1&host=live.ok.ru#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-89
 ss://ee9b0614-50ec-41b6-951b-e1d5d755fa4b@glob.thisiswe.uno:2053?security=tls&encryption=none&host=cd11.thisiswe.uno&fp=chrome&type=ws#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-62
 ss://fb49cbe4-2307-4784-b6d0-b714d058725a@jush.sukario.ir:443?security=tls&type=ws&path=/mashdi&host=mesh1.mashadiebod.org&packetEncoding=xudp&sni=mesh1.mashadiebod.org&fp=firefox#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-76
 ss://fb49cbe4-2307-4784-b6d0-b714d058725a@jush.sukario.ir:443?type=ws&security=tls&sni=mesh3.mashadiebod.org&fp=firefox&path=%2Fmashdi&host=mesh3.mashadiebod.org#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-65
@@ -67,6 +69,8 @@ vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@45.130.125.209:80?path=%2Fhttp&secu
 vless://e2c5f1a9-b3d4-4e78-9f2a-1c3d4e5f6a7b@45.130.125.114:80?encryption=none&type=ws&host=new-scale08-cdn.sabzi.name.ng.&path=/&packetEncoding=xudp#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-68
 vless://e2c5f1a9-b3d4-4e78-9f2a-1c3d4e5f6a7b@45.130.125.114:80?path=%2F&security=none&encryption=none&host=new-scale46-cdn.sabzi.name.ng.&type=ws#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-78
 vless://e2c5f1a9-b3d4-4e78-9f2a-1c3d4e5f6a7b@45.130.125.114:80?type=ws&security=none&path=%2F&host=free-hzr27-cdn.sabzi.name.ng.#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-74
+vless://e3a625d4-5adb-463d-bbff-bbe06b8e2c5c@200.165.228.51:2200?encryption=none&type=ws&security=none&path=%2Fv1&host=rzd.ru#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-88
+vless://e3a625d4-5adb-463d-bbff-bbe06b8e2c5c@200.165.228.51:4100?encryption=none&type=ws&security=none&path=%2Fv1&host=live.ok.ru#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-89
 vless://ee9b0614-50ec-41b6-951b-e1d5d755fa4b@glob.thisiswe.uno:2053?security=tls&encryption=none&host=cd11.thisiswe.uno&fp=chrome&type=ws#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-62
 vless://fb49cbe4-2307-4784-b6d0-b714d058725a@jush.sukario.ir:443?security=tls&type=ws&path=/mashdi&host=mesh1.mashadiebod.org&packetEncoding=xudp&sni=mesh1.mashadiebod.org&fp=firefox#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-76
 vless://fb49cbe4-2307-4784-b6d0-b714d058725a@jush.sukario.ir:443?type=ws&security=tls&sni=mesh3.mashadiebod.org&fp=firefox&path=%2Fmashdi&host=mesh3.mashadiebod.org#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-65
