@@ -41,6 +41,7 @@ hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@18.118.193.169:443/?insecure=1&sni=vpn-us-0
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@vpn-kr-003.fastervpn.world:443/?insecure=1&sni=vpn-kr-003.fastervpn.world#%3E%3E%40oneclickvpnkeys%3A%3AKR
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@vpn-tw-002.fastervpn.world:443/?insecure=1&sni=vpn-tw-002.fastervpn.world#%3E%3E%40oneclickvpnkeys%3A%3ATW
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@vpn-us-003.fastervpn.world:443/?insecure=1&sni=vpn-us-003.fastervpn.world#%3E%3E%40oneclickvpnkeys%3A%3AUS
+hysteria2://IJMFOXhvbQ@51.79.91.52:38871?security=tls&obfs=salamander&obfs-password=t-me-V2RayyNGvpn&insecure=1&pinSHA256=0d1a3bdb9ed6df1bdccf9745055822b46ae00b63150c73b5447e09447666745a&sni=play.google.com
 hysteria2://Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0@85.204.107.164:8443/?insecure=1&sni=grape-zet-ro-turbo.bumbleshrimp.com#%3E%3E%40oneclickvpnkeys%3A%3ARO
 hysteria2://Krab9Hyst2_Rk7pQ2xL@151.247.197.253:36723/?insecure=1&sni=www.cloudflare.com#%3E%3E%40oneclickvpnkeys%3A%3AFR
 hysteria2://Krab9Hyst2_Rk7pQ2xL@95.164.123.231:36723/?insecure=1&sni=www.cloudflare.com#%3E%3E%40oneclickvpnkeys%3A%3ADE
@@ -100,6 +101,8 @@ hysteria2://gf1:gfhysteria2024@5.129.235.85:443?insecure=1&_t=57501264#%5BOpenRa
 hysteria2://gf1:gfhysteria2024@5.129.235.85:443?insecure=1&nonce=T_kr-dEM#%5BOpenRay%5D%20%F0%9F%87%B3%F0%9F%87%B1%20NL-10581
 hysteria2://gf1:gfhysteria2024@5.129.235.85:443?insecure=1&nonce=wg292SGN#%5BOpenRay%5D%20%F0%9F%87%B3%F0%9F%87%B1%20NL-10582
 hysteria2://h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT@185.79.138.71:8443/?sni=hopp-legend-se.roxa.org#%3E%3E%40oneclickvpnkeys%3A%3AFI
+hysteria2://m3bqxk03mg221yi2@assets.gateway-stream.com:52009?security=tls&obfs=salamander&obfs-password=kf1lypzqidy6pimt&insecure=0&sni=assets.gateway-stream.com
+hysteria2://m3bqxk03mg221yi2@assets.gateway-stream.com:52067?security=tls&obfs=salamander&obfs-password=txwr28j1lntoy0sj&insecure=0&sni=assets.gateway-stream.com
 hysteria2://mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj@91.196.32.163:443/?insecure=1&sni=germany3.h2corp.local#%3E%3E%40oneclickvpnkeys%3A%3ADE
 hysteria2://mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj@91.196.32.163:443?insecure=1&seq=you_are_beautiful5561#%5BOpenRay%5D%20%F0%9F%87%A9%F0%9F%87%AA%20DE-22255
 hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@54.213.89.22:443/?insecure=1&sni=vpn-us-002.fastervpn.world#%3E%3E%40oneclickvpnkeys%3A%3AUS

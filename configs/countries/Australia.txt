@@ -34,6 +34,7 @@ trojan://AE62539071@together-dingo.rooster465.autos:443?allowInsecure=1&insecure
 trojan://AE62539071@together-dingo.rooster465.autos:443?security=tls#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-103
 trojan://AE62539071@wanted-marmoset.rooster465.autos:443?allowInsecure=0&sni=wanted-marmoset.rooster465.autos#%3E%3E%40v2nodes%3A%3AAU
 trojan://AE62539071@wanted-marmoset.rooster465.autos:443?allowInsecure=1&insecure=1&type=tcp&security=tls&sni=wanted-marmoset.rooster465.autos&fp=chrome#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-108
+trojan://AE62539071@wanted-marmoset.rooster465.autos:443?security=tls&sni=wanted-marmoset.rooster465.autos&path=%2f#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-113
 trojan://FC60532879@fleet-hawk.rooster465.autos:443?security=tls&sni=fleet-hawk.rooster465.autos#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-97
 trojan://FC60532879@welcome-labrador.rooster465.autos:443?security=tls&path=%2f#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-94
 trojan://FC60532879@welcome-labrador.rooster465.autos:443?security=tls&sni=welcome-labrador.rooster465.autos#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%BA%20AU-91
