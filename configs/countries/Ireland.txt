@@ -1,4 +1,5 @@
 hysteria2://9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z@162.249.124.102:8443/?insecure=1&sni=mercedes-grape.yyuyy.com#%3E%3E%40oneclickvpnkeys%3A%3AIE
+hysteria2://9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z@162.249.124.104:8443/?insecure=1&sni=mercedes-grape.yyuyy.com#%3E%3E%40oneclickvpnkeys%3A%3AIE
 hysteria2://9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z@162.249.124.99:8443/?insecure=1&sni=mercedes-grape.yyuyy.com#%3E%3E%40oneclickvpnkeys%3A%3AIE
 ss://06d44c57-8e1a-41f4-b9c4-65d35869e078@45.141.234.218:13868?security=reality&encryption=none&pbk=XkqVl2cyWFosUZRHlg55Iek6KzLEoT_OPzuoErgWfWg&host=/?JOIN_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=amd.com&sid=e852dc#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-45
 ss://06d44c57-8e1a-41f4-b9c4-65d35869e078@45.141.234.218:13868?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=XkqVl2cyWFosUZRHlg55Iek6KzLEoT_OPzuoErgWfWg&sid=e852dc&sni=amd.com#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-42
@@ -82,6 +83,7 @@ trojan://ON38567014@vast-turkey.rooster465.autos:443?allowInsecure=1&insecure=1&
 trojan://ON38567014@witty-stallion.rooster465.autos:443?allowInsecure=1&insecure=1&type=tcp&security=tls&sni=witty-stallion.rooster465.autos&fp=chrome#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-20
 trojan://PQ05174892@concise-bass.rooster465.autos:443?type=tcp&security=tls&sni=concise-bass.rooster465.autos&fp=chrome#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-60
 trojan://PQ05174892@healthy-panda.rooster465.autos:443?type=tcp&security=tls&sni=healthy-panda.rooster465.autos&fp=chrome#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-59
+trojan://PQ05174892@kind-stork.rooster465.autos:443?type=tcp&security=tls&sni=kind-stork.rooster465.autos&fp=chrome#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-63
 trojan://UO36402987@34.251.228.118:443?fp=chrome&sni=definite-ladybird.rooster465.autos#%3E%3E%40oneclickvpnkeys%3A%3AIE
 trojan://UO36402987@definite-ladybird.rooster465.autos:443#%3E%3E%40oneclickvpnkeys%3A%3AIE
 trojan://UO36402987@definite-ladybird.rooster465.autos:443?security=tls&sni=definite-ladybird.rooster465.autos#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-40

@@ -67,6 +67,7 @@ ss://95ae0de8-d944-4b1e-b450-d34d80f9a528@xit.saturn-cloud.net:443?&security=rea
 ss://95ae0de8-d944-4b1e-b450-d34d80f9a528@xit.saturn-cloud.net:443?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&encryption=none&flow=xtls-rprx-vision&fp=&pbk=UjwVdSvY-6dV5UKCNO7ROokiSF_aLaXYyUaG6RybOmI&security=reality&sid=2762604ed2e0fa2f&sni=&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-810
 ss://95ae0de8-d944-4b1e-b450-d34d80f9a528@xit.saturn-cloud.net:443?security=reality&encryption=none&pbk=UjwVdSvY-6dV5UKCNO7ROokiSF_aLaXYyUaG6RybOmI&host=v2rayNplus--v2rayNplus--v2rayNplus&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=xit.saturn-cloud.net&sid=2762604ed2e0fa2f#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-819
 ss://9dd5bcab-4a60-4f97-a7a4-77e98eabf9c4@116.204.164.17:7443?security=tls&type=ws&path=%2F%40Marisa_kristi&host=c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev&sni=c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev&fp=chrome&encryption=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-817
+ss://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?path=%2F+&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-845
 ss://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?security=none&encryption=none&host=%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-452
 ss://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?security=none&encryption=none&host=%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-255
 ss://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?security=none&type=tcp&fp=chrome#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-59
@@ -76,7 +77,7 @@ ss://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?security=none&typ
 ss://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?type=tcp&security=none&encryption=none&sni=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-760
 ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhHQDE4NS4yMTMuMjAuMTEwOjcwMDE=#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-77
 ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@38.180.194.61:9090#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-811
-ss://YWVzLTI1Ni1nY206ZDFmYTJmNGI5OGEzOGJjOA@194.87.47.204:10901#%3E%3E%40v2rayNG_Matsuri%3A%3AIT
+ss://YWVzLTI1Ni1nY206ZDFmYTJmNGI5OGEzOGJjOA@194.87.47.204:10901#%3E%3E%40configV2rayNG%3A%3AIT
 ss://YWVzLTI1Ni1nY206ZDFmYTJmNGI5OGEzOGJjOA@194.87.47.204:10901#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-834
 ss://YWVzLTI1Ni1nY206ZDFmYTJmNGI5OGEzOGJjOEA2Mi43Ni4yMzQuMTg4OjEwOTAx#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-801
 ss://YWVzLTI1Ni1nY206ZDFmYTJmNGI5OGEzOGJjOEAxOTQuODcuNDcuNjE6MTA5MDE=#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-818
@@ -163,6 +164,7 @@ vless://95ae0de8-d944-4b1e-b450-d34d80f9a528@xit.saturn-cloud.net:443?&security=
 vless://95ae0de8-d944-4b1e-b450-d34d80f9a528@xit.saturn-cloud.net:443?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&encryption=none&flow=xtls-rprx-vision&fp=&pbk=UjwVdSvY-6dV5UKCNO7ROokiSF_aLaXYyUaG6RybOmI&security=reality&sid=2762604ed2e0fa2f&sni=&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-810
 vless://95ae0de8-d944-4b1e-b450-d34d80f9a528@xit.saturn-cloud.net:443?security=reality&encryption=none&pbk=UjwVdSvY-6dV5UKCNO7ROokiSF_aLaXYyUaG6RybOmI&host=v2rayNplus--v2rayNplus--v2rayNplus&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=xit.saturn-cloud.net&sid=2762604ed2e0fa2f#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-819
 vless://9dd5bcab-4a60-4f97-a7a4-77e98eabf9c4@116.204.164.17:7443?security=tls&type=ws&path=%2F%40Marisa_kristi&host=c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev&sni=c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev&fp=chrome&encryption=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-817
+vless://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?path=%2F+&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-845
 vless://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?security=none&encryption=none&host=%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-452
 vless://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?security=none&encryption=none&host=%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-255
 vless://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?security=none&type=tcp&fp=chrome#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-59
