@@ -159,6 +159,7 @@ trojan://AE62539071@frank-frog.rooster465.autos:443?security=tls#%5BOpenRay%5D%2
 trojan://AE62539071@fun-poodle.rooster465.autos:443?security=tls#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4102
 trojan://AE62539071@fun-salmon.rooster465.autos:443?type=tcp&security=tls&sni=fun-salmon.rooster465.autos&fp=chrome#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4083
 trojan://AE62539071@game-thrush.rooster465.autos:443?security=tls#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4123
+trojan://AE62539071@game-thrush.rooster465.autos:443?sni=game-thrush.rooster465.autos&peer=game-thrush.rooster465.autos&security=tls#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4328
 trojan://AE62539071@grateful-crawdad.rooster465.autos:443?security=tls#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4098
 trojan://AE62539071@harmless-imp.rooster465.autos:443?security=tls#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4095
 trojan://AE62539071@helpful-possum.rooster465.autos:443?security=tls#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4144
@@ -168,6 +169,7 @@ trojan://AE62539071@immortal-woodcock.rooster465.autos:443?security=tls&insecure
 trojan://AE62539071@intense-wildcat.rooster465.autos:443?security=tls#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4122
 trojan://AE62539071@intimate-koi.rooster465.autos:443?security=tls#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4124
 trojan://AE62539071@inviting-burro.rooster465.autos:443?security=tls#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4125
+trojan://AE62539071@inviting-burro.rooster465.autos:443?security=tls&sni=inviting-burro.rooster465.autos&fp=chrome&type=tcp&path=/#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4326
 trojan://AE62539071@joint-ewe.rooster465.autos:443?security=tls#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4101
 trojan://AE62539071@known-albacore.rooster465.autos:443?security=tls#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4113
 trojan://AE62539071@learning-ibex.rooster465.autos:443?security=tls#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4140
@@ -186,6 +188,7 @@ trojan://AE62539071@outgoing-ladybird.rooster465.autos:443?security=tls#%5BOpenR
 trojan://AE62539071@outgoing-ladybird.rooster465.autos:443?security=tls&sni=outgoing-ladybird.rooster465.autos#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4322
 trojan://AE62539071@pet-antelope.rooster465.autos:443?security=tls#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4137
 trojan://AE62539071@pleased-pelican.rooster465.autos:443?security=tls#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4088
+trojan://AE62539071@pleased-pelican.rooster465.autos:443?security=tls&sni=pleased-pelican.rooster465.autos&fp=chrome&insecure=0&allowInsecure=0&type=tcp&headerType=none#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4325
 trojan://AE62539071@polished-imp.rooster465.autos:443?allowInsecure=1&sni=polished-imp.rooster465.autos#%3E%3E%40v2nodes%3A%3AJP
 trojan://AE62539071@polished-imp.rooster465.autos:443?type=tcp&security=tls&sni=polished-imp.rooster465.autos&fp=chrome#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4142
 trojan://AE62539071@polished-katydid.rooster465.autos:443?security=tls#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4120
@@ -246,6 +249,7 @@ trojan://FH72359861@classic-pug.rooster465.autos:443?security=tls#%5BOpenRay%5D%
 trojan://FH72359861@classic-pug.rooster465.autos:443?security=tls&sni=classic-pug.rooster465.autos#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4220
 trojan://FH72359861@communal-troll.rooster465.autos:443?security=tls&sni=communal-troll.rooster465.autos#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4217
 trojan://FH72359861@devoted-zebra.rooster465.autos:443?security=tls#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4186
+trojan://FH72359861@driven-bulldog.rooster465.autos:443?security=tls&sni=driven-bulldog.rooster465.autos&fp=chrome&type=tcp&headerType=none&path=/&allow_insecure=0#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4327
 trojan://FH72359861@emerging-porpoise.rooster465.autos:443?allowInsecure=0&sni=emerging-porpoise.rooster465.autos#%3E%3E%40v2nodes%3A%3AJP
 trojan://FH72359861@emerging-porpoise.rooster465.autos:443?security=tls#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4171
 trojan://FH72359861@emerging-porpoise.rooster465.autos:443?security=tls&sni=emerging-porpoise.rooster465.autos#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4278
@@ -324,6 +328,7 @@ trojan://ND91608427@better-molly.rooster465.autos:443?security=tls#%5BOpenRay%5D
 trojan://ND91608427@better-molly.rooster465.autos:443?security=tls&sni=better-molly.rooster465.autos&path=/#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4002
 trojan://ND91608427@casual-bee.rooster465.autos:443?security=tls&sni=casual-bee.rooster465.autos#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4006
 trojan://ND91608427@devoted-heron.rooster465.autos:443?security=tls&sni=devoted-heron.rooster465.autos&path=/#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4003
+trojan://ND91608427@devoted-heron.rooster465.autos:443?security=tls&sni=devoted-heron.rooster465.autos&path=/#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4329
 trojan://ND91608427@happy-mutt.rooster465.autos:443?security=tls&sni=happy-mutt.rooster465.autos#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-3994
 trojan://ND91608427@healthy-louse.rooster465.autos:443?security=tls&sni=healthy-louse.rooster465.autos#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-4008
 trojan://ND91608427@internal-sunbird.rooster465.autos:443?security=tls&sni=internal-sunbird.rooster465.autos#%5BOpenRay%5D%20%F0%9F%87%AF%F0%9F%87%B5%20JP-3981

@@ -45,6 +45,8 @@ trojan://AE62539071@unbiased-garfish.rooster465.autos:443#%3E%3E%40oneclickvpnke
 trojan://AE62539071@unbiased-garfish.rooster465.autos:443?security=tls#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-49
 trojan://AE62539071@worthy-labrador.rooster465.autos:443#%3E%3E%40oneclickvpnkeys%3A%3AIE
 trojan://AE62539071@worthy-labrador.rooster465.autos:443?security=tls#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-51
+trojan://AE62539071@worthy-labrador.rooster465.autos:443?security=tls&sni=worthy-labrador.rooster465.autos#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-67
+trojan://EQ30679154@concise-bass.rooster465.autos:443?security=tls&sni=concise-bass.rooster465.autos#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-68
 trojan://FH72359861@108.128.201.154:443?sni=touching-turtle.rooster465.autos#%3E%3E%40oneclickvpnkeys%3A%3AIE
 trojan://FH72359861@108.130.49.217:443?allowInsecure=1&sni=concise-bass.rooster465.autos#%3E%3E%40oneclickvpnkeys%3A%3AIE
 trojan://FH72359861@3.253.78.205:443?allowInsecure=1&sni=balanced-heron.rooster465.autos#%3E%3E%40oneclickvpnkeys%3A%3AIE
