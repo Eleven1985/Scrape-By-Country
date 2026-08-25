@@ -37,5 +37,6 @@ https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/splitted/mixed
 https://raw.githubusercontent.com/arshiacomplus/v2rayExtractor/refs/heads/main/mix/sub.html
 https://raw.githubusercontent.com/Rayan-Config/C-Sub/refs/heads/main/configs/proxy.txt
 https://raw.githubusercontent.com/MahsaNetConfigTopic/config/refs/heads/main/xray_final.txt
+https://raw.githubusercontent.com/mahdisandughdaran-sys/V2ray-sub/refs/heads/main/good_configs.txt
 https://raw.githubusercontent.com/YFTree/ClashNodes/refs/heads/main/V2Ray/4.txt
 https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/base64.txt
