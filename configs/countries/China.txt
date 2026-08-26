@@ -11,6 +11,7 @@ ss://552a071a-7a69-49b5-9a82-f353229d82ad@43.169.19.179:443?fp=random&host=gy.hh
 ss://5aaa5259-f924-4682-a4a3-149d472a9dcc@jp.sofast.live:52683/?type=tcp&encryption=none&flow=#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B3%20CN-52
 ss://5aaa5259-f924-4682-a4a3-149d472a9dcc@jp.sofast.live:52683?&type=tcp&headerType=none&host=jp.sofast.live&path=%2F#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B3%20CN-53
 ss://65500794-99b4-0343-bd18-a12453257a2b@125.77.20.210:13565?&type=ws&headerType=none&path=%2F#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B3%20CN-55
+ss://9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6@43.169.19.179:443?&security=tls&fp=chrome&sni=8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr&type=ws&headerType=none&host=8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr&path=%2Fpg%2F10086-dfc816f117c49173#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B3%20CN-106
 ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206WnFUMzJUc1VvMUE0TVU4TjE3a0FQUT09@139.199.185.190:55502#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B3%20CN-45
 ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206cVBQVTRjR1U1OWhqUm5PeU5UamFjQT09QHNkLXN6LmJ4LXhiLnh5ejo2MjYxMA#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B3%20CN-67
 ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206cVBQVTRjR1U1OWhqUm5PeU5UamFjQT09QHNkLXNoLmJ4LXhiLnh5ejo2Mjc0MA#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B3%20CN-68
@@ -76,6 +77,7 @@ vless://552a071a-7a69-49b5-9a82-f353229d82ad@43.169.19.179:443?fp=random&host=gy
 vless://5aaa5259-f924-4682-a4a3-149d472a9dcc@jp.sofast.live:52683/?type=tcp&encryption=none&flow=#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B3%20CN-52
 vless://5aaa5259-f924-4682-a4a3-149d472a9dcc@jp.sofast.live:52683?&type=tcp&headerType=none&host=jp.sofast.live&path=%2F#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B3%20CN-53
 vless://65500794-99b4-0343-bd18-a12453257a2b@125.77.20.210:13565?&type=ws&headerType=none&path=%2F#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B3%20CN-55
+vless://9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6@43.169.19.179:443?&security=tls&fp=chrome&sni=8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr&type=ws&headerType=none&host=8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr&path=%2Fpg%2F10086-dfc816f117c49173#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B3%20CN-106
 vless://ce069292-c8bf-40dd-a6b1-87818a1e64e9@119.246.150.50:443?fp=ios&host=gogo.wknm.dpdns.org&path=%2F&security=tls&sni=gogo.wknm.dpdns.org&type=ws#%F0%9F%87%AD%F0%9F%87%B0_HK_%E4%B8%AD%E5%9B%BD%E9%A6%99%E6%B8%AF-%3E%F0%9F%87%B8%F0%9F%87%AC_SG_%E6%96%B0%E5%8A%A0%E5%9D%A1
 vless://f0169b08-43fd-4dc3-8195-18f6ad2fe39d@120.227.1.43:12528?security=none&encryption=none&headerType=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B3%20CN-46
 vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@176.124.223.29:8880?type=ws&host=hk.laoyoutiao.link&path=%2F#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B3%20CN-42
