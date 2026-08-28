@@ -35,7 +35,6 @@ ss://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.182.124:62145?&type=tcp&header
 ss://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.183.151:62145?&security=none&type=tcp&headerType=&path=%2F#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B4%20CO-84
 ss://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.183.236:62145?security=none&type=tcp&encryption=none#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B4%20CO-99
 ss://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.183.255:62145#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B4%20CO-134
-ss://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.184.118:62145?security=none&type=tcp&packetEncoding=none&encryption=none#%3E%3E%40v2nodes%3A%3ACO
 ss://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.184.118:62145?security=none&type=tcp&packetEncoding=none&encryption=none#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B4%20CO-243
 ss://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.184.51:62145?#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B4%20CO-58
 ss://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.185.126:62145?&type=tcp&headerType=none&path=%2F#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B4%20CO-15
@@ -286,7 +285,6 @@ vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.182.124:62145?&type=tcp&hea
 vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.183.151:62145?&security=none&type=tcp&headerType=&path=%2F#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B4%20CO-84
 vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.183.236:62145?security=none&type=tcp&encryption=none#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B4%20CO-99
 vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.183.255:62145#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B4%20CO-134
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.184.118:62145?security=none&type=tcp&packetEncoding=none&encryption=none#%3E%3E%40v2nodes%3A%3ACO
 vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.184.118:62145?security=none&type=tcp&packetEncoding=none&encryption=none#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B4%20CO-243
 vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.184.51:62145?#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B4%20CO-58
 vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.185.126:62145?&type=tcp&headerType=none&path=%2F#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B4%20CO-15
