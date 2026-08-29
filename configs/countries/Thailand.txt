@@ -8,6 +8,7 @@ ss://3c52e091-6714-4915-949f-2149fe69951b@V2rAy.SiMsPeEdUp.CoM:80?path=%2Fws&sec
 ss://3c52e091-6714-4915-949f-2149fe69951b@v2ray.simspeedup.com:80?security=none&type=ws&path=%2Fws&host=v2ray.simspeedup.com&packetEncoding=xudp#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-41
 ss://3c52e091-6714-4915-949f-2149fe69951b@v2ray.simspeedup.com:80?type=ws&path=%2Fws&host=aIs.SpEeDtEsT.nEt&sni=v2ray.simspeedup.com#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-36
 ss://3c52e091-6714-4915-949f-2149fe69951b@v2ray.simspeedup.com:80?type=ws&security=none&path=/ws#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-39
+ss://58f133a9-0b8c-4237-ba40-c69d32a35e27@th.loadpng.com:8443?security=reality&type=tcp&sni=th.loadpng.com&fp=firefox&flow=xtls-rprx-vision&sid=5afead0ded6704&pbk=qx0kATC_JzNqH-ZXOFEXWy3jknYjli5BWb8rtH8pdWQ#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-66
 ss://82fdc77c-5def-4930-89a6-afb5cc609d4b@154.83.2.55:8880?path=VPNPROXY?ed=8080&security=none&encryption=none&host=github_vpn_proxy66_marg_bar_khamenei.proxy66.shop.&type=ws#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-40
 ss://89c3b66f-c849-4602-a5a8-84b6f06af478@157.85.105.179:80?&type=ws&headerType=none&host=d2pwbkmfr5lxa4.cloudfront.net&path=%2F#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-49
 ss://89c3b66f-c849-4602-a5a8-84b6f06af478@157.85.105.179:80?allowInsecure=1&sni=d2pwbkmfr5lxa4.cloudfront.net&type=ws&host=d2pwbkmfr5lxa4.cloudfront.net&path=/#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-50
@@ -34,6 +35,7 @@ vless://3c52e091-6714-4915-949f-2149fe69951b@V2rAy.SiMsPeEdUp.CoM:80?path=%2Fws&
 vless://3c52e091-6714-4915-949f-2149fe69951b@v2ray.simspeedup.com:80?security=none&type=ws&path=%2Fws&host=v2ray.simspeedup.com&packetEncoding=xudp#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-41
 vless://3c52e091-6714-4915-949f-2149fe69951b@v2ray.simspeedup.com:80?type=ws&path=%2Fws&host=aIs.SpEeDtEsT.nEt&sni=v2ray.simspeedup.com#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-36
 vless://3c52e091-6714-4915-949f-2149fe69951b@v2ray.simspeedup.com:80?type=ws&security=none&path=/ws#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-39
+vless://58f133a9-0b8c-4237-ba40-c69d32a35e27@th.loadpng.com:8443?security=reality&type=tcp&sni=th.loadpng.com&fp=firefox&flow=xtls-rprx-vision&sid=5afead0ded6704&pbk=qx0kATC_JzNqH-ZXOFEXWy3jknYjli5BWb8rtH8pdWQ#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-66
 vless://82fdc77c-5def-4930-89a6-afb5cc609d4b@154.83.2.55:8880?path=VPNPROXY?ed=8080&security=none&encryption=none&host=github_vpn_proxy66_marg_bar_khamenei.proxy66.shop.&type=ws#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-40
 vless://89c3b66f-c849-4602-a5a8-84b6f06af478@157.85.105.179:80?&type=ws&headerType=none&host=d2pwbkmfr5lxa4.cloudfront.net&path=%2F#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-49
 vless://89c3b66f-c849-4602-a5a8-84b6f06af478@157.85.105.179:80?allowInsecure=1&sni=d2pwbkmfr5lxa4.cloudfront.net&type=ws&host=d2pwbkmfr5lxa4.cloudfront.net&path=/#%5BOpenRay%5D%20%F0%9F%87%B9%F0%9F%87%AD%20TH-50
