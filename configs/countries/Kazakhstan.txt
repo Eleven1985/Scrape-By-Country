@@ -1,3 +1,5 @@
+hysteria2://eb0e3aec-f67f-4fa2-8577-b0bff0484e77@194.238.40.185:443/?insecure=1&sni=kaz0001hy01.packet-drop-society.net#%3E%3E%40oneclickvpnkeys%3A%3AKZ
+hysteria2://eb0e3aec-f67f-4fa2-8577-b0bff0484e77@kaz0001hy01.packet-drop-society.net:443/?insecure=1&sni=kaz0001hy01.packet-drop-society.net#%3E%3E%40oneclickvpnkeys%3A%3AKZ
 ss://03464802-b517-404b-b15c-7750ffc5e78f@111.88.143.139:51940?mode=gun&security=reality&encryption=none&pbk=uPHvFb_vZ3DKL-8Et_e9OliZskdSV5U1NZ66tHfC-2Y&fp=chrome&spx=/&type=grpc&sni=yahoo.com&sid=fd7f#%5BOpenRay%5D%20%F0%9F%87%B0%F0%9F%87%BF%20KZ-521
 ss://06f364d4-3d0c-4c60-84e9-a3009f1b0050@5.180.42.202:6443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=L7DF7bQGLb1hLQxHoDqnsd7WMAo8bklWteoXqKYwAl8&sid=41444f03bd84a905&sni=ign.com#%5BOpenRay%5D%20%F0%9F%87%B0%F0%9F%87%BF%20KZ-516
 ss://081706ff-be35-4ff9-b12b-5a8e8d13fe85@45.94.23.46:16923?encryption=none&type=grpc&serviceName=neurex&security=reality&sni=api-maps.yandex.ru&fp=firefox&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&sid=10ffb85da1c2d986#%5BOpenRay%5D%20%F0%9F%87%B0%F0%9F%87%BF%20KZ-489
