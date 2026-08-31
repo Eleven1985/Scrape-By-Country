@@ -1,8 +1,8 @@
 ss://03707fb7-0990-440f-88f6-b0e0f7242a38@push.sukario.ir:2087?path=%2F&security=tls&encryption=none&insecure=0&host=tot1.erooo12345.xyz&fp=chrome&type=ws&allowInsecure=0&sni=tot1.erooo12345.xyz#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-77
 ss://03707fb7-0990-440f-88f6-b0e0f7242a38@push.sukario.ir:2087?type=ws&security=tls&sni=k3.erooo12345.xyz&fp=chrome&path=%2F&host=k3.erooo12345.xyz#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-70
+ss://099f0859-cb81-4a57-b6d8-2c8e18030627@200.165.234.119:4100?encryption=none&type=ws&security=none&path=/v1&host=live.ok.ru#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-130
 ss://0e75f6ee-9a4d-4019-8276-cacf388d2ec6@200.165.232.160:443?encryption=none&fp=chrome&pbk=Vs7_XFo1cg224HiMYNRTJij_O4uyUIFtxMGGtBs_E3Q&security=reality&serviceName=grpc-tunnel&sni=dl.google.com&type=grpc#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-117
 ss://14777bd9-56a5-46f6-a94f-826b4800dc05@200.165.235.98:9892?type=grpc&security=reality&pbk=Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0&sid=aa&sni=dl.google.com&serviceName=grpc-tunnel&spx=%2F&fp=chrome#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-126
-ss://1f9d104e-ca0e-4202-ba4b-a0afb969c747@45.130.125.76:443?encryption=none&type=xhttp&security=tls&path=/assignment&host=www.multiplydose.cc.cd&mode=stream-one&sni=www.multiplydose.cc.cd&alpn=h2,http/1.1&fp=chrome&allowInsecure=0#🇸🇨SC-🚀@VPNine1
 ss://215c2b34-6371-49c7-a90d-39a4fe5191c0@200.165.228.78:4100?encryption=none&type=ws&path=%2Fv1&security=none#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-100
 ss://215c2b34-6371-49c7-a90d-39a4fe5191c0@200.165.228.78:4100?encryption=none&type=ws&security=none&path=%2Fv1&host=live.ok.ru&fp=edge#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-94
 ss://215c2b34-6371-49c7-a90d-39a4fe5191c0@200.165.228.78:4100?fp=edge&path=%2Fv1&sni=live.ok.ru&type=ws#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-96
@@ -79,9 +79,9 @@ trojan://humanity@45.130.125.158:443?security=tls&sni=www.ignitelimit.com&type=w
 trojan://humanity@45.130.125.158:443?security=tls&sni=www.ignitelimit.com&type=ws&path=%2Fassignment&host=www.ignitelimit.com#%F0%9F%87%B8%F0%9F%87%A8%20SC%205921ms
 vless://03707fb7-0990-440f-88f6-b0e0f7242a38@push.sukario.ir:2087?path=%2F&security=tls&encryption=none&insecure=0&host=tot1.erooo12345.xyz&fp=chrome&type=ws&allowInsecure=0&sni=tot1.erooo12345.xyz#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-77
 vless://03707fb7-0990-440f-88f6-b0e0f7242a38@push.sukario.ir:2087?type=ws&security=tls&sni=k3.erooo12345.xyz&fp=chrome&path=%2F&host=k3.erooo12345.xyz#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-70
+vless://099f0859-cb81-4a57-b6d8-2c8e18030627@200.165.234.119:4100?encryption=none&type=ws&security=none&path=/v1&host=live.ok.ru#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-130
 vless://0e75f6ee-9a4d-4019-8276-cacf388d2ec6@200.165.232.160:443?encryption=none&fp=chrome&pbk=Vs7_XFo1cg224HiMYNRTJij_O4uyUIFtxMGGtBs_E3Q&security=reality&serviceName=grpc-tunnel&sni=dl.google.com&type=grpc#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-117
 vless://14777bd9-56a5-46f6-a94f-826b4800dc05@200.165.235.98:9892?type=grpc&security=reality&pbk=Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0&sid=aa&sni=dl.google.com&serviceName=grpc-tunnel&spx=%2F&fp=chrome#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-126
-vless://1f9d104e-ca0e-4202-ba4b-a0afb969c747@45.130.125.76:443?encryption=none&type=xhttp&security=tls&path=/assignment&host=www.multiplydose.cc.cd&mode=stream-one&sni=www.multiplydose.cc.cd&alpn=h2,http/1.1&fp=chrome&allowInsecure=0#🇸🇨SC-🚀@VPNine1
 vless://215c2b34-6371-49c7-a90d-39a4fe5191c0@200.165.228.78:4100?encryption=none&type=ws&path=%2Fv1&security=none#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-100
 vless://215c2b34-6371-49c7-a90d-39a4fe5191c0@200.165.228.78:4100?encryption=none&type=ws&security=none&path=%2Fv1&host=live.ok.ru&fp=edge#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-94
 vless://215c2b34-6371-49c7-a90d-39a4fe5191c0@200.165.228.78:4100?fp=edge&path=%2Fv1&sni=live.ok.ru&type=ws#%5BOpenRay%5D%20%F0%9F%87%B8%F0%9F%87%A8%20SC-96
