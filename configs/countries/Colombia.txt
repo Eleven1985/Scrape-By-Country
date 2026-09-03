@@ -25,6 +25,7 @@ ss://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.175.159:62145?#%5BOpenRay%5D%2
 ss://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.175.172:62145?type=tcp&packetEncoding=none#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B4%20CO-224
 ss://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.175.28:62145?&type=tcp&headerType=none&path=%2F#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B4%20CO-41
 ss://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.176.140:62145?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B4%20CO-70
+ss://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.176.3:62145?&type=tcp&headerType=none&path=%2F#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B4%20CO-276
 ss://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.177.227:62145?&type=tcp&headerType=none&path=%2F#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B4%20CO-93
 ss://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.178.238:62145?&security=none&type=tcp&headerType=&path=%2F#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B4%20CO-89
 ss://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.179.102:62145?security=&encryption=none&headerType=&type=tcp#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B4%20CO-183
@@ -301,6 +302,7 @@ vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.175.159:62145?#%5BOpenRay%5
 vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.175.172:62145?type=tcp&packetEncoding=none#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B4%20CO-224
 vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.175.28:62145?&type=tcp&headerType=none&path=%2F#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B4%20CO-41
 vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.176.140:62145?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B4%20CO-70
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.176.3:62145?&type=tcp&headerType=none&path=%2F#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B4%20CO-276
 vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.177.227:62145?&type=tcp&headerType=none&path=%2F#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B4%20CO-93
 vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.178.238:62145?&security=none&type=tcp&headerType=&path=%2F#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B4%20CO-89
 vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.179.102:62145?security=&encryption=none&headerType=&type=tcp#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B4%20CO-183
