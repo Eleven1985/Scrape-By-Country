@@ -124,10 +124,6 @@ ss://b91bcbe1-6982-4709-80cd-42a63b93e966@78.159.247.57:443?type=tcp&security=re
 ss://b91bcbe1-6982-4709-80cd-42a63b93e966@78.159.247.61:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=Prfl-PXpN4K6CFX89YxYji_HSOtVQmIQgXCnKTED2wc&sid=d9e3f4a5b6c72831&sni=sso.passport.yandex.ru#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%BF%20CZ-199
 ss://ba0f90b6-3c3c-4701-b2b6-afe57da05527@2.26.160.73:443?security=reality&flow=xtls-rprx-vision&sni=caz.sempai.site&type=tcp&pbk=8gW92vrH7pDlJ4j2SXmFXH9zziQZAjuAxtgMpCol5xc#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%BF%20CZ-92
 ss://ba0f90b6-3c3c-4701-b2b6-afe57da05527@78.108.57.27:443?security=reality&flow=xtls-rprx-vision&sni=caz.sempai.site&type=tcp&pbk=8gW92vrH7pDlJ4j2SXmFXH9zziQZAjuAxtgMpCol5xc#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%BF%20CZ-93
-ss://ba66fa82-c342-4482-ae03-d097e6cafd7a@Ch.fardad1.ir:6666?security=none&type=tcp&headerType=http&path=/&host=amp-api-edge.apps.apple.com#🇨🇿CZ-🚀@VPNine1
-ss://ba66fa82-c342-4482-ae03-d097e6cafd7a@Germany2.fardad1.ir:36637?security=none&type=tcp&headerType=http&path=/&host=amp-api-edge.apps.apple.com#🇨🇿CZ-🚀@VPNine1
-ss://ba66fa82-c342-4482-ae03-d097e6cafd7a@Italy.fardad1.ir:5555?security=none&type=tcp&headerType=http&path=/&host=amp-api-edge.apps.apple.com#🇨🇿CZ-🚀@VPNine1
-ss://ba66fa82-c342-4482-ae03-d097e6cafd7a@turkish2.fardad1.ir:18002?security=none&type=tcp&headerType=http&path=/&host=amp-api-edge.apps.apple.com#🇨🇿CZ-🚀@VPNine1
 ss://c159b5b6-0bce-41e6-a34b-95beb4b6bc68@150.241.121.61:443?security=tls&type=grpc&mode=gun&serviceName=grpc&sni=1pgt5wjq9slq.bosfiles.net&fp=firefox#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%BF%20CZ-177
 ss://c159b5b6-0bce-41e6-a34b-95beb4b6bc68@150.241.121.61:443?type=grpc&security=tls&fp=firefox&sni=1pgt5wjq9slq.bosfiles.net&serviceName=grpc#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%BF%20CZ-179
 ss://cd9d4675-82ab-4d73-85f2-0af98074b5bb@78.159.247.105:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=wa9Uphq5iZL7IAYh13BHOvd-qs0oDe_qJKNjEJpVBVw&security=reality&sid=01b0a66d0267b0d8&sni=smartcaptcha.yandexcloud.net&type=raw#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%BF%20CZ-130
@@ -277,10 +273,6 @@ vless://b91bcbe1-6982-4709-80cd-42a63b93e966@78.159.247.57:443?type=tcp&security
 vless://b91bcbe1-6982-4709-80cd-42a63b93e966@78.159.247.61:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=Prfl-PXpN4K6CFX89YxYji_HSOtVQmIQgXCnKTED2wc&sid=d9e3f4a5b6c72831&sni=sso.passport.yandex.ru#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%BF%20CZ-199
 vless://ba0f90b6-3c3c-4701-b2b6-afe57da05527@2.26.160.73:443?security=reality&flow=xtls-rprx-vision&sni=caz.sempai.site&type=tcp&pbk=8gW92vrH7pDlJ4j2SXmFXH9zziQZAjuAxtgMpCol5xc#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%BF%20CZ-92
 vless://ba0f90b6-3c3c-4701-b2b6-afe57da05527@78.108.57.27:443?security=reality&flow=xtls-rprx-vision&sni=caz.sempai.site&type=tcp&pbk=8gW92vrH7pDlJ4j2SXmFXH9zziQZAjuAxtgMpCol5xc#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%BF%20CZ-93
-vless://ba66fa82-c342-4482-ae03-d097e6cafd7a@Ch.fardad1.ir:6666?security=none&type=tcp&headerType=http&path=/&host=amp-api-edge.apps.apple.com#🇨🇿CZ-🚀@VPNine1
-vless://ba66fa82-c342-4482-ae03-d097e6cafd7a@Germany2.fardad1.ir:36637?security=none&type=tcp&headerType=http&path=/&host=amp-api-edge.apps.apple.com#🇨🇿CZ-🚀@VPNine1
-vless://ba66fa82-c342-4482-ae03-d097e6cafd7a@Italy.fardad1.ir:5555?security=none&type=tcp&headerType=http&path=/&host=amp-api-edge.apps.apple.com#🇨🇿CZ-🚀@VPNine1
-vless://ba66fa82-c342-4482-ae03-d097e6cafd7a@turkish2.fardad1.ir:18002?security=none&type=tcp&headerType=http&path=/&host=amp-api-edge.apps.apple.com#🇨🇿CZ-🚀@VPNine1
 vless://c159b5b6-0bce-41e6-a34b-95beb4b6bc68@150.241.121.61:443?security=tls&type=grpc&mode=gun&serviceName=grpc&sni=1pgt5wjq9slq.bosfiles.net&fp=firefox#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%BF%20CZ-177
 vless://c159b5b6-0bce-41e6-a34b-95beb4b6bc68@150.241.121.61:443?type=grpc&security=tls&fp=firefox&sni=1pgt5wjq9slq.bosfiles.net&serviceName=grpc#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%BF%20CZ-179
 vless://cd9d4675-82ab-4d73-85f2-0af98074b5bb@78.159.247.105:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=wa9Uphq5iZL7IAYh13BHOvd-qs0oDe_qJKNjEJpVBVw&security=reality&sid=01b0a66d0267b0d8&sni=smartcaptcha.yandexcloud.net&type=raw#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%BF%20CZ-130
