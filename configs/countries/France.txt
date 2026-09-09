@@ -64,7 +64,6 @@ ss://c72a1a13-9c39-4cf2-ab15-b44491b35861@frs1.milkabebar.ir:8735?security=reali
 ss://ce2aa2ab-d893-43c2-ae4c-5b45eb74d49f@169.58.143.21:443?host=tiktok.com&path=/&security=tls&sni=finite-node.rtxconfigz.com&type=ws#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4644
 ss://ce2aa2ab-d893-43c2-ae4c-5b45eb74d49f@finite-node.rtxconfigz.com:443?host=tiktok.com&path=%2F&security=tls&sni=finite-node.rtxconfigz.com&type=ws#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4502
 ss://dabb9a19-03ab-4cdf-8963-d3c45eb0f80d@fra3.freeinternat.com:443?flow=xtls-rprx-vision&security=reality&encryption=none&sni=fra3.freeinternat.com&fp=chrome&pbk=bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk&sid=ff776ff77be48b88&spx=%2f&type=tcp&headerType=none&path=%2f#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4636
-ss://dca7ad76-8d97-8e85-3f3c-fe53953aea97@fd.lamzifa.ir:8443?security=none&type=tcp&headerType=http&encryption=none&path=/&host=play-apps-features.googleusercontent.com#рҹҮ«рҹҮ·FR-рҹҡҖ@VPNine1
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@13.36.121.241:22222?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4717
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@13.36.121.241:22223?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4720
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@13.36.121.241:22224?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4721
@@ -87,10 +86,11 @@ ss://e4514801-0d5a-42ba-869f-39bd605aef9e@13.39.60.245:22223?encryption=none&sec
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@13.39.60.245:22224?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4731
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@15.188.152.249:22222?Telegram=Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server&encryption=none&headerType=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4743
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@15.188.152.249:22224?Telegram=Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server&encryption=none&headerType=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4744
-ss://e4514801-0d5a-42ba-869f-39bd605aef9e@15.224.126.219:22222?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4711
-ss://e4514801-0d5a-42ba-869f-39bd605aef9e@15.224.126.219:22223?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4713
-ss://e4514801-0d5a-42ba-869f-39bd605aef9e@15.224.126.219:22224?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4712
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@15.224.49.52:22223?Telegram=Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server&encryption=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4740
+ss://e4514801-0d5a-42ba-869f-39bd605aef9e@35.181.124.186:22222?encryption=none&security=none&type=tcp#🇫🇷FR-🚀@VPNine1
+ss://e4514801-0d5a-42ba-869f-39bd605aef9e@35.181.124.186:22223?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4750
+ss://e4514801-0d5a-42ba-869f-39bd605aef9e@35.181.124.186:22223?encryption=none&security=none&type=tcp#🇫🇷FR-🚀@VPNine1
+ss://e4514801-0d5a-42ba-869f-39bd605aef9e@35.181.124.186:22224?encryption=none&security=none&type=tcp#🇫🇷FR-🚀@VPNine1
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@35.181.64.150:22222?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4745
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@52.47.129.194:22222?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4722
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@52.47.129.194:22223?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4724
@@ -170,7 +170,6 @@ vless://c72a1a13-9c39-4cf2-ab15-b44491b35861@frs1.milkabebar.ir:8735?security=re
 vless://ce2aa2ab-d893-43c2-ae4c-5b45eb74d49f@169.58.143.21:443?host=tiktok.com&path=/&security=tls&sni=finite-node.rtxconfigz.com&type=ws#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4644
 vless://ce2aa2ab-d893-43c2-ae4c-5b45eb74d49f@finite-node.rtxconfigz.com:443?host=tiktok.com&path=%2F&security=tls&sni=finite-node.rtxconfigz.com&type=ws#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4502
 vless://dabb9a19-03ab-4cdf-8963-d3c45eb0f80d@fra3.freeinternat.com:443?flow=xtls-rprx-vision&security=reality&encryption=none&sni=fra3.freeinternat.com&fp=chrome&pbk=bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk&sid=ff776ff77be48b88&spx=%2f&type=tcp&headerType=none&path=%2f#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4636
-vless://dca7ad76-8d97-8e85-3f3c-fe53953aea97@fd.lamzifa.ir:8443?security=none&type=tcp&headerType=http&encryption=none&path=/&host=play-apps-features.googleusercontent.com#рҹҮ«рҹҮ·FR-рҹҡҖ@VPNine1
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@13.36.121.241:22222?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4717
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@13.36.121.241:22223?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4720
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@13.36.121.241:22224?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4721
@@ -193,10 +192,11 @@ vless://e4514801-0d5a-42ba-869f-39bd605aef9e@13.39.60.245:22223?encryption=none&
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@13.39.60.245:22224?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4731
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@15.188.152.249:22222?Telegram=Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server&encryption=none&headerType=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4743
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@15.188.152.249:22224?Telegram=Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server&encryption=none&headerType=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4744
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@15.224.126.219:22222?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4711
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@15.224.126.219:22223?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4713
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@15.224.126.219:22224?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4712
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@15.224.49.52:22223?Telegram=Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server&encryption=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4740
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@35.181.124.186:22222?encryption=none&security=none&type=tcp#🇫🇷FR-🚀@VPNine1
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@35.181.124.186:22223?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4750
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@35.181.124.186:22223?encryption=none&security=none&type=tcp#🇫🇷FR-🚀@VPNine1
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@35.181.124.186:22224?encryption=none&security=none&type=tcp#🇫🇷FR-🚀@VPNine1
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@35.181.64.150:22222?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4745
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@52.47.129.194:22222?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4722
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@52.47.129.194:22223?encryption=none&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AB%F0%9F%87%B7%20FR-4724
