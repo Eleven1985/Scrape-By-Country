@@ -36,8 +36,8 @@ ss://69ac162b-1643-4acb-9f49-09d8b0fad609@milan.adaspoloandco.com:8443?security=
 ss://69ac162b-1643-4acb-9f49-09d8b0fad609@milan.adaspoloandco.com:8443?security=tls&type=ws&path=/RoBeRt&sni=milan.adaspoloandco.com&fp=qq#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-895
 ss://69ac162b-1643-4acb-9f49-09d8b0fad609@milan.adaspoloandco.com:8443?type=ws&security=tls&encryption=none&path=%2FRoBeRt&fp=chrome&alpn=http%2F1.1&headerType=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-920
 ss://75079a7f-75b5-418b-8a65-f7b2f438cd4a@31.77.154.14:8443?security=reality&encryption=none&pbk=3O__mdy-whzI07V-QEyR6GQnag1FNwtHijDxt2_jkDQ&fp=firefox&type=grpc&serviceName=grpc-tunnel&sni=swscan.apple.com#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-904
-ss://78440584-c334-44a8-bab1-8b1a7d08012b@Rital-caca.tempfast.ir:4323?encryption=mlkem768x25519plus.native.0rtt.rNxdYoCPN9GH1GEHCbOag6E1ni8cEQGqcZPrRS2JVyI&security=reality&type=tcp&headerType=none&host=play.google.com&sni=play.googleapis.com&fp=chrome&pbk=T7pTw3G0AIiLmvi96auuSsRjv1q52lpexxO2oITguhA&sid=40d9e0206a1bd03d#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-923
 ss://8a7f35a6-6aad-4f42-80ab-86d06f32e0a7@116.204.164.5:7443?security=tls&type=ws&path=%2F%40Marisa_kristi&host=ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev&sni=ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev&fp=chrome&encryption=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-853
+ss://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?encryption=none&flow=&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-941
 ss://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?encryption=none&security=none&type=tcp#%3E%3E%40oneclickvpnkeys%3A%3AIT
 ss://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?path=%2F+&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-845
 ss://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?security=&encryption=none&host=v2rayNplus--v2rayNplus--v2rayNplus--&headerType=none&fp=chrome&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-866
@@ -45,7 +45,7 @@ ss://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?security=none&typ
 ss://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?security=none&type=tcp&packetEncoding=xudp&sni=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&encryption=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-937
 ss://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?security=none&type=tcp&packetEncoding=xudp&sni=/?bia_telegram@marambashi_marambashi_marambashi_marambashi_marambashi&encryption=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-938
 ss://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?security=none&type=tcp&sni=%2F%3Fv2rayNplus&encryption=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-921
-ss://YWVzLTI1Ni1nY206NzgyMzVlN2RjNTVlOWFkMQ@132.243.255.3:20111#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-924
+ss://YWVzLTI1Ni1nY206NzgyMzVlN2RjNTVlOWFkMQ==@132.243.255.3:60111#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-940
 ss://YWVzLTI1Ni1nY206NzgyMzVlN2RjNTVlOWFkMUAxMzIuMjQzLjI1NS4zOjMwMTEx#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-929
 ss://YWVzLTI1Ni1nY206NzgyMzVlN2RjNTVlOWFkMUAxMzIuMjQzLjI1NS4zOjUwMTEx#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-934
 ss://YWVzLTI1Ni1nY206ZDFmYTJmNGI5OGEzOGJjOA@194.87.47.204:10901#%3E%3E%40configV2rayNG%3A%3AIT
@@ -99,8 +99,8 @@ vless://69ac162b-1643-4acb-9f49-09d8b0fad609@milan.adaspoloandco.com:8443?securi
 vless://69ac162b-1643-4acb-9f49-09d8b0fad609@milan.adaspoloandco.com:8443?security=tls&type=ws&path=/RoBeRt&sni=milan.adaspoloandco.com&fp=qq#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-895
 vless://69ac162b-1643-4acb-9f49-09d8b0fad609@milan.adaspoloandco.com:8443?type=ws&security=tls&encryption=none&path=%2FRoBeRt&fp=chrome&alpn=http%2F1.1&headerType=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-920
 vless://75079a7f-75b5-418b-8a65-f7b2f438cd4a@31.77.154.14:8443?security=reality&encryption=none&pbk=3O__mdy-whzI07V-QEyR6GQnag1FNwtHijDxt2_jkDQ&fp=firefox&type=grpc&serviceName=grpc-tunnel&sni=swscan.apple.com#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-904
-vless://78440584-c334-44a8-bab1-8b1a7d08012b@Rital-caca.tempfast.ir:4323?encryption=mlkem768x25519plus.native.0rtt.rNxdYoCPN9GH1GEHCbOag6E1ni8cEQGqcZPrRS2JVyI&security=reality&type=tcp&headerType=none&host=play.google.com&sni=play.googleapis.com&fp=chrome&pbk=T7pTw3G0AIiLmvi96auuSsRjv1q52lpexxO2oITguhA&sid=40d9e0206a1bd03d#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-923
 vless://8a7f35a6-6aad-4f42-80ab-86d06f32e0a7@116.204.164.5:7443?security=tls&type=ws&path=%2F%40Marisa_kristi&host=ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev&sni=ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev&fp=chrome&encryption=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-853
+vless://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?encryption=none&flow=&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-941
 vless://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?encryption=none&security=none&type=tcp#%3E%3E%40oneclickvpnkeys%3A%3AIT
 vless://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?path=%2F+&security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-845
 vless://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?security=&encryption=none&host=v2rayNplus--v2rayNplus--v2rayNplus--&headerType=none&fp=chrome&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-866
