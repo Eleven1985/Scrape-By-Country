@@ -1,6 +1,7 @@
 ss://7668f678-faee-40cc-9b56-9c39dc773388@185.126.238.87:2083?mode=gun&security=none&encryption=none&authority=/TELEGRAM_AZARBAYJAB1,TELEGRAM_AZARBAYJAB1,TELEGRAM_AZARBAYJAB1,TELEGRAM_AZARBAYJAB1,TELEGRAM_AZARBAYJAB1,TELEGRAM_AZARBAYJAB1,TELEGRAM_AZARBAYJAB1&type=grpc&serviceName=security.debian.org#TM
 ss://cd3bb7d9-7df3-4644-ac05-c260990ac277@66.90.104.42:2083?mode=gun&security=none&encryption=none&type=grpc&serviceName=vless#🇬🇧TM
 trojan://humanity@104.21.13.204:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#🇨🇦TM(@Azarbayjab1)
+trojan://humanity@162.159.244.91:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#🇺🇸TM(@Azarbayjab1)
 trojan://humanity@172.67.231.254:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#🇨🇦TM(@Azarbayjab1)
 vless://7668f678-faee-40cc-9b56-9c39dc773388@185.126.238.87:2083?mode=gun&security=none&encryption=none&authority=/TELEGRAM_AZARBAYJAB1,TELEGRAM_AZARBAYJAB1,TELEGRAM_AZARBAYJAB1,TELEGRAM_AZARBAYJAB1,TELEGRAM_AZARBAYJAB1,TELEGRAM_AZARBAYJAB1,TELEGRAM_AZARBAYJAB1&type=grpc&serviceName=security.debian.org#TM
 vless://cd3bb7d9-7df3-4644-ac05-c260990ac277@66.90.104.42:2083?mode=gun&security=none&encryption=none&type=grpc&serviceName=vless#🇬🇧TM

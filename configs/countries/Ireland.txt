@@ -31,6 +31,8 @@ ss://c7e9c591-2764-423a-afca-efbd010fd396@54.229.164.147:2053?fp=chrome&host=for
 ss://c9399d16-a0ae-451a-d069-39280bc363f4@52.19.138.237:8443?&security=tls&fp=chrome&sni=us2.wxgqlfx.icu&type=ws&headerType=&host=us2.wxgqlfx.icu&path=%2FTG%40wxgqlfx#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-3
 ss://cd3bb7d9-7df3-4644-ac05-c260990ac277@50.7.5.163:443?alpn=h2&encryption=none&flow=xtls-rprx-vision&fp=firefox&security=tls&sni=ir-viper.failspace.top&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-73
 ss://cd3bb7d9-7df3-4644-ac05-c260990ac277@50.7.5.164:443?alpn=h2&encryption=none&flow=xtls-rprx-vision&fp=firefox&security=tls&sni=ir.failspace.top&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-75
+ss://cd3bb7d9-7df3-4644-ac05-c260990ac277@50.7.5.166:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&security=tls&sni=ir-new.failspace.top&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-82
+ss://cd3bb7d9-7df3-4644-ac05-c260990ac277@ir-new.failspace.top:443?alpn=h2&encryption=none&flow=xtls-rprx-vision&fp=firefox&security=tls&sni=ir-new.failspace.top&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-81
 ss://cd3bb7d9-7df3-4644-ac05-c260990ac277@ir-new1.failspace.top:443?&security=tls&flow=xtls-rprx-vision&fp=chrome&type=tcp&headerType=none&host=ir-new1.failspace.top&path=%2F#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-77
 ss://cd3bb7d9-7df3-4644-ac05-c260990ac277@ir-new1.failspace.top:443?&security=tls&flow=xtls-rprx-vision-udp443&fp=chrome&type=tcp&headerType=&host=ir-new1.failspace.top&path=%2F#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-79
 ss://cd3bb7d9-7df3-4644-ac05-c260990ac277@ir-new1.failspace.top:443?flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-78
@@ -109,6 +111,8 @@ vless://c7e9c591-2764-423a-afca-efbd010fd396@54.229.164.147:2053?fp=chrome&host=
 vless://c9399d16-a0ae-451a-d069-39280bc363f4@52.19.138.237:8443?&security=tls&fp=chrome&sni=us2.wxgqlfx.icu&type=ws&headerType=&host=us2.wxgqlfx.icu&path=%2FTG%40wxgqlfx#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-3
 vless://cd3bb7d9-7df3-4644-ac05-c260990ac277@50.7.5.163:443?alpn=h2&encryption=none&flow=xtls-rprx-vision&fp=firefox&security=tls&sni=ir-viper.failspace.top&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-73
 vless://cd3bb7d9-7df3-4644-ac05-c260990ac277@50.7.5.164:443?alpn=h2&encryption=none&flow=xtls-rprx-vision&fp=firefox&security=tls&sni=ir.failspace.top&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-75
+vless://cd3bb7d9-7df3-4644-ac05-c260990ac277@50.7.5.166:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&security=tls&sni=ir-new.failspace.top&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-82
+vless://cd3bb7d9-7df3-4644-ac05-c260990ac277@ir-new.failspace.top:443?alpn=h2&encryption=none&flow=xtls-rprx-vision&fp=firefox&security=tls&sni=ir-new.failspace.top&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-81
 vless://cd3bb7d9-7df3-4644-ac05-c260990ac277@ir-new1.failspace.top:443?&security=tls&flow=xtls-rprx-vision&fp=chrome&type=tcp&headerType=none&host=ir-new1.failspace.top&path=%2F#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-77
 vless://cd3bb7d9-7df3-4644-ac05-c260990ac277@ir-new1.failspace.top:443?&security=tls&flow=xtls-rprx-vision-udp443&fp=chrome&type=tcp&headerType=&host=ir-new1.failspace.top&path=%2F#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-79
 vless://cd3bb7d9-7df3-4644-ac05-c260990ac277@ir-new1.failspace.top:443?flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AA%20IE-78
