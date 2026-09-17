@@ -2,7 +2,6 @@ ss://167ed405-7de9-4bff-b1ea-6e3d49c76b0b@172.238.232.239:32833?security=reality
 ss://6d248522-0184-4fed-872f-0f65592a2ac8@itl.mobileemdad.top:443?security=reality&encryption=none&pbk=PjR-SM4fOm2fY4mTqWoqZDRyxontvpailM0gBqUxlUQ&headerType=none&fp=edge&type=tcp&sni=play-apps-features.googleusercontent.com&sid=9ed2fa#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-945
 ss://75079a7f-75b5-418b-8a65-f7b2f438cd4a@31.77.154.14:8443?security=reality&encryption=none&pbk=3O__mdy-whzI07V-QEyR6GQnag1FNwtHijDxt2_jkDQ&fp=firefox&type=grpc&serviceName=grpc-tunnel&sni=swscan.apple.com#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-904
 ss://89418511-64f9-4e74-ac6b-ffc1b828106f@ittt.chainmark.ir:1003?security=reality&encryption=none&pbk=32R_r7HDUYslCRzhfFhBuipplnVAygudK2a9M_URfmU&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=app.stiga.com&sid=a8cf1a1235375630#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-946
-ss://89418511-64f9-4e74-ac6b-ffc1b828106f@ittt.chainmark.ir:1003?security=reality&encryption=none&pbk=32R_r7HDUYslCRzhfFhBuipplnVAygudK2a9M_URfmU&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=app.stiga.com&sid=a8cf1a1235375630#🇮🇹IT-🚀@VPNine1
 ss://8a7f35a6-6aad-4f42-80ab-86d06f32e0a7@116.204.164.5:7443?security=tls&type=ws&path=%2F%40Marisa_kristi&host=ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev&sni=ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev&fp=chrome&encryption=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-853
 ss://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?encryption=none&flow=&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-941
 ss://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?encryption=none&security=none&type=tcp#%3E%3E%40oneclickvpnkeys%3A%3AIT
@@ -12,7 +11,6 @@ ss://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?security=none&typ
 ss://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?security=none&type=tcp&packetEncoding=xudp&sni=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&encryption=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-937
 ss://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?security=none&type=tcp&packetEncoding=xudp&sni=/?bia_telegram@marambashi_marambashi_marambashi_marambashi_marambashi&encryption=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-938
 ss://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?security=none&type=tcp&sni=%2F%3Fv2rayNplus&encryption=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-921
-ss://YWVzLTI1Ni1nY206NzgyMzVlN2RjNTVlOWFkMQ==@132.243.255.3:60111#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-940
 ss://YWVzLTI1Ni1nY206NzgyMzVlN2RjNTVlOWFkMUAxMzIuMjQzLjI1NS4zOjcwMTg=#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-943
 ss://YWVzLTI1Ni1nY206NzgyMzVlN2RjNTVlOWFkMUAxMzIuMjQzLjI1NS4zOjkwMTE=#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-947
 ss://YWVzLTI1Ni1nY206ZDFmYTJmNGI5OGEzOGJjOA@194.87.47.204:10901#%3E%3E%40configV2rayNG%3A%3AIT
@@ -29,7 +27,6 @@ vless://167ed405-7de9-4bff-b1ea-6e3d49c76b0b@172.238.232.239:32833?security=real
 vless://6d248522-0184-4fed-872f-0f65592a2ac8@itl.mobileemdad.top:443?security=reality&encryption=none&pbk=PjR-SM4fOm2fY4mTqWoqZDRyxontvpailM0gBqUxlUQ&headerType=none&fp=edge&type=tcp&sni=play-apps-features.googleusercontent.com&sid=9ed2fa#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-945
 vless://75079a7f-75b5-418b-8a65-f7b2f438cd4a@31.77.154.14:8443?security=reality&encryption=none&pbk=3O__mdy-whzI07V-QEyR6GQnag1FNwtHijDxt2_jkDQ&fp=firefox&type=grpc&serviceName=grpc-tunnel&sni=swscan.apple.com#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-904
 vless://89418511-64f9-4e74-ac6b-ffc1b828106f@ittt.chainmark.ir:1003?security=reality&encryption=none&pbk=32R_r7HDUYslCRzhfFhBuipplnVAygudK2a9M_URfmU&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=app.stiga.com&sid=a8cf1a1235375630#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-946
-vless://89418511-64f9-4e74-ac6b-ffc1b828106f@ittt.chainmark.ir:1003?security=reality&encryption=none&pbk=32R_r7HDUYslCRzhfFhBuipplnVAygudK2a9M_URfmU&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=app.stiga.com&sid=a8cf1a1235375630#🇮🇹IT-🚀@VPNine1
 vless://8a7f35a6-6aad-4f42-80ab-86d06f32e0a7@116.204.164.5:7443?security=tls&type=ws&path=%2F%40Marisa_kristi&host=ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev&sni=ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev&fp=chrome&encryption=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-853
 vless://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?encryption=none&flow=&type=tcp#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-941
 vless://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?encryption=none&security=none&type=tcp#%3E%3E%40oneclickvpnkeys%3A%3AIT
