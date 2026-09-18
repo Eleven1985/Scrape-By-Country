@@ -11,6 +11,7 @@ ss://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?security=none&typ
 ss://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?security=none&type=tcp&packetEncoding=xudp&sni=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&encryption=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-937
 ss://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?security=none&type=tcp&packetEncoding=xudp&sni=/?bia_telegram@marambashi_marambashi_marambashi_marambashi_marambashi&encryption=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-938
 ss://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?security=none&type=tcp&sni=%2F%3Fv2rayNplus&encryption=none#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-921
+ss://YWVzLTI1Ni1nY206NzgyMzVlN2RjNTVlOWFkMQ==@132.243.255.3:10900#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-948
 ss://YWVzLTI1Ni1nY206NzgyMzVlN2RjNTVlOWFkMUAxMzIuMjQzLjI1NS4zOjcwMTg=#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-943
 ss://YWVzLTI1Ni1nY206NzgyMzVlN2RjNTVlOWFkMUAxMzIuMjQzLjI1NS4zOjkwMTE=#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%B9%20IT-947
 ss://YWVzLTI1Ni1nY206ZDFmYTJmNGI5OGEzOGJjOA@194.87.47.204:10901#%3E%3E%40configV2rayNG%3A%3AIT
