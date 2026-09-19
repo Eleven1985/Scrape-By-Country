@@ -1,4 +1,2 @@
-ss://b2141c97-76af-ff6f-839b-70a53e23aad9@103.175.79.4:443?mode=auto&path=/&security=reality&encryption=none&pbk=JeVpfwIwteGa8xfysPJUzrbHgmOPyLGomRqyH8Pi7W0&fp=chrome&type=xhttp&sni=download.nvidia.com#🇵🇰PK-🚀@VPNine1
 trojan://S.ibYdZshHTF-ne.M%2B.Fznp_-hyFFnCSix@149.104.104.58:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0#%5BOpenRay%5D%20%F0%9F%87%B5%F0%9F%87%B0%20PK-1
 trojan://S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix@149.104.104.58:443/?type=tcp&security=tls&sni=149.104.104.58#%5BOpenRay%5D%20%F0%9F%87%B5%F0%9F%87%B0%20PK-2
-vless://b2141c97-76af-ff6f-839b-70a53e23aad9@103.175.79.4:443?mode=auto&path=/&security=reality&encryption=none&pbk=JeVpfwIwteGa8xfysPJUzrbHgmOPyLGomRqyH8Pi7W0&fp=chrome&type=xhttp&sni=download.nvidia.com#🇵🇰PK-🚀@VPNine1
