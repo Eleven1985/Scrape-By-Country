@@ -34,6 +34,7 @@ ss://9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6@194.71.227.213:443?sni=j.n.i.l.6.m.7.3
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@bl1.levikogjgfdd.ir:1080#%5BOpenRay%5D%20%F0%9F%87%A7%F0%9F%87%AA%20BE-9
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlRQDE5NC4xODcuMjUxLjI6MTA4MA==#%5BOpenRay%5D%20%F0%9F%87%A7%F0%9F%87%AA%20BE-12
 ss://b2593749-691c-428c-9481-14979cba3446@141.98.233.6:443?encryption=none&fp=chrome&host=xi.tbv.ccwu.cc&path=/proxyip=us.xiabibi.cf&security=tls&sni=xi.tbv.ccwu.cc&type=ws#%5BOpenRay%5D%20%F0%9F%87%A7%F0%9F%87%AA%20BE-47
+ss://c18b978e-1c4e-415c-8bea-07942b563a64@141.227.137.177:2053?encryption=none&host=shuma.ccwu.cc&path=/fp=chrome&security=tls&sni=shuma.ccwu.cc&type=ws#%5BOpenRay%5D%20%F0%9F%87%A7%F0%9F%87%AA%20BE-49
 ss://c18b978e-1c4e-415c-8bea-07942b563a64@141.227.137.177:2053?fp=chrome&host=shuma.ccwu.cc&path=%2F&security=tls&sni=shuma.ccwu.cc&type=ws#%5BOpenRay%5D%20%F0%9F%87%A7%F0%9F%87%AA%20BE-45
 ss://c18b978e-1c4e-415c-8bea-07942b563a64@141.227.186.38:2053?fp=chrome&host=shuma.ccwu.cc&path=%2F&security=tls&sni=shuma.ccwu.cc&type=ws#%5BOpenRay%5D%20%F0%9F%87%A7%F0%9F%87%AA%20BE-46
 ss://c18b978e-1c4e-415c-8bea-07942b563a64@194.71.227.213:443?fp=chrome&host=shuma.ccwu.cc&path=%2F&security=tls&sni=shuma.ccwu.cc&type=ws#%5BOpenRay%5D%20%F0%9F%87%A7%F0%9F%87%AA%20BE-44
@@ -78,6 +79,7 @@ vless://9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6@188.190.26.243:443?type=ws&security
 vless://9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6@194.71.227.213:443?&security=tls&fp=chrome&sni=j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr&type=ws&headerType=none&host=j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr&path=%2Fpg%2F10086-dfc816f117c49173#%5BOpenRay%5D%20%F0%9F%87%A7%F0%9F%87%AA%20BE-31
 vless://9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6@194.71.227.213:443?sni=j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr&type=ws&host=j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr&path=/pg/10086-dfc816f117c49173fp=chrome&security=tls#%5BOpenRay%5D%20%F0%9F%87%A7%F0%9F%87%AA%20BE-32
 vless://b2593749-691c-428c-9481-14979cba3446@141.98.233.6:443?encryption=none&fp=chrome&host=xi.tbv.ccwu.cc&path=/proxyip=us.xiabibi.cf&security=tls&sni=xi.tbv.ccwu.cc&type=ws#%5BOpenRay%5D%20%F0%9F%87%A7%F0%9F%87%AA%20BE-47
+vless://c18b978e-1c4e-415c-8bea-07942b563a64@141.227.137.177:2053?encryption=none&host=shuma.ccwu.cc&path=/fp=chrome&security=tls&sni=shuma.ccwu.cc&type=ws#%5BOpenRay%5D%20%F0%9F%87%A7%F0%9F%87%AA%20BE-49
 vless://c18b978e-1c4e-415c-8bea-07942b563a64@141.227.137.177:2053?fp=chrome&host=shuma.ccwu.cc&path=%2F&security=tls&sni=shuma.ccwu.cc&type=ws#%5BOpenRay%5D%20%F0%9F%87%A7%F0%9F%87%AA%20BE-45
 vless://c18b978e-1c4e-415c-8bea-07942b563a64@141.227.186.38:2053?fp=chrome&host=shuma.ccwu.cc&path=%2F&security=tls&sni=shuma.ccwu.cc&type=ws#%5BOpenRay%5D%20%F0%9F%87%A7%F0%9F%87%AA%20BE-46
 vless://c18b978e-1c4e-415c-8bea-07942b563a64@194.71.227.213:443?fp=chrome&host=shuma.ccwu.cc&path=%2F&security=tls&sni=shuma.ccwu.cc&type=ws#%5BOpenRay%5D%20%F0%9F%87%A7%F0%9F%87%AA%20BE-44
