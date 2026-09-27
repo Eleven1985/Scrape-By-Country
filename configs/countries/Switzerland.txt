@@ -17,7 +17,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplOEtnUzhmRDB5RHFZRnBnTjRHNXBpQ090OWFGeXFBM0A
 ss://a1311ab3-0498-4cfd-b2c9-b5a4ba7d2999@104.16.184.194:80?encryption=none&security=none&type=ws&host=rapid-mountain-e6a9-ppal03.rahog30057.workers.dev&path=/?ed=2560#👁Ch:
 ss://a1311ab3-0498-4cfd-b2c9-b5a4ba7d2999@104.24.247.189:80?encryption=none&security=none&type=ws&host=rapid-mountain-e6a9-ppal03.rahog30057.workers.dev&path=/?ed=2560#👁Ch:
 ss://a18f08dc-76ae-453a-98f5-d41eab7e649b@34.65.151.186:443?encryption=none&security=reality&type=tcp&sni=www.cloudflare.com&fp=chrome&pbk=f8aV8naD8NKt_mLKaOou0qUrIM1Ge25kJNxywpF3OB0&sid=d016c76007f78038#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%AD%20CH-1099
-ss://bd93a117-2e9d-4e1e-b9b9-69d8d7089bdb@34.65.54.139:443?&security=reality&pbk=DE-S0R0KYYTuBsuQmT-iip6rJ2QsuH6z3SJYlsNyUUI&sid=5214a92cad4ad90e&fp=chrome&sni=www.cloudflare.com&type=tcp&headerType=none&host=www.cloudflare.com&path=%2F#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%AD%20CH-1096
 ss://ec1bb388-649c-4deb-9eb1-a096b784e0d3@104.16.25.21:80?encryption=none&security=none&type=ws&host=round-truth-4e97-ppal03.vegasow726.workers.dev&path=/?ed=2560#🇺🇸Ch:
 ss://ec1bb388-649c-4deb-9eb1-a096b784e0d3@104.24.167.96:80?encryption=none&security=none&type=ws&host=round-truth-4e97-ppal03.vegasow726.workers.dev&path=/?ed=2560#🇺🇸Ch:
 trojan://humanity@91.245.225.79:2053?path=%2Fassignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%AD%20CH-1051
@@ -39,6 +38,5 @@ vless://94b0cde3-a305-4d89-a192-575339220c7f@104.24.91.178:80?encryption=none&se
 vless://a1311ab3-0498-4cfd-b2c9-b5a4ba7d2999@104.16.184.194:80?encryption=none&security=none&type=ws&host=rapid-mountain-e6a9-ppal03.rahog30057.workers.dev&path=/?ed=2560#👁Ch:
 vless://a1311ab3-0498-4cfd-b2c9-b5a4ba7d2999@104.24.247.189:80?encryption=none&security=none&type=ws&host=rapid-mountain-e6a9-ppal03.rahog30057.workers.dev&path=/?ed=2560#👁Ch:
 vless://a18f08dc-76ae-453a-98f5-d41eab7e649b@34.65.151.186:443?encryption=none&security=reality&type=tcp&sni=www.cloudflare.com&fp=chrome&pbk=f8aV8naD8NKt_mLKaOou0qUrIM1Ge25kJNxywpF3OB0&sid=d016c76007f78038#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%AD%20CH-1099
-vless://bd93a117-2e9d-4e1e-b9b9-69d8d7089bdb@34.65.54.139:443?&security=reality&pbk=DE-S0R0KYYTuBsuQmT-iip6rJ2QsuH6z3SJYlsNyUUI&sid=5214a92cad4ad90e&fp=chrome&sni=www.cloudflare.com&type=tcp&headerType=none&host=www.cloudflare.com&path=%2F#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%AD%20CH-1096
 vless://ec1bb388-649c-4deb-9eb1-a096b784e0d3@104.16.25.21:80?encryption=none&security=none&type=ws&host=round-truth-4e97-ppal03.vegasow726.workers.dev&path=/?ed=2560#🇺🇸Ch:
 vless://ec1bb388-649c-4deb-9eb1-a096b784e0d3@104.24.167.96:80?encryption=none&security=none&type=ws&host=round-truth-4e97-ppal03.vegasow726.workers.dev&path=/?ed=2560#🇺🇸Ch:
