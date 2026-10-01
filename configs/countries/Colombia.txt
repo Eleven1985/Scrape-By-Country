@@ -268,6 +268,7 @@ ss://8fb65472-5957-4f64-ba2d-b5812b2f155a@158.247.123.7:62145?&type=tcp&headerTy
 ss://8fb65472-5957-4f64-ba2d-b5812b2f155a@158.247.124.143:62145#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B4%20CO-133
 ss://8fb65472-5957-4f64-ba2d-b5812b2f155a@158.247.124.70:62145?&type=tcp&headerType=none&path=%2F#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B4%20CO-177
 ss://8fb65472-5957-4f64-ba2d-b5812b2f155a@158.247.125.162:62145?&security=false&fp=chrome&type=tcp&headerType=none&path=%2F#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B4%20CO-141
+ss://8fb65472-5957-4f64-ba2d-b5812b2f155a@158.247.125.162:62145?security=none&encryption=none&host=%2F%3FTelegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&headerType=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B4%20CO-278
 ss://8fb65472-5957-4f64-ba2d-b5812b2f155a@158.247.125.22:62145?&type=tcp&headerType=none&path=%2F#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B4%20CO-154
 ss://8fb65472-5957-4f64-ba2d-b5812b2f155a@158.247.126.107:62145?&type=tcp&headerType=none&path=%2F#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B4%20CO-131
 ss://8fb65472-5957-4f64-ba2d-b5812b2f155a@158.247.126.16:62145?&type=tcp&headerType=none&path=%2F#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B4%20CO-113
@@ -546,6 +547,7 @@ vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@158.247.123.7:62145?&type=tcp&heade
 vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@158.247.124.143:62145#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B4%20CO-133
 vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@158.247.124.70:62145?&type=tcp&headerType=none&path=%2F#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B4%20CO-177
 vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@158.247.125.162:62145?&security=false&fp=chrome&type=tcp&headerType=none&path=%2F#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B4%20CO-141
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@158.247.125.162:62145?security=none&encryption=none&host=%2F%3FTelegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&headerType=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B4%20CO-278
 vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@158.247.125.22:62145?&type=tcp&headerType=none&path=%2F#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B4%20CO-154
 vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@158.247.126.107:62145?&type=tcp&headerType=none&path=%2F#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B4%20CO-131
 vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@158.247.126.16:62145?&type=tcp&headerType=none&path=%2F#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B4%20CO-113

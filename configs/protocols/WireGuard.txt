@@ -1,1 +1,0 @@
-wireguard://CN17g6hDznflvoJ4yb6bn%2BEWgRWeuW7umXjAPknIzWA%3D@31.56.196.18:15346?address=10.0.0.4%2F32&keepalive=25&mtu=1420&publickey=YS%2FWSE61Cqn%2FiOBNHi%2BYUQlOCU5iRoWMkkCnS4PEGSQ%3D#ITGNPN5-vg4s0if8rr
