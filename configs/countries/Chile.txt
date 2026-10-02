@@ -30,6 +30,7 @@ ss://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform103.golnamakcert.top:80?path=%
 ss://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform106.golnamakcert.top:80?&type=ws&headerType=none&host=platform106.halalkhor.info&path=%2Fplatform106#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B1%20CL-22
 ss://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform106.golnamakcert.top:80?path=%2Fplatform106&security=none&type=ws#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B1%20CL-31
 ss://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform107.golnamakcert.top:80?&sni=platform107.halalkhor.info&type=ws&headerType=none&host=platform107.halalkhor.info&path=%2Fplatform107#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B1%20CL-24
+ss://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform107.golnamakcert.top:80?type=ws&path=/platform107#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B1%20CL-57
 ss://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform108.golnamakcert.top:80/?type=ws&encryption=none&flow=&host=platform108.halalkhor.info&path=%2Fplatform108#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B1%20CL-17
 ss://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform108.golnamakcert.top:80?alpn=h2%2Chttp%2F1.1&host=platform108.halalkhor.info&path=%2Fplatform108&security=none&sni=platform108.halalkhor.info&type=ws#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B1%20CL-32
 ss://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform108.golnamakcert.top:80?alpn=h2%2Chttp%2F1.1&host=platform108.halalkhor.info&path=%2Fplatform108&security=none&type=ws#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B1%20CL-33
@@ -84,6 +85,7 @@ vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform103.golnamakcert.top:80?pat
 vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform106.golnamakcert.top:80?&type=ws&headerType=none&host=platform106.halalkhor.info&path=%2Fplatform106#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B1%20CL-22
 vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform106.golnamakcert.top:80?path=%2Fplatform106&security=none&type=ws#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B1%20CL-31
 vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform107.golnamakcert.top:80?&sni=platform107.halalkhor.info&type=ws&headerType=none&host=platform107.halalkhor.info&path=%2Fplatform107#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B1%20CL-24
+vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform107.golnamakcert.top:80?type=ws&path=/platform107#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B1%20CL-57
 vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform108.golnamakcert.top:80/?type=ws&encryption=none&flow=&host=platform108.halalkhor.info&path=%2Fplatform108#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B1%20CL-17
 vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform108.golnamakcert.top:80?alpn=h2%2Chttp%2F1.1&host=platform108.halalkhor.info&path=%2Fplatform108&security=none&sni=platform108.halalkhor.info&type=ws#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B1%20CL-32
 vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform108.golnamakcert.top:80?alpn=h2%2Chttp%2F1.1&host=platform108.halalkhor.info&path=%2Fplatform108&security=none&type=ws#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%B1%20CL-33
