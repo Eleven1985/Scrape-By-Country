@@ -118,6 +118,7 @@ trojan://PQ05174892@kind-stork.rooster465.autos:443?type=tcp&security=tls&sni=ki
 trojan://Trojan@82164024@ie.tronsg.com:443?security=tls&sni=ie.tronsg.com#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AAIE-19
 trojan://UO36402987@definite-ladybird.rooster465.autos:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AAIE-92
 trojan://UO36402987@definite-ladybird.rooster465.autos:443?security=tls&sni=definite-ladybird.rooster465.autos#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AAIE-1
+trojan://UX82473651@loved-shark.rooster465.autos:443?security=tls&sni=loved-shark.rooster465.autos#%F0%9F%87%AE%F0%9F%87%AAIE-3.253.106.233-0483
 trojan://WG39087154@grateful-unicorn.rooster465.autos:443?type=raw&headerType=none&security=tls&sni=grateful-unicorn.rooster465.autos#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AAIE-106
 trojan://XG59623478@improved-anteater.rooster465.autos:443?security=tls#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AAIE-111
 trojan://XG59623478@singular-lark.rooster465.autos:443?security=tls&sni=singular-lark.rooster465.autos#%5BOpenRay%5D%20%F0%9F%87%AE%F0%9F%87%AAIE-25
