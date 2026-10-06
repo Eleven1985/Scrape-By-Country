@@ -70,6 +70,7 @@ hysteria2://YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc@admin.wwwinternetvi
 hysteria2://YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc@go.wwwinternetvideo.click:443/?insecure=1&sni=admin.wwwinternetvideo.click#%3E%3E%40oneclickvpnkeys%3A%3APL
 hysteria2://YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc@go2.wwwinternetvideo.click:443/?insecure=1&sni=admin.wwwinternetvideo.click#%3E%3E%40oneclickvpnkeys%3A%3APL
 hysteria2://ae845cbd-08fb-4346-929a-e28a6f3960a8@hk1.shiyuandian.shop:24591?sni=hk1.shiyuandian.shop&insecure=1#%E4%B8%AD%E5%9B%BD%20-%20%E9%A6%99%E6%B8%AF%20-%20Ultahost%2C%20Inc.%20-%208
+hysteria2://af24a0e4-f5a2-4b97-a678-992d45346147@108.186.180.148:30865?security=tls&obfs=salamander&obfs-password=d2e3c1b8a16952ae9cf06dfc05b3588a&insecure=1&pinSHA256=ed74aaf760b5380376ef151b9a5c25f9e177c9ddba479d33c6426b6bade29311&sni=www.bing.com
 hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@135.125.204.154:35000?sni=api.kermanshahi.org&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=0#HP71
 hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@206.71.158.40:35000?sni=api.kermanshahi.org&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=0#HP71
 hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@206.71.158.41:35000?sni=api.kermanshahi.org&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=0#HP71
