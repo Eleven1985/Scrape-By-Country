@@ -1,0 +1,2 @@
+ss://7c99dc89-bf49-45c9-acc5-e43f36657518@www.large-files.info:8443?encryption=none&type=ws&headerType=none&path=/var/www/html/video/preview/download/i8o0la&security=tls#🇨🇦TM(@AZARBAYJAB1)
+vless://7c99dc89-bf49-45c9-acc5-e43f36657518@www.large-files.info:8443?encryption=none&type=ws&headerType=none&path=/var/www/html/video/preview/download/i8o0la&security=tls#🇨🇦TM(@AZARBAYJAB1)

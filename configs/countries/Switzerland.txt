@@ -18,7 +18,6 @@ ss://590dfbde-f8c8-429b-b947-39bb767ddd9c@172.64.92.243:80?encryption=none&secur
 ss://6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8@178.83.46.91:8080?security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%ADCH-38
 ss://6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8@178.83.46.91:8080?security=none&type=tcp&packetEncoding=none#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%ADCH-28
 ss://6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8@178.83.46.91:8080?type=tcp&security=none&encryption=none&headerType=none#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%ADCH-20
-ss://7fea28c6-f9b0-45ce-b7c2-ed3a3991d1e8@104.16.52.89:80?encryption=none&security=none&type=ws&host=curly-waterfall-509e-ppal03.wimiba9167.workers.dev&path=/?ed=2560#😛Ch:
 ss://7fea28c6-f9b0-45ce-b7c2-ed3a3991d1e8@104.24.248.85:80?encryption=none&security=none&type=ws&host=curly-waterfall-509e-ppal03.wimiba9167.workers.dev&path=/?ed=2560#😛Ch:
 ss://818a98bf-e7d0-45d5-800b-24d4058234c6@104.16.40.145:80?encryption=none&security=none&type=ws&host=still-smoke-881e-ppal03.cabit21569.workers.dev&path=/?ed=2560#🤖Ch:
 ss://818a98bf-e7d0-45d5-800b-24d4058234c6@104.24.172.153:80?encryption=none&security=none&type=ws&host=still-smoke-881e-ppal03.cabit21569.workers.dev&path=/?ed=2560#🤖Ch:
@@ -70,7 +69,6 @@ vless://590dfbde-f8c8-429b-b947-39bb767ddd9c@172.64.92.243:80?encryption=none&se
 vless://6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8@178.83.46.91:8080?security=none&type=tcp#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%ADCH-38
 vless://6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8@178.83.46.91:8080?security=none&type=tcp&packetEncoding=none#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%ADCH-28
 vless://6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8@178.83.46.91:8080?type=tcp&security=none&encryption=none&headerType=none#%5BOpenRay%5D%20%F0%9F%87%A8%F0%9F%87%ADCH-20
-vless://7fea28c6-f9b0-45ce-b7c2-ed3a3991d1e8@104.16.52.89:80?encryption=none&security=none&type=ws&host=curly-waterfall-509e-ppal03.wimiba9167.workers.dev&path=/?ed=2560#😛Ch:
 vless://7fea28c6-f9b0-45ce-b7c2-ed3a3991d1e8@104.24.248.85:80?encryption=none&security=none&type=ws&host=curly-waterfall-509e-ppal03.wimiba9167.workers.dev&path=/?ed=2560#😛Ch:
 vless://818a98bf-e7d0-45d5-800b-24d4058234c6@104.16.40.145:80?encryption=none&security=none&type=ws&host=still-smoke-881e-ppal03.cabit21569.workers.dev&path=/?ed=2560#🤖Ch:
 vless://818a98bf-e7d0-45d5-800b-24d4058234c6@104.24.172.153:80?encryption=none&security=none&type=ws&host=still-smoke-881e-ppal03.cabit21569.workers.dev&path=/?ed=2560#🤖Ch:
