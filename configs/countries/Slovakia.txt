@@ -1,0 +1,2 @@
+ss://fe33cc59-c464-4e60-9aff-2793793317bf@80.243.228.84:2085?mode=multi&security=none&encryption=none&type=grpc&serviceName=vless#🇸🇰SK-🚀@VPNine1
+vless://fe33cc59-c464-4e60-9aff-2793793317bf@80.243.228.84:2085?mode=multi&security=none&encryption=none&type=grpc&serviceName=vless#🇸🇰SK-🚀@VPNine1
