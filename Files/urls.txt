@@ -9,3 +9,9 @@ https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/refs/heads/main
 https://raw.githubusercontent.com/roosterkid/openproxylist/refs/heads/main/V2RAY_RAW.txt
 https://raw.githubusercontent.com/R3ZARAHIMI/tg-v2ray-configs-every2h/refs/heads/main/Original-Configs.txt
 https://raw.githubusercontent.com/mahdisandughdaran-sys/V2ray-sub/refs/heads/main/good_configs.txt
+https://raw.githubusercontent.com/mohammadaz2/v2rayConfigsForYou/refs/heads/main/configs.txt
+https://raw.githubusercontent.com/sky-clear2026/v2ray-sub/refs/heads/main/configs.txt
+https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/refs/heads/main/top100.txt
+https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/refs/heads/main/all_configs.txt
+https://raw.githubusercontent.com/mosapase/v2ray-sub/refs/heads/main/configs.txt
+https://raw.githubusercontent.com/amir-reza-bijandi/v2ray-configs/refs/heads/main/configs.txt
