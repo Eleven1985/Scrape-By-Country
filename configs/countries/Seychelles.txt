@@ -1,2 +1,0 @@
-ss://49e4b91a-bd15-4e54-9b51-41a3380afb51@z5n1.vpnpolar.online:443?host=z5n1.vpnpolar.online&path=/beeline&security=tls&sni=z5n1.vpnpolar.online&type=ws#🇸🇨SC-🚀@VPNine1
-vless://49e4b91a-bd15-4e54-9b51-41a3380afb51@z5n1.vpnpolar.online:443?host=z5n1.vpnpolar.online&path=/beeline&security=tls&sni=z5n1.vpnpolar.online&type=ws#🇸🇨SC-🚀@VPNine1

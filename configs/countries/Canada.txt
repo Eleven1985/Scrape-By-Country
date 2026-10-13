@@ -1,0 +1,2 @@
+ss://c519b048-576f-4dc4-bf1d-357e20d9b527@cayosh.fastshot.net:443?path=/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=cayosh.fastshot.net&fp=chrome&type=ws&allowInsecure=0&sni=cayosh.fastshot.net#🇨🇦CA-🚀@VPNine1
+vless://c519b048-576f-4dc4-bf1d-357e20d9b527@cayosh.fastshot.net:443?path=/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=cayosh.fastshot.net&fp=chrome&type=ws&allowInsecure=0&sni=cayosh.fastshot.net#🇨🇦CA-🚀@VPNine1
