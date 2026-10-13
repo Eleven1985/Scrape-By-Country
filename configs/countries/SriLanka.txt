@@ -1,0 +1,2 @@
+ss://fcdb24e3-5e66-4c45-b89e-ac9441f4dcda@support.zoom.us:80?path=%2F&security=none&encryption=none&host=free.sahanwickramasinghe.me&type=ws#%F0%9F%87%B1%F0%9F%87%B0%20Sri%20Lanka%2C%20Battaramulla%20%7C%20%5BBL%5D
+vless://fcdb24e3-5e66-4c45-b89e-ac9441f4dcda@support.zoom.us:80?path=%2F&security=none&encryption=none&host=free.sahanwickramasinghe.me&type=ws#%F0%9F%87%B1%F0%9F%87%B0%20Sri%20Lanka%2C%20Battaramulla%20%7C%20%5BBL%5D
