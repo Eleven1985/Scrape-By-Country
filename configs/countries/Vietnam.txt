@@ -1,2 +1,0 @@
-ss://d5556fce-cc34-4df9-b1ff-755b02a3fc9a@c564eebf.bilibiliapp.cn:443?&security=tls&flow=xtls-rprx-vision&fp=chrome&alpn=h2&sni=2fb527a4.m3u8.awdhhb.pay.cfcndns.pp.ua&type=xhttp#%F0%9F%87%BB%F0%9F%87%B3%20%E8%B6%8A%E5%8D%97%20%7C%20VNM
-vless://d5556fce-cc34-4df9-b1ff-755b02a3fc9a@c564eebf.bilibiliapp.cn:443?&security=tls&flow=xtls-rprx-vision&fp=chrome&alpn=h2&sni=2fb527a4.m3u8.awdhhb.pay.cfcndns.pp.ua&type=xhttp#%F0%9F%87%BB%F0%9F%87%B3%20%E8%B6%8A%E5%8D%97%20%7C%20VNM
