@@ -1,0 +1,2 @@
+ss://d68fbc96-5187-4b8f-965e-eecd7a699e81@zs.giannaycs.com:13004?&security=tls&flow=xtls-rprx-vision&fp=ios&sni=zs.giannaycs.com&type=tcp&headerType=none&host=zs.giannaycs.com&path=%2F#%F0%9F%87%A7%F0%9F%87%AA%20%E6%AF%94%E5%88%A9%E6%97%B6%20%7C%20BEL
+vless://d68fbc96-5187-4b8f-965e-eecd7a699e81@zs.giannaycs.com:13004?&security=tls&flow=xtls-rprx-vision&fp=ios&sni=zs.giannaycs.com&type=tcp&headerType=none&host=zs.giannaycs.com&path=%2F#%F0%9F%87%A7%F0%9F%87%AA%20%E6%AF%94%E5%88%A9%E6%97%B6%20%7C%20BEL
