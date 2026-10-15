@@ -1,2 +1,1 @@
-ss://31cd24da-8f54-4c0d-bc4a-11c975b7a7a1@settings.pixellow.online:443?mode=gun&security=reality&encryption=none&pbk=1Wuq1aa8cy2f9HhFVnqUHj8LL-vJtp-QtNR6u5yh8Bg&fp=chrome&type=grpc&serviceName=api.v1.StreamService&sni=settings.pixellow.online#🇨🇿CZ-🚀@VPNine1
-vless://31cd24da-8f54-4c0d-bc4a-11c975b7a7a1@settings.pixellow.online:443?mode=gun&security=reality&encryption=none&pbk=1Wuq1aa8cy2f9HhFVnqUHj8LL-vJtp-QtNR6u5yh8Bg&fp=chrome&type=grpc&serviceName=api.v1.StreamService&sni=settings.pixellow.online#🇨🇿CZ-🚀@VPNine1
+trojan://f8b-U5TxjNRYKLvU0Js_6YeMCdj_82km@cz-musicc.moritech.net:443?allowInsecure=1&alpn=h2&type=grpc&serviceName=grpcbeast#%F0%9F%87%A8%F0%9F%87%BF%5Bwww.v2nodes.com%5D%20trojan-CZ-...
