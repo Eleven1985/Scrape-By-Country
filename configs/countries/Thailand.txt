@@ -1,8 +1,6 @@
 ss://3c52e091-6714-4915-949f-2149fe69951b@104.16.10.2:443?allowInsecure=0&sni=v2ray.simspeedup.com&type=ws&host=v2ray.simspeedup.com&path=/wssecurity=tls#%F0%9F%87%B9%F0%9F%87%AD%5Bwww.v2nodes.com%5D%20vless-TH-1...%20%231
 ss://57beeeb0-03fc-4fc9-94da-7604488a7134@154.21.203.106:21033?#%F0%9F%87%B9%F0%9F%87%AD%5Bwww.v2nodes.com%5D%20vless-TH-1...
-ss://57beeeb0-03fc-4fc9-94da-7604488a7134@funagfrdfs.alixxplay.com:56415?sni=www.kaidee.com&flow=xtls-rprx-vision&fp=ios&security=tls#%F0%9F%87%B9%F0%9F%87%AD%20%E6%B3%B0%E5%9B%BD%20%7C%20THA%20%231
-ss://YWVzLTI1Ni1nY206c3hhakNUd3JsSzB6bCt6bUhwWDBwMGpYSWZhdG56bEx6V2xTUTk1MEwxYz0=@103.107.52.106:52351#%F0%9F%87%B9%F0%9F%87%ADTH-103.107.52.106-0152
-ss://YWVzLTI1Ni1nY206c3hhakNUd3JsSzB6bCt6bUhwWDBwMGpYSWZhdG56bEx6V2xTUTk1MEwxYz0=@pphfree2.mvpnpvpn.de5.net:52351#%F0%9F%87%B9%F0%9F%87%ADTH-103.107.52.106-0181
+ss://YWVzLTI1Ni1nY206c3hhakNUd3JsSzB6bCt6bUhwWDBwMGpYSWZhdG56bEx6V2xTUTk1MEwxYz0=@103.107.52.106:52351#%F0%9F%87%B9%F0%9F%87%ADTH-103.107.52.106-0203
+ss://YWVzLTI1Ni1nY206c3hhakNUd3JsSzB6bCt6bUhwWDBwMGpYSWZhdG56bEx6V2xTUTk1MEwxYz0=@pphfree2.mvpnpvpn.de5.net:52351#%F0%9F%87%B9%F0%9F%87%ADTH-103.107.52.106-0209
 vless://3c52e091-6714-4915-949f-2149fe69951b@104.16.10.2:443?allowInsecure=0&sni=v2ray.simspeedup.com&type=ws&host=v2ray.simspeedup.com&path=/wssecurity=tls#%F0%9F%87%B9%F0%9F%87%AD%5Bwww.v2nodes.com%5D%20vless-TH-1...%20%231
 vless://57beeeb0-03fc-4fc9-94da-7604488a7134@154.21.203.106:21033?#%F0%9F%87%B9%F0%9F%87%AD%5Bwww.v2nodes.com%5D%20vless-TH-1...
-vless://57beeeb0-03fc-4fc9-94da-7604488a7134@funagfrdfs.alixxplay.com:56415?sni=www.kaidee.com&flow=xtls-rprx-vision&fp=ios&security=tls#%F0%9F%87%B9%F0%9F%87%AD%20%E6%B3%B0%E5%9B%BD%20%7C%20THA%20%231
