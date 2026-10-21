@@ -1,0 +1,2 @@
+ss://495c7195-85b8-498a-bf20-2ea9ce9175b5@117.55.232.3:443?sni=snip.edgeoneai.cc.cd&type=ws&host=snip.edgeoneai.cc.cd&path=/fp=chrome&security=tls#%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9A+V2CROSS.COM
+vless://495c7195-85b8-498a-bf20-2ea9ce9175b5@117.55.232.3:443?sni=snip.edgeoneai.cc.cd&type=ws&host=snip.edgeoneai.cc.cd&path=/fp=chrome&security=tls#%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9A+V2CROSS.COM

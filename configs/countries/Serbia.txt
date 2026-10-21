@@ -1,0 +1,2 @@
+ss://2f35965a-9a9b-45fd-ba32-987296dfb6be@150.40.126.22:443?encryption=none&security=reality&sni=rs4.univesalsrv.com&fp=chrome&pbk=sXsJ4ET-50TYqlhKZf03nPQr2JIy1F0D4m6lOsI0cAs&sid=861ac7d66953e55f&type=grpc&authority=&serviceName=media.v1.StreamService&mode=gun#🇷🇸RS-🚀@VPNine1
+vless://2f35965a-9a9b-45fd-ba32-987296dfb6be@150.40.126.22:443?encryption=none&security=reality&sni=rs4.univesalsrv.com&fp=chrome&pbk=sXsJ4ET-50TYqlhKZf03nPQr2JIy1F0D4m6lOsI0cAs&sid=861ac7d66953e55f&type=grpc&authority=&serviceName=media.v1.StreamService&mode=gun#🇷🇸RS-🚀@VPNine1
