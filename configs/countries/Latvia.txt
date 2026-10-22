@@ -1,11 +1,7 @@
 hysteria2://GSPOBvG-ZwYcBFMr0ekFGO_Zga3wK6v_@hy2-latvia2.unlimited-access.ru:443/?sni=hy2-latvia2.unlimited-access.ru#%3E%3E%40oneclickvpnkeys%3A%3ALV
-ss://495c7195-85b8-498a-bf20-2ea9ce9175b5@185.135.86.41:443?sni=snip.edgeoneai.cc.cd&type=ws&host=snip.edgeoneai.cc.cd&path=/fp=chrome&security=tls#%F0%9F%87%B1%F0%9F%87%BB%20%E6%8B%89%E8%84%B1%E7%BB%B4%E4%BA%9A%20%7C%20LVA%20%231
 ss://6338c01a-310e-42c3-bf4f-2a20e161054b@lv.aiage.work:443?sni=lv.aiage.work&flow=xtls-rprx-vision&fp=chrome&security=tls#%F0%9F%87%B1%F0%9F%87%BB%5Bwww.v2nodes.com%5D%20vless-LV-1...%20%231
 ss://70e20b2e-3b1f-4c25-9a3d-9240570391bb@laoye.in-gect.fun:2096?path=/&security=&encryption=none&host=laoye.in-gect.fun&type=ws#Latvia
-ss://a4801105-c0c7-4cab-87c6-f257ff2afc09@31.57.106.241:443?sni=www.lmt.lv&flow=xtls-rprx-vision&fp=firefox&security=tls#%F0%9F%87%B1%F0%9F%87%BB%5Bwww.v2nodes.com%5D%20vless-LV-1...%20%232
 trojan://4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA@lv1.dedushka.top:443?allowInsecure=1&sni=lv1.dedushka.top#%F0%9F%87%B1%F0%9F%87%BB%5Bwww.v2nodes.com%5D%20trojan-LV-...
 trojan://4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA@lv1.dedushka.top:443?security=tls&sni=lv1.dedushka.top#%F0%9F%87%B1%F0%9F%87%BBLV-94.140.112.22-0440
-vless://495c7195-85b8-498a-bf20-2ea9ce9175b5@185.135.86.41:443?sni=snip.edgeoneai.cc.cd&type=ws&host=snip.edgeoneai.cc.cd&path=/fp=chrome&security=tls#%F0%9F%87%B1%F0%9F%87%BB%20%E6%8B%89%E8%84%B1%E7%BB%B4%E4%BA%9A%20%7C%20LVA%20%231
 vless://6338c01a-310e-42c3-bf4f-2a20e161054b@lv.aiage.work:443?sni=lv.aiage.work&flow=xtls-rprx-vision&fp=chrome&security=tls#%F0%9F%87%B1%F0%9F%87%BB%5Bwww.v2nodes.com%5D%20vless-LV-1...%20%231
 vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@laoye.in-gect.fun:2096?path=/&security=&encryption=none&host=laoye.in-gect.fun&type=ws#Latvia
-vless://a4801105-c0c7-4cab-87c6-f257ff2afc09@31.57.106.241:443?sni=www.lmt.lv&flow=xtls-rprx-vision&fp=firefox&security=tls#%F0%9F%87%B1%F0%9F%87%BB%5Bwww.v2nodes.com%5D%20vless-LV-1...%20%232
