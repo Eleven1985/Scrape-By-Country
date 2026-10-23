@@ -1,2 +1,0 @@
-ss://e6df2095-a73c-4043-8693-8d5a03686870@190.93.246.21:443?alpn=http%2F1.1&encryption=none&fp=chrome&host=lucasjow.us.ci&path=%2F%3FTELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI%3Fed%3D2560&security=tls&sni=lucasjow.us.ci&type=ws#CR
-vless://e6df2095-a73c-4043-8693-8d5a03686870@190.93.246.21:443?alpn=http%2F1.1&encryption=none&fp=chrome&host=lucasjow.us.ci&path=%2F%3FTELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI%3Fed%3D2560&security=tls&sni=lucasjow.us.ci&type=ws#CR
