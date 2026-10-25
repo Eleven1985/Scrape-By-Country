@@ -1,2 +1,0 @@
-ss://caf3d607-95c9-4ea0-98b5-864027056ba0@185.231.233.139:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=pt1.accessboy.com&pbk=1TtWNQhTJr_3H7-ypMw4EiLzVxy22AzUtMiE5JmQMl4&sid=1c5869a95671bcb0&allowInsecure=1#🇵🇹PT-🚀@VPNine1
-vless://caf3d607-95c9-4ea0-98b5-864027056ba0@185.231.233.139:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=pt1.accessboy.com&pbk=1TtWNQhTJr_3H7-ypMw4EiLzVxy22AzUtMiE5JmQMl4&sid=1c5869a95671bcb0&allowInsecure=1#🇵🇹PT-🚀@VPNine1
