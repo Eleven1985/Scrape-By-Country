@@ -1,5 +1,4 @@
-ss://04c808e2-0b59-47b0-a54b-32fc7ef1c902@147.78.0.186:8443?sni=free.cndyw.ggff.net&type=ws&host=free.cndyw.ggff.net&path=pyip=bpb.yousef.isegaro.comfp=randomsecurity=tls#%F0%9F%87%A6%F0%9F%87%AA%5Bwww.v2nodes.com%5D%20vless-AE-1...%20%231
 ss://965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0@95.174.68.188:14430?sni=95.174.68.188&type=ws&host=95.174.68.188&path=/vless#%F0%9F%87%A6%F0%9F%87%AA%5Bwww.v2nodes.com%5D%20vless-AE-1...
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8=@45.66.134.176:803#%F0%9F%87%A6%F0%9F%87%AAAE-45.66.134.176-4716
-vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@147.78.0.186:8443?sni=free.cndyw.ggff.net&type=ws&host=free.cndyw.ggff.net&path=pyip=bpb.yousef.isegaro.comfp=randomsecurity=tls#%F0%9F%87%A6%F0%9F%87%AA%5Bwww.v2nodes.com%5D%20vless-AE-1...%20%231
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8=@45.66.134.176:803#%F0%9F%87%A6%F0%9F%87%AAAE-45.66.134.176-0165
 vless://965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0@95.174.68.188:14430?sni=95.174.68.188&type=ws&host=95.174.68.188&path=/vless#%F0%9F%87%A6%F0%9F%87%AA%5Bwww.v2nodes.com%5D%20vless-AE-1...
+vmess://eyJhZGQiOiJ6ZmQtYm9hcmR2Mi5rdW5sdW4wMWRucy5jb20iLCJhaWQiOiIwIiwiaWQiOiIwODAyYWMwMy03OTczLTM5ZWYtYTAxOS1iYTAyZGU2YzAxZTEiLCJuZXQiOiJ0Y3AiLCJwb3J0IjoiMTYyNTgiLCJwcyI6Ilx1ZDgzY1x1ZGRlNlx1ZDgzY1x1ZGRlYVtvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtQUUiLCJzY3kiOiJhdXRvIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9
