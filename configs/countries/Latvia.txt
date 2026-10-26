@@ -1,7 +1,1 @@
 hysteria2://GSPOBvG-ZwYcBFMr0ekFGO_Zga3wK6v_@hy2-latvia2.unlimited-access.ru:443/?sni=hy2-latvia2.unlimited-access.ru#%3E%3E%40oneclickvpnkeys%3A%3ALV
-ss://1ebcb694-875c-4be7-b6a2-d53c8208991b@195.123.208.32:443?sni=gateway.icloud.com&flow=xtls-rprx-vision&fp=chrome&security=tls#%F0%9F%87%B1%F0%9F%87%BB%5Bwww.v2nodes.com%5D%20vless-LV-1...
-ss://70e20b2e-3b1f-4c25-9a3d-9240570391bb@laoye.in-gect.fun:2096?path=/&security=&encryption=none&host=laoye.in-gect.fun&type=ws#Latvia
-trojan://4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA@lv1.dedushka.top:443?security=tls&sni=lv1.dedushka.top#%F0%9F%87%B1%F0%9F%87%BBLV-94.140.112.22-0214
-trojan://humanity@85.31.102.163:443?path=/assignment&security=tls&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=www.calmlunch.com#🇱🇻LV-🚀@VPNine1
-vless://1ebcb694-875c-4be7-b6a2-d53c8208991b@195.123.208.32:443?sni=gateway.icloud.com&flow=xtls-rprx-vision&fp=chrome&security=tls#%F0%9F%87%B1%F0%9F%87%BB%5Bwww.v2nodes.com%5D%20vless-LV-1...
-vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@laoye.in-gect.fun:2096?path=/&security=&encryption=none&host=laoye.in-gect.fun&type=ws#Latvia
