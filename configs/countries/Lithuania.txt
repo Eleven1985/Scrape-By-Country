@@ -1,6 +1,1 @@
-hysteria2://ODM2MzExOTcyMCwxNzkwNTMyNzE0ksak7YOGMD@185.246.65.176:8113?sni=lit1.lumenvpn.tech#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
-ss://6202b230-417c-4d8e-b624-0f71afa9c75d@88.216.67.50:8880?security=none&type=ws&path=/?ed=2560&host=vms.lifetime05.workers.dev&packetEncoding=xudp&encryption=none#🇱🇹LT-🚀@VPNine1
-ss://8c8a8681-5444-4e18-a427-54f19eea6a77@45.11.27.130:443?type=raw&security=reality&encryption=none&sni=litva2.ovhpride.shop&fp=firefox&pbk=mJkx2aIzeXMsdR38oCpeGX4r5Siq4__nb0I4gk1-wVM&flow=xtls-rprx-vision&headerType=none#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania%20%5B%2ACIDR%5D
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpKMUludVU2UVJUNUpPaDFtUWZralUy@144.31.243.2:16015#%3E%3E%40configV2rayNG%3A%3ALT
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@88.216.67.50:8880?security=none&type=ws&path=/?ed=2560&host=vms.lifetime05.workers.dev&packetEncoding=xudp&encryption=none#🇱🇹LT-🚀@VPNine1
-vless://8c8a8681-5444-4e18-a427-54f19eea6a77@45.11.27.130:443?type=raw&security=reality&encryption=none&sni=litva2.ovhpride.shop&fp=firefox&pbk=mJkx2aIzeXMsdR38oCpeGX4r5Siq4__nb0I4gk1-wVM&flow=xtls-rprx-vision&headerType=none#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania%20%5B%2ACIDR%5D
