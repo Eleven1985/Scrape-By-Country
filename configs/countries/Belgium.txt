@@ -1,0 +1,2 @@
+ss://2b0e5676-fb62-4bf0-9607-6e7818421e8e@nl4.1.pad-sservice.lat:8443?&security=tls&fp=chrome&sni=nl4.1.pad-sservice.lat&type=ws&headerType=none&host=nl4.1.pad-service.com&path=%2FNL4W#%F0%9F%87%A7%F0%9F%87%AA%20%E6%AF%94%E5%88%A9%E6%97%B6%20%7C%20BEL
+vless://2b0e5676-fb62-4bf0-9607-6e7818421e8e@nl4.1.pad-sservice.lat:8443?&security=tls&fp=chrome&sni=nl4.1.pad-sservice.lat&type=ws&headerType=none&host=nl4.1.pad-service.com&path=%2FNL4W#%F0%9F%87%A7%F0%9F%87%AA%20%E6%AF%94%E5%88%A9%E6%97%B6%20%7C%20BEL
