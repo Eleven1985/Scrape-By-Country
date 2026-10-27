@@ -1,3 +1,2 @@
-hysteria2://b3d079ff-b775-4ffe-bac9-41228b08b15b@81.180.93.171:4443?sni=ro.gorobsub.com&security=tls#%F0%9F%87%B7%F0%9F%87%B4%20Romania%2C%20Bucharest%20%7C%20%5BBL%5D
 hysteria2://gf1%3Agfhysteria2024@185.156.44.99:443?allowInsecure=1&sni=css.rbxcdn.com&upmbps=10&insecure=1&type=tcp&downmbps=50&nonce=e98RZ2Wn&_t=227da4f0#%F0%9F%87%B7%F0%9F%87%B4%20Romania%2C%20Bucharest%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 hysteria2://gf1%3Agfhysteria2024@185.156.44.99:443?security=tls&sni=css.rbxcdn.com&alpn=h3&insecure=1#%F0%9F%87%B7%F0%9F%87%B4%20Romania%2C%20Bucharest%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D

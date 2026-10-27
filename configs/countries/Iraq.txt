@@ -1,0 +1,2 @@
+ss://4138c499-f6fe-48b8-a7cc-56c315e94ff7@178.17.48.78:443?path=/ws/4138c499-f6fe-48b8-a7cc-56c315e94ff7&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=jvnsvntui5.dev.onappjet.com&fp=chrome&type=ws&allowInsecure=0&sni=jvnsvntui5.dev.onappjet.com#🇮🇶IQ-🚀@VPNine1
+vless://4138c499-f6fe-48b8-a7cc-56c315e94ff7@178.17.48.78:443?path=/ws/4138c499-f6fe-48b8-a7cc-56c315e94ff7&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=jvnsvntui5.dev.onappjet.com&fp=chrome&type=ws&allowInsecure=0&sni=jvnsvntui5.dev.onappjet.com#🇮🇶IQ-🚀@VPNine1
