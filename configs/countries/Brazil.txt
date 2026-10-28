@@ -1,2 +1,6 @@
 ss://d342d11e-d224-4463-b982-532309285094@cf.090227.xyz:443?sni=ccc.010304.xyz&type=ws&host=ccc.010304.xyz&path=/fp=chromesecurity=tls#%F0%9F%87%A7%F0%9F%87%B7%5Bwww.v2nodes.com%5D%20vless-BR-1...
+ss://e9a8144e-5237-488a-afb1-9ca3d8d54c80@br001.zestapp778.com:15040?&security=tls&fp=chrome&sni=br.zestapp778.com&type=tcp&headerType=none&host=br001.zestapp778.com&path=%2F#%F0%9F%87%A7%F0%9F%87%B7%20%E5%B7%B4%E8%A5%BF%20%7C%20BRA
+ss://e9a8144e-5237-488a-afb1-9ca3d8d54c80@br001.zestapp778.com:15040?sni=br.zestapp778.com&fp=chrome&security=tls#%F0%9F%87%A7%F0%9F%87%B7%20%E5%B7%B4%E8%A5%BF%20%7C%20BRA%20%231
 vless://d342d11e-d224-4463-b982-532309285094@cf.090227.xyz:443?sni=ccc.010304.xyz&type=ws&host=ccc.010304.xyz&path=/fp=chromesecurity=tls#%F0%9F%87%A7%F0%9F%87%B7%5Bwww.v2nodes.com%5D%20vless-BR-1...
+vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@br001.zestapp778.com:15040?&security=tls&fp=chrome&sni=br.zestapp778.com&type=tcp&headerType=none&host=br001.zestapp778.com&path=%2F#%F0%9F%87%A7%F0%9F%87%B7%20%E5%B7%B4%E8%A5%BF%20%7C%20BRA
+vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@br001.zestapp778.com:15040?sni=br.zestapp778.com&fp=chrome&security=tls#%F0%9F%87%A7%F0%9F%87%B7%20%E5%B7%B4%E8%A5%BF%20%7C%20BRA%20%231
