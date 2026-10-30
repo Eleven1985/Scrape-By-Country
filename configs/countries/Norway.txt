@@ -1,5 +1,5 @@
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==@185.213.23.63:990#%F0%9F%87%B3%F0%9F%87%B4%5Bwww.v2nodes.com%5D%20ss-NO-1220...
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==@185.213.23.63:990#%F0%9F%87%B3%F0%9F%87%B4NO-185.213.23.63-0515
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==@185.213.23.63:990#%F0%9F%87%B3%F0%9F%87%B4NO-185.213.23.63-0252
 ss://cd3bb7d9-7df3-4644-ac05-c260990ac277@norw-2.failspace.top:443?sni=norw-2.failspace.top&alpn=h2&flow=xtls-rprx-vision&fp=firefox&security=tls#%F0%9F%87%B3%F0%9F%87%B4%5Bwww.v2nodes.com%5D%20vless-NO-1...%20%231
 ss://cd3bb7d9-7df3-4644-ac05-c260990ac277@viper-23.moriarty-web.com:443?sni=viper-23.moriarty-web.com&flow=xtls-rprx-vision&fp=chrome&security=tls#%F0%9F%87%B3%F0%9F%87%B4%5Bwww.v2nodes.com%5D%20vless-NO-1...
 vless://cd3bb7d9-7df3-4644-ac05-c260990ac277@norw-2.failspace.top:443?sni=norw-2.failspace.top&alpn=h2&flow=xtls-rprx-vision&fp=firefox&security=tls#%F0%9F%87%B3%F0%9F%87%B4%5Bwww.v2nodes.com%5D%20vless-NO-1...%20%231

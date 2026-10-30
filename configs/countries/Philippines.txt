@@ -1,2 +1,0 @@
-ss://e9a8144e-5237-488a-afb1-9ca3d8d54c80@ph001.zestapp778.com:15656?security=tls#%F0%9F%87%B5%F0%9F%87%AD%5Bwww.v2nodes.com%5D%20vless-PH-1...%20%232
-vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@ph001.zestapp778.com:15656?security=tls#%F0%9F%87%B5%F0%9F%87%AD%5Bwww.v2nodes.com%5D%20vless-PH-1...%20%232
