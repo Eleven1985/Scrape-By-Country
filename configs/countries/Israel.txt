@@ -1,0 +1,2 @@
+ss://056405e8-de9f-4d0d-8145-956f13cc34da@79.182.39.37:27591?sni=www.samsung.com&fp=firefox&security=tls#%F0%9F%87%AE%F0%9F%87%B1%20%E4%BB%A5%E8%89%B2%E5%88%97%20%7C%20ISR%20%231
+vless://056405e8-de9f-4d0d-8145-956f13cc34da@79.182.39.37:27591?sni=www.samsung.com&fp=firefox&security=tls#%F0%9F%87%AE%F0%9F%87%B1%20%E4%BB%A5%E8%89%B2%E5%88%97%20%7C%20ISR%20%231
