@@ -1,1 +1,0 @@
-trojan://humanity@45.130.125.126:443?allowInsecure=1&host=www.calmlunch.com&path=/assignment&sni=www.calmlunch.com&type=ws#🇸🇨SC-🚀@VPNine1
