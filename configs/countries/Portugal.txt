@@ -1,2 +1,0 @@
-ss://b24ad12f-f6ce-4f0b-a264-d58a76104026@50.7.43.117:443?sni=pt3.magazinnarubeva.ru&flow=xtls-rprx-vision&fp=firefox&security=tls#%F0%9F%87%B5%F0%9F%87%B9%20%E8%91%A1%E8%90%84%E7%89%99%20%7C%20PRT%20%231
-vless://b24ad12f-f6ce-4f0b-a264-d58a76104026@50.7.43.117:443?sni=pt3.magazinnarubeva.ru&flow=xtls-rprx-vision&fp=firefox&security=tls#%F0%9F%87%B5%F0%9F%87%B9%20%E8%91%A1%E8%90%84%E7%89%99%20%7C%20PRT%20%231

@@ -1,2 +1,0 @@
-ss://c69a6591-b34b-4dad-a234-ce5b4c3725b2@94.184.23.97:2050?&type=tcp&headerType=none&path=%2F#%F0%9F%87%A7%F0%9F%87%AA%20%E6%AF%94%E5%88%A9%E6%97%B6%20%7C%20BEL
-vless://c69a6591-b34b-4dad-a234-ce5b4c3725b2@94.184.23.97:2050?&type=tcp&headerType=none&path=%2F#%F0%9F%87%A7%F0%9F%87%AA%20%E6%AF%94%E5%88%A9%E6%97%B6%20%7C%20BEL
