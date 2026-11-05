@@ -1,4 +1,6 @@
 hysteria2://GSPOBvG-ZwYcBFMr0ekFGO_Zga3wK6v_@hy2-latvia2.unlimited-access.ru:443/?sni=hy2-latvia2.unlimited-access.ru#%3E%3E%40oneclickvpnkeys%3A%3ALV
-hysteria2://e3c3b722-1264-4cdc-a97c-b0a1bb73cd67@104.165.205.21:9443?insecure=1&sni=onecloudstream.com#%F0%9F%87%B1%F0%9F%87%BB%20Latvia%2C%20Riga%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-ss://1ebcb694-875c-4be7-b6a2-d53c8208991b@195.123.208.32:443?sni=gateway.icloud.com&flow=xtls-rprx-vision&fp=chrome&security=tls#%F0%9F%87%B1%F0%9F%87%BB%5Bwww.v2nodes.com%5D%20vless-LV-1...
-vless://1ebcb694-875c-4be7-b6a2-d53c8208991b@195.123.208.32:443?sni=gateway.icloud.com&flow=xtls-rprx-vision&fp=chrome&security=tls#%F0%9F%87%B1%F0%9F%87%BB%5Bwww.v2nodes.com%5D%20vless-LV-1...
+hysteria2://a35c508f-4d5d-4531-842e-6e9d43c762c0@31.76.62.148:4444?sni=lv2.nexfile.net&alpn=h3#%F0%9F%87%B1%F0%9F%87%BB%20Latvia%2C%20Riga%20%7C%20%5BBL%5D
+ss://44bb5b42-871b-4f22-a8b0-79b127413e92@fun.zovip2.ir:443?vcn=fun.zovip2.ir&path=/api/v3/pulse&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=fun.zovip2.ir&fp=chrome&type=ws&allowInsecure=0&sni=fun.zovip2.ir#🇱🇻LV-🚀@VPNine1
+ss://db80088c-32a1-4cb8-a907-0f3cb7844152@pl5.japancase.site:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=pl5.japancase.site&pbk=g_1VEWSkHGaqhSpzEG_7qhG2AR24WoSZEc_eLDZ4vyw&sid=96738b5c79c4af75&fp=ios#%F0%9F%87%B1%F0%9F%87%BB%20Latvia%2C%20Jelgava%20%7C%20%5BBL%5D
+vless://44bb5b42-871b-4f22-a8b0-79b127413e92@fun.zovip2.ir:443?vcn=fun.zovip2.ir&path=/api/v3/pulse&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=fun.zovip2.ir&fp=chrome&type=ws&allowInsecure=0&sni=fun.zovip2.ir#🇱🇻LV-🚀@VPNine1
+vless://db80088c-32a1-4cb8-a907-0f3cb7844152@pl5.japancase.site:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=pl5.japancase.site&pbk=g_1VEWSkHGaqhSpzEG_7qhG2AR24WoSZEc_eLDZ4vyw&sid=96738b5c79c4af75&fp=ios#%F0%9F%87%B1%F0%9F%87%BB%20Latvia%2C%20Jelgava%20%7C%20%5BBL%5D
