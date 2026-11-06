@@ -1,1 +1,5 @@
+ss://5fa16fdf-5b3c-4f57-988d-b24c6722c91a@fi-94-10.cdn-lab.online:8444?&security=tls&fp=firefox&sni=fi-94-10.cdn-lab.online&type=xhttp#%F0%9F%87%AE%F0%9F%87%AA%20%E7%88%B1%E5%B0%94%E5%85%B0%20%7C%20IRL
+ss://5fa16fdf-5b3c-4f57-988d-b24c6722c91a@fi-94-10.cdn-lab.online:8444?sni=fi-94-10.cdn-lab.online&fp=firefox&security=tls#%F0%9F%87%AE%F0%9F%87%AA%20%E7%88%B1%E5%B0%94%E5%85%B0%20%7C%20IRL%20%231
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppbXEwdkxpa2JPeDRUSFpQ@20.107.193.38:443#%3E%3E%40configV2rayNG%3A%3AIE
+vless://5fa16fdf-5b3c-4f57-988d-b24c6722c91a@fi-94-10.cdn-lab.online:8444?&security=tls&fp=firefox&sni=fi-94-10.cdn-lab.online&type=xhttp#%F0%9F%87%AE%F0%9F%87%AA%20%E7%88%B1%E5%B0%94%E5%85%B0%20%7C%20IRL
+vless://5fa16fdf-5b3c-4f57-988d-b24c6722c91a@fi-94-10.cdn-lab.online:8444?sni=fi-94-10.cdn-lab.online&fp=firefox&security=tls#%F0%9F%87%AE%F0%9F%87%AA%20%E7%88%B1%E5%B0%94%E5%85%B0%20%7C%20IRL%20%231
