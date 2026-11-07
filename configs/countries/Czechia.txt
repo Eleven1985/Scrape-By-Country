@@ -1,16 +1,6 @@
-ss://7585e2a8-42a5-45b2-b706-3189938f90d0@189.74.118.9:443?security=tls&sni=api.mediapolden.cc&alpn=h2&type=grpc&serviceName=r7Kp4mN9tQ2v&mode=gun&fp=android#%F0%9F%87%A8%F0%9F%87%BF%20Czechia%20%7C%20%5B%2ACIDR%5D
-ss://7585e2a8-42a5-45b2-b706-3189938f90d0@189.74.118.9:443?security=tls&sni=api.mediapolden.cc&alpn=h2&type=grpc&serviceName=r7Kp4mN9tQ2v&mode=gun&fp=qq#%F0%9F%87%A8%F0%9F%87%BF%20Czechia%20%5B%2ACIDR%5D
-ss://7585e2a8-42a5-45b2-b706-3189938f90d0@189.74.118.9:443?type=grpc&security=tls&sni=api.mediapolden.cc&mode=gun&serviceName=r7Kp4mN9tQ2v&fp=qq#%F0%9F%87%A8%F0%9F%87%BF%20Czechia%20%7C%20%5B%2ACIDR%5D
-ss://7585e2a8-42a5-45b2-b706-3189938f90d0@189.74.118.9:443?type=grpc&security=tls&sni=api.mediapolden.cc&mode=gun&serviceName=r7Kp4mN9tQ2v&fp=safari#%F0%9F%87%A8%F0%9F%87%BF%20Czechia%20%7C%20%5B%2ACIDR%5D
 ss://7c053ca8-38cc-45e2-930c-eda1fd66f903@195.123.245.241:443?sni=gateway.icloud.com&flow=xtls-rprx-vision&fp=chrome&security=tls#%F0%9F%87%A8%F0%9F%87%BF%5Bwww.v2nodes.com%5D%20vless-CZ-1...%20%231
-ss://93074676-134a-4dae-9c54-623eae538db0@194.135.32.13:443?security=reality&encryption=none&pbk=CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=us4-23fba67fddd51f.rbc.ru&sid=7869890bd66a9f3d#🇨🇿CZ-🚀@VPNine1
 ss://b18d5990-96eb-4587-a386-7f8ef7591e6a@cz-prg.dontblockmepls.com:2063?sni=rusbid.de&flow=xtls-rprx-vision&fp=firefox&security=tls#%F0%9F%87%A8%F0%9F%87%BF%5Bwww.v2nodes.com%5D%20vless-CZ-1...
 ss://b34a52cb-cd52-49a8-9362-b8e97c151d49@212.102.38.25:443?sni=udemy.com&flow=xtls-rprx-vision&fp=ios&security=tls#%F0%9F%87%A8%F0%9F%87%BF%5Bwww.v2nodes.com%5D%20vless-CZ-1...%20%232
-vless://7585e2a8-42a5-45b2-b706-3189938f90d0@189.74.118.9:443?security=tls&sni=api.mediapolden.cc&alpn=h2&type=grpc&serviceName=r7Kp4mN9tQ2v&mode=gun&fp=android#%F0%9F%87%A8%F0%9F%87%BF%20Czechia%20%7C%20%5B%2ACIDR%5D
-vless://7585e2a8-42a5-45b2-b706-3189938f90d0@189.74.118.9:443?security=tls&sni=api.mediapolden.cc&alpn=h2&type=grpc&serviceName=r7Kp4mN9tQ2v&mode=gun&fp=qq#%F0%9F%87%A8%F0%9F%87%BF%20Czechia%20%5B%2ACIDR%5D
-vless://7585e2a8-42a5-45b2-b706-3189938f90d0@189.74.118.9:443?type=grpc&security=tls&sni=api.mediapolden.cc&mode=gun&serviceName=r7Kp4mN9tQ2v&fp=qq#%F0%9F%87%A8%F0%9F%87%BF%20Czechia%20%7C%20%5B%2ACIDR%5D
-vless://7585e2a8-42a5-45b2-b706-3189938f90d0@189.74.118.9:443?type=grpc&security=tls&sni=api.mediapolden.cc&mode=gun&serviceName=r7Kp4mN9tQ2v&fp=safari#%F0%9F%87%A8%F0%9F%87%BF%20Czechia%20%7C%20%5B%2ACIDR%5D
 vless://7c053ca8-38cc-45e2-930c-eda1fd66f903@195.123.245.241:443?sni=gateway.icloud.com&flow=xtls-rprx-vision&fp=chrome&security=tls#%F0%9F%87%A8%F0%9F%87%BF%5Bwww.v2nodes.com%5D%20vless-CZ-1...%20%231
-vless://93074676-134a-4dae-9c54-623eae538db0@194.135.32.13:443?security=reality&encryption=none&pbk=CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=us4-23fba67fddd51f.rbc.ru&sid=7869890bd66a9f3d#🇨🇿CZ-🚀@VPNine1
 vless://b18d5990-96eb-4587-a386-7f8ef7591e6a@cz-prg.dontblockmepls.com:2063?sni=rusbid.de&flow=xtls-rprx-vision&fp=firefox&security=tls#%F0%9F%87%A8%F0%9F%87%BF%5Bwww.v2nodes.com%5D%20vless-CZ-1...
 vless://b34a52cb-cd52-49a8-9362-b8e97c151d49@212.102.38.25:443?sni=udemy.com&flow=xtls-rprx-vision&fp=ios&security=tls#%F0%9F%87%A8%F0%9F%87%BF%5Bwww.v2nodes.com%5D%20vless-CZ-1...%20%232
