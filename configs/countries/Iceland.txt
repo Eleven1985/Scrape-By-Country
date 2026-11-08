@@ -1,0 +1,2 @@
+ss://46d221fa-e9b4-748c-4eae-019a88e42991@191.44.112.170:443?&security=tls&fp=firefox&sni=orbylume.my.to&type=ws&headerType=none&host=orbylume.my.to&path=%2Ftvpn-tor%2Fis#%F0%9F%87%AE%F0%9F%87%B8%20%E5%86%B0%E5%B2%9B%20%7C%20ISL
+vless://46d221fa-e9b4-748c-4eae-019a88e42991@191.44.112.170:443?&security=tls&fp=firefox&sni=orbylume.my.to&type=ws&headerType=none&host=orbylume.my.to&path=%2Ftvpn-tor%2Fis#%F0%9F%87%AE%F0%9F%87%B8%20%E5%86%B0%E5%B2%9B%20%7C%20ISL

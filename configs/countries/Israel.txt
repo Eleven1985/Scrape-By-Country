@@ -1,3 +1,3 @@
-ss://5d7b401c-78fa-4254-872e-6d42bf7e75ec@64.177.66.9:8443?encryption=none&security=tls&type=ws&path=/events/classfp&host=vp7.1145678.xyz&sni=vp7.1145678.xyz#🇮🇱IL-🚀@VPNine1
+ss://65ec84f5-0dd4-4582-8b4f-592e50b22116@dddz-1-x.473221.xyz:43117?encryption=none&type=tcp&security=reality&pbk=sx45rPTYcCjQaHYudo1gfNFWYN4mQ4SCwGHfdGU-Hwc&sid=1f34079b44529536&flow=xtls-rprx-vision&sni=v1-dy.ixigua.com&fp=edge#%F0%9F%87%AE%F0%9F%87%B1%20Israel%2C%20Jerusalem%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@64.176.163.182:443?sni=exploreeducationsectoropportunitiestodayandadvancecareers.com#%F0%9F%87%AE%F0%9F%87%B1%5Bwww.v2nodes.com%5D%20trojan-IL-...
-vless://5d7b401c-78fa-4254-872e-6d42bf7e75ec@64.177.66.9:8443?encryption=none&security=tls&type=ws&path=/events/classfp&host=vp7.1145678.xyz&sni=vp7.1145678.xyz#🇮🇱IL-🚀@VPNine1
+vless://65ec84f5-0dd4-4582-8b4f-592e50b22116@dddz-1-x.473221.xyz:43117?encryption=none&type=tcp&security=reality&pbk=sx45rPTYcCjQaHYudo1gfNFWYN4mQ4SCwGHfdGU-Hwc&sid=1f34079b44529536&flow=xtls-rprx-vision&sni=v1-dy.ixigua.com&fp=edge#%F0%9F%87%AE%F0%9F%87%B1%20Israel%2C%20Jerusalem%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D

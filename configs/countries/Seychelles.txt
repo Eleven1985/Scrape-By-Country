@@ -1,2 +1,0 @@
-ss://eaf76557-2219-4799-8171-d7020adfefd0@45.130.125.151:443?encryption=none&security=tls&type=ws&path=/ws&host=fancy-mouse-6aff.wixit71180.workers.dev&sni=fancy-mouse-6aff.wixit71180.workers.dev&fp=chrome&alpn=http/1.1#🇸🇨SC-🚀@VPNine1
-vless://eaf76557-2219-4799-8171-d7020adfefd0@45.130.125.151:443?encryption=none&security=tls&type=ws&path=/ws&host=fancy-mouse-6aff.wixit71180.workers.dev&sni=fancy-mouse-6aff.wixit71180.workers.dev&fp=chrome&alpn=http/1.1#🇸🇨SC-🚀@VPNine1
