@@ -1,6 +1,2 @@
-ss://affb10d4-3835-4b1f-b5a3-3481489911b6@103.107.53.42:443?&security=tls&fp=chrome&sni=cat.ilovezhenjiu.top&type=ws&headerType=none&host=cat.ilovezhenjiu.top&path=%2Fcgciws#%F0%9F%87%B9%F0%9F%87%AD%20%E6%B3%B0%E5%9B%BD%20%7C%20THA
-ss://affb10d4-3835-4b1f-b5a3-3481489911b6@103.107.53.42:443?sni=cat.ilovezhenjiu.top&type=ws&host=cat.ilovezhenjiu.top&path=/cgciwsfp=chrome&security=tls#%F0%9F%87%B9%F0%9F%87%AD%20%E6%B3%B0%E5%9B%BD%20%7C%20THA%20%231
-trojan://5t6i121em5lkmsmk@th001.zestapp778.com:33079?security=tls&sni=th001.zestapp778.com#%F0%9F%87%B9%F0%9F%87%ADTH-38.60.233.126-0307
+trojan://5t6i121em5lkmsmk@th001.zestapp778.com:33079?security=tls&sni=th001.zestapp778.com#%F0%9F%87%B9%F0%9F%87%ADTH-38.60.233.126-0212
 trojan://5t6i121em5lkmsmk@th001.zestapp778.com:33079?sni=th001.zestapp778.com#%F0%9F%87%B9%F0%9F%87%AD%5Bwww.v2nodes.com%5D%20trojan-TH-...%20%231
-vless://affb10d4-3835-4b1f-b5a3-3481489911b6@103.107.53.42:443?&security=tls&fp=chrome&sni=cat.ilovezhenjiu.top&type=ws&headerType=none&host=cat.ilovezhenjiu.top&path=%2Fcgciws#%F0%9F%87%B9%F0%9F%87%AD%20%E6%B3%B0%E5%9B%BD%20%7C%20THA
-vless://affb10d4-3835-4b1f-b5a3-3481489911b6@103.107.53.42:443?sni=cat.ilovezhenjiu.top&type=ws&host=cat.ilovezhenjiu.top&path=/cgciwsfp=chrome&security=tls#%F0%9F%87%B9%F0%9F%87%AD%20%E6%B3%B0%E5%9B%BD%20%7C%20THA%20%231
