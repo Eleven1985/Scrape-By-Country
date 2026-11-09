@@ -1,4 +1,0 @@
-ss://16f5041e-7a72-44a0-afbf-744ec2bf1cc9@2.56.127.149:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=j0nNe2IsutcOHKVT-wYNowgggntYn0ZDmzjZGz_DilQ&security=reality&sid=fb98af2912de58f0&sni=fr1.xshoponline.ru&type=tcp#🇨🇾CY-🚀@VPNine1
-ss://f9263e65-f75f-487a-b700-4a99a886a8bd@upload8.net:443?encryption=none&security=tls&sni=upload8.net&fp=chrome&alpn=h2&type=xhttp&host=upload8.net&path=/dl/dffbmpz4da&mode=packet-up#🇨🇾CY-🚀@VPNine1
-vless://16f5041e-7a72-44a0-afbf-744ec2bf1cc9@2.56.127.149:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=j0nNe2IsutcOHKVT-wYNowgggntYn0ZDmzjZGz_DilQ&security=reality&sid=fb98af2912de58f0&sni=fr1.xshoponline.ru&type=tcp#🇨🇾CY-🚀@VPNine1
-vless://f9263e65-f75f-487a-b700-4a99a886a8bd@upload8.net:443?encryption=none&security=tls&sni=upload8.net&fp=chrome&alpn=h2&type=xhttp&host=upload8.net&path=/dl/dffbmpz4da&mode=packet-up#🇨🇾CY-🚀@VPNine1
