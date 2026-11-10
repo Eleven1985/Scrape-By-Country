@@ -1,0 +1,2 @@
+ss://c1208c5a-2350-4506-affd-fc41b4319286@176.123.11.42:443?path=/media/ws/&security=tls&encryption=none&host=groupbackoff.ratethatrestaurant.org&fp=chrome&type=ws&sni=groupbackoff.ratethatrestaurant.org#🇲🇩MD-🚀@VPNine1
+vless://c1208c5a-2350-4506-affd-fc41b4319286@176.123.11.42:443?path=/media/ws/&security=tls&encryption=none&host=groupbackoff.ratethatrestaurant.org&fp=chrome&type=ws&sni=groupbackoff.ratethatrestaurant.org#🇲🇩MD-🚀@VPNine1

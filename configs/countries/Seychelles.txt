@@ -1,2 +1,2 @@
-ss://3e21e3d3-6d26-4155-b851-764dd8e8c6b5@156.252.229.11:8443?encryption=none&sid=974f7f8f&headerType=none&type=tcp&pbk=7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A&security=reality&fp=chrome&spx=/&sni=play.googleapis.com#🇸🇨SC-🚀@VPNine1
-vless://3e21e3d3-6d26-4155-b851-764dd8e8c6b5@156.252.229.11:8443?encryption=none&sid=974f7f8f&headerType=none&type=tcp&pbk=7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A&security=reality&fp=chrome&spx=/&sni=play.googleapis.com#🇸🇨SC-🚀@VPNine1
+ss://fb390da4-00c5-54f1-a1b4-c8e2bb6378c2@vv9bo423qfvc.cloudymedia.click:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=8RfEuI1RxxW1dqq2nbt6ssKwx7UdmgKW1nKL9OuilGs&security=reality&sid=0492eabdb9&sni=deepl.com&type=tcp#🇸🇨SC-🚀@VPNine1
+vless://fb390da4-00c5-54f1-a1b4-c8e2bb6378c2@vv9bo423qfvc.cloudymedia.click:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=8RfEuI1RxxW1dqq2nbt6ssKwx7UdmgKW1nKL9OuilGs&security=reality&sid=0492eabdb9&sni=deepl.com&type=tcp#🇸🇨SC-🚀@VPNine1

@@ -1,0 +1,2 @@
+ss://efd11a89-7506-44ce-95b6-6654859f155b@170.114.45.6:2096?security=tls&encryption=none&insecure=0&host=pcloud.z-tas.com&fp=chrome&type=ws&allowInsecure=0&sni=pcloud.z-tas.com#%F0%9F%87%B1%F0%9F%87%B0%20Sri%20Lanka%2C%20Battaramulla%20%7C%20%5BBL%5D
+vless://efd11a89-7506-44ce-95b6-6654859f155b@170.114.45.6:2096?security=tls&encryption=none&insecure=0&host=pcloud.z-tas.com&fp=chrome&type=ws&allowInsecure=0&sni=pcloud.z-tas.com#%F0%9F%87%B1%F0%9F%87%B0%20Sri%20Lanka%2C%20Battaramulla%20%7C%20%5BBL%5D
