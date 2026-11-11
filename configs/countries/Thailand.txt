@@ -1,2 +1,2 @@
-trojan://5t6i121em5lkmsmk@th001.zestapp778.com:33079?security=tls&sni=th001.zestapp778.com#%F0%9F%87%B9%F0%9F%87%ADTH-38.60.233.126-0293
+trojan://5t6i121em5lkmsmk@th001.zestapp778.com:33079?security=tls&sni=th001.zestapp778.com#%F0%9F%87%B9%F0%9F%87%ADTH-38.60.233.126-0300
 trojan://5t6i121em5lkmsmk@th001.zestapp778.com:33079?sni=th001.zestapp778.com#%F0%9F%87%B9%F0%9F%87%AD%5Bwww.v2nodes.com%5D%20trojan-TH-...%20%231
