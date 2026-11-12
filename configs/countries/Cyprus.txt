@@ -1,0 +1,2 @@
+ss://a368752a-32fc-42f3-980a-6b049218b23f@india.letsconnectpoint.com:443?encryption=none&security=reality&flow=xtls-rprx-vision&type=tcp&sni=india.letsconnectpoint.com&fp=chrome&pbk=erUEmyU1QK8y2corQh9bOjk0oHl2Mo6Z9WgoyKg_rC0&sid=c1e3d5d4#🇨🇾CY-🚀@VPNine1
+vless://a368752a-32fc-42f3-980a-6b049218b23f@india.letsconnectpoint.com:443?encryption=none&security=reality&flow=xtls-rprx-vision&type=tcp&sni=india.letsconnectpoint.com&fp=chrome&pbk=erUEmyU1QK8y2corQh9bOjk0oHl2Mo6Z9WgoyKg_rC0&sid=c1e3d5d4#🇨🇾CY-🚀@VPNine1

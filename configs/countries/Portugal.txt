@@ -1,2 +1,0 @@
-ss://7828f609-b904-4843-8cc9-c6d94cc0005c@portaa.qik-server.uk:443?mode=stream-one&path=/static/js/chunk&security=tls&alpn=h2&encryption=none&insecure=0&host=portaa.qik-server.uk&fp=chrome&type=xhttp&allowInsecure=0&sni=portaa.qik-server.uk#🇵🇹PT-🚀@VPNine1
-vless://7828f609-b904-4843-8cc9-c6d94cc0005c@portaa.qik-server.uk:443?mode=stream-one&path=/static/js/chunk&security=tls&alpn=h2&encryption=none&insecure=0&host=portaa.qik-server.uk&fp=chrome&type=xhttp&allowInsecure=0&sni=portaa.qik-server.uk#🇵🇹PT-🚀@VPNine1
