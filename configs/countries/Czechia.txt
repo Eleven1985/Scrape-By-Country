@@ -1,4 +1,8 @@
-ss://5d7b401c-78fa-4254-872e-6d42bf7e75ec@92.61.71.90:8443?sni=v1n3.11676767.xyz&type=ws&host=v1n3.11676767.xyz&path=/go.php/productsfp=chrome&security=tls#%F0%9F%87%A8%F0%9F%87%BF%20%E6%8D%B7%E5%85%8B%20%7C%20CZE%20%231
 ss://7c053ca8-38cc-45e2-930c-eda1fd66f903@195.123.245.241:443?sni=gateway.icloud.com&flow=xtls-rprx-vision&fp=chrome&security=tls#%F0%9F%87%A8%F0%9F%87%BF%5Bwww.v2nodes.com%5D%20vless-CZ-1...
-vless://5d7b401c-78fa-4254-872e-6d42bf7e75ec@92.61.71.90:8443?sni=v1n3.11676767.xyz&type=ws&host=v1n3.11676767.xyz&path=/go.php/productsfp=chrome&security=tls#%F0%9F%87%A8%F0%9F%87%BF%20%E6%8D%B7%E5%85%8B%20%7C%20CZE%20%231
+ss://99c5b713-dedf-4a10-8070-916ff3f49b0e@188.137.178.174:8443?sni=fs.qicai99.com&type=ws&host=fs.qicai99.com&path=/fp=chrome&security=tls#%F0%9F%87%A8%F0%9F%87%BF%5Bwww.v2nodes.com%5D%20vless-CZ-5...%20%232
+ss://99c5b713-dedf-4a10-8070-916ff3f49b0e@188.137.178.174:8443?sni=fs.qicai99.com&type=ws&host=fs.qicai99.com&path=/fp=chromesecurity=tls#%F0%9F%87%A8%F0%9F%87%BF%5Bwww.v2nodes.com%5D%20vless-CZ-5...%20%231
+ss://b34a52cb-cd52-49a8-9362-b8e97c151d49@212.102.38.25:443?sni=udemy.com&flow=xtls-rprx-vision&fp=ios&security=tls#%F0%9F%87%A8%F0%9F%87%BF%5Bwww.v2nodes.com%5D%20vless-CZ-1...%20%231
 vless://7c053ca8-38cc-45e2-930c-eda1fd66f903@195.123.245.241:443?sni=gateway.icloud.com&flow=xtls-rprx-vision&fp=chrome&security=tls#%F0%9F%87%A8%F0%9F%87%BF%5Bwww.v2nodes.com%5D%20vless-CZ-1...
+vless://99c5b713-dedf-4a10-8070-916ff3f49b0e@188.137.178.174:8443?sni=fs.qicai99.com&type=ws&host=fs.qicai99.com&path=/fp=chrome&security=tls#%F0%9F%87%A8%F0%9F%87%BF%5Bwww.v2nodes.com%5D%20vless-CZ-5...%20%232
+vless://99c5b713-dedf-4a10-8070-916ff3f49b0e@188.137.178.174:8443?sni=fs.qicai99.com&type=ws&host=fs.qicai99.com&path=/fp=chromesecurity=tls#%F0%9F%87%A8%F0%9F%87%BF%5Bwww.v2nodes.com%5D%20vless-CZ-5...%20%231
+vless://b34a52cb-cd52-49a8-9362-b8e97c151d49@212.102.38.25:443?sni=udemy.com&flow=xtls-rprx-vision&fp=ios&security=tls#%F0%9F%87%A8%F0%9F%87%BF%5Bwww.v2nodes.com%5D%20vless-CZ-1...%20%231
