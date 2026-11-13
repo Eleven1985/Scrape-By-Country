@@ -1,8 +1,8 @@
-ss://02722550-1915-4629-a653-cbe95e594f70@188.72.103.3:443?encryption=none&security=tls&type=xhttp&sni=cdnapi.streamru15.net&fp=chrome&alpn=h2,http/1.1#🇦🇪AE-🚀@VPNine1
+ss://8ed234a6-e129-442c-a482-aae569c3834f@104.143.219.51:3090?encryption=none&security=none&type=grpc&serviceName=vless&mode=multi#🇦🇪AE-🚀@VPNine1
 ss://965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0@95.174.68.188:14430?sni=95.174.68.188&type=ws&host=95.174.68.188&path=/vless#%F0%9F%87%A6%F0%9F%87%AA%5Bwww.v2nodes.com%5D%20vless-AE-1...
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@151.241.19.29:19999#%F0%9F%87%A6%F0%9F%87%AAAE-151.241.19.29-0156
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@151.241.19.36:19999#%F0%9F%87%A6%F0%9F%87%AAAE-151.241.19.36-0090
-trojan://d9064589-74af-432a-9390-5d8a9da281bf@sclass-00.catcat321.com:20123?allowInsecure=1&sni=hk.catxstar.com#%F0%9F%87%A6%F0%9F%87%AA%5Bwww.v2nodes.com%5D%20trojan-AE-...%20%233
-trojan://d9064589-74af-432a-9390-5d8a9da281bf@sclass-c1.catcat321.com:20086?allowInsecure=1&sni=hk.catxstar.com#%F0%9F%87%A6%F0%9F%87%AA%5Bwww.v2nodes.com%5D%20trojan-AE-...%20%234
-vless://02722550-1915-4629-a653-cbe95e594f70@188.72.103.3:443?encryption=none&security=tls&type=xhttp&sni=cdnapi.streamru15.net&fp=chrome&alpn=h2,http/1.1#🇦🇪AE-🚀@VPNine1
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@151.241.19.29:19999#%F0%9F%87%A6%F0%9F%87%AAAE-151.241.19.29-0091
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@151.241.19.36:19999#%F0%9F%87%A6%F0%9F%87%AAAE-151.241.19.36-0092
+trojan://d9064589-74af-432a-9390-5d8a9da281bf@sclass-00.catcat321.com:20123?allowInsecure=1&sni=hk.catxstar.com#%F0%9F%87%A6%F0%9F%87%AA%5Bwww.v2nodes.com%5D%20trojan-AE-...%20%234
+trojan://d9064589-74af-432a-9390-5d8a9da281bf@sclass-c1.catcat321.com:20086?allowInsecure=1&sni=hk.catxstar.com#%F0%9F%87%A6%F0%9F%87%AA%5Bwww.v2nodes.com%5D%20trojan-AE-...%20%235
+vless://8ed234a6-e129-442c-a482-aae569c3834f@104.143.219.51:3090?encryption=none&security=none&type=grpc&serviceName=vless&mode=multi#🇦🇪AE-🚀@VPNine1
 vless://965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0@95.174.68.188:14430?sni=95.174.68.188&type=ws&host=95.174.68.188&path=/vless#%F0%9F%87%A6%F0%9F%87%AA%5Bwww.v2nodes.com%5D%20vless-AE-1...
