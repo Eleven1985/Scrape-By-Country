@@ -1,2 +1,2 @@
-ss://330dc118-9214-4d54-8b8e-b61412d73537@45.83.86.66:47291?encryption=none&security=none&type=tcp#🇨🇾CY-🚀@VPNine1
-vless://330dc118-9214-4d54-8b8e-b61412d73537@45.83.86.66:47291?encryption=none&security=none&type=tcp#🇨🇾CY-🚀@VPNine1
+ss://68773ff0-9ad3-459f-b194-eddb6a82d572@217.28.222.68:443?flow=xtls-rprx-vision&security=reality&sni=vagacdn.ru&fp=firefox&pbk=Ti7frM2ocZ5q5Tb0_pMuqgMQscuNTscctyMpby-YVEA&sid=7768294d3c5ad0cc#%F0%9F%87%A8%F0%9F%87%BE%20Cyprus%20%5B%2ACIDR%5D
+vless://68773ff0-9ad3-459f-b194-eddb6a82d572@217.28.222.68:443?flow=xtls-rprx-vision&security=reality&sni=vagacdn.ru&fp=firefox&pbk=Ti7frM2ocZ5q5Tb0_pMuqgMQscuNTscctyMpby-YVEA&sid=7768294d3c5ad0cc#%F0%9F%87%A8%F0%9F%87%BE%20Cyprus%20%5B%2ACIDR%5D

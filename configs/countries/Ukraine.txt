@@ -1,8 +1,5 @@
-ss://2ba7f500-017b-4891-87a0-e4e62a4ad52d@104.253.216.227:443?sni=www.microsoft.com&flow=xtls-rprx-vision&fp=firefox&security=tls#%F0%9F%87%BA%F0%9F%87%A6%5Bwww.v2nodes.com%5D%20vless-UA-1...%20%235
 ss://5de0c218-0138-45d8-94d2-c2c3f37a1a6d@83.147.18.75:443?sni=www.bing.com&flow=xtls-rprx-vision&fp=chrome&security=tls#%F0%9F%87%BA%F0%9F%87%A6%5Bwww.v2nodes.com%5D%20vless-UA-1...%20%236
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpieVg0LURWMEM0MlBMRlRXUWhNVEFRNjNtWjhxckRSQg==@dns24.m3hrzd.ir:1353#🇺🇦UA-🚀@VPNine1
 ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@185.164.175.81:19999#%F0%9F%87%BA%F0%9F%87%A6UA-185.164.175.81-0121
 ss://d8b58872-cc25-4bb2-badb-b86399c075fa@31.222.235.81:443?sni=www.cloudflare.com&fp=chrome&security=tls#%F0%9F%87%BA%F0%9F%87%A6%5Bwww.v2nodes.com%5D%20vless-UA-1...%20%234
-vless://2ba7f500-017b-4891-87a0-e4e62a4ad52d@104.253.216.227:443?sni=www.microsoft.com&flow=xtls-rprx-vision&fp=firefox&security=tls#%F0%9F%87%BA%F0%9F%87%A6%5Bwww.v2nodes.com%5D%20vless-UA-1...%20%235
 vless://5de0c218-0138-45d8-94d2-c2c3f37a1a6d@83.147.18.75:443?sni=www.bing.com&flow=xtls-rprx-vision&fp=chrome&security=tls#%F0%9F%87%BA%F0%9F%87%A6%5Bwww.v2nodes.com%5D%20vless-UA-1...%20%236
 vless://d8b58872-cc25-4bb2-badb-b86399c075fa@31.222.235.81:443?sni=www.cloudflare.com&fp=chrome&security=tls#%F0%9F%87%BA%F0%9F%87%A6%5Bwww.v2nodes.com%5D%20vless-UA-1...%20%234
