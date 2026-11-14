@@ -1,10 +1,12 @@
 ss://16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88@122.176.216.52:443?sni=app-6ada5023.deploy.meerasolution.com&type=ws&host=app-6ada5023.deploy.meerasolution.com&path=/ws/16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88security=tls#%F0%9F%87%AE%F0%9F%87%B3%5Bwww.v2nodes.com%5D%20vless-IN-1...%20%232
+ss://1d4e18bd-1f26-4915-b35a-7ace4826e76a@194.61.31.126:2053?sni=www.apple.com&fp=firefox&security=tls#%F0%9F%87%AE%F0%9F%87%B3%5Bwww.v2nodes.com%5D%20vless-IN-1...%20%235
 ss://68512eac-cd53-4de3-8d1e-08f6e04af1a9@13.140.56.100:14430?sni=13.140.56.100&type=ws&host=13.140.56.100&path=/vless#%F0%9F%87%AE%F0%9F%87%B3%5Bwww.v2nodes.com%5D%20vless-IN-1...%20%233
 ss://dbf3f074-3b18-43f3-b82a-debd8c879c69@103.172.116.191:10303?sni=www.apple.com&flow=xtls-rprx-vision&fp=chrome&security=tls#%F0%9F%87%AE%F0%9F%87%B3%5Bwww.v2nodes.com%5D%20vless-IN-1...%20%231
 ss://e99ba96d-dec8-42eb-be53-19e71eef7cab@5.253.42.164:40443?sni=deepl.com&flow=xtls-rprx-vision&fp=firefox&security=tls#%F0%9F%87%AE%F0%9F%87%B3%5Bwww.v2nodes.com%5D%20vless-IN-1...%20%234
 ss://eGNoYWNoYTIwLWlldGYtcG9seTEzMDU6dGZ2c0xic1hWOVBkTm14UEE0emFXcjdFT2V6TGp2M2RYZWpRcTJZNXNYQT0=@dlc.deltapc.digital:36542#%F0%9F%87%AE%F0%9F%87%B3%5Bwww.v2nodes.com%5D%20ss-IN-1621...
 ss://f1d3c8af71c4ef75625fcf446aa2c15b@xray-h0urp9tx-rapid-summit-2.cloady.io:443?#%F0%9F%87%AE%F0%9F%87%B3%5Bwww.v2nodes.com%5D%20vless-IN-1...
 vless://16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88@122.176.216.52:443?sni=app-6ada5023.deploy.meerasolution.com&type=ws&host=app-6ada5023.deploy.meerasolution.com&path=/ws/16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88security=tls#%F0%9F%87%AE%F0%9F%87%B3%5Bwww.v2nodes.com%5D%20vless-IN-1...%20%232
+vless://1d4e18bd-1f26-4915-b35a-7ace4826e76a@194.61.31.126:2053?sni=www.apple.com&fp=firefox&security=tls#%F0%9F%87%AE%F0%9F%87%B3%5Bwww.v2nodes.com%5D%20vless-IN-1...%20%235
 vless://68512eac-cd53-4de3-8d1e-08f6e04af1a9@13.140.56.100:14430?sni=13.140.56.100&type=ws&host=13.140.56.100&path=/vless#%F0%9F%87%AE%F0%9F%87%B3%5Bwww.v2nodes.com%5D%20vless-IN-1...%20%233
 vless://dbf3f074-3b18-43f3-b82a-debd8c879c69@103.172.116.191:10303?sni=www.apple.com&flow=xtls-rprx-vision&fp=chrome&security=tls#%F0%9F%87%AE%F0%9F%87%B3%5Bwww.v2nodes.com%5D%20vless-IN-1...%20%231
 vless://e99ba96d-dec8-42eb-be53-19e71eef7cab@5.253.42.164:40443?sni=deepl.com&flow=xtls-rprx-vision&fp=firefox&security=tls#%F0%9F%87%AE%F0%9F%87%B3%5Bwww.v2nodes.com%5D%20vless-IN-1...%20%234
