@@ -1,0 +1,2 @@
+ss://1e697474-7836-47ed-aaca-b559efcbb298@eu90.cdn77.icu:20042?sni=eu64.cdn77.icu&fp=firefox&security=tls#%F0%9F%87%B0%F0%9F%87%AD%20%E6%9F%AC%E5%9F%94%E5%AF%A8%20%7C%20KHM%20%231
+vless://1e697474-7836-47ed-aaca-b559efcbb298@eu90.cdn77.icu:20042?sni=eu64.cdn77.icu&fp=firefox&security=tls#%F0%9F%87%B0%F0%9F%87%AD%20%E6%9F%AC%E5%9F%94%E5%AF%A8%20%7C%20KHM%20%231
