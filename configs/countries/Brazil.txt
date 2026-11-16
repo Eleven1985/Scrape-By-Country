@@ -1,4 +1,2 @@
-ss://22424ee2-6fe3-42ca-9749-6d4c5a8acc82@188.114.98.0:443?security=tls&type=ws&path=%2Fid-pusat&host=tn1r.eu.cc&packetEncoding=xudp&sni=tn1r.eu.cc&fp=chrome#%E5%B7%B4%E8%A5%BF%E5%9C%A3%E4%BF%9D%E7%BD%97+CloudFlare%E8%8A%82%E7%82%B9
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.238.104.154:443?#%F0%9F%87%A7%F0%9F%87%B7%5Bwww.v2nodes.com%5D%20trojan-BR-...
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.238.104.154:443?security=tls&sni=findtemporaryworkandfreelancerprojectsonlineplatform.com#%F0%9F%87%A7%F0%9F%87%B7BR-216.238.104.154-0211
-vless://22424ee2-6fe3-42ca-9749-6d4c5a8acc82@188.114.98.0:443?security=tls&type=ws&path=%2Fid-pusat&host=tn1r.eu.cc&packetEncoding=xudp&sni=tn1r.eu.cc&fp=chrome#%E5%B7%B4%E8%A5%BF%E5%9C%A3%E4%BF%9D%E7%BD%97+CloudFlare%E8%8A%82%E7%82%B9
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.238.104.154:443?security=tls&sni=findtemporaryworkandfreelancerprojectsonlineplatform.com#%F0%9F%87%A7%F0%9F%87%B7BR-216.238.104.154-0324
