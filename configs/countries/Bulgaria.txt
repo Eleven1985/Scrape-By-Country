@@ -1,6 +1,6 @@
 ss://1d46250c-f015-439d-a7fd-c4d9e2a4c63d@88.80.150.15:443?#%F0%9F%87%A7%F0%9F%87%AC%5Bwww.v2nodes.com%5D%20vless-BG-1...
-ss://313b84fa-b922-500f-9b65-acb67c040cc0@185.197.193.137:443/?type=ws&encryption=none&flow=&host=us2.v2less.site&path=/vless&security=tls&sni=us2.v2less.site&fp=chrome#🇧🇬BG-🚀@VPNine1
 ss://3f5e89d5-591f-4ac9-b071-b05680b573c3@bg2.gacvpn.site:443?sni=bg2.gacvpn.site&flow=xtls-rprx-vision&fp=firefox&security=tls#%F0%9F%87%A7%F0%9F%87%AC%5Bwww.v2nodes.com%5D%20vless-BG-1...%20%231
+ss://d596f92b-a7ce-47d2-8392-a274d9f57bec@87.120.92.68:443?encryption=none&type=tcp&security=reality&headerType=none&sni=cloudiva.abrdns.com&insecure=1&allowInsecure=1&pbk=XLAE_KCFdlZkGcFndCnzEqsNHX1FByaGihkyEyrmDlo&sid=c1440935cc28&flow=xtls-rprx-vision#🇧🇬BG-🚀@VPNine1
 vless://1d46250c-f015-439d-a7fd-c4d9e2a4c63d@88.80.150.15:443?#%F0%9F%87%A7%F0%9F%87%AC%5Bwww.v2nodes.com%5D%20vless-BG-1...
-vless://313b84fa-b922-500f-9b65-acb67c040cc0@185.197.193.137:443/?type=ws&encryption=none&flow=&host=us2.v2less.site&path=/vless&security=tls&sni=us2.v2less.site&fp=chrome#🇧🇬BG-🚀@VPNine1
 vless://3f5e89d5-591f-4ac9-b071-b05680b573c3@bg2.gacvpn.site:443?sni=bg2.gacvpn.site&flow=xtls-rprx-vision&fp=firefox&security=tls#%F0%9F%87%A7%F0%9F%87%AC%5Bwww.v2nodes.com%5D%20vless-BG-1...%20%231
+vless://d596f92b-a7ce-47d2-8392-a274d9f57bec@87.120.92.68:443?encryption=none&type=tcp&security=reality&headerType=none&sni=cloudiva.abrdns.com&insecure=1&allowInsecure=1&pbk=XLAE_KCFdlZkGcFndCnzEqsNHX1FByaGihkyEyrmDlo&sid=c1440935cc28&flow=xtls-rprx-vision#🇧🇬BG-🚀@VPNine1

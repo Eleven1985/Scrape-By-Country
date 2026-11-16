@@ -1,2 +1,0 @@
-ss://FastKey_331443@185.22.155.97:8080?mode=gun&security=none&encryption=none&type=grpc&serviceName=api#%F0%9F%87%A7%F0%9F%87%AA%20Belgium%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
-vless://FastKey_331443@185.22.155.97:8080?mode=gun&security=none&encryption=none&type=grpc&serviceName=api#%F0%9F%87%A7%F0%9F%87%AA%20Belgium%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D

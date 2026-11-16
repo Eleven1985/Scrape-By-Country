@@ -1,1 +1,5 @@
+ss://63750169-12e0-4e82-8749-2139594524b7@83.141.69.220:443?type=tcp&flow=xtls-rprx-vision&pbk=p0M6RumtfcATPNPUIFnFcgWy2rzk2gGVWx21sql1hV0&security=reality&sid=8238d76df92c2560&sni=13.143.195.113.sslip.io&encryption=none#🇮🇪IE-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppbXEwdkxpa2JPeDRUSFpQ@20.107.193.38:443#%3E%3E%40configV2rayNG%3A%3AIE
+ss://a7595994-695d-484e-bfcb-e9fbb73cfa39@83.141.92.168:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=kpQWnVk3fEJXfPGFsMerUoPV_ZqUJUJFRnF1FvKyhRY&security=reality&sid=7a7d19880a9ee786&sni=sladovna.russianpiwo.fun&type=tcp#🇮🇪IE-🚀@VPNine1
+vless://63750169-12e0-4e82-8749-2139594524b7@83.141.69.220:443?type=tcp&flow=xtls-rprx-vision&pbk=p0M6RumtfcATPNPUIFnFcgWy2rzk2gGVWx21sql1hV0&security=reality&sid=8238d76df92c2560&sni=13.143.195.113.sslip.io&encryption=none#🇮🇪IE-🚀@VPNine1
+vless://a7595994-695d-484e-bfcb-e9fbb73cfa39@83.141.92.168:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=kpQWnVk3fEJXfPGFsMerUoPV_ZqUJUJFRnF1FvKyhRY&security=reality&sid=7a7d19880a9ee786&sni=sladovna.russianpiwo.fun&type=tcp#🇮🇪IE-🚀@VPNine1
