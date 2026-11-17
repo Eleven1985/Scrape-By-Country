@@ -1,2 +1,0 @@
-ss://40af9131-d540-448a-bc56-5bba147a1dc3@154.211.8.152:2053?encryption=none&security=tls&type=ws&sni=proxy-1cu.pages.dev#%E8%8F%B2%E5%BE%8B%E5%AE%BE+V2CROSS.COM
-vless://40af9131-d540-448a-bc56-5bba147a1dc3@154.211.8.152:2053?encryption=none&security=tls&type=ws&sni=proxy-1cu.pages.dev#%E8%8F%B2%E5%BE%8B%E5%AE%BE+V2CROSS.COM

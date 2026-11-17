@@ -1,2 +1,0 @@
-ss://3422d3c1-dec4-4387-96da-d1b56c5f2318@131.123.41.146:443?security=reality&encryption=none&pbk=QBdNaEKW772qSR7mxLOS0d7HUOWPV2Ek3Ku8ju53vWw&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=yabs.yandex.ru&sid=70e44abe428e676c#🇧🇬BG-🚀@VPNine1
-vless://3422d3c1-dec4-4387-96da-d1b56c5f2318@131.123.41.146:443?security=reality&encryption=none&pbk=QBdNaEKW772qSR7mxLOS0d7HUOWPV2Ek3Ku8ju53vWw&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=yabs.yandex.ru&sid=70e44abe428e676c#🇧🇬BG-🚀@VPNine1

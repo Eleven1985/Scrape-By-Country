@@ -1,6 +1,6 @@
-ss://50414e45-4c5f-5a45-5553-8b680ff0aff9@31.43.179.111:2087?path=/stream/PANEL_ZEUS/8b680ff0aff9&security=tls&host=l5zgnlesutjs.foxvpn551144.workers.dev&type=ws&sni=l5zgnlesutjs.foxvpn551144.workers.dev#🇰🇿KZ-🚀@VPNine1
 ss://76186f1e-3062-4a2b-98c2-fab3c61a9511@91.224.87.22:9882?mode=gun&security=reality&encryption=none&pbk=bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU&fp=firefox&type=grpc&serviceName=grpc-tunnel&sni=dl.google.com&sid=aabb#%3E%3E%40outline_vpn%3A%3AKZ
+ss://a30903dc-1bf0-4be5-8b1b-603a3a56211c@91.217.10.60:443/?type=tcp&encryption=none&flow=&sni=api-rt-cfg.galioncc.com&fp=chrome&security=reality&pbk=drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ&sid=868419504747f6de#🇰🇿KZ-🚀@VPNine1
 ss://b573cefb-7bc7-4a42-b407-b8b534e66773@109.248.170.119:13447?sni=yahoo.com&fp=chrome&security=tls#%F0%9F%87%B0%F0%9F%87%BF%5Bwww.v2nodes.com%5D%20vless-KZ-1...
-vless://50414e45-4c5f-5a45-5553-8b680ff0aff9@31.43.179.111:2087?path=/stream/PANEL_ZEUS/8b680ff0aff9&security=tls&host=l5zgnlesutjs.foxvpn551144.workers.dev&type=ws&sni=l5zgnlesutjs.foxvpn551144.workers.dev#🇰🇿KZ-🚀@VPNine1
 vless://76186f1e-3062-4a2b-98c2-fab3c61a9511@91.224.87.22:9882?mode=gun&security=reality&encryption=none&pbk=bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU&fp=firefox&type=grpc&serviceName=grpc-tunnel&sni=dl.google.com&sid=aabb#%3E%3E%40outline_vpn%3A%3AKZ
+vless://a30903dc-1bf0-4be5-8b1b-603a3a56211c@91.217.10.60:443/?type=tcp&encryption=none&flow=&sni=api-rt-cfg.galioncc.com&fp=chrome&security=reality&pbk=drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ&sid=868419504747f6de#🇰🇿KZ-🚀@VPNine1
 vless://b573cefb-7bc7-4a42-b407-b8b534e66773@109.248.170.119:13447?sni=yahoo.com&fp=chrome&security=tls#%F0%9F%87%B0%F0%9F%87%BF%5Bwww.v2nodes.com%5D%20vless-KZ-1...
