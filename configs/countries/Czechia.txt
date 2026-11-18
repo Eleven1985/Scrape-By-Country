@@ -1,11 +1,8 @@
 ss://3dbd9377-43cc-46c3-b32c-2605908024eb@103.118.211.38:443?&security=reality&pbk=PA1xWXjxZLn68I-6cjWVdqc0dYhWbu9W5c1GpjEOZgE&sid=8a9442353eebbe0f&fp=firefox&sni=czechia.richforever.ru&type=xhttp#%F0%9F%87%A8%F0%9F%87%BF%20%E6%8D%B7%E5%85%8B%20%7C%20CZE
 ss://3dbd9377-43cc-46c3-b32c-2605908024eb@103.118.211.38:443?sni=czechia.richforever.ru&fp=firefox&security=tls#%F0%9F%87%A8%F0%9F%87%BF%20%E6%8D%B7%E5%85%8B%20%7C%20CZE%20%231
 ss://7c053ca8-38cc-45e2-930c-eda1fd66f903@195.123.245.241:443?sni=gateway.icloud.com&flow=xtls-rprx-vision&fp=chrome&security=tls#%F0%9F%87%A8%F0%9F%87%BF%5Bwww.v2nodes.com%5D%20vless-CZ-1...
-ss://FastKey_193365@46.17.45.190:8080?path=%2Fapi&security=none&encryption=none&host=google.com&type=ws#%F0%9F%87%A8%F0%9F%87%BF%20Czechia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyRWY4WDIxV0FMcUs3SDZOOEE3OGo1V1l0elo5OTlQUDhyRjhEYUxzYjVMTHlETFFwZjVkR1ZBamRBM21qMXd1ZGlnS1hUdDVoZVlVOWptYUJiZnhYQkpKQXFoUEhreGU=@194.87.233.93:46190#%F0%9F%87%A8%F0%9F%87%BFCZ-194.87.233.93-0267
 ss://b34a52cb-cd52-49a8-9362-b8e97c151d49@212.102.38.25:443?sni=udemy.com&flow=xtls-rprx-vision&fp=ios&security=tls#%F0%9F%87%A8%F0%9F%87%BF%5Bwww.v2nodes.com%5D%20vless-CZ-1...%20%231
 vless://3dbd9377-43cc-46c3-b32c-2605908024eb@103.118.211.38:443?&security=reality&pbk=PA1xWXjxZLn68I-6cjWVdqc0dYhWbu9W5c1GpjEOZgE&sid=8a9442353eebbe0f&fp=firefox&sni=czechia.richforever.ru&type=xhttp#%F0%9F%87%A8%F0%9F%87%BF%20%E6%8D%B7%E5%85%8B%20%7C%20CZE
 vless://3dbd9377-43cc-46c3-b32c-2605908024eb@103.118.211.38:443?sni=czechia.richforever.ru&fp=firefox&security=tls#%F0%9F%87%A8%F0%9F%87%BF%20%E6%8D%B7%E5%85%8B%20%7C%20CZE%20%231
 vless://7c053ca8-38cc-45e2-930c-eda1fd66f903@195.123.245.241:443?sni=gateway.icloud.com&flow=xtls-rprx-vision&fp=chrome&security=tls#%F0%9F%87%A8%F0%9F%87%BF%5Bwww.v2nodes.com%5D%20vless-CZ-1...
-vless://FastKey_193365@46.17.45.190:8080?path=%2Fapi&security=none&encryption=none&host=google.com&type=ws#%F0%9F%87%A8%F0%9F%87%BF%20Czechia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
 vless://b34a52cb-cd52-49a8-9362-b8e97c151d49@212.102.38.25:443?sni=udemy.com&flow=xtls-rprx-vision&fp=ios&security=tls#%F0%9F%87%A8%F0%9F%87%BF%5Bwww.v2nodes.com%5D%20vless-CZ-1...%20%231
