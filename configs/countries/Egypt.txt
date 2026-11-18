@@ -1,2 +1,0 @@
-ss://8197b9b9-8945-460f-99c9-325ef8a8a7c3@41.196.0.128:443?sni=eg1.gofizz.in&flow=xtls-rprx-vision&fp=firefox&security=tls#%F0%9F%87%AA%F0%9F%87%AC%20%E5%9F%83%E5%8F%8A%20%7C%20EGY%20%231
-vless://8197b9b9-8945-460f-99c9-325ef8a8a7c3@41.196.0.128:443?sni=eg1.gofizz.in&flow=xtls-rprx-vision&fp=firefox&security=tls#%F0%9F%87%AA%F0%9F%87%AC%20%E5%9F%83%E5%8F%8A%20%7C%20EGY%20%231
