@@ -1,0 +1,2 @@
+ss://FastKey_305996@45.129.2.18:8080?path=%2Fapi&security=none&encryption=none&host=google.com&type=ws#%F0%9F%87%A7%F0%9F%87%AA%20Belgium%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
+vless://FastKey_305996@45.129.2.18:8080?path=%2Fapi&security=none&encryption=none&host=google.com&type=ws#%F0%9F%87%A7%F0%9F%87%AA%20Belgium%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D

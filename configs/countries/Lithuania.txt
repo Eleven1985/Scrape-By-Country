@@ -1,8 +1,5 @@
-ss://955d8dc7-5e3b-40ac-b2bb-bd8aa20fc7e6@88.216.127.115:443?sni=lt-modx.nodexphere.net&flow=xtls-rprx-vision&fp=firefox&security=tls#%F0%9F%87%B1%F0%9F%87%B9%20%E7%AB%8B%E9%99%B6%E5%AE%9B%20%7C%20LTU%20%231
+ss://0001f119-4d6d-42ae-b2f0-d07ed4694381@5.1.40.71:2083?path=/vless-ws&security=tls&alpn=http/1.1&encryption=none&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=onecloudstream.com#🇱🇹LT-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpKMUludVU2UVJUNUpPaDFtUWZralUy@144.31.243.2:16015#%3E%3E%40configV2rayNG%3A%3ALT
-ss://YWVzLTI1Ni1jZmI6eGF1cE1VdmhwdHd4ZERVZw@195.238.126.20:9012#🇱🇹LT-🚀@VPNine1
 ss://a30903dc-1bf0-4be5-8b1b-603a3a56211c@88.216.60.73:443?&security=reality&pbk=drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ&sid=a7c92e4b10d6f835&fp=firefox&sni=ns-api-gw.galioncc.com&type=tcp&headerType=none&host=ns-api-gw.galioncc.com&path=%2F#%E7%AB%8B%E9%99%B6%E5%AE%9B+V2CROSS.COM
-ss://a30903dc-1bf0-4be5-8b1b-603a3a56211c@88.216.60.73:443?security=reality&type=tcp&packetEncoding=none&sni=ns-api-gw.galioncc.com&fp=firefox&sid=a7c92e4b10d6f835&pbk=drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ#%E7%AB%8B%E9%99%B6%E5%AE%9B+V2CROSS.COM
-vless://955d8dc7-5e3b-40ac-b2bb-bd8aa20fc7e6@88.216.127.115:443?sni=lt-modx.nodexphere.net&flow=xtls-rprx-vision&fp=firefox&security=tls#%F0%9F%87%B1%F0%9F%87%B9%20%E7%AB%8B%E9%99%B6%E5%AE%9B%20%7C%20LTU%20%231
+vless://0001f119-4d6d-42ae-b2f0-d07ed4694381@5.1.40.71:2083?path=/vless-ws&security=tls&alpn=http/1.1&encryption=none&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=onecloudstream.com#🇱🇹LT-🚀@VPNine1
 vless://a30903dc-1bf0-4be5-8b1b-603a3a56211c@88.216.60.73:443?&security=reality&pbk=drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ&sid=a7c92e4b10d6f835&fp=firefox&sni=ns-api-gw.galioncc.com&type=tcp&headerType=none&host=ns-api-gw.galioncc.com&path=%2F#%E7%AB%8B%E9%99%B6%E5%AE%9B+V2CROSS.COM
-vless://a30903dc-1bf0-4be5-8b1b-603a3a56211c@88.216.60.73:443?security=reality&type=tcp&packetEncoding=none&sni=ns-api-gw.galioncc.com&fp=firefox&sid=a7c92e4b10d6f835&pbk=drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ#%E7%AB%8B%E9%99%B6%E5%AE%9B+V2CROSS.COM
