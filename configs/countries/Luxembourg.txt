@@ -1,1 +1,0 @@
-trojan://4mq9w5ckqw3ewbdg@staticxfastline.taymaztest.ir:16200?path=%2Fbiyasd&security=tls&alpn=http%2F1.1&host=staticxfastline.taymaztest.ir&fp=chrome&type=ws&sni=staticxfastline.taymaztest.ir#%F0%9F%87%B1%F0%9F%87%BA%20Luxembourg%2C%20Luxembourg%20%7C%20%5BBL%5D
