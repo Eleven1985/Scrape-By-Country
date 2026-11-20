@@ -15,3 +15,4 @@ https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/refs/heads/main/t
 https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/refs/heads/main/all_configs.txt
 https://raw.githubusercontent.com/mosapase/v2ray-sub/refs/heads/main/configs.txt
 https://raw.githubusercontent.com/amir-reza-bijandi/v2ray-configs/refs/heads/main/configs.txt
+https://raw.githubusercontent.com/Fakeonomics/libre-configs/refs/heads/main/special/anchor
