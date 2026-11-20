@@ -1,0 +1,1 @@
+tuic://b7f20af6-7523-11f1-a6a1-f23c913c8d2b:b7f20af6-7523-11f1-a6a1-f23c913c8d2b@8f72d47c-tovmo0-tou0p4-1ji20.sj.gotochinatown.net:443?allow_insecure=1&alpn=h3&congestion_control=bbr&sni=8f72d47c-tovmo0-tou0p4-1ji20.sj.gotochinatown.net&udp_relay_mode=native#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20%7C%20USA%205
