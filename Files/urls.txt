@@ -6,3 +6,9 @@ https://raw.githubusercontent.com/mohammadaz2/v2rayConfigsForYou/refs/heads/main
 https://raw.githubusercontent.com/sky-clear2026/v2ray-sub/refs/heads/main/configs.txt
 https://raw.githubusercontent.com/mosapase/v2ray-sub/refs/heads/main/configs.txt
 https://raw.githubusercontent.com/Fakeonomics/libre-configs/refs/heads/main/special/anchor
+https://raw.githubusercontent.com/PizdukMod/PizdukVPN/refs/heads/main/sub
+https://hub.mos.ru/akelladejavu/bunker/-/raw/main/BLWL_MIX.txt
+https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/ru_configs.txt
+https://hub.mos.ru/akelladejavu/bunker/-/raw/main/WHITE_LIST.txt
+https://raw.githubusercontent.com/whoahaow/rjsxrd/refs/heads/main/githubmirror/bypass/bypass-all.txt
+https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt
