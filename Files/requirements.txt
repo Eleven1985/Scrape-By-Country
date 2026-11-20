@@ -1,3 +1,4 @@
-aiohttp
-beautifulsoup4
-pytz
+aiohttp>=3.9
+beautifulsoup4>=4.12
+pytz>=2023.3
+PyYAML>=6.0

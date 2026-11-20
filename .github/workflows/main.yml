@@ -1,12 +1,22 @@
-name: Scrape-By-Country
+name: Node-Configs
 
 on:
   workflow_dispatch:
   schedule:
     - cron: "0 */12 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - 'Files/**'
+      - '.github/workflows/main.yml'
 
 permissions:
   contents: write
+
+concurrency:
+  group: node-configs-update
+  cancel-in-progress: false
 
 jobs:
   scrape-and-commit:
