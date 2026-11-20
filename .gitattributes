@@ -1,0 +1,7 @@
+# 源码与文档统一使用 LF，避免在 Windows 上编辑后整文件冲突
+*.py    text eol=lf
+*.md    text eol=lf
+*.json  text eol=lf
+*.yaml  text eol=lf
+*.yml   text eol=lf
+*.txt   text eol=lf
