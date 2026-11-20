@@ -7,13 +7,13 @@
   <img src="https://img.shields.io/github/last-commit/Eleven1985/Scrape-By-Country?style=flat-square" alt="Last Commit" />
   <br>
   <img src="https://img.shields.io/github/issues/Eleven1985/Scrape-By-Country?style=flat-square" alt="GitHub Issues" />
-  <img src="https://img.shields.io/badge/Configs-2333-blue?style=flat-square" alt="Total Configs" />
+  <img src="https://img.shields.io/badge/Configs-2296-blue?style=flat-square" alt="Total Configs" />
   <img src="https://img.shields.io/github/stars/Eleven1985/Scrape-By-Country?style=social" alt="GitHub Stars" />
   <img src="https://img.shields.io/badge/status-active-brightgreen?style=flat-square" alt="Project Status" />
   <img src="https://img.shields.io/badge/language-中文%20%26%20English-007EC6?style=flat-square" alt="Language" />
 </p>
 
-## 最后更新: 15:37 2026-11-20
+## 最后更新: 16:01 2026-11-20
 
 ---
 
@@ -25,18 +25,18 @@
 ---
 
 ## 📁 协议配置
-目前有 2333 个配置可用。
+目前有 2296 个配置可用。
 
 <div align="center">
 
 | 协议 | 数量 | 下载链接 |
 |:-------:|:-----:|:------------:|
-| **汇总** | **2333** | [`AllProtocols.txt`](https://raw.githubusercontent.com/Eleven1985/Scrape-By-Country/refs/heads/main/configs/protocols/AllProtocols.txt) |
+| **汇总** | **2296** | [`AllProtocols.txt`](https://raw.githubusercontent.com/Eleven1985/Scrape-By-Country/refs/heads/main/configs/protocols/AllProtocols.txt) |
 | Hysteria2 | 1 | [`Hysteria2.txt`](https://raw.githubusercontent.com/Eleven1985/Scrape-By-Country/refs/heads/main/configs/protocols/Hysteria2.txt) |
-| ShadowSocks | 1207 | [`ShadowSocks.txt`](https://raw.githubusercontent.com/Eleven1985/Scrape-By-Country/refs/heads/main/configs/protocols/ShadowSocks.txt) |
-| Trojan | 99 | [`Trojan.txt`](https://raw.githubusercontent.com/Eleven1985/Scrape-By-Country/refs/heads/main/configs/protocols/Trojan.txt) |
-| Vless | 978 | [`Vless.txt`](https://raw.githubusercontent.com/Eleven1985/Scrape-By-Country/refs/heads/main/configs/protocols/Vless.txt) |
-| Vmess | 48 | [`Vmess.txt`](https://raw.githubusercontent.com/Eleven1985/Scrape-By-Country/refs/heads/main/configs/protocols/Vmess.txt) |
+| ShadowSocks | 1188 | [`ShadowSocks.txt`](https://raw.githubusercontent.com/Eleven1985/Scrape-By-Country/refs/heads/main/configs/protocols/ShadowSocks.txt) |
+| Trojan | 100 | [`Trojan.txt`](https://raw.githubusercontent.com/Eleven1985/Scrape-By-Country/refs/heads/main/configs/protocols/Trojan.txt) |
+| Vless | 955 | [`Vless.txt`](https://raw.githubusercontent.com/Eleven1985/Scrape-By-Country/refs/heads/main/configs/protocols/Vless.txt) |
+| Vmess | 52 | [`Vmess.txt`](https://raw.githubusercontent.com/Eleven1985/Scrape-By-Country/refs/heads/main/configs/protocols/Vmess.txt) |
 </div>
 
 ---
@@ -52,7 +52,7 @@
 | <img src="https://flagcdn.com/w20/co.png" width="20" alt="Colombia flag">  Colombia (哥伦比亚) | 2 | [`Colombia.txt`](https://raw.githubusercontent.com/Eleven1985/Scrape-By-Country/refs/heads/main/configs/countries/Colombia.txt) |
 | <img src="https://flagcdn.com/w20/ir.png" width="20" alt="Iran flag">  Iran (伊朗) | 1 | [`Iran.txt`](https://raw.githubusercontent.com/Eleven1985/Scrape-By-Country/refs/heads/main/configs/countries/Iran.txt) |
 | <img src="https://flagcdn.com/w20/kr.png" width="20" alt="SouthKorea flag">  SouthKorea (韩国) | 1 | [`SouthKorea.txt`](https://raw.githubusercontent.com/Eleven1985/Scrape-By-Country/refs/heads/main/configs/countries/SouthKorea.txt) |
-| <img src="https://flagcdn.com/w20/us.png" width="20" alt="USA flag">  USA (美国) | 1 | [`USA.txt`](https://raw.githubusercontent.com/Eleven1985/Scrape-By-Country/refs/heads/main/configs/countries/USA.txt) |
+| <img src="https://flagcdn.com/w20/us.png" width="20" alt="USA flag">  USA (美国) | 2 | [`USA.txt`](https://raw.githubusercontent.com/Eleven1985/Scrape-By-Country/refs/heads/main/configs/countries/USA.txt) |
 </div>
 
 ---
